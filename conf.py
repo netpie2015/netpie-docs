@@ -45,7 +45,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'netpie'
+project = u'NETPIE'
 copyright = u'2017, netpie.io'
 author = u'netpie.io'
 
