@@ -10,11 +10,5 @@
    :maxdepth: 2
    :caption: Contents:
 
+   PieSketch <PieSketch/index>
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
