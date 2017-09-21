@@ -1,20 +1,20 @@
+.. netpie documentation master file, created by
+   sphinx-quickstart on Thu Sep 21 15:31:21 2017.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
 คู่มือการพัฒนา IOT application ด้วย NETPIE
-=========================
-
-
-.. |Get Started| image:: images/getstarted.gif
-.. _Get Started: getstarted/index.html
-
-.. |PieSketch| image:: piesketch/piesketch.gif
-.. _PieSketch: piesketch/index.html
+========================================
 
 .. toctree::
-   :hidden:
+   :maxdepth: 2
+   :caption: Contents:
 
-   Get Started <getstarted/index> 
-   PieSketch <piesketch/index>
-   Resources <resources>
-   Copyrights <COPYRIGHT>
-   About <about>
+
+
+Indices and tables
+==================
 
 * :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
