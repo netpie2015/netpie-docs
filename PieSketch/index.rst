@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
 PieSketch
 =========
 
@@ -19,17 +23,28 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 
 โค้ดของ PieSketch มีพื้นฐานอยู่บน `p5js <https://p5js.org>`_. โครงสร้างประกอบด้วย 2 ฟังก์ชั่นหลัก ได้แก่ setup() ซึ่งจะถูกเรียกครั้งเดียวตอนแรกที่โปรแกรมถูกรัน และ draw() ที่จะถูกเรียกซ้ำๆไปตลอด โค้ดตัวอย่าง จะเป็นการวาดรูปวงกลม เส้นผ่านศูนย์กลาง 80 จุดศูนย์กลางที่ตำแหน่ง (50,50)
 
-.. code-block:: javascript
+.. raw:: html
 
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	function setup() {
 
 	}
-
+	
 	function draw() {
-		ellipse(50, 50, 80, 80);
+	  ellipse(50, 50, 80, 80);
 	}
+	</script>
 
 
-.. raw:: html
 
-	<iframe src="https://sketch.netpie.io" style="width: 100%; height: 300px;" frameBorder="0"></iframe>
+
+
+ชุดคำสั่งใน PieSketch
+-------------------
+
+.. toctree::
+   :maxdepth: 2
+
+   p5 <p5/index>
+   microgear <microgear/index>
+
