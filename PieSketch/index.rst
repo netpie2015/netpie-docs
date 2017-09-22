@@ -36,6 +36,6 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 .. toctree::
    :maxdepth: 2
 
-   p5js toolset  : เครื่องมือช่วยออกแบบโปรแกรมอย่างง่าย <p5/index>
+   p5js toolset  : เครื่องมือช่วยออกแบบโปรแกรมอย่างง่าย <p5js/index>
    Microgear : เชื่อมต่อ IOT กับ NETPIE <microgear/index>
 
