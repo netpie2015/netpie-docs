@@ -1,8 +1,3 @@
-.. netpie documentation master file, created by
-   sphinx-quickstart on Thu Sep 21 15:31:21 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 .. raw:: html
 
 	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
@@ -29,15 +24,11 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 	function setup() {
 
 	}
-	
+
 	function draw() {
 	  ellipse(50, 50, 80, 80);
 	}
 	</script>
-
-
-
-
 
 ชุดคำสั่งใน PieSketch
 -------------------
@@ -45,6 +36,6 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 .. toctree::
    :maxdepth: 2
 
-   p5 <p5/index>
-   microgear <microgear/index>
+   p5js toolset  : เครื่องมือช่วยออกแบบโปรแกรมอย่างง่าย <p5/index>
+   Microgear : เชื่อมต่อ IOT กับ NETPIE <microgear/index>
 

@@ -1,8 +1,13 @@
-.. netpie documentation master file, created by
-   sphinx-quickstart on Thu Sep 21 15:31:21 2017.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
 
 p5
 ==
 
+.. toctree::
+	:maxdepth: 2
+
+ 	p5 : ฟังก์ชั่นหลัก <p5/index>
+    p5.dom : ฟังก์ชั่นเกี่ยวกับ browser component <p5.dom/index>
+ 	p5.sound : ฟังก์ชั่นเกี่ยบกับเสียง <p5.sound/index>
