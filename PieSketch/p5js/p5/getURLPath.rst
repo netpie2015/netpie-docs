@@ -1,0 +1,28 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+getURLPath()
+============
+
+Gets the current URL path as an array.
+
+**รูปแบบการใช้งาน**
+
+getURLPath ( )
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	function setup() {
+	  var urlPath = getURLPath();
+	  for (var i=0; i&lt;urlPath.length; i++) {
+	    text(urlPath[i], 10, i*20+20);
+	  }
+	}
+	</script>
+
+	<br><br>
+
+.. toctree::
+

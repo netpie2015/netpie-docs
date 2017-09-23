@@ -1,0 +1,34 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+cos()
+=====
+
+Calculates the cosine of an angle. This function takes into account the
+current angleMode. Values are returned in the range -1 to 1.
+
+**รูปแบบการใช้งาน**
+
+cos ( angle )
+
+**พารามิเตอร์**
+
+- ``angle``  : the angle
+
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	var a = 0.0;
+	var inc = TWO_PI/25.0;
+	for (var i = 0; i < 25; i++) {
+	  line(i*4, 50, i*4, 50+cos(a)*40.0);
+	  a = a + inc;
+	}
+	</script>
+
+	<br><br>
+
+.. toctree::
+

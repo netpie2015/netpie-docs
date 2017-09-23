@@ -1,0 +1,45 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+stroke()
+========
+
+Basic stroke material for geometry with a given color
+
+**รูปแบบการใช้งาน**
+
+stroke ( v1, [v2], [v3], [a] )
+
+**พารามิเตอร์**
+
+- ``v1``  : gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
+
+- ``v2``  : optional: green or saturation value
+
+- ``v3``  : optional: blue or brightness value
+
+- ``a``  : optional: opacity
+
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	function setup(){
+	  createCanvas(200, 200, WEBGL);
+	}
+	
+	function draw(){
+	 background(0);
+	 stroke(240, 150, 150);
+	 fill(100, 100, 240);
+	 rotateX(frameCount * 0.01);
+	 rotateY(frameCount * 0.01);
+	 box(75, 75, 75);
+	}
+	</script>
+
+	<br><br>
+
+.. toctree::
+

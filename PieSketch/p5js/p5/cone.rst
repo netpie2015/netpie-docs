@@ -1,0 +1,44 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+cone()
+======
+
+Draw a cone with given radius and height
+
+**รูปแบบการใช้งาน**
+
+cone ( radius, height, [detailX], [detailY] )
+
+**พารามิเตอร์**
+
+- ``radius``  : radius of the bottom surface
+
+- ``height``  : height of the cone
+
+- ``detailX``  : optional: number of segments, the more segments the smoother geometry default is 24
+
+- ``detailY``  : optional: number of segments, the more segments the smoother geometry default is 16
+
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	//draw a spinning cone with radius 200 and height 200
+	function setup(){
+	  createCanvas(100, 100, WEBGL);
+	}
+	
+	function draw(){
+	  background(200);
+	  rotateX(frameCount * 0.01);
+	  rotateZ(frameCount * 0.01);
+	  cone(200, 200);
+	}
+	</script>
+
+	<br><br>
+
+.. toctree::
+
