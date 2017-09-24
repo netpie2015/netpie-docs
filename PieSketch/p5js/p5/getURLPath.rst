@@ -11,6 +11,11 @@ Gets the current URL path as an array.
 
 getURLPath ( )
 
+**ค่าที่ส่งออกมา**
+
+- Array.<String>: path components
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -20,6 +25,8 @@ getURLPath ( )
 	    text(urlPath[i], 10, i*20+20);
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

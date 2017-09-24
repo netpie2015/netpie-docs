@@ -15,15 +15,20 @@ curveTangent ( a, b, c, d, t )
 
 **พารามิเตอร์**
 
-- ``a``  : coordinate of first point on the curve
+- ``a``  Number: coordinate of first point on the curve
 
-- ``b``  : coordinate of first control point
+- ``b``  Number: coordinate of first control point
 
-- ``c``  : coordinate of second control point
+- ``c``  Number: coordinate of second control point
 
-- ``d``  : coordinate of second point on the curve
+- ``d``  Number: coordinate of second point on the curve
 
-- ``t``  : value between 0 and 1
+- ``t``  Number: value between 0 and 1
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the tangent at position t
 
 
 .. raw:: html
@@ -43,6 +48,8 @@ curveTangent ( a, b, c, d, t )
 	  a -= PI/2.0;
 	  line(x, y, cos(a)*8 + x, sin(a)*8 + y);
 	}
+
+
 	</script>
 
 	<br><br>

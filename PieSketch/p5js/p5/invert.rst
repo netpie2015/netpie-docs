@@ -5,15 +5,15 @@
 invert()
 ========
 
-invert  matrix according to a give matrix
+Sets each pixel to its inverse value. No parameter is used.
 
 **รูปแบบการใช้งาน**
 
-invert ( a )
+invert ( canvas )
 
 **พารามิเตอร์**
 
-- ``a``  : the matrix to be based on to invert
+- ``canvas``  Canvas: 
 
 
 .. toctree::

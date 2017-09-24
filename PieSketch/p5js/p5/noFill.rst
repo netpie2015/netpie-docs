@@ -5,7 +5,8 @@
 noFill()
 ========
 
-Does not render fill material
+Disables filling geometry. If both noStroke() and noFill() are called,
+nothing will be drawn to the screen.
 
 **รูปแบบการใช้งาน**
 
@@ -14,18 +15,11 @@ noFill ( )
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	function setup(){
-	  createCanvas(200, 200, WEBGL);
-	}
-	
-	function draw(){
-	 background(0);
-	 noFill();
-	 stroke(100, 100, 240);
-	 rotateX(frameCount * 0.01);
-	 rotateY(frameCount * 0.01);
-	 box(75, 75, 75);
-	}
+	rect(15, 10, 55, 55);
+	noFill();
+	rect(20, 20, 60, 60);
+
+
 	</script>
 
 	<br><br>

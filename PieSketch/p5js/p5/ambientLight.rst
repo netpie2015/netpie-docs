@@ -13,13 +13,13 @@ ambientLight ( v1, v2, v3, [alpha] )
 
 **พารามิเตอร์**
 
-- ``v1``  : red or hue value relative to the current color range
+- ``v1``  Number: red or hue value relative to the current color range
 
-- ``v2``  : green or saturation value relative to the current color range
+- ``v2``  Number: green or saturation value relative to the current color range
 
-- ``v3``  : blue or brightness value relative to the current color range
+- ``v3``  Number: blue or brightness value relative to the current color range
 
-- ``alpha``  : 
+- ``alpha``  Number: 
 
 
 .. toctree::

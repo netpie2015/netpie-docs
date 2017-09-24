@@ -15,7 +15,12 @@ trim ( str )
 
 **พารามิเตอร์**
 
-- ``str``  : a String to be trimmed
+- ``str``  String: a String to be trimmed
+
+
+**ค่าที่ส่งออกมา**
+
+- String: a trimmed String
 
 
 .. toctree::

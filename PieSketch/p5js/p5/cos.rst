@@ -14,7 +14,12 @@ cos ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  : the angle
+- ``angle``  Number: the angle
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the cosine of the angle
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ cos ( angle )
 	  line(i*4, 50, i*4, 50+cos(a)*40.0);
 	  a = a + inc;
 	}
+
+
 	</script>
 
 	<br><br>

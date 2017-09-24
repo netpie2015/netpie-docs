@@ -15,7 +15,12 @@ max ( n0 )
 
 **พารามิเตอร์**
 
-- ``n0``  : Numbers to compare
+- ``n0``  Number,Array: Numbers to compare
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: maximum Number
 
 
 .. raw:: html
@@ -40,6 +45,8 @@ max ( n0 )
 	  textSize(32);
 	  text(max(numArray), maxX, maxY);
 	}
+
+
 	</script>
 
 	<br><br>

@@ -26,7 +26,7 @@ redraw ( [n] )
 
 **พารามิเตอร์**
 
-- ``n``  : Redraw for n-times. The default value is 1.
+- ``n``  Integer: Redraw for n-times. The default value is 1.
 
 
 .. raw:: html
@@ -64,6 +64,8 @@ redraw ( [n] )
 	function mousePressed() {
 	  redraw(5);
 	}
+
+
 	</script>
 
 	<br><br>

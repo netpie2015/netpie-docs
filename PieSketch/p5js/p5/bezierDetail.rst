@@ -14,7 +14,7 @@ bezierDetail ( detail )
 
 **พารามิเตอร์**
 
-- ``detail``  : resolution of the curves
+- ``detail``  Number: resolution of the curves
 
 
 .. raw:: html
@@ -23,6 +23,8 @@ bezierDetail ( detail )
 	background(204);
 	bezierDetail(50);
 	bezier(85, 20, 10, 10, 90, 90, 15, 80);
+
+
 	</script>
 
 	<br><br>

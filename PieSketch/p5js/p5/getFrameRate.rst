@@ -11,5 +11,10 @@ Returns the current framerate.
 
 getFrameRate ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: current frameRate
+
+
 .. toctree::
 

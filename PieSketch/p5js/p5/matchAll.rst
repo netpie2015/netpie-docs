@@ -29,9 +29,14 @@ matchAll ( str, regexp )
 
 **พารามิเตอร์**
 
-- ``str``  : the String to be searched
+- ``str``  String: the String to be searched
 
-- ``regexp``  : the regexp to be used for matching
+- ``regexp``  String: the regexp to be used for matching
+
+
+**ค่าที่ส่งออกมา**
+
+- Array.<String>: 2d Array of Strings found
 
 
 .. raw:: html
@@ -40,6 +45,8 @@ matchAll ( str, regexp )
 	var string = "Hello p5js*! Hello world!"
 	var regexp = "Hello"
 	matchAll(string, regexp);
+
+
 	</script>
 
 	<br><br>

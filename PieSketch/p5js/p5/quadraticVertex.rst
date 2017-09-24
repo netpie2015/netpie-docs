@@ -19,13 +19,13 @@ quadraticVertex ( cx, cy, x3, y3 )
 
 **พารามิเตอร์**
 
-- ``cx``  : x-coordinate for the control point
+- ``cx``  Number: x-coordinate for the control point
 
-- ``cy``  : y-coordinate for the control point
+- ``cy``  Number: y-coordinate for the control point
 
-- ``x3``  : x-coordinate for the anchor point
+- ``x3``  Number: x-coordinate for the anchor point
 
-- ``y3``  : y-coordinate for the anchor point
+- ``y3``  Number: y-coordinate for the anchor point
 
 
 .. raw:: html
@@ -37,6 +37,8 @@ quadraticVertex ( cx, cy, x3, y3 )
 	vertex(20, 20);
 	quadraticVertex(80, 20, 50, 50);
 	endShape();
+
+
 	</script>
 
 	<br><br>
@@ -51,6 +53,8 @@ quadraticVertex ( cx, cy, x3, y3 )
 	quadraticVertex(20, 80, 80, 80);
 	vertex(80, 60);
 	endShape();
+
+
 	</script>
 
 	<br><br>

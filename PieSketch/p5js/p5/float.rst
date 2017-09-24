@@ -18,7 +18,12 @@ float ( str )
 
 **พารามิเตอร์**
 
-- ``str``  : float string to parse
+- ``str``  String: float string to parse
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: floating point representation of string
 
 
 .. raw:: html
@@ -27,6 +32,8 @@ float ( str )
 	var str = '20';
 	var diameter = float(str);
 	ellipse(width/2, height/2, diameter, diameter);
+
+
 	</script>
 
 	<br><br>

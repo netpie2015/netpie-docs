@@ -15,11 +15,11 @@ resizeCanvas ( w, h, noRedraw )
 
 **พารามิเตอร์**
 
-- ``w``  : width of the canvas
+- ``w``  Number: width of the canvas
 
-- ``h``  : height of the canvas
+- ``h``  Number: height of the canvas
 
-- ``noRedraw``  : don't redraw the canvas immediately
+- ``noRedraw``  Boolean: don't redraw the canvas immediately
 
 
 .. raw:: html
@@ -36,6 +36,8 @@ resizeCanvas ( w, h, noRedraw )
 	function windowResized() {
 	  resizeCanvas(windowWidth, windowHeight);
 	}
+
+
 	</script>
 
 	<br><br>

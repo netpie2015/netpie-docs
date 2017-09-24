@@ -14,7 +14,12 @@ floor ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number to round down
+- ``n``  Number: number to round down
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: rounded down number
 
 
 .. raw:: html
@@ -42,6 +47,8 @@ floor ( n )
 	  text(nfc(ax, 2,2), ax, ay - 5);
 	  text(nfc(bx,1,1), bx, by - 5);
 	}
+
+
 	</script>
 
 	<br><br>

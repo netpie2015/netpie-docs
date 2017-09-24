@@ -19,7 +19,7 @@ curveTightness ( amount )
 
 **พารามิเตอร์**
 
-- ``amount``  : of deformation from the original vertices
+- ``amount``  Number: of deformation from the original vertices
 
 
 .. raw:: html
@@ -45,6 +45,8 @@ curveTightness ( amount )
 	  curveVertex(25, 65);
 	  endShape();
 	}
+
+
 	</script>
 
 	<br><br>

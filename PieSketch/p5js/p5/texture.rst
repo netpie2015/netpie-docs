@@ -6,7 +6,7 @@ texture()
 =========
 
 Texture for geometry.  You can view other possible materials in this
-<a href="https://p5js.org/examples/3d-materials.html">example</a>.
+example.
 
 **รูปแบบการใช้งาน**
 
@@ -14,7 +14,7 @@ texture ( tex )
 
 **พารามิเตอร์**
 
-- ``tex``  : 2-dimensional graphics to render as texture
+- ``tex``  p5.Image,p5.MediaElement,p5.Graphics: 2-dimensional graphics to render as texture
 
 
 .. raw:: html
@@ -35,6 +35,8 @@ texture ( tex )
 	  texture(img);
 	  box(200, 200, 200);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -56,6 +58,8 @@ texture ( tex )
 	  texture(pg);
 	  plane(200);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -78,6 +82,8 @@ texture ( tex )
 	  texture(vid);
 	  plane(200);
 	}
+
+
 	</script>
 
 	<br><br>

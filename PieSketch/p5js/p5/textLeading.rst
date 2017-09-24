@@ -14,7 +14,7 @@ textLeading ( leading )
 
 **พารามิเตอร์**
 
-- ``leading``  : the size in pixels for spacing between lines
+- ``leading``  Number: the size in pixels for spacing between lines
 
 
 .. toctree::

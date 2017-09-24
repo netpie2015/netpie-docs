@@ -13,15 +13,15 @@ ellipsoid ( radiusx, radiusy, radiusz, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radiusx``  : xradius of circle
+- ``radiusx``  Number: xradius of circle
 
-- ``radiusy``  : yradius of circle
+- ``radiusy``  Number: yradius of circle
 
-- ``radiusz``  : zradius of circle
+- ``radiusz``  Number: zradius of circle
 
-- ``detailX``  : optional: number of segments, the more segments the smoother geometry default is 24. Avoid detail number above 150, it may crash the browser.
+- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24. Avoid detail number above 150, it may crash the browser.
 
-- ``detailY``  : optional: number of segments, the more segments the smoother geometry default is 16. Avoid detail number above 150, it may crash the browser.
+- ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16. Avoid detail number above 150, it may crash the browser.
 
 
 .. raw:: html
@@ -36,6 +36,8 @@ ellipsoid ( radiusx, radiusy, radiusz, [detailX], [detailY] )
 	  background(200);
 	  ellipsoid(20, 30, 40);
 	}
+
+
 	</script>
 
 	<br><br>

@@ -28,9 +28,14 @@ match ( str, regexp )
 
 **พารามิเตอร์**
 
-- ``str``  : the String to be searched
+- ``str``  String: the String to be searched
 
-- ``regexp``  : the regexp to be used for matching
+- ``regexp``  String: the regexp to be used for matching
+
+
+**ค่าที่ส่งออกมา**
+
+- Array.<String>: Array of Strings found
 
 
 .. raw:: html
@@ -40,6 +45,8 @@ match ( str, regexp )
 	var regexp = "p5js\\*"
 	var match = match(string, regexp);
 	text(match, 5, 50);
+
+
 	</script>
 
 	<br><br>

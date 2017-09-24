@@ -18,11 +18,16 @@ subset ( list, start, [count] )
 
 **พารามิเตอร์**
 
-- ``list``  : Array to extract from
+- ``list``  Array: Array to extract from
 
-- ``start``  : position to begin
+- ``start``  Number: position to begin
 
-- ``count``  : number of values to extract
+- ``count``  Number: number of values to extract
+
+
+**ค่าที่ส่งออกมา**
+
+- Array: Array of extracted elements
 
 
 .. raw:: html
@@ -37,6 +42,8 @@ subset ( list, start, [count] )
 	  print(sub1); // [1,2,3]
 	  print(sub2); // [3,4]
 	}
+
+
 	</script>
 
 	<br><br>

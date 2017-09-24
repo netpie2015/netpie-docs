@@ -18,19 +18,21 @@ ellipse ( x, y, w, [h] )
 
 **พารามิเตอร์**
 
-- ``x``  : x-coordinate of the ellipse.
+- ``x``  Number: x-coordinate of the ellipse.
 
-- ``y``  : y-coordinate of the ellipse.
+- ``y``  Number: y-coordinate of the ellipse.
 
-- ``w``  : width of the ellipse.
+- ``w``  Number: width of the ellipse.
 
-- ``h``  : height of the ellipse.
+- ``h``  Number: height of the ellipse.
 
 
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	ellipse(56, 46, 55, 55);
+
+
 	</script>
 
 	<br><br>

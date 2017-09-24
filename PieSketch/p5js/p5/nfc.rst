@@ -16,9 +16,14 @@ nfc ( num, [right] )
 
 **พารามิเตอร์**
 
-- ``num``  : the Number to format
+- ``num``  Number,String: the Number to format
 
-- ``right``  : number of digits to the right of the decimal point
+- ``right``  Number,String: number of digits to the right of the decimal point
+
+
+**ค่าที่ส่งออกมา**
+
+- String: formatted String
 
 
 .. toctree::

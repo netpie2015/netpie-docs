@@ -25,7 +25,7 @@ frameRate ( fps )
 
 **พารามิเตอร์**
 
-- ``fps``  : number of frames to be displayed every second
+- ``fps``  Number: number of frames to be displayed every second
 
 
 .. toctree::

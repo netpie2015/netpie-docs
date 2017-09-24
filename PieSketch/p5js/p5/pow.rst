@@ -17,9 +17,14 @@ pow ( n, e )
 
 **พารามิเตอร์**
 
-- ``n``  : base of the exponential expression
+- ``n``  Number: base of the exponential expression
 
-- ``e``  : power by which to raise the base
+- ``e``  Number: power by which to raise the base
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: n^e
 
 
 .. raw:: html
@@ -38,6 +43,8 @@ pow ( n, e )
 	
 	  ellipse(eLoc*8, eLoc*8, pow(eSize, 4), pow(eSize, 4));
 	}
+
+
 	</script>
 
 	<br><br>

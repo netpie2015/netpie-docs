@@ -35,6 +35,8 @@ touchStarted ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -46,6 +48,8 @@ touchStarted ( )
 	  // prevent default
 	  return false;
 	}
+
+
 	</script>
 
 	<br><br>

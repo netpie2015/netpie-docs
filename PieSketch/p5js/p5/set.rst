@@ -5,19 +5,87 @@
 set()
 =====
 
-Sets the x, y, and z component of the vector using two or three separate
-variables, the data from a p5.Matrix, or the values from a float array.
+Changes the color of any pixel, or writes an image directly to the
+display window.
+The x and y parameters specify the pixel to change and the c parameter
+specifies the color value. This can be a p5.Color object, or [R, G, B, A]
+pixel array. It can also be a single grayscale value.
+When setting an image, the x and y parameters define the coordinates for
+the upper-left corner of the image, regardless of the current imageMode().
+
+
+After using set(), you must call updatePixels() for your changes to appear.
+This should be called once all pixels have been set, and must be called before
+calling .get() or drawing the image.
+
+Setting the color of a single pixel with set(x, y) is easy, but not as
+fast as putting the data directly into pixels[]. Setting the pixels[]
+values directly may be complicated when working with a retina display,
+but will perform better when lots of pixels need to be set directly on
+every loop.
+See the reference for pixels[] for more information.
 
 **รูปแบบการใช้งาน**
 
-set ( [inMatrix], [n00..n33] )
+set ( x, y, c )
 
 **พารามิเตอร์**
 
-- ``inMatrix``  : the input p5.Matrix or an Array of length 16
+- ``x``  Number: x-coordinate of the pixel
 
-- ``n00..n33``  : 16 numbers passed by value to avoid array copying.
+- ``y``  Number: y-coordinate of the pixel
 
+- ``c``  Number,Array,Object: insert a grayscale value | a pixel array | a p5.Color object | a p5.Image to copy
+
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	var black = color(0);
+	set(30, 20, black);
+	set(85, 20, black);
+	set(85, 75, black);
+	set(30, 75, black);
+	updatePixels();
+
+
+	</script>
+
+	<br><br>
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	
+	for (var i = 30; i < width-15; i++) {
+	  for (var j = 20; j < height-25; j++) {
+	    var c = color(204-j, 153-i, 0);
+	    set(i, j, c);
+	  }
+	}
+	updatePixels();
+
+
+	</script>
+
+	<br><br>
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	
+	var img;
+	function preload() {
+	  img = loadImage("assets/rockies.jpg");
+	}
+	
+	function setup() {
+	  set(0, 0, img);
+	  updatePixels();
+	  line(0, 0, width, height);
+	  line(0, height, width, 0);
+	}
+
+
+	</script>
+
+	<br><br>
 
 .. toctree::
 

@@ -35,6 +35,8 @@ deviceTurned ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -58,6 +60,8 @@ deviceTurned ( )
 	    }
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

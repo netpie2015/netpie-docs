@@ -18,9 +18,14 @@ loadShader ( [vertFilename], [fragFilename] )
 
 **พารามิเตอร์**
 
-- ``vertFilename``  : path to file containing vertex shader source code
+- ``vertFilename``  String: path to file containing vertex shader source code
 
-- ``fragFilename``  : path to file containing fragment shader source code
+- ``fragFilename``  String: path to file containing fragment shader source code
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Shader: a shader object created from the provided vertex and fragment shader files.
 
 
 .. toctree::

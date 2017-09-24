@@ -13,11 +13,20 @@ getting an image, the x and y parameters define the coordinates for the
 upper-left corner of the image, regardless of the current imageMode().
 
 If the pixel requested is outside of the image window, [0,0,0,255] is
-returned.
+returned. To get the numbers scaled according to the current color ranges
+and taking into account colorMode, use getColor instead of get.
 
 Getting the color of a single pixel with get(x, y) is easy, but not as fast
 as grabbing the data directly from pixels[]. The equivalent statement to
-get(x, y) is using pixels[] with pixel density d
+get(x, y) using pixels[] with pixel density d is
+
+var off = (y * width + x) * d * 4;
+[pixels[off],
+pixels[off+1],
+pixels[off+2],
+pixels[off+3]]
+
+See the reference for pixels[] for more information.
 
 **รูปแบบการใช้งาน**
 
@@ -25,14 +34,56 @@ get ( [x], [y], [w], [h] )
 
 **พารามิเตอร์**
 
-- ``x``  : x-coordinate of the pixel
+- ``x``  Number: x-coordinate of the pixel
 
-- ``y``  : y-coordinate of the pixel
+- ``y``  Number: y-coordinate of the pixel
 
-- ``w``  : width
+- ``w``  Number: width
 
-- ``h``  : height
+- ``h``  Number: height
 
+
+**ค่าที่ส่งออกมา**
+
+- Array.<Number>,p5.Image: values of pixel at x,y in array format [R, G, B, A] or p5.Image
+
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	var img;
+	function preload() {
+	  img = loadImage("assets/rockies.jpg");
+	}
+	function setup() {
+	  image(img, 0, 0);
+	  var c = get();
+	  image(c, width/2, 0);
+	}
+
+
+	</script>
+
+	<br><br>
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	
+	var img;
+	function preload() {
+	  img = loadImage("assets/rockies.jpg");
+	}
+	function setup() {
+	  image(img, 0, 0);
+	  var c = get(50, 90);
+	  fill(c);
+	  noStroke();
+	  rect(25, 25, 50, 50);
+	}
+
+
+	</script>
+
+	<br><br>
 
 .. toctree::
 

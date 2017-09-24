@@ -21,9 +21,14 @@ loadFont ( path, [callback] )
 
 **พารามิเตอร์**
 
-- ``path``  : name of the file or url to load
+- ``path``  String: name of the file or url to load
 
-- ``callback``  : function to be executed after loadFont() completes
+- ``callback``  function: function to be executed after loadFont() completes
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Font: p5.Font object
 
 
 .. raw:: html
@@ -69,6 +74,8 @@ loadFont ( path, [callback] )
 	  var myDiv = createDiv('hello there');
 	  myDiv.style('font-family', 'Avenir');
 	}
+
+
 	</script>
 
 	<br><br>

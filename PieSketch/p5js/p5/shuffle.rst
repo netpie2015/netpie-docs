@@ -6,8 +6,8 @@ shuffle()
 =========
 
 Randomizes the order of the elements of an array. Implements
-<a href="http://Bost.Ocks.org/mike/shuffle/" target=_blank>
-Fisher-Yates Shuffle Algorithm</a>.
+
+Fisher-Yates Shuffle Algorithm.
 
 **รูปแบบการใช้งาน**
 
@@ -15,9 +15,14 @@ shuffle ( array, [bool] )
 
 **พารามิเตอร์**
 
-- ``array``  : Array to shuffle
+- ``array``  Array: Array to shuffle
 
-- ``bool``  : modify passed array
+- ``bool``  Boolean: modify passed array
+
+
+**ค่าที่ส่งออกมา**
+
+- Array: shuffled Array
 
 
 .. raw:: html
@@ -34,6 +39,8 @@ shuffle ( array, [bool] )
 	  print(regularArr);
 	  print(newArr);
 	}
+
+
 	</script>
 
 	<br><br>

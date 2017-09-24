@@ -15,7 +15,12 @@ int ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : value to parse
+- ``n``  String,Boolean,Number: value to parse
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: integer representation of value
 
 
 .. toctree::

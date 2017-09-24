@@ -16,9 +16,9 @@ threshold ( canvas, level )
 
 **พารามิเตอร์**
 
-- ``canvas``  : 
+- ``canvas``  Canvas: 
 
-- ``level``  : 
+- ``level``  Float: 
 
 
 .. toctree::

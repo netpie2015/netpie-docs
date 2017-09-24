@@ -30,6 +30,8 @@ deviceShaken ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

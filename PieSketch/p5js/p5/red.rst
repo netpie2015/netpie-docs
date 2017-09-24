@@ -13,7 +13,12 @@ red ( color )
 
 **พารามิเตอร์**
 
-- ``color``  : p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object or pixel array
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the red value
 
 
 .. raw:: html
@@ -27,6 +32,8 @@ red ( color )
 	print(redValue);  // Print "255.0"
 	fill(redValue, 0, 0);  // Use 'redValue' in new fill
 	rect(50, 20, 35, 60);  // Draw right rectangle
+
+
 	</script>
 
 	<br><br>
@@ -38,6 +45,8 @@ red ( color )
 	colorMode(RGB, 1);
 	var myColor = red(c);
 	print(myColor);
+
+
 	</script>
 
 	<br><br>

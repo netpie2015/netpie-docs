@@ -14,7 +14,7 @@ textSize ( theSize )
 
 **พารามิเตอร์**
 
-- ``theSize``  : the size of the letters in units of pixels
+- ``theSize``  Number: the size of the letters in units of pixels
 
 
 .. toctree::

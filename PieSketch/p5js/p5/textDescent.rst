@@ -13,6 +13,11 @@ descender below the baseline.
 
 textDescent ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: 
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -28,6 +33,8 @@ textDescent ( )
 	desc = textDescent() * scalar;  // Recalc ascent
 	line(40, base + desc, width, base + desc);
 	text("dp", 40, base);  // Draw text on baseline
+
+
 	</script>
 
 	<br><br>

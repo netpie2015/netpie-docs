@@ -13,7 +13,7 @@ rotateZ ( rad )
 
 **พารามิเตอร์**
 
-- ``rad``  : angles in radians
+- ``rad``  Number: angles in radians
 
 
 .. toctree::

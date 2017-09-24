@@ -13,13 +13,13 @@ torus ( radius, tubeRadius, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  : radius of the whole ring
+- ``radius``  Number: radius of the whole ring
 
-- ``tubeRadius``  : radius of the tube
+- ``tubeRadius``  Number: radius of the tube
 
-- ``detailX``  : optional: number of segments in x-dimension, the more segments the smoother geometry default is 24
+- ``detailX``  Number: optional: number of segments in x-dimension, the more segments the smoother geometry default is 24
 
-- ``detailY``  : optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
+- ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
 
 
 .. raw:: html
@@ -36,6 +36,8 @@ torus ( radius, tubeRadius, [detailX], [detailY] )
 	  rotateY(frameCount * 0.01);
 	  torus(200, 60);
 	}
+
+
 	</script>
 
 	<br><br>

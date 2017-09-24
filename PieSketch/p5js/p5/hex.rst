@@ -16,9 +16,14 @@ hex ( n, [digits] )
 
 **พารามิเตอร์**
 
-- ``n``  : value to parse
+- ``n``  Number: value to parse
 
-- ``digits``  : 
+- ``digits``  Number: 
+
+
+**ค่าที่ส่งออกมา**
+
+- String: hexadecimal string representation of value
 
 
 .. toctree::

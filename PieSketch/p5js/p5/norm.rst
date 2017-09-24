@@ -17,11 +17,16 @@ norm ( value, start, stop )
 
 **พารามิเตอร์**
 
-- ``value``  : incoming value to be normalized
+- ``value``  Number: incoming value to be normalized
 
-- ``start``  : lower bound of the value's current range
+- ``start``  Number: lower bound of the value's current range
 
-- ``stop``  : upper bound of the value's current range
+- ``stop``  Number: upper bound of the value's current range
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: normalized number
 
 
 .. raw:: html
@@ -55,6 +60,8 @@ norm ( value, start, stop )
 	  normalX = 20;
 	  text(normalized, normalX, normalY);
 	}
+
+
 	</script>
 
 	<br><br>

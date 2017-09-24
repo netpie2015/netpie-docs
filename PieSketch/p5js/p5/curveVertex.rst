@@ -23,9 +23,9 @@ curveVertex ( x, y )
 
 **พารามิเตอร์**
 
-- ``x``  : x-coordinate of the vertex
+- ``x``  Number: x-coordinate of the vertex
 
-- ``y``  : y-coordinate of the vertex
+- ``y``  Number: y-coordinate of the vertex
 
 
 .. raw:: html
@@ -40,6 +40,8 @@ curveVertex ( x, y )
 	curveVertex(32, 100);
 	curveVertex(32, 100);
 	endShape();
+
+
 	</script>
 
 	<br><br>

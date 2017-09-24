@@ -16,11 +16,11 @@ saveCanvas ( selectedCanvas, [filename], [extension] )
 
 **พารามิเตอร์**
 
-- ``selectedCanvas``  : a variable representing a specific html5 canvas (optional)
+- ``selectedCanvas``  p5.Element,HTMLCanvasElement: a variable representing a specific html5 canvas (optional)
 
-- ``filename``  : 
+- ``filename``  String: 
 
-- ``extension``  : 'jpg' or 'png'
+- ``extension``  String: 'jpg' or 'png'
 
 
 .. toctree::

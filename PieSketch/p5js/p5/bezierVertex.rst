@@ -22,17 +22,17 @@ bezierVertex ( x2, y2, x3, y3, x4, y4 )
 
 **พารามิเตอร์**
 
-- ``x2``  : x-coordinate for the first control point
+- ``x2``  Number: x-coordinate for the first control point
 
-- ``y2``  : y-coordinate for the first control point
+- ``y2``  Number: y-coordinate for the first control point
 
-- ``x3``  : x-coordinate for the second control point
+- ``x3``  Number: x-coordinate for the second control point
 
-- ``y3``  : y-coordinate for the second control point
+- ``y3``  Number: y-coordinate for the second control point
 
-- ``x4``  : x-coordinate for the anchor point
+- ``x4``  Number: x-coordinate for the anchor point
 
-- ``y4``  : y-coordinate for the anchor point
+- ``y4``  Number: y-coordinate for the anchor point
 
 
 .. raw:: html
@@ -43,6 +43,8 @@ bezierVertex ( x2, y2, x3, y3, x4, y4 )
 	vertex(30, 20);
 	bezierVertex(80, 0, 80, 75, 30, 75);
 	endShape();
+
+
 	</script>
 
 	<br><br>
@@ -54,6 +56,8 @@ bezierVertex ( x2, y2, x3, y3, x4, y4 )
 	bezierVertex(80, 0, 80, 75, 30, 75);
 	bezierVertex(50, 80, 60, 25, 30, 20);
 	endShape();
+
+
 	</script>
 
 	<br><br>

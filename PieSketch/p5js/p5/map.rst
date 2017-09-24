@@ -17,15 +17,20 @@ map ( value, start1, stop1, start2, stop2 )
 
 **พารามิเตอร์**
 
-- ``value``  : the incoming value to be converted
+- ``value``  Number: the incoming value to be converted
 
-- ``start1``  : lower bound of the value's current range
+- ``start1``  Number: lower bound of the value's current range
 
-- ``stop1``  : upper bound of the value's current range
+- ``stop1``  Number: upper bound of the value's current range
 
-- ``start2``  : lower bound of the value's target range
+- ``start2``  Number: lower bound of the value's target range
 
-- ``stop2``  : upper bound of the value's target range
+- ``stop2``  Number: upper bound of the value's target range
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: remapped number
 
 
 .. raw:: html
@@ -46,6 +51,8 @@ map ( value, start1, stop1, start2, stop2 )
 	      ellipse(x2, 75, 25, 25);
 	    }
 	  
+
+
 	</script>
 
 	<br><br>

@@ -18,15 +18,20 @@ bezierPoint ( a, b, c, d, t )
 
 **พารามิเตอร์**
 
-- ``a``  : coordinate of first point on the curve
+- ``a``  Number: coordinate of first point on the curve
 
-- ``b``  : coordinate of first control point
+- ``b``  Number: coordinate of first control point
 
-- ``c``  : coordinate of second control point
+- ``c``  Number: coordinate of second control point
 
-- ``d``  : coordinate of second point on the curve
+- ``d``  Number: coordinate of second point on the curve
 
-- ``t``  : value between 0 and 1
+- ``t``  Number: value between 0 and 1
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the value of the Bezier at position t
 
 
 .. raw:: html
@@ -44,6 +49,8 @@ bezierPoint ( a, b, c, d, t )
 	  y = bezierPoint(y1, y2, y3, y4, t);
 	  ellipse(x, y, 5, 5);
 	}
+
+
 	</script>
 
 	<br><br>

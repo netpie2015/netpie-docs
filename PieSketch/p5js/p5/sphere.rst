@@ -13,11 +13,11 @@ sphere ( radius, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  : radius of circle
+- ``radius``  Number: radius of circle
 
-- ``detailX``  : optional: number of segments, the more segments the smoother geometry default is 24
+- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
 
-- ``detailY``  : optional: number of segments, the more segments the smoother geometry default is 16
+- ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16
 
 
 .. raw:: html
@@ -32,6 +32,8 @@ sphere ( radius, [detailX], [detailY] )
 	  background(200);
 	  sphere(50);
 	}
+
+
 	</script>
 
 	<br><br>

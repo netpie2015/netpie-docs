@@ -16,7 +16,12 @@ radians ( degrees )
 
 **พารามิเตอร์**
 
-- ``degrees``  : the degree value to convert to radians
+- ``degrees``  Number: the degree value to convert to radians
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the converted angle
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ radians ( degrees )
 	var rad = radians(deg);
 	print(deg + " degrees is " + rad + " radians");
 	// Prints: 45 degrees is 0.7853981633974483 radians
+
+
 	</script>
 
 	<br><br>

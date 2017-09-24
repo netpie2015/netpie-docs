@@ -5,24 +5,39 @@
 loadPixels()
 ============
 
-Loads the pixels data for this canvas into the pixels[] attribute.
-Note that updatePixels() and set() do not work.
-Any pixel manipulation must be done directly to the pixels[] array.
+Loads the pixel data for the display window into the pixels[] array. This
+function must always be called before reading from or writing to pixels[].
+Note that only changes made with set() or direct manipulation of pixels[]
+will occur.
 
 **รูปแบบการใช้งาน**
 
-loadPixels ( starting, starting, width, height )
+loadPixels ( )
 
-**พารามิเตอร์**
+.. raw:: html
 
-- ``starting``  : pixel x position, defaults to 0
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	var img;
+	function preload() {
+	  img = loadImage("assets/rockies.jpg");
+	}
+	
+	function setup() {
+	  image(img, 0, 0);
+	  var d = pixelDensity();
+	  var halfImage = 4 * (img.width * d) *
+	       (img.height/2 * d);
+	  loadPixels();
+	  for (var i = 0; i < halfImage; i++) {
+	    pixels[i+halfImage] = pixels[i];
+	  }
+	  updatePixels();
+	}
 
-- ``starting``  : pixel y position, defaults to 0
 
-- ``width``  : of pixels to load, defaults to sketch width
+	</script>
 
-- ``height``  : of pixels to load, defaults to sketch height
-
+	<br><br>
 
 .. toctree::
 

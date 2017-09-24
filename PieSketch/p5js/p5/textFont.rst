@@ -11,5 +11,10 @@ Sets the current font that will be drawn with the text() function.
 
 textFont ( )
 
+**ค่าที่ส่งออกมา**
+
+- Object: the current font
+
+
 .. toctree::
 

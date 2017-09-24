@@ -14,9 +14,14 @@ concat ( a, b )
 
 **พารามิเตอร์**
 
-- ``a``  : first Array to concatenate
+- ``a``  Array: first Array to concatenate
 
-- ``b``  : second Array to concatenate
+- ``b``  Array: second Array to concatenate
+
+
+**ค่าที่ส่งออกมา**
+
+- Array: concatenated array
 
 
 .. raw:: html
@@ -36,6 +41,8 @@ concat ( a, b )
 	  print(arr3); // ["A","B","C",1,2,3]
 	
 	}
+
+
 	</script>
 
 	<br><br>

@@ -12,11 +12,18 @@ returns the current minute as a value from 0 - 59.
 
 minute ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: the current minute
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	var m = minute();
 	text("Current minute: \n" + m, 5, 50);
+
+
 	</script>
 
 	<br><br>

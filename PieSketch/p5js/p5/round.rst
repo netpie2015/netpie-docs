@@ -14,7 +14,12 @@ round ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number to round
+- ``n``  Number: number to round
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: rounded number
 
 
 .. raw:: html
@@ -42,6 +47,8 @@ round ( n )
 	  text(nfc(ax, 2,2), ax, ay - 5);
 	  text(nfc(bx,1,1), bx, by - 5);
 	}
+
+
 	</script>
 
 	<br><br>

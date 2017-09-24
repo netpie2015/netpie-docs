@@ -16,7 +16,7 @@ randomSeed ( seed )
 
 **พารามิเตอร์**
 
-- ``seed``  : the seed value
+- ``seed``  Number: the seed value
 
 
 .. raw:: html
@@ -28,6 +28,8 @@ randomSeed ( seed )
 	  stroke(r);
 	  line(i, 0, i, 100);
 	}
+
+
 	</script>
 
 	<br><br>

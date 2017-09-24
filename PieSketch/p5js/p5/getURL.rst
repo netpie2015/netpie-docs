@@ -11,6 +11,11 @@ Gets the current URL.
 
 getURL ( )
 
+**ค่าที่ส่งออกมา**
+
+- String: url
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -28,6 +33,8 @@ getURL ( )
 	  text(url, x, height/2);
 	  x--;
 	}
+
+
 	</script>
 
 	<br><br>

@@ -40,6 +40,8 @@ mouseClicked ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -51,6 +53,8 @@ mouseClicked ( )
 	  // prevent default
 	  return false;
 	}
+
+
 	</script>
 
 	<br><br>

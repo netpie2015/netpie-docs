@@ -7,7 +7,7 @@ normalMaterial()
 
 Normal material for geometry. You can view all
 possible materials in this
-<a href="https://p5js.org/examples/3d-materials.html">example</a>.
+example.
 
 **รูปแบบการใช้งาน**
 
@@ -25,6 +25,8 @@ normalMaterial ( )
 	 normalMaterial();
 	 sphere(50);
 	}
+
+
 	</script>
 
 	<br><br>

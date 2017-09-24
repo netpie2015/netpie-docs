@@ -17,7 +17,12 @@ fullscreen ( [val] )
 
 **พารามิเตอร์**
 
-- ``val``  : whether the sketch should be in fullscreen mode or not
+- ``val``  Boolean: whether the sketch should be in fullscreen mode or not
+
+
+**ค่าที่ส่งออกมา**
+
+- Boolean: current fullscreen state
 
 
 .. raw:: html
@@ -33,6 +38,8 @@ fullscreen ( [val] )
 	    fullscreen(!fs);
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

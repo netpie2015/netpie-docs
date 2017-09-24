@@ -22,9 +22,14 @@ random ( [min], [max] )
 
 **พารามิเตอร์**
 
-- ``min``  : the lower bound (inclusive)
+- ``min``  Number: the lower bound (inclusive)
 
-- ``max``  : the upper bound (exclusive)
+- ``max``  Number: the upper bound (exclusive)
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the random number
 
 
 .. raw:: html
@@ -35,6 +40,8 @@ random ( [min], [max] )
 	  stroke(r*5);
 	  line(50, i, 50+r, i);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -44,6 +51,8 @@ random ( [min], [max] )
 	  var r = random(-50, 50);
 	  line(50,i,50+r,i);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -53,6 +62,8 @@ random ( [min], [max] )
 	var words = [ "apple", "bear", "cat", "dog" ];
 	var word = random(words);  // select random word
 	text(word,10,50);  // draw the word
+
+
 	</script>
 
 	<br><br>

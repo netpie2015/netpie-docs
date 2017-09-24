@@ -14,7 +14,12 @@ abs ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number to compute
+- ``n``  Number: number to compute
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: absolute value of given number
 
 
 .. raw:: html
@@ -27,6 +32,8 @@ abs ( n )
 	  print(x); // -3
 	  print(y); // 3
 	}
+
+
 	</script>
 
 	<br><br>

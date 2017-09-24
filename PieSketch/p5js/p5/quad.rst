@@ -17,27 +17,29 @@ quad ( x1, y1, x2, y2, x3, y3, x4, y4 )
 
 **พารามิเตอร์**
 
-- ``x1``  : the x-coordinate of the first point
+- ``x1``  Number: the x-coordinate of the first point
 
-- ``y1``  : the y-coordinate of the first point
+- ``y1``  Number: the y-coordinate of the first point
 
-- ``x2``  : the x-coordinate of the second point
+- ``x2``  Number: the x-coordinate of the second point
 
-- ``y2``  : the y-coordinate of the second point
+- ``y2``  Number: the y-coordinate of the second point
 
-- ``x3``  : the x-coordinate of the third point
+- ``x3``  Number: the x-coordinate of the third point
 
-- ``y3``  : the y-coordinate of the third point
+- ``y3``  Number: the y-coordinate of the third point
 
-- ``x4``  : the x-coordinate of the fourth point
+- ``x4``  Number: the x-coordinate of the fourth point
 
-- ``y4``  : the y-coordinate of the fourth point
+- ``y4``  Number: the y-coordinate of the fourth point
 
 
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	quad(38, 31, 86, 20, 69, 63, 30, 76);
+
+
 	</script>
 
 	<br><br>

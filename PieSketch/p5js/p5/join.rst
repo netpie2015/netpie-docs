@@ -16,9 +16,14 @@ join ( list, separator )
 
 **พารามิเตอร์**
 
-- ``list``  : array of Strings to be joined
+- ``list``  Array: array of Strings to be joined
 
-- ``separator``  : String to be placed between each item
+- ``separator``  String: String to be placed between each item
+
+
+**ค่าที่ส่งออกมา**
+
+- String: joined String
 
 
 .. raw:: html
@@ -28,6 +33,8 @@ join ( list, separator )
 	var separator = " "
 	var message = join(array, separator);
 	text(message, 5, 50);
+
+
 	</script>
 
 	<br><br>

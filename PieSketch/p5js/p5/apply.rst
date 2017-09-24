@@ -22,11 +22,11 @@ apply ( canvas, func, filterParam )
 
 **พารามิเตอร์**
 
-- ``canvas``  : [description]
+- ``canvas``  HTMLCanvasElement: [description]
 
-- ``func``  : [description]
+- ``func``  function: [description]
 
-- ``filterParam``  : [description]
+- ``filterParam``  Object: [description]
 
 
 .. toctree::

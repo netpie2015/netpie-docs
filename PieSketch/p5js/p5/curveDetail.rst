@@ -14,7 +14,7 @@ curveDetail ( resolution )
 
 **พารามิเตอร์**
 
-- ``resolution``  : of the curves
+- ``resolution``  Number: of the curves
 
 
 .. raw:: html
@@ -23,6 +23,8 @@ curveDetail ( resolution )
 	background(204);
 	curveDetail(20);
 	curve(5, 26, 5, 26, 73, 24, 73, 61);
+
+
 	</script>
 
 	<br><br>

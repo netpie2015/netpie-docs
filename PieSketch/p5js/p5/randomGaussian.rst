@@ -23,9 +23,14 @@ randomGaussian ( mean, sd )
 
 **พารามิเตอร์**
 
-- ``mean``  : the mean
+- ``mean``  Number: the mean
 
-- ``sd``  : the standard deviation
+- ``sd``  Number: the standard deviation
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the random number
 
 
 .. raw:: html
@@ -35,6 +40,8 @@ randomGaussian ( mean, sd )
 	 var x = randomGaussian(50,15);
 	 line(50, y, x, y);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -61,6 +68,8 @@ randomGaussian ( mean, sd )
 	   line(0, 0, dist, 0);
 	 }
 	}
+
+
 	</script>
 
 	<br><br>

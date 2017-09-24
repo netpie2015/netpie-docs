@@ -26,7 +26,7 @@ shearX ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  : angle of shear specified in radians or degrees, depending on current angleMode
+- ``angle``  Number: angle of shear specified in radians or degrees, depending on current angleMode
 
 
 .. raw:: html
@@ -35,6 +35,8 @@ shearX ( angle )
 	translate(width/4, height/4);
 	shearX(PI/4.0);
 	rect(0, 0, 30, 30);
+
+
 	</script>
 
 	<br><br>

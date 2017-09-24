@@ -16,9 +16,9 @@ posterize ( canvas, level )
 
 **พารามิเตอร์**
 
-- ``canvas``  : 
+- ``canvas``  Canvas: 
 
-- ``level``  : 
+- ``level``  Integer: 
 
 
 .. toctree::

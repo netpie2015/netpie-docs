@@ -16,9 +16,9 @@ point ( x, y )
 
 **พารามิเตอร์**
 
-- ``x``  : the x-coordinate
+- ``x``  Number: the x-coordinate
 
-- ``y``  : the y-coordinate
+- ``y``  Number: the y-coordinate
 
 
 .. raw:: html
@@ -28,6 +28,8 @@ point ( x, y )
 	point(85, 20);
 	point(85, 75);
 	point(30, 75);
+
+
 	</script>
 
 	<br><br>

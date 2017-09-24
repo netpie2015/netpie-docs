@@ -15,7 +15,12 @@ atan ( value )
 
 **พารามิเตอร์**
 
-- ``value``  : the value whose arc tangent is to be returned
+- ``value``  Number: the value whose arc tangent is to be returned
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the arc tangent of the given value
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ atan ( value )
 	var at = atan(t);
 	// Prints: "1.0471976 : 1.7320509 : 1.0471976"
 	print(a + " : " + t + " : " +  at);
+
+
 	</script>
 
 	<br><br>
@@ -37,6 +44,8 @@ atan ( value )
 	var at = atan(t);
 	// Prints: "4.1887903 : 1.7320513 : 1.0471977"
 	print(a + " : " + t + " : " +  at);
+
+
 	</script>
 
 	<br><br>

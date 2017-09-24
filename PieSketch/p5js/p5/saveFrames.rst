@@ -20,15 +20,15 @@ saveFrames ( filename, extension, duration, framerate, [callback] )
 
 **พารามิเตอร์**
 
-- ``filename``  : 
+- ``filename``  String: 
 
-- ``extension``  : 'jpg' or 'png'
+- ``extension``  String: 'jpg' or 'png'
 
-- ``duration``  : Duration in seconds to save the frames for.
+- ``duration``  Number: Duration in seconds to save the frames for.
 
-- ``framerate``  : Framerate to save the frames in.
+- ``framerate``  Number: Framerate to save the frames in.
 
-- ``callback``  : A callback function that will be executed to handle the image data. This function should accept an array as argument. The array will contain the specified number of frames of objects. Each object has three properties: imageData - an image/octet-stream, filename and extension.
+- ``callback``  function: A callback function that will be executed to handle the image data. This function should accept an array as argument. The array will contain the specified number of frames of objects. Each object has three properties: imageData - an image/octet-stream, filename and extension.
 
 
 .. raw:: html
@@ -44,6 +44,8 @@ saveFrames ( filename, extension, duration, framerate, [callback] )
 	   });
 	 }
 	 
+
+
 	</script>
 
 	<br><br>

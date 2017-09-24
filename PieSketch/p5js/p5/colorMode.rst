@@ -21,9 +21,9 @@ colorMode ( mode, [max] )
 
 **พารามิเตอร์**
 
-- ``mode``  : either RGB, HSB or HSL, corresponding to Red/Green/Blue and Hue/Saturation/Brightness (or Lightness)
+- ``mode``  Constant: either RGB, HSB or HSL, corresponding to Red/Green/Blue and Hue/Saturation/Brightness (or Lightness)
 
-- ``max``  : range for all values
+- ``max``  Number: range for all values
 
 
 .. toctree::

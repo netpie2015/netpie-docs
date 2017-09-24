@@ -19,9 +19,14 @@ split ( value, delim )
 
 **พารามิเตอร์**
 
-- ``value``  : the String to be split
+- ``value``  String: the String to be split
 
-- ``delim``  : the String used to separate the data
+- ``delim``  String: the String used to separate the data
+
+
+**ค่าที่ส่งออกมา**
+
+- Array.<String>: Array of Strings
 
 
 .. raw:: html
@@ -32,6 +37,8 @@ split ( value, delim )
 	text(splitString[0], 5, 30);
 	text(splitString[1], 5, 50);
 	text(splitString[2], 5, 70);
+
+
 	</script>
 
 	<br><br>

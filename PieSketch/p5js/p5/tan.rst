@@ -14,7 +14,12 @@ tan ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  : the angle
+- ``angle``  Number: the angle
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the tangent of the angle
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ tan ( angle )
 	    line(i, 50, i, 50+tan(a)*2.0);
 	    a = a + inc;
 	  }
+
+
 	</script>
 
 	<br><br>

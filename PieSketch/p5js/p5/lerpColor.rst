@@ -21,11 +21,16 @@ lerpColor ( c1, c2, amt )
 
 **พารามิเตอร์**
 
-- ``c1``  : interpolate from this color
+- ``c1``  p5.Color: interpolate from this color
 
-- ``c2``  : interpolate to this color
+- ``c2``  p5.Color: interpolate to this color
 
-- ``amt``  : number between 0 and 1
+- ``amt``  Number: number between 0 and 1
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Color: interpolated color
 
 
 .. raw:: html
@@ -47,6 +52,8 @@ lerpColor ( c1, c2, amt )
 	rect(50, 20, 20, 60);
 	fill(to);
 	rect(70, 20, 20, 60);
+
+
 	</script>
 
 	<br><br>

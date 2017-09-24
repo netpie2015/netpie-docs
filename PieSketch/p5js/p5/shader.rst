@@ -16,7 +16,7 @@ shader ( [s] )
 
 **พารามิเตอร์**
 
-- ``s``  : the desired p5.Shader to use for rendering shapes.
+- ``s``  p5.Shader: the desired p5.Shader to use for rendering shapes.
 
 
 .. toctree::

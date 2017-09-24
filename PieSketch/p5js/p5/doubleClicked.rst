@@ -37,6 +37,8 @@ doubleClicked ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -48,6 +50,8 @@ doubleClicked ( )
 	  // prevent default
 	  return false;
 	}
+
+
 	</script>
 
 	<br><br>

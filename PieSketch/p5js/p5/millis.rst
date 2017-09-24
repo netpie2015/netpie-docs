@@ -13,11 +13,18 @@ animation sequences.
 
 millis ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: the number of milliseconds since starting the program
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	var millisecond = millis();
 	text("Milliseconds \nrunning: \n" + millisecond, 5, 40);
+
+
 	</script>
 
 	<br><br>

@@ -19,9 +19,14 @@ splitTokens ( value, [delim] )
 
 **พารามิเตอร์**
 
-- ``value``  : the String to be split
+- ``value``  String: the String to be split
 
-- ``delim``  : list of individual Strings that will be used as separators
+- ``delim``  String: list of individual Strings that will be used as separators
+
+
+**ค่าที่ส่งออกมา**
+
+- Array.<String>: Array of Strings
 
 
 .. raw:: html
@@ -33,6 +38,8 @@ splitTokens ( value, [delim] )
 	
 	  print(myStrArr); // prints : ["Mango"," Banana"," Lime"]
 	}
+
+
 	</script>
 
 	<br><br>

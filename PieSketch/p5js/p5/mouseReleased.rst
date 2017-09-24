@@ -36,6 +36,8 @@ mouseReleased ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -47,6 +49,8 @@ mouseReleased ( )
 	  // prevent default
 	  return false;
 	}
+
+
 	</script>
 
 	<br><br>

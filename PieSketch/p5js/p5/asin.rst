@@ -15,7 +15,12 @@ asin ( value )
 
 **พารามิเตอร์**
 
-- ``value``  : the value whose arc sine is to be returned
+- ``value``  Number: the value whose arc sine is to be returned
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the arc sine of the given value
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ asin ( value )
 	var as = asin(s);
 	// Prints: "1.0471976 : 0.86602545 : 1.0471976"
 	print(a + " : " + s + " : " +  as);
+
+
 	</script>
 
 	<br><br>
@@ -37,6 +44,8 @@ asin ( value )
 	var as = asin(s);
 	// Prints: "4.1887903 : -0.86602545 : -1.0471976"
 	print(a + " : " + s + " : " +  as);
+
+
 	</script>
 
 	<br><br>

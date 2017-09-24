@@ -13,7 +13,7 @@ reverse ( list )
 
 **พารามิเตอร์**
 
-- ``list``  : Array to reverse
+- ``list``  Array: Array to reverse
 
 
 .. raw:: html
@@ -26,6 +26,8 @@ reverse ( list )
 	  reverse(myArray);
 	  print(myArray); // ["C","B","A"]
 	}
+
+
 	</script>
 
 	<br><br>

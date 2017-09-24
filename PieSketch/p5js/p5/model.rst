@@ -13,7 +13,7 @@ model ( model )
 
 **พารามิเตอร์**
 
-- ``model``  : Loaded 3d model to be rendered
+- ``model``  p5.Geometry: Loaded 3d model to be rendered
 
 
 .. raw:: html
@@ -34,6 +34,8 @@ model ( model )
 	  rotateY(frameCount * 0.01);
 	  model(teapot);
 	}
+
+
 	</script>
 
 	<br><br>

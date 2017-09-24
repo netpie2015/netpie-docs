@@ -17,7 +17,12 @@ char ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : value to parse
+- ``n``  String,Number: value to parse
+
+
+**ค่าที่ส่งออกมา**
+
+- String: string representation of value
 
 
 .. toctree::

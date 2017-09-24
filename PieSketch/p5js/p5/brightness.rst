@@ -13,7 +13,12 @@ brightness ( color )
 
 **พารามิเตอร์**
 
-- ``color``  : p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object or pixel array
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the brightness value
 
 
 .. raw:: html
@@ -27,6 +32,8 @@ brightness ( color )
 	value = brightness(c);  // Sets 'value' to 255
 	fill(value);
 	rect(50, 20, 35, 60);
+
+
 	</script>
 
 	<br><br>

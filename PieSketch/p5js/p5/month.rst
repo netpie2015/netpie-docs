@@ -12,11 +12,18 @@ returns the current month as a value from 1 - 12.
 
 month ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: the current month
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	var m = month();
 	text("Current month: \n" + m, 5, 50);
+
+
 	</script>
 
 	<br><br>

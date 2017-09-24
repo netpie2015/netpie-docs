@@ -15,7 +15,12 @@ str ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : value to parse
+- ``n``  String,Boolean,Number,Array: value to parse
+
+
+**ค่าที่ส่งออกมา**
+
+- String: string representation of value
 
 
 .. raw:: html
@@ -27,6 +32,8 @@ str ( n )
 	print(str(true));  // "true"
 	print(str(false)); // "false"
 	print(str([true, "10.3", 9.8])); // [ "true", "10.3", "9.8" ]
+
+
 	</script>
 
 	<br><br>

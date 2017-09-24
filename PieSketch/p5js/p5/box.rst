@@ -13,15 +13,15 @@ box ( width, [Height], [depth], [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``width``  : width of the box
+- ``width``  Number: width of the box
 
-- ``Height``  : height of the box
+- ``Height``  Number: height of the box
 
-- ``depth``  : depth of the box
+- ``depth``  Number: depth of the box
 
-- ``detailX``  : Optional number of triangle subdivisions in x-dimension
+- ``detailX``  Number: Optional number of triangle subdivisions in x-dimension
 
-- ``detailY``  : Optional number of triangle subdivisions in y-dimension
+- ``detailY``  Number: Optional number of triangle subdivisions in y-dimension
 
 
 .. raw:: html
@@ -38,6 +38,8 @@ box ( width, [Height], [depth], [detailX], [detailY] )
 	  rotateY(frameCount * 0.01);
 	  box(200, 200, 200);
 	}
+
+
 	</script>
 
 	<br><br>

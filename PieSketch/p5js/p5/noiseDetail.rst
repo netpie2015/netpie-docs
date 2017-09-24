@@ -17,9 +17,9 @@ octave. This falloff amount can be changed by adding an additional function
 parameter. Eg. a falloff factor of 0.75 means each octave will now have
 75% impact (25% less) of the previous lower octave. Any value between
 0.0 and 1.0 is valid, however note that values greater than 0.5 might
-result in greater than 1.0 values returned by <b>noise()</b>.
+result in greater than 1.0 values returned by noise().
 
-By changing these parameters, the signal created by the <b>noise()</b>
+By changing these parameters, the signal created by the noise()
 function can be adapted to fit very specific needs and characteristics.
 
 **รูปแบบการใช้งาน**
@@ -28,9 +28,9 @@ noiseDetail ( lod, falloff )
 
 **พารามิเตอร์**
 
-- ``lod``  : number of octaves to be used by the noise
+- ``lod``  Number: number of octaves to be used by the noise
 
-- ``falloff``  : falloff factor for each octave
+- ``falloff``  Number: falloff factor for each octave
 
 
 .. raw:: html
@@ -61,6 +61,8 @@ noiseDetail ( lod, falloff )
 	    }
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

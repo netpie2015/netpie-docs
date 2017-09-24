@@ -11,6 +11,11 @@ Returns the pixel density of the current display the sketch is running on.
 
 displayDensity ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: current pixel density of the display
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -21,6 +26,8 @@ displayDensity ( )
 	  background(200);
 	  ellipse(width/2, height/2, 50, 50);
 	}
+
+
 	</script>
 
 	<br><br>

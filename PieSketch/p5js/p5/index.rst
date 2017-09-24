@@ -32,16 +32,6 @@ attributes
 	textStyle() : Sets/gets the style of the text for system fonts to NORMAL, ITALIC, or BOLD. <textStyle>
 	textWidth() : Calculates and returns the width of any character or text string. <textWidth>
 
-core
-^^^^
-
-.. toctree::
-	draw() : Called directly after setup(), the draw() function continuously executes the lines of code contained inside its block until the program is stopped or noLoop() is called. <draw>
-	p5() : This is the p5 instance constructor. <p5>
-	preload() : Called directly before setup(), the preload() function is used to handle asynchronous loading of external files. <preload>
-	remove() : Removes the entire p5 sketch. <remove>
-	setup() : The setup() function is called once when the program starts. <setup>
-
 curves
 ^^^^^^
 
@@ -73,36 +63,6 @@ environment
 	print() : The print() function writes to the console area of your browser. <print>
 	setFrameRate() : Specifies the number of frames to be displayed every second. <setFrameRate>
 	windowResized() : The windowResized() function is called once every time the browser window is resized. <windowResized>
-
-p5.Element
-^^^^^^^^^^
-
-.. toctree::
-	changed() : The .changed() function is called when the value of an element is changed. <changed>
-	class() : Adds given class to the element. <class>
-	doubleClicked() : The .doubleClicked() function is called once after every time a mouse button is pressed twice over the element. <doubleClicked>
-	dragLeave() : The .dragLeave() function is called once after every time a dragged file leaves the element area. <dragLeave>
-	dragOver() : The .dragOver() function is called once after every time a file is dragged over the element. <dragOver>
-	drop() : The .drop() function is called for each file dropped on the element. <drop>
-	id() : Sets the ID of the element. <id>
-	input() : The .input() function is called when any user input is detected with an element. <input>
-	mouseClicked() : The .mouseClicked() function is called once after a mouse button is pressed and released over the element. <mouseClicked>
-	mouseMoved() : The .mouseMoved() function is called once every time a mouse moves over the element. <mouseMoved>
-	mouseOut() : The .mouseOut() function is called once after every time a mouse moves off the element. <mouseOut>
-	mouseOver() : The .mouseOver() function is called once after every time a mouse moves onto the element. <mouseOver>
-	mousePressed() : The .mousePressed() function is called once after every time a mouse button is pressed over the element. <mousePressed>
-	mouseReleased() : The .mouseReleased() function is called once after every time a mouse button is released over the element. <mouseReleased>
-	mouseWheel() : The .mouseWheel() function is called once after every time a mouse wheel is scrolled over the element. <mouseWheel>
-	parent() : Attaches the element to the parent specified. <parent>
-	touchEnded() : The .touchEnded() function is called once after every time a touch is registered. <touchEnded>
-	touchMoved() : The .touchMoved() function is called once after every time a touch move is registered. <touchMoved>
-	touchStarted() : The .touchStarted() function is called once after every time a touch is registered. <touchStarted>
-
-p5.Renderer
-^^^^^^^^^^^
-
-.. toctree::
-	calculateOffset() : Helper fxn to measure ascent and descent. <calculateOffset>
 
 rendering
 ^^^^^^^^^
@@ -155,17 +115,6 @@ vertex
 color
 -----
 
-color_conversion
-^^^^^^^^^^^^^^^^
-
-.. toctree::
-	ColorConversion._hsbaToHSLA() : Convert an HSBA array to HSLA. <ColorConversion._hsbaToHSLA>
-	ColorConversion._hsbaToRGBA() : Convert an HSBA array to RGBA. <ColorConversion._hsbaToRGBA>
-	ColorConversion._hslaToHSBA() : Convert an HSLA array to HSBA. <ColorConversion._hslaToHSBA>
-	ColorConversion._hslaToRGBA() : Convert an HSLA array to RGBA. <ColorConversion._hslaToRGBA>
-	ColorConversion._rgbaToHSBA() : Convert an RGBA array to HSBA. <ColorConversion._rgbaToHSBA>
-	ColorConversion._rgbaToHSLA() : Convert an RGBA array to HSLA. <ColorConversion._rgbaToHSLA>
-
 creating_reading
 ^^^^^^^^^^^^^^^^
 
@@ -181,12 +130,6 @@ creating_reading
 	red() : Extracts the red value from a color or pixel array. <red>
 	saturation() : Extracts the saturation value from a color or pixel array. <saturation>
 
-p5.Color
-^^^^^^^^
-
-.. toctree::
-	Color._parseInputs() : For a number of different inputs, returns a color formatted as [r, g, b, a] arrays, with each component normalized between 0 and 1. <Color._parseInputs>
-
 setting
 ^^^^^^^
 
@@ -198,34 +141,6 @@ setting
 	noFill() : Disables filling geometry. <noFill>
 	noStroke() : Disables drawing the stroke (outline). <noStroke>
 	stroke() : Sets the color used to draw lines and borders around shapes. <stroke>
-
-data
-----
-
-p5.TypedDict
-^^^^^^^^^^^^
-
-.. toctree::
-	add() : Add to a value stored at a certain key The sum is stored in that location in the Dictionary. <add>
-	clear() : Empties Dictionary of all key-value pairs <clear>
-	create() : Removes a key-value pair in the Dictionary <create>
-	createNumberDict() : Creates a new instance of p5.NumberDict using the key, value pair or object you provide. <createNumberDict>
-	createStringDict() : Creates a new instance of p5.StringDict using the key, value pair or object you provide. <createStringDict>
-	div() : Divide a value stored at a certain key The quotient is stored in that location in the Dictionary. <div>
-	get() : Returns value stored at supplied key. <get>
-	hasKey() : Returns true if key exists in Dictionary otherwise returns false <hasKey>
-	maxKey() : Return the highest key. <maxKey>
-	maxValue() : Return the highest value. <maxValue>
-	minKey() : Return the lowest key. <minKey>
-	minValue() : Return the lowest value. <minValue>
-	mult() : Multiply a value stored at a certain key The product is stored in that location in the Dictionary. <mult>
-	print() : Logs the list of items currently in the Dictionary to the console <print>
-	remove() : Removes a key-value pair in the Dictionary <remove>
-	saveJSON() : Converts the Dictionary into a JSON file for local storage. <saveJSON>
-	saveTable() : Converts the Dictionary into a CSV file for local storage. <saveTable>
-	set() : Changes the value of key if in it already exists in in the Dictionary otherwise makes a new key-value pair <set>
-	size() : Returns the number of key-value pairs currently in Dictionary object <size>
-	sub() : Subtract from a value stored at a certain key The difference is stored in that location in the Dictionary. <sub>
 
 events
 ------
@@ -302,23 +217,6 @@ loading_displaying
 	text() : Draws text to the screen. <text>
 	textFont() : Sets the current font that will be drawn with the text() function. <textFont>
 
-p5.Image
-^^^^^^^^
-
-.. toctree::
-	blend() : Copies a region of pixels from one image to another, using a specified blend mode to do the operation. <blend>
-	copy() : Copies a region of pixels from one image to another. <copy>
-	filter() : Applies an image filter to a p5.Image <filter>
-	get() : Get a region of pixels from an image. <get>
-	isModified() : helper method for web GL mode to figure out if the image has been modified and might need to be re-uploaded to texture memory between frames. <isModified>
-	loadPixels() : Loads the pixels data for this image into the [pixels] attribute. <loadPixels>
-	mask() : Masks part of an image from displaying by loading another image and using it's alpha channel as an alpha channel for this image. <mask>
-	resize() : Resize the image to a new width and height. <resize>
-	save() : Saves the image to a file and force the browser to download it. <save>
-	set() : Set the color of a single pixel or write an image into this p5.Image. <set>
-	setModified() : helper method for web GL mode to indicate that an image has been changed or unchanged since last upload. <setModified>
-	updatePixels() : Updates the backing canvas for this image with the contents of the [pixels] array. <updatePixels>
-
 pixels
 ^^^^^^
 
@@ -330,70 +228,6 @@ pixels
 	loadPixels() : Loads the pixel data for the display window into the pixels[] array. <loadPixels>
 	set() : Changes the color of any pixel, or writes an image directly to the display window. <set>
 	updatePixels() : Updates the display window with the data in the pixels[] array. <updatePixels>
-
-io
---
-
-p5.Table
-^^^^^^^^
-
-.. toctree::
-	addColumn() : Use addColumn() to add a new column to a Table object. <addColumn>
-	addRow() : Use addRow() to add a new row of data to a p5.Table object. <addRow>
-	clearRows() : Removes all rows from a Table. <clearRows>
-	findRow() : Finds the first row in the Table that contains the value  provided, and returns a reference to that row. <findRow>
-	findRows() : Finds the rows in the Table that contain the value  provided, and returns references to those rows. <findRows>
-	get() : Retrieves a value from the Table's specified row and column. <get>
-	getArray() : Retrieves all table data and returns it as a multidimensional array. <getArray>
-	getColumn() : Retrieves all values in the specified column, and returns them  as an array. <getColumn>
-	getNum() : Retrieves a Float value from the Table's specified row and column. <getNum>
-	getObject() : Retrieves all table data and returns as an object. <getObject>
-	getRow() : Returns a reference to the specified p5.TableRow. <getRow>
-	getRowCount() : Returns the total number of rows in a Table. <getRowCount>
-	getRows() : Gets all rows from the table. <getRows>
-	getString() : Retrieves a String value from the Table's specified row and column. <getString>
-	matchRow() : Finds the first row in the Table that matches the regular  expression provided, and returns a reference to that row. <matchRow>
-	matchRows() : Finds the rows in the Table that match the regular expression provided,  and returns references to those rows. <matchRows>
-	removeColumn() : Use removeColumn() to remove an existing column from a Table  object. <removeColumn>
-	removeRow() : Removes a row from the table object. <removeRow>
-	removeTokens() : Removes any of the specified characters (or "tokens"). <removeTokens>
-	set() : Stores a value in the Table's specified row and column. <set>
-	setNum() : Stores a Float value in the Table's specified row and column. <setNum>
-	setString() : Stores a String value in the Table's specified row and column. <setString>
-	trim() : Trims leading and trailing whitespace, such as spaces and tabs,  from String table values. <trim>
-
-p5.TableRow
-^^^^^^^^^^^
-
-.. toctree::
-	get() : Retrieves a value from the TableRow's specified column. <get>
-	getNum() : Retrieves a Float value from the TableRow's specified  column. <getNum>
-	getString() : Retrieves an String value from the TableRow's specified  column. <getString>
-	set() : Stores a value in the TableRow's specified column. <set>
-	setNum() : Stores a Float value in the TableRow's specified column. <setNum>
-	setString() : Stores a String value in the TableRow's specified column. <setString>
-
-p5.XML
-^^^^^^
-
-.. toctree::
-	addChild() : Appends a new child to the element. <addChild>
-	getAttributeCount() : Counts the specified element's number of attributes, returned as an Number. <getAttributeCount>
-	getChild() : Returns the first of the element's children that matches the name parameter or the child of the given index.It returns undefined if no matching child is found. <getChild>
-	getChildren() : Returns all of the element's children as an array of p5.XML objects. <getChildren>
-	getContent() : Returns the content of an element. <getContent>
-	getName() : Gets the element's full name, which is returned as a String. <getName>
-	getNum() : Returns an attribute value of the element as an Number. <getNum>
-	getParent() : Gets a copy of the element's parent. <getParent>
-	getString() : Returns an attribute value of the element as an String. <getString>
-	hasAttribute() : Checks whether or not an element has the specified attribute. <hasAttribute>
-	hasChildren() : Checks whether or not the element has any children, and returns the result as a boolean. <hasChildren>
-	listAttributes() : Gets all of the specified element's attributes, and returns them as an array of Strings. <listAttributes>
-	listChildren() : Get the names of all of the element's children, and returns the names as an array of Strings. <listChildren>
-	removeChild() : Removes the element specified by name or index. <removeChild>
-	setAttribute() : Sets the content of an element's attribute. <setAttribute>
-	setContent() : Sets the element's content. <setContent>
-	setName() : Sets the element's name, which is specified as a String. <setName>
 
 math
 ----
@@ -420,12 +254,6 @@ calculation
 	sq() : Squares a number (multiplies a number by itself). <sq>
 	sqrt() : Calculates the square root of a number. <sqrt>
 
-math
-^^^^
-
-.. toctree::
-	createVector() : Creates a new p5.Vector (the datatype for storing vectors). <createVector>
-
 noise
 ^^^^^
 
@@ -433,34 +261,6 @@ noise
 	noise() : Returns the Perlin noise value at specified coordinates. <noise>
 	noiseDetail() : Adjusts the character and level of detail produced by the Perlin noise function. <noiseDetail>
 	noiseSeed() : Sets the seed value for noise(). <noiseSeed>
-
-p5.Vector
-^^^^^^^^^
-
-.. toctree::
-	add() : Adds x, y, and z components to a vector, adds one vector to another, or adds two independent vectors together. <add>
-	angleBetween() : Calculates and returns the angle (in radians) between two vectors. <angleBetween>
-	array() : Return a representation of this vector as a float array. <array>
-	copy() : Gets a copy of the vector, returns a p5.Vector object. <copy>
-	cross() : Calculates and returns a vector composed of the cross product between two vectors. <cross>
-	dist() : Calculates the Euclidean distance between two points (considering a point as a vector object). <dist>
-	div() : Divide the vector by a scalar. <div>
-	dot() : Calculates the dot product of two vectors. <dot>
-	equals() : Equality check against a p5.Vector <equals>
-	fromAngle() : Make a new 2D unit vector from an angle <fromAngle>
-	heading() : Calculate the angle of rotation for this vector (only 2D vectors) <heading>
-	lerp() : Linear interpolate the vector to another vector <lerp>
-	limit() : Limit the magnitude of this vector to the value used for the max parameter. <limit>
-	mag() : Calculates the magnitude (length) of the vector and returns the result as a float (this is simply the equation sqrt(x*x + y*y + z*z).) <mag>
-	magSq() : Calculates the squared magnitude of the vector and returns the result as a float (this is simply the equation (x*x + y*y + z*z).) Faster if the real length is not required in the case of comparing vectors, etc. <magSq>
-	mult() : Multiply the vector by a scalar. <mult>
-	normalize() : Normalize the vector to length 1 (make it a unit vector). <normalize>
-	random2D() : Make a new 2D unit vector from a random angle <random2D>
-	random3D() : Make a new random 3D unit vector. <random3D>
-	rotate() : Rotate the vector by an angle (only 2D vectors), magnitude remains the same <rotate>
-	set() : Sets the x, y, and z component of the vector using two or three separate variables, the data from a p5.Vector, or the values from a float array. <set>
-	setMag() : Set the magnitude of this vector to the value used for the len parameter. <setMag>
-	sub() : Subtracts x, y, and z components from a vector, subtracts one vector from another, or subtracts two independent vectors. <sub>
 
 random
 ^^^^^^
@@ -507,12 +307,6 @@ loading_displaying
 	loadFont() : Loads an opentype font file (.otf, .ttf) from a file or a URL, and returns a PFont Object. <loadFont>
 	text() : Draws text to the screen. <text>
 	textFont() : Sets the current font that will be drawn with the text() function. <textFont>
-
-p5.Font
-^^^^^^^
-
-.. toctree::
-	textBounds() : Returns a tight bounding box for the given text string using this font (currently only supports single lines) <textBounds>
 
 utilities
 ---------
@@ -609,91 +403,6 @@ material
 	shader() : The shader() function lets the user provide a custom shader to fill in shapes in WEBGL mode. <shader>
 	specularMaterial() : Specular material for geometry with a given color. <specularMaterial>
 	texture() : Texture for geometry. <texture>
-
-p5.Geometry
-^^^^^^^^^^^
-
-.. toctree::
-	averageNormals() : Averages the vertex normals. <averageNormals>
-	averagePoleNormals() : Averages pole normals. <averagePoleNormals>
-	computeNormals() : computes smooth normals per vertex as an average of each face. <computeNormals>
-	normalize() : Modifies all vertices to be centered within the range -100 to 100. <normalize>
-
-p5.Matrix
-^^^^^^^^^
-
-.. toctree::
-	copy() : return a copy of a matrix <copy>
-	determinant() : inspired by Toji's mat4 determinant <determinant>
-	get() : Gets a copy of the vector, returns a p5.Matrix object. <get>
-	identity() : return an identity matrix <identity>
-	inverseTranspose() : converts a 4x4 matrix to its 3x3 inverse tranform commonly used in MVMatrix to NMatrix conversions. <inverseTranspose>
-	invert() : invert  matrix according to a give matrix <invert>
-	invert3x3() : Inverts a 3x3 matrix <invert3x3>
-	mult() : multiply two mat4s <mult>
-	ortho() : sets the ortho matrix <ortho>
-	perspective() : sets the perspective matrix <perspective>
-	rotate() : rotate our Matrix around an axis by the given angle. <rotate>
-	scale() : scales a p5.Matrix by scalars or a vector <scale>
-	set() : Sets the x, y, and z component of the vector using two or three separate variables, the data from a p5.Matrix, or the values from a float array. <set>
-	translate() :  <translate>
-	transpose() : transpose according to a given matrix <transpose>
-	transpose3x3() : transposes a 3x3 p5.Matrix by a mat3 <transpose3x3>
-
-p5.RendererGL.Immediate
-^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-	beginShape() : Begin shape drawing. <beginShape>
-	endShape() : End shape drawing and render vertices to screen. <endShape>
-	vertex() : adds a vertex to be drawn in a custom Shape. <vertex>
-
-p5.RendererGL
-^^^^^^^^^^^^^
-
-.. toctree::
-	background() : [background description] <background>
-	clear() : clears color and depth buffers with r,g,b,a <clear>
-	fill() : Basic fill material for geometry with a given color <fill>
-	get() : Returns an array of [R,G,B,A] values for any pixel or grabs a section of an image. <get>
-	loadPixels() : Loads the pixels data for this canvas into the pixels[] attribute. <loadPixels>
-	noFill() : Does not render fill material <noFill>
-	noStroke() : Does not render stroke <noStroke>
-	pop() : [pop description] <pop>
-	push() : pushes a copy of the model view matrix onto the MV Matrix stack. <push>
-	resize() : [resize description] <resize>
-	scale() : Scales the Model View Matrix by a vector <scale>
-	setAttributes() : Set attributes for the WebGL Drawing context. <setAttributes>
-	stroke() : Basic stroke material for geometry with a given color <stroke>
-	strokeWeight() : Change weight of stroke <strokeWeight>
-	translate() : [translate description] <translate>
-
-p5.RendererGL.Retained
-^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-	createBuffers() : createBuffers description <createBuffers>
-	drawBuffers() : Draws buffers given a geometry key ID <drawBuffers>
-
-p5.Shader
-^^^^^^^^^
-
-.. toctree::
-	bindShader() : initializes (if needed) and binds the shader program. <bindShader>
-	enableAttrib() :  <enableAttrib>
-	init() : Creates, compiles, and links the shader based on its sources for the vertex and fragment shaders (provided to the constructor). <init>
-	setUniform() : Wrapper around gl.uniform functions. <setUniform>
-	unbindShader() :  <unbindShader>
-	useProgram() :  <useProgram>
-
-p5.Texture
-^^^^^^^^^^
-
-.. toctree::
-	bindTexture() : Binds the texture to the appropriate GL target. <bindTexture>
-	init() : Initializes common texture parameters, creates a gl texture, tries to upload the texture for the first time if data is already available. <init>
-	unbindTexture() : Unbinds the texture from the appropriate GL target. <unbindTexture>
-	update() : Checks if the source data for this texture has changed (if it's easy to do so) and reuploads the texture if necessary. <update>
 
 primitives
 ^^^^^^^^^^

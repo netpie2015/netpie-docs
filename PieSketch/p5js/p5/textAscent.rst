@@ -13,6 +13,11 @@ the baseline.
 
 textAscent ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: 
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -28,6 +33,8 @@ textAscent ( )
 	asc = textAscent() * scalar;  // Recalc ascent
 	line(40, base - asc, width, base - asc);
 	text("dp", 40, base);  // Draw text on baseline
+
+
 	</script>
 
 	<br><br>

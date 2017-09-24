@@ -13,19 +13,19 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 **พารามิเตอร์**
 
-- ``v1``  : gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
+- ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
 
-- ``v2``  : optional: green or saturation value
+- ``v2``  Number: optional: green or saturation value
 
-- ``v3``  : optional: blue or brightness value
+- ``v3``  Number: optional: blue or brightness value
 
-- ``a``  : optional: opacity
+- ``a``  Number: optional: opacity
 
-- ``x``  : x axis position or a p5.Vector
+- ``x``  Number,p5.Vector: x axis position or a p5.Vector
 
-- ``y``  : optional: y axis position
+- ``y``  Number: optional: y axis position
 
-- ``z``  : optional: z axis position
+- ``z``  Number: optional: z axis position
 
 
 .. raw:: html
@@ -50,6 +50,8 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 	  ambientMaterial(250);
 	  sphere(50);
 	}
+
+
 	</script>
 
 	<br><br>

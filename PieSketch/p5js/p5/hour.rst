@@ -12,11 +12,18 @@ returns the current hour as a value from 0 - 23.
 
 hour ( )
 
+**ค่าที่ส่งออกมา**
+
+- Number: the current hour
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	var h = hour();
 	text("Current hour:\n" + h, 5, 50);
+
+
 	</script>
 
 	<br><br>

@@ -28,9 +28,14 @@ color ( gray, [alpha] )
 
 **พารามิเตอร์**
 
-- ``gray``  : number specifying value between white and black.
+- ``gray``  Number: number specifying value between white and black.
 
-- ``alpha``  : alpha value relative to current color range (default is 0-255)
+- ``alpha``  Number: alpha value relative to current color range (default is 0-255)
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Color: resulting color
 
 
 .. raw:: html
@@ -40,6 +45,7 @@ color ( gray, [alpha] )
 	fill(c);  // Use color variable 'c' as fill color
 	noStroke();  // Don't draw a stroke around shapes
 	rect(30, 20, 55, 55);  // Draw rectangle
+	
 	</script>
 
 	<br><br>
@@ -56,6 +62,8 @@ color ( gray, [alpha] )
 	var c = color(65);  // Update 'c' with grayscale value
 	fill(c);  // Use updated 'c' as fill color
 	ellipse(75, 75, 80, 80);  // Draw right circle
+
+
 	</script>
 
 	<br><br>
@@ -67,6 +75,8 @@ color ( gray, [alpha] )
 	fill(c);  // Use 'c' as fill color
 	noStroke();  // Don't draw a stroke around shapes
 	rect(20, 20, 60, 60);  // Draw rectangle
+
+
 	</script>
 
 	<br><br>
@@ -82,6 +92,8 @@ color ( gray, [alpha] )
 	c = color('#00ff00');
 	fill(c);  // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
+
+
 	</script>
 
 	<br><br>
@@ -107,6 +119,8 @@ color ( gray, [alpha] )
 	c = color('rgba(0%, 0%, 100%, 1)');
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 55, 35, 35);  // Draw rectangle
+
+
 	</script>
 
 	<br><br>
@@ -124,6 +138,8 @@ color ( gray, [alpha] )
 	c = color('hsla(160, 100%, 50%, 0.5)');
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
+
+
 	</script>
 
 	<br><br>
@@ -141,6 +157,8 @@ color ( gray, [alpha] )
 	c = color('hsba(160, 100%, 50%, 0.5)');
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
+
+
 	</script>
 
 	<br><br>
@@ -160,6 +178,8 @@ color ( gray, [alpha] )
 	c = color(50, 55, 100);  // Update 'c' with new color
 	fill(c);  // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw right rect
+
+
 	</script>
 
 	<br><br>

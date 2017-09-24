@@ -18,25 +18,25 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 **พารามิเตอร์**
 
-- ``srcImage``  : source image
+- ``srcImage``  p5.Image,undefined: source image
 
-- ``sx``  : X coordinate of the source's upper left corner
+- ``sx``  Integer: X coordinate of the source's upper left corner
 
-- ``sy``  : Y coordinate of the source's upper left corner
+- ``sy``  Integer: Y coordinate of the source's upper left corner
 
-- ``sw``  : source image width
+- ``sw``  Integer: source image width
 
-- ``sh``  : source image height
+- ``sh``  Integer: source image height
 
-- ``dx``  : X coordinate of the destination's upper left corner
+- ``dx``  Integer: X coordinate of the destination's upper left corner
 
-- ``dy``  : Y coordinate of the destination's upper left corner
+- ``dy``  Integer: Y coordinate of the destination's upper left corner
 
-- ``dw``  : destination image width
+- ``dw``  Integer: destination image width
 
-- ``dh``  : destination image height
+- ``dh``  Integer: destination image height
 
-- ``blendMode``  : the blend mode
+- ``blendMode``  Integer: the blend mode
 
 
 .. raw:: html
@@ -81,6 +81,8 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 	  image(img1, 0, 0);
 	  blend(img1, 0, 0, 33, 100, 67, 0, 33, 100, ADD);
 	}
+
+
 	</script>
 
 	<br><br>

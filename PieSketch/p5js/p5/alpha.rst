@@ -13,7 +13,12 @@ alpha ( color )
 
 **พารามิเตอร์**
 
-- ``color``  : p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object or pixel array
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the alpha value
 
 
 .. raw:: html
@@ -26,6 +31,8 @@ alpha ( color )
 	value = alpha(c);  // Sets 'value' to 102
 	fill(value);
 	rect(50, 15, 35, 70);
+
+
 	</script>
 
 	<br><br>

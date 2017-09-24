@@ -14,9 +14,9 @@ append ( array, value )
 
 **พารามิเตอร์**
 
-- ``array``  : Array to append
+- ``array``  Array: Array to append
 
-- ``value``  : to be added to the Array
+- ``value``  any: to be added to the Array
 
 
 .. raw:: html
@@ -31,6 +31,8 @@ append ( array, value )
 	print(myArray) // ["Mango", "Apple", "Papaya", "Peach"]
 	
 	}
+
+
 	</script>
 
 	<br><br>

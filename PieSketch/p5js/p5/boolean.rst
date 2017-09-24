@@ -18,7 +18,12 @@ boolean ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : value to parse
+- ``n``  String,Boolean,Number,Array: value to parse
+
+
+**ค่าที่ส่งออกมา**
+
+- Boolean: boolean representation of value
 
 
 .. raw:: html
@@ -29,6 +34,8 @@ boolean ( n )
 	print(boolean("true"));          // true
 	print(boolean("abcd"));          // false
 	print(boolean([0, 12, "true"])); // [false, true, false]
+
+
 	</script>
 
 	<br><br>

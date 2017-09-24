@@ -13,7 +13,7 @@ angleMode ( mode )
 
 **พารามิเตอร์**
 
-- ``mode``  : either RADIANS or DEGREES
+- ``mode``  Constant: either RADIANS or DEGREES
 
 
 .. raw:: html
@@ -32,6 +32,8 @@ angleMode ( mode )
 	  rotate(a); // var a stays the same
 	  rect(-40, -5, 20, 10); // Smaller rectangle is rotating in radians
 	}
+
+
 	</script>
 
 	<br><br>

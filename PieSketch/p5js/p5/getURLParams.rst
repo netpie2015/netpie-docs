@@ -11,6 +11,11 @@ Gets the current URL params as an Object.
 
 getURLParams ( )
 
+**ค่าที่ส่งออกมา**
+
+- Object: URL params
+
+
 .. raw:: html
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
@@ -22,6 +27,8 @@ getURLParams ( )
 	  text(params.month, 10, 40);
 	  text(params.year, 10, 60);
 	}
+
+
 	</script>
 
 	<br><br>

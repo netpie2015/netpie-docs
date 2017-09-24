@@ -13,11 +13,16 @@ constrain ( n, low, high )
 
 **พารามิเตอร์**
 
-- ``n``  : number to constrain
+- ``n``  Number: number to constrain
 
-- ``low``  : minimum limit
+- ``low``  Number: minimum limit
 
-- ``high``  : maximum limit
+- ``high``  Number: maximum limit
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: constrained number
 
 
 .. raw:: html
@@ -47,6 +52,8 @@ constrain ( n, low, high )
 	  fill(0);
 	  ellipse(xc, 66, 9,9); // Constrained
 	}
+
+
 	</script>
 
 	<br><br>

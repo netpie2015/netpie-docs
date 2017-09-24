@@ -55,9 +55,9 @@ filter ( filterType, filterParam )
 
 **พารามิเตอร์**
 
-- ``filterType``  : either THRESHOLD, GRAY, OPAQUE, INVERT, POSTERIZE, BLUR, ERODE or DILATE
+- ``filterType``  Constant: either THRESHOLD, GRAY, OPAQUE, INVERT, POSTERIZE, BLUR, ERODE or DILATE
 
-- ``filterParam``  : an optional parameter unique to each filter, see above
+- ``filterParam``  Number: an optional parameter unique to each filter, see above
 
 
 .. raw:: html
@@ -71,6 +71,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(THRESHOLD);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -85,6 +87,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(GRAY);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -99,6 +103,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(OPAQUE);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -113,6 +119,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(INVERT);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -127,6 +135,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(POSTERIZE,3);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -141,6 +151,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(DILATE);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -155,6 +167,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(BLUR,3);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -169,6 +183,8 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(ERODE);
 	}
+
+
 	</script>
 
 	<br><br>

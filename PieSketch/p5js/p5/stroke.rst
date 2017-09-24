@@ -5,41 +5,32 @@
 stroke()
 ========
 
-Basic stroke material for geometry with a given color
+Sets the color used to draw lines and borders around shapes. This color
+is either specified in terms of the RGB or HSB color depending on the
+current colorMode() (the default color space is RGB, with each value in
+the range from 0 to 255).
+
+If a single string argument is provided, RGB, RGBA and Hex CSS color
+strings and all named color strings are supported. In this case, an alpha
+number value as a second argument is not supported, the RGBA form should be
+used.
+
+A p5 Color object can also be provided to set the stroke color.
 
 **รูปแบบการใช้งาน**
 
-stroke ( v1, [v2], [v3], [a] )
+stroke ( v1, v2, v3, [alpha] )
 
 **พารามิเตอร์**
 
-- ``v1``  : gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
+- ``v1``  Number: red or hue value relative to the current color range
 
-- ``v2``  : optional: green or saturation value
+- ``v2``  Number: green or saturation value relative to the current color range
 
-- ``v3``  : optional: blue or brightness value
+- ``v3``  Number: blue or brightness value relative to the current color range
 
-- ``a``  : optional: opacity
+- ``alpha``  Number: 
 
-
-.. raw:: html
-
-	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	function setup(){
-	  createCanvas(200, 200, WEBGL);
-	}
-	
-	function draw(){
-	 background(0);
-	 stroke(240, 150, 150);
-	 fill(100, 100, 240);
-	 rotateX(frameCount * 0.01);
-	 rotateY(frameCount * 0.01);
-	 box(75, 75, 75);
-	}
-	</script>
-
-	<br><br>
 
 .. toctree::
 

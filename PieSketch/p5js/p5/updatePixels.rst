@@ -18,13 +18,13 @@ updatePixels ( [x], [y], [w], [h] )
 
 **พารามิเตอร์**
 
-- ``x``  : x-coordinate of the upper-left corner of region to update
+- ``x``  Number: x-coordinate of the upper-left corner of region to update
 
-- ``y``  : y-coordinate of the upper-left corner of region to update
+- ``y``  Number: y-coordinate of the upper-left corner of region to update
 
-- ``w``  : width of region to update
+- ``w``  Number: width of region to update
 
-- ``h``  : height of region to update
+- ``h``  Number: height of region to update
 
 
 .. raw:: html
@@ -45,6 +45,8 @@ updatePixels ( [x], [y], [w], [h] )
 	  }
 	  updatePixels();
 	}
+
+
 	</script>
 
 	<br><br>

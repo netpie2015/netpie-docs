@@ -14,7 +14,7 @@ setMoveThreshold ( value )
 
 **พารามิเตอร์**
 
-- ``value``  : The threshold value
+- ``value``  number: The threshold value
 
 
 .. toctree::

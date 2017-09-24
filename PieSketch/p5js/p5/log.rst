@@ -15,7 +15,12 @@ log ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number greater than 0
+- ``n``  Number: number greater than 0
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: natural logarithm of n
 
 
 .. raw:: html
@@ -57,6 +62,8 @@ log ( n )
 	  line(0,0,0,height);
 	  line(0,height/2,width, height/2);
 	}
+
+
 	</script>
 
 	<br><br>

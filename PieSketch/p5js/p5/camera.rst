@@ -19,23 +19,28 @@ camera ( [x], [y], [z], [centerX], [centerY], [centerZ], [upX], [upY], [upZ] )
 
 **พารามิเตอร์**
 
-- ``x``  : camera position value on x axis
+- ``x``  Number: camera position value on x axis
 
-- ``y``  : camera position value on y axis
+- ``y``  Number: camera position value on y axis
 
-- ``z``  : camera position value on z axis
+- ``z``  Number: camera position value on z axis
 
-- ``centerX``  : x coordinate representing center of the sketch
+- ``centerX``  Number: x coordinate representing center of the sketch
 
-- ``centerY``  : y coordinate representing center of the sketch
+- ``centerY``  Number: y coordinate representing center of the sketch
 
-- ``centerZ``  : z coordinate representing center of the sketch
+- ``centerZ``  Number: z coordinate representing center of the sketch
 
-- ``upX``  : x component of direction 'up' from camera
+- ``upX``  Number: x component of direction 'up' from camera
 
-- ``upY``  : y component of direction 'up' from camera
+- ``upY``  Number: y component of direction 'up' from camera
 
-- ``upZ``  : z component of direction 'up' from camera
+- ``upZ``  Number: z component of direction 'up' from camera
+
+
+**ค่าที่ส่งออกมา**
+
+- p5: the p5 object
 
 
 .. raw:: html
@@ -49,6 +54,8 @@ camera ( [x], [y], [z], [centerX], [centerY], [centerZ], [upX], [upY], [upZ] )
 	 camera(0, 0, sin(frameCount * 0.01) * 100, 0, 0, 0, 0, 1, 0);
 	 plane(120, 120);
 	}
+
+
 	</script>
 
 	<br><br>

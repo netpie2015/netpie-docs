@@ -15,7 +15,7 @@ textStyle ( theStyle )
 
 **พารามิเตอร์**
 
-- ``theStyle``  : styling for text, either NORMAL, ITALIC, or BOLD
+- ``theStyle``  Constant: styling for text, either NORMAL, ITALIC, or BOLD
 
 
 .. toctree::

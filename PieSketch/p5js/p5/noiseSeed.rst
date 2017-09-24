@@ -5,9 +5,9 @@
 noiseSeed()
 ===========
 
-Sets the seed value for <b>noise()</b>. By default, <b>noise()</b>
+Sets the seed value for noise(). By default, noise()
 produces different results each time the program is run. Set the
-<b>value</b> parameter to a constant to return the same pseudo-random
+value parameter to a constant to return the same pseudo-random
 numbers each time the software is run.
 
 **รูปแบบการใช้งาน**
@@ -16,7 +16,7 @@ noiseSeed ( seed )
 
 **พารามิเตอร์**
 
-- ``seed``  : the seed value
+- ``seed``  Number: the seed value
 
 
 .. raw:: html
@@ -34,6 +34,8 @@ noiseSeed ( seed )
 	  var n = noise(xoff) * width;
 	  line(n, 0, n, height);
 	}
+
+
 	</script>
 
 	<br><br>

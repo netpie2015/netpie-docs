@@ -28,15 +28,20 @@ text ( str, x, y, [x2], [y2] )
 
 **พารามิเตอร์**
 
-- ``str``  : the alphanumeric symbols to be displayed
+- ``str``  String: the alphanumeric symbols to be displayed
 
-- ``x``  : x-coordinate of text
+- ``x``  Number: x-coordinate of text
 
-- ``y``  : y-coordinate of text
+- ``y``  Number: y-coordinate of text
 
-- ``x2``  : by default, the width of the text box, see rectMode() for more info
+- ``x2``  Number: by default, the width of the text box, see rectMode() for more info
 
-- ``y2``  : by default, the height of the text box, see rectMode() for more info
+- ``y2``  Number: by default, the height of the text box, see rectMode() for more info
+
+
+**ค่าที่ส่งออกมา**
+
+- p5: this
 
 
 .. raw:: html
@@ -48,6 +53,8 @@ text ( str, x, y, [x2], [y2] )
 	text("word", 10, 60);
 	fill(0, 102, 153, 51);
 	text("word", 10, 90);
+
+
 	</script>
 
 	<br><br>
@@ -56,6 +63,8 @@ text ( str, x, y, [x2], [y2] )
 	s = "The quick brown fox jumped over the lazy dog.";
 	fill(50);
 	text(s, 10, 10, 70, 80); // Text wraps within text box
+
+
 	</script>
 
 	<br><br>

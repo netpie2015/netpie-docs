@@ -15,7 +15,12 @@ ceil ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number to round up
+- ``n``  Number: number to round up
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: rounded up number
 
 
 .. raw:: html
@@ -43,6 +48,8 @@ ceil ( n )
 	  text(nfc(ax, 2,2), ax, ay - 5);
 	  text(nfc(bx,1,1), bx, by - 5);
 	}
+
+
 	</script>
 
 	<br><br>

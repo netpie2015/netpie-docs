@@ -25,15 +25,15 @@ arrayCopy ( src, srcPosition, dst, dstPosition, length )
 
 **พารามิเตอร์**
 
-- ``src``  : the source Array
+- ``src``  Array: the source Array
 
-- ``srcPosition``  : starting position in the source Array
+- ``srcPosition``  Number: starting position in the source Array
 
-- ``dst``  : the destination Array
+- ``dst``  Array: the destination Array
 
-- ``dstPosition``  : starting position in the destination Array
+- ``dstPosition``  Number: starting position in the destination Array
 
-- ``length``  : number of Array elements to be copied
+- ``length``  Number: number of Array elements to be copied
 
 
 .. toctree::

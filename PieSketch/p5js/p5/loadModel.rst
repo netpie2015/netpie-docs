@@ -20,13 +20,18 @@ loadModel ( path, normalize, [successCallback], [failureCallback] )
 
 **พารามิเตอร์**
 
-- ``path``  : Path of the model to be loaded
+- ``path``  String: Path of the model to be loaded
 
-- ``normalize``  : If true, scale the model to a standardized size when loading
+- ``normalize``  Boolean: If true, scale the model to a standardized size when loading
 
-- ``successCallback``  : Function to be called once the model is loaded. Will be passed the 3D model object.
+- ``successCallback``  function: Function to be called once the model is loaded. Will be passed the 3D model object.
 
-- ``failureCallback``  : called with event error if the image fails to load.
+- ``failureCallback``  function: called with event error if the image fails to load.
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Geometry: the p5.Geometry object
 
 
 .. toctree::

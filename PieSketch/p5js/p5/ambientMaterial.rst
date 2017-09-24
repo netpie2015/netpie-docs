@@ -7,7 +7,7 @@ ambientMaterial()
 
 Ambient material for geometry with a given color. You can view all
 possible materials in this
-<a href="https://p5js.org/examples/3d-materials.html">example</a>.
+example.
 
 **รูปแบบการใช้งาน**
 
@@ -15,13 +15,13 @@ ambientMaterial ( v1, [v2], [v3], [a] )
 
 **พารามิเตอร์**
 
-- ``v1``  : gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
+- ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
 
-- ``v2``  : optional: green or saturation value
+- ``v2``  Number: optional: green or saturation value
 
-- ``v3``  : optional: blue or brightness value
+- ``v3``  Number: optional: blue or brightness value
 
-- ``a``  : optional: opacity
+- ``a``  Number: optional: opacity
 
 
 .. raw:: html
@@ -37,6 +37,8 @@ ambientMaterial ( v1, [v2], [v3], [a] )
 	 ambientMaterial(250);
 	 sphere(50);
 	}
+
+
 	</script>
 
 	<br><br>

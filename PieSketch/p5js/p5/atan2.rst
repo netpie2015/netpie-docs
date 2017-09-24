@@ -20,9 +20,14 @@ atan2 ( y, x )
 
 **พารามิเตอร์**
 
-- ``y``  : y-coordinate of the point
+- ``y``  Number: y-coordinate of the point
 
-- ``x``  : x-coordinate of the point
+- ``x``  Number: x-coordinate of the point
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the arc tangent of the given point
 
 
 .. raw:: html
@@ -35,6 +40,8 @@ atan2 ( y, x )
 	  rotate(a);
 	  rect(-30, -5, 60, 10);
 	}
+
+
 	</script>
 
 	<br><br>

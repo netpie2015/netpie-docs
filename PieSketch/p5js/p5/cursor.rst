@@ -18,11 +18,11 @@ cursor ( type, [x], [y] )
 
 **พารามิเตอร์**
 
-- ``type``  : either ARROW, CROSS, HAND, MOVE, TEXT, or WAIT, or path for image
+- ``type``  String,Constant: either ARROW, CROSS, HAND, MOVE, TEXT, or WAIT, or path for image
 
-- ``x``  : the horizontal active spot of the cursor
+- ``x``  Number: the horizontal active spot of the cursor
 
-- ``y``  : the vertical active spot of the cursor
+- ``y``  Number: the vertical active spot of the cursor
 
 
 .. raw:: html
@@ -38,6 +38,8 @@ cursor ( type, [x], [y] )
 	    cursor(HAND);
 	  }
 	}
+
+
 	</script>
 
 	<br><br>

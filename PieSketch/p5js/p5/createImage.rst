@@ -27,9 +27,14 @@ createImage ( width, height )
 
 **พารามิเตอร์**
 
-- ``width``  : width in pixels
+- ``width``  Integer: width in pixels
 
-- ``height``  : height in pixels
+- ``height``  Integer: height in pixels
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Image: the p5.Image object
 
 
 .. raw:: html
@@ -44,6 +49,8 @@ createImage ( width, height )
 	}
 	img.updatePixels();
 	image(img, 17, 17);
+
+
 	</script>
 
 	<br><br>
@@ -60,6 +67,8 @@ createImage ( width, height )
 	img.updatePixels();
 	image(img, 17, 17);
 	image(img, 34, 34);
+
+
 	</script>
 
 	<br><br>
@@ -79,6 +88,8 @@ createImage ( width, height )
 	}
 	img.updatePixels();
 	image(img, 17, 17);
+
+
 	</script>
 
 	<br><br>

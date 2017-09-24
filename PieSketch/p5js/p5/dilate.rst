@@ -13,7 +13,7 @@ dilate ( canvas )
 
 **พารามิเตอร์**
 
-- ``canvas``  : 
+- ``canvas``  Canvas: 
 
 
 .. toctree::

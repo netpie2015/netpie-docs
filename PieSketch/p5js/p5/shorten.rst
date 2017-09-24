@@ -14,7 +14,12 @@ shorten ( list )
 
 **พารามิเตอร์**
 
-- ``list``  : Array to shorten
+- ``list``  Array: Array to shorten
+
+
+**ค่าที่ส่งออกมา**
+
+- Array: shortened Array
 
 
 .. raw:: html
@@ -28,6 +33,8 @@ shorten ( list )
 	  print(myArray); // ["A","B","C"]
 	  print(newArray); // ["A","B"]
 	}
+
+
 	</script>
 
 	<br><br>

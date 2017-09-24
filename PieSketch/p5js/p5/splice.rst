@@ -18,11 +18,11 @@ splice ( list, value, position )
 
 **พารามิเตอร์**
 
-- ``list``  : Array to splice into
+- ``list``  Array: Array to splice into
 
-- ``value``  : value to be spliced in
+- ``value``  any: value to be spliced in
 
-- ``position``  : in the array from which to insert data
+- ``position``  Number: in the array from which to insert data
 
 
 .. raw:: html
@@ -37,6 +37,8 @@ splice ( list, value, position )
 	  splice(myArray, insArray, 3);
 	  print(myArray); // [0,1,2,"A","B","C",3,4]
 	}
+
+
 	</script>
 
 	<br><br>

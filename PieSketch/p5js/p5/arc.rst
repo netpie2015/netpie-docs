@@ -22,19 +22,19 @@ arc ( a, b, c, d, start, stop, [mode] )
 
 **พารามิเตอร์**
 
-- ``a``  : x-coordinate of the arc's ellipse
+- ``a``  Number: x-coordinate of the arc's ellipse
 
-- ``b``  : y-coordinate of the arc's ellipse
+- ``b``  Number: y-coordinate of the arc's ellipse
 
-- ``c``  : width of the arc's ellipse by default
+- ``c``  Number: width of the arc's ellipse by default
 
-- ``d``  : height of the arc's ellipse by default
+- ``d``  Number: height of the arc's ellipse by default
 
-- ``start``  : angle to start the arc, specified in radians
+- ``start``  Number: angle to start the arc, specified in radians
 
-- ``stop``  : angle to stop the arc, specified in radians
+- ``stop``  Number: angle to stop the arc, specified in radians
 
-- ``mode``  : optional parameter to determine the way of drawing the arc. either CHORD or PIE
+- ``mode``  Constant: optional parameter to determine the way of drawing the arc. either CHORD or PIE
 
 
 .. raw:: html
@@ -45,6 +45,8 @@ arc ( a, b, c, d, start, stop, [mode] )
 	arc(50, 55, 60, 60, HALF_PI, PI);
 	arc(50, 55, 70, 70, PI, PI+QUARTER_PI);
 	arc(50, 55, 80, 80, PI+QUARTER_PI, TWO_PI);
+
+
 	</script>
 
 	<br><br>
@@ -52,6 +54,8 @@ arc ( a, b, c, d, start, stop, [mode] )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	
 	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, OPEN);
+
+
 	</script>
 
 	<br><br>
@@ -59,6 +63,8 @@ arc ( a, b, c, d, start, stop, [mode] )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	
 	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, CHORD);
+
+
 	</script>
 
 	<br><br>
@@ -66,6 +72,8 @@ arc ( a, b, c, d, start, stop, [mode] )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	
 	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, PIE);
+
+
 	</script>
 
 	<br><br>

@@ -14,7 +14,12 @@ exp ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : exponent to raise
+- ``n``  Number: exponent to raise
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: e^n
 
 
 .. raw:: html
@@ -53,6 +58,8 @@ exp ( n )
 	  line(0, 0, 0, height);
 	  line(0, height-1, width, height-1);
 	}
+
+
 	</script>
 
 	<br><br>

@@ -16,7 +16,12 @@ sqrt ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : non-negative number to square root
+- ``n``  Number: non-negative number to square root
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: square root of number
 
 
 .. raw:: html
@@ -49,6 +54,8 @@ sqrt ( n )
 	  text("x = " + x1, 0, y1 + spacing);
 	  text("sqrt(x) = " + x2, 0, y2 + spacing);
 	}
+
+
 	</script>
 
 	<br><br>

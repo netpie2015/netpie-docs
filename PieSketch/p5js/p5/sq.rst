@@ -15,7 +15,12 @@ sq ( n )
 
 **พารามิเตอร์**
 
-- ``n``  : number to square
+- ``n``  Number: number to square
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: squared number
 
 
 .. raw:: html
@@ -48,6 +53,8 @@ sq ( n )
 	  text("x = " + x1, 0, y1 + spacing);
 	  text("sq(x) = " + x2, 0, y2 + spacing);
 	}
+
+
 	</script>
 
 	<br><br>

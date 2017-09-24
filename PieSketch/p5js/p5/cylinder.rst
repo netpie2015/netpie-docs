@@ -13,13 +13,13 @@ cylinder ( radius, height, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  : radius of the surface
+- ``radius``  Number: radius of the surface
 
-- ``height``  : height of the cylinder
+- ``height``  Number: height of the cylinder
 
-- ``detailX``  : optional: number of segments, the more segments the smoother geometry default is 24
+- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
 
-- ``detailY``  : optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
+- ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
 
 
 .. raw:: html
@@ -36,6 +36,8 @@ cylinder ( radius, height, [detailX], [detailY] )
 	  rotateZ(frameCount * 0.01);
 	  cylinder(200, 200);
 	}
+
+
 	</script>
 
 	<br><br>

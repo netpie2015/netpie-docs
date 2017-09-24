@@ -13,7 +13,12 @@ textWidth ( theText )
 
 **พารามิเตอร์**
 
-- ``theText``  : the String of characters to measure
+- ``theText``  String: the String of characters to measure
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: 
 
 
 .. raw:: html
@@ -30,6 +35,8 @@ textWidth ( theText )
 	var sWidth = textWidth(aString);
 	text(aString, 0, 85);
 	line(sWidth, 50, sWidth, 100);
+
+
 	</script>
 
 	<br><br>

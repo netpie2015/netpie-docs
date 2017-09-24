@@ -15,11 +15,16 @@ createGraphics ( w, h, [renderer] )
 
 **พารามิเตอร์**
 
-- ``w``  : width of the offscreen graphics buffer
+- ``w``  Number: width of the offscreen graphics buffer
 
-- ``h``  : height of the offscreen graphics buffer
+- ``h``  Number: height of the offscreen graphics buffer
 
-- ``renderer``  : either P2D or WEBGL undefined defaults to p2d
+- ``renderer``  Constant: either P2D or WEBGL undefined defaults to p2d
+
+
+**ค่าที่ส่งออกมา**
+
+- p5.Graphics: offscreen graphics buffer
 
 
 .. raw:: html
@@ -38,6 +43,8 @@ createGraphics ( w, h, [renderer] )
 	  image(pg, 50, 50);
 	  image(pg, 0, 0, 50, 50);
 	}
+
+
 	</script>
 
 	<br><br>

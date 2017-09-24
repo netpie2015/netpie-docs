@@ -16,7 +16,12 @@ pixelDensity ( [val] )
 
 **พารามิเตอร์**
 
-- ``val``  : whether or how much the sketch should scale
+- ``val``  Number: whether or how much the sketch should scale
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: current pixel density of the sketch
 
 
 .. raw:: html
@@ -28,6 +33,8 @@ pixelDensity ( [val] )
 	  background(200);
 	  ellipse(width/2, height/2, 50, 50);
 	}
+
+
 	</script>
 
 	<br><br>
@@ -39,6 +46,8 @@ pixelDensity ( [val] )
 	  background(200);
 	  ellipse(width/2, height/2, 50, 50);
 	}
+
+
 	</script>
 
 	<br><br>

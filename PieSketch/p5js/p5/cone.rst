@@ -13,13 +13,13 @@ cone ( radius, height, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  : radius of the bottom surface
+- ``radius``  Number: radius of the bottom surface
 
-- ``height``  : height of the cone
+- ``height``  Number: height of the cone
 
-- ``detailX``  : optional: number of segments, the more segments the smoother geometry default is 24
+- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
 
-- ``detailY``  : optional: number of segments, the more segments the smoother geometry default is 16
+- ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16
 
 
 .. raw:: html
@@ -36,6 +36,8 @@ cone ( radius, height, [detailX], [detailY] )
 	  rotateZ(frameCount * 0.01);
 	  cone(200, 200);
 	}
+
+
 	</script>
 
 	<br><br>

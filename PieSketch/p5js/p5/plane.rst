@@ -13,13 +13,18 @@ plane ( width, height, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``width``  : width of the plane
+- ``width``  Number: width of the plane
 
-- ``height``  : height of the plane
+- ``height``  Number: height of the plane
 
-- ``detailX``  : Optional number of triangle subdivisions in x-dimension
+- ``detailX``  Number: Optional number of triangle subdivisions in x-dimension
 
-- ``detailY``  : Optional number of triangle subdivisions in y-dimension
+- ``detailY``  Number: Optional number of triangle subdivisions in y-dimension
+
+
+**ค่าที่ส่งออกมา**
+
+- p5: the p5 object
 
 
 .. raw:: html
@@ -34,6 +39,8 @@ plane ( width, height, [detailX], [detailY] )
 	  background(200);
 	  plane(50, 50);
 	}
+
+
 	</script>
 
 	<br><br>

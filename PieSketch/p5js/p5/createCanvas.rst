@@ -16,8 +16,8 @@ to this function. If createCanvas() is not used, the window will be
 given a default size of 100x100 pixels.
 
 For more ways to position the canvas, see the
-<a href='https://github.com/processing/p5.js/wiki/Positioning-your-canvas'>
-positioning the canvas</a> wiki page.
+
+positioning the canvas wiki page.
 
 **รูปแบบการใช้งาน**
 
@@ -25,11 +25,16 @@ createCanvas ( w, h, [renderer] )
 
 **พารามิเตอร์**
 
-- ``w``  : width of the canvas
+- ``w``  Number: width of the canvas
 
-- ``h``  : height of the canvas
+- ``h``  Number: height of the canvas
 
-- ``renderer``  : either P2D or WEBGL
+- ``renderer``  Constant: either P2D or WEBGL
+
+
+**ค่าที่ส่งออกมา**
+
+- HTMLCanvasElement: canvas generated
 
 
 .. raw:: html
@@ -40,6 +45,8 @@ createCanvas ( w, h, [renderer] )
 	  background(153);
 	  line(0, 0, width, height);
 	}
+
+
 	</script>
 
 	<br><br>

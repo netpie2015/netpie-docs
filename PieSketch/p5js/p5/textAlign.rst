@@ -23,9 +23,14 @@ textAlign ( horizAlign, [vertAlign] )
 
 **พารามิเตอร์**
 
-- ``horizAlign``  : horizontal alignment, either LEFT, CENTER, or RIGHT
+- ``horizAlign``  Constant: horizontal alignment, either LEFT, CENTER, or RIGHT
 
-- ``vertAlign``  : vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
+- ``vertAlign``  Constant: vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: 
 
 
 .. raw:: html
@@ -38,6 +43,8 @@ textAlign ( horizAlign, [vertAlign] )
 	text("EFGH", 50, 50);
 	textAlign(LEFT);
 	text("IJKL", 50, 70);
+
+
 	</script>
 
 	<br><br>

@@ -17,9 +17,9 @@ sort ( list, [count] )
 
 **พารามิเตอร์**
 
-- ``list``  : Array to sort
+- ``list``  Array: Array to sort
 
-- ``count``  : number of elements to sort, starting from 0
+- ``count``  Number: number of elements to sort, starting from 0
 
 
 .. raw:: html
@@ -33,6 +33,8 @@ sort ( list, [count] )
 	  words = sort(words, count);
 	  print(words); // ["apple", "banana", "lime", "pear"]
 	}
+
+
 	</script>
 
 	<br><br>
@@ -46,6 +48,8 @@ sort ( list, [count] )
 	  numbers = sort(numbers, count);
 	  print(numbers); // [1,2,5,6,14,9,8,12]
 	}
+
+
 	</script>
 
 	<br><br>

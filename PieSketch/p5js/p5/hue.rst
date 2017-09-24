@@ -18,7 +18,12 @@ hue ( color )
 
 **พารามิเตอร์**
 
-- ``color``  : p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object or pixel array
+
+
+**ค่าที่ส่งออกมา**
+
+- Number: the hue
 
 
 .. raw:: html
@@ -32,6 +37,8 @@ hue ( color )
 	value = hue(c);  // Sets 'value' to "0"
 	fill(value);
 	rect(50, 20, 35, 60);
+
+
 	</script>
 
 	<br><br>

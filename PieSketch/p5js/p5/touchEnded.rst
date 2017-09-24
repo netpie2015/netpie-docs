@@ -35,6 +35,8 @@ touchEnded ( )
 	    value = 0;
 	  }
 	}
+
+
 	</script>
 
 	<br><br>
@@ -46,6 +48,8 @@ touchEnded ( )
 	  // prevent default
 	  return false;
 	}
+
+
 	</script>
 
 	<br><br>
