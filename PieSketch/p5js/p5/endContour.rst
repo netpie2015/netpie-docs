@@ -42,7 +42,6 @@ endContour ( )
 	endContour();
 	endShape(CLOSE);
 
-
 	</script>
 
 	<br><br>

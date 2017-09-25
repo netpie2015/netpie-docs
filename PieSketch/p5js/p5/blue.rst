@@ -33,7 +33,6 @@ blue ( color )
 	fill(0, 0, blueValue);  // Use 'blueValue' in new fill
 	rect(50, 20, 35, 60);  // Draw right rectangle
 
-
 	</script>
 
 	<br><br>

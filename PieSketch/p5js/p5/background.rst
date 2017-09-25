@@ -40,7 +40,6 @@ background ( color, [a] )
 	// Grayscale integer value
 	background(51);
 
-
 	</script>
 
 	<br><br>
@@ -49,7 +48,6 @@ background ( color, [a] )
 	
 	// R, G & B integer values
 	background(255, 204, 0);
-
 
 	</script>
 
@@ -61,7 +59,6 @@ background ( color, [a] )
 	colorMode(HSB);
 	background(255, 204, 100);
 
-
 	</script>
 
 	<br><br>
@@ -70,7 +67,6 @@ background ( color, [a] )
 	
 	// Named SVG/CSS color string
 	background('red');
-
 
 	</script>
 
@@ -81,7 +77,6 @@ background ( color, [a] )
 	// three-digit hexadecimal RGB notation
 	background('#fae');
 
-
 	</script>
 
 	<br><br>
@@ -90,7 +85,6 @@ background ( color, [a] )
 	
 	// six-digit hexadecimal RGB notation
 	background('#222222');
-
 
 	</script>
 
@@ -101,7 +95,6 @@ background ( color, [a] )
 	// integer RGB notation
 	background('rgb(0,255,0)');
 
-
 	</script>
 
 	<br><br>
@@ -110,7 +103,6 @@ background ( color, [a] )
 	
 	// integer RGBA notation
 	background('rgba(0,255,0, 0.25)');
-
 
 	</script>
 
@@ -121,7 +113,6 @@ background ( color, [a] )
 	// percentage RGB notation
 	background('rgb(100%,0%,10%)');
 
-
 	</script>
 
 	<br><br>
@@ -131,7 +122,6 @@ background ( color, [a] )
 	// percentage RGBA notation
 	background('rgba(100%,0%,100%,0.5)');
 
-
 	</script>
 
 	<br><br>
@@ -140,7 +130,6 @@ background ( color, [a] )
 	
 	// p5 Color object
 	background(color(0, 0, 255));
-
 
 	</script>
 

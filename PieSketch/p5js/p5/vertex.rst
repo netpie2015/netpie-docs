@@ -33,7 +33,6 @@ vertex ( x, y, [z] )
 	vertex(30, 75);
 	endShape();
 
-
 	</script>
 
 	<br><br>

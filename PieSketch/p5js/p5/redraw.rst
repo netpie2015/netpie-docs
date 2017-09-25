@@ -65,7 +65,6 @@ redraw ( [n] )
 	  redraw(5);
 	}
 
-
 	</script>
 
 	<br><br>

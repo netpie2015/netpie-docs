@@ -44,7 +44,6 @@ mouseWheel ( )
 	  //return false;
 	}
 
-
 	</script>
 
 	<br><br>

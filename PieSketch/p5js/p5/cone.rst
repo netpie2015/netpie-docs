@@ -37,7 +37,6 @@ cone ( radius, height, [detailX], [detailY] )
 	  cone(200, 200);
 	}
 
-
 	</script>
 
 	<br><br>

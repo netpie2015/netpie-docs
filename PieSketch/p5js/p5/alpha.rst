@@ -32,7 +32,6 @@ alpha ( color )
 	fill(value);
 	rect(50, 15, 35, 70);
 
-
 	</script>
 
 	<br><br>

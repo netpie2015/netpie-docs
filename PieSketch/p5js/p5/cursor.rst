@@ -39,7 +39,6 @@ cursor ( type, [x], [y] )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

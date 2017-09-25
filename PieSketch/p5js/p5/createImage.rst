@@ -50,7 +50,6 @@ createImage ( width, height )
 	img.updatePixels();
 	image(img, 17, 17);
 
-
 	</script>
 
 	<br><br>
@@ -67,7 +66,6 @@ createImage ( width, height )
 	img.updatePixels();
 	image(img, 17, 17);
 	image(img, 34, 34);
-
 
 	</script>
 
@@ -88,7 +86,6 @@ createImage ( width, height )
 	}
 	img.updatePixels();
 	image(img, 17, 17);
-
 
 	</script>
 

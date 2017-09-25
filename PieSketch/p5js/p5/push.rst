@@ -37,7 +37,6 @@ push ( )
 	
 	ellipse(100, 50, 33, 33);  // Right circle
 
-
 	</script>
 
 	<br><br>
@@ -58,7 +57,6 @@ push ( )
 	pop();  // Restore original state
 	
 	ellipse(100, 50, 33, 33);  // Right circle
-
 
 	</script>
 

@@ -32,7 +32,6 @@ line ( x1, y1, x2, y2 )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	line(30, 20, 85, 75);
 
-
 	</script>
 
 	<br><br>
@@ -44,7 +43,6 @@ line ( x1, y1, x2, y2 )
 	line(85, 20, 85, 75);
 	stroke(255);
 	line(85, 75, 30, 75);
-
 
 	</script>
 

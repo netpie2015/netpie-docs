@@ -43,7 +43,6 @@ subset ( list, start, [count] )
 	  print(sub2); // [3,4]
 	}
 
-
 	</script>
 
 	<br><br>

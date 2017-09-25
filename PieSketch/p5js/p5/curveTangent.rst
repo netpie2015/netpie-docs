@@ -49,7 +49,6 @@ curveTangent ( a, b, c, d, t )
 	  line(x, y, cos(a)*8 + x, sin(a)*8 + y);
 	}
 
-
 	</script>
 
 	<br><br>

@@ -50,7 +50,6 @@ bezierPoint ( a, b, c, d, t )
 	  ellipse(x, y, 5, 5);
 	}
 
-
 	</script>
 
 	<br><br>

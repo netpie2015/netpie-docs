@@ -1,0 +1,27 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+QUARTER_PI
+============
+
+QUARTER_PI is a mathematical constant with the value 0.7853982.
+It is one quarter the ratio of the circumference of a circle to
+its diameter. It is useful in combination with the trigonometric
+functions sin() and cos().
+
+**รูปแบบการใช้งาน**
+
+QUARTER_PI
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	arc(50, 50, 80, 80, 0, QUARTER_PI);
+
+	</script>
+
+	<br><br>
+
+.. toctree::
+

@@ -26,7 +26,6 @@ getURLPath ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

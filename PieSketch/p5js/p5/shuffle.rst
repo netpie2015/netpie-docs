@@ -40,7 +40,6 @@ shuffle ( array, [bool] )
 	  print(newArr);
 	}
 
-
 	</script>
 
 	<br><br>

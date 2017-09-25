@@ -59,7 +59,6 @@ bezierTangent ( a, b, c, d, t )
 	  ellipse(x, y, 5, 5);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -80,7 +79,6 @@ bezierTangent ( a, b, c, d, t )
 	  a -= HALF_PI;
 	  line(x, y, cos(a)*8 + x, sin(a)*8 + y);
 	}
-
 
 	</script>
 

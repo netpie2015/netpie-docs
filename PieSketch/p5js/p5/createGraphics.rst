@@ -44,7 +44,6 @@ createGraphics ( w, h, [renderer] )
 	  image(pg, 0, 0, 50, 50);
 	}
 
-
 	</script>
 
 	<br><br>

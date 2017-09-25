@@ -34,7 +34,6 @@ loadPixels ( )
 	  updatePixels();
 	}
 
-
 	</script>
 
 	<br><br>

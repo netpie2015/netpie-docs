@@ -26,7 +26,6 @@ normalMaterial ( )
 	 sphere(50);
 	}
 
-
 	</script>
 
 	<br><br>

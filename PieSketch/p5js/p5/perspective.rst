@@ -54,7 +54,6 @@ perspective ( [fovy], [aspect], [near], [far] )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

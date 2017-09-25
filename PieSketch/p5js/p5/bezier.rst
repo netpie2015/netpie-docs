@@ -53,7 +53,6 @@ bezier ( x1, y1, x2, y2, x3, y3, x4, y4 )
 	stroke(0, 0, 0);
 	bezier(85, 20, 10, 10, 90, 90, 15, 80);
 
-
 	</script>
 
 	<br><br>

@@ -36,7 +36,6 @@ texture ( tex )
 	  box(200, 200, 200);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -58,7 +57,6 @@ texture ( tex )
 	  texture(pg);
 	  plane(200);
 	}
-
 
 	</script>
 
@@ -82,7 +80,6 @@ texture ( tex )
 	  texture(vid);
 	  plane(200);
 	}
-
 
 	</script>
 

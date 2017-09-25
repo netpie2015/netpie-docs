@@ -33,7 +33,6 @@ keyReleased ( )
 	  return false; // prevent any default behavior
 	}
 
-
 	</script>
 
 	<br><br>

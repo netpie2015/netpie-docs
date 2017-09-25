@@ -33,7 +33,6 @@ sphere ( radius, [detailX], [detailY] )
 	  sphere(50);
 	}
 
-
 	</script>
 
 	<br><br>

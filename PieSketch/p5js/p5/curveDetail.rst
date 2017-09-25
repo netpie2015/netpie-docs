@@ -24,7 +24,6 @@ curveDetail ( resolution )
 	curveDetail(20);
 	curve(5, 26, 5, 26, 73, 24, 73, 61);
 
-
 	</script>
 
 	<br><br>

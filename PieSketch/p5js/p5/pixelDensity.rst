@@ -34,7 +34,6 @@ pixelDensity ( [val] )
 	  ellipse(width/2, height/2, 50, 50);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -46,7 +45,6 @@ pixelDensity ( [val] )
 	  background(200);
 	  ellipse(width/2, height/2, 50, 50);
 	}
-
 
 	</script>
 

@@ -1,0 +1,31 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+mouseY
+========
+
+The system variable mouseY always contains the current vertical position
+of the mouse, relative to (0, 0) of the canvas. If touch is
+used instead of mouse input, mouseY will hold the y value of the most
+recent touch point.
+
+**รูปแบบการใช้งาน**
+
+mouseY
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	// Move the mouse across the canvas
+	function draw() {
+	  background(244, 248, 252);
+	  line(0, mouseY, 100, mouseY);
+	}
+
+	</script>
+
+	<br><br>
+
+.. toctree::
+

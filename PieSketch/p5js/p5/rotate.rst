@@ -38,7 +38,6 @@ rotate ( angle, [axis] )
 	rotate(PI/3.0);
 	rect(-26, -26, 52, 52);
 
-
 	</script>
 
 	<br><br>

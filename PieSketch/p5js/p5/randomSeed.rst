@@ -29,7 +29,6 @@ randomSeed ( seed )
 	  line(i, 0, i, 100);
 	}
 
-
 	</script>
 
 	<br><br>

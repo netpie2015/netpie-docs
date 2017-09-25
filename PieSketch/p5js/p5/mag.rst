@@ -46,7 +46,6 @@ mag ( a, b )
 	  print(mag(x2, y2));  // Prints "106.3014581273465"
 	}
 
-
 	</script>
 
 	<br><br>

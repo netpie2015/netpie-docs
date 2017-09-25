@@ -61,7 +61,6 @@ noise ( x, [y], [z] )
 	  line(n, 0, n, height);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -77,7 +76,6 @@ noise ( x, [y], [z] )
 	    line(x, mouseY+noiseVal*80, x, height);
 	  }
 	}
-
 
 	</script>
 

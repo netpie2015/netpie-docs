@@ -54,7 +54,6 @@ sq ( n )
 	  text("sq(x) = " + x2, 0, y2 + spacing);
 	}
 
-
 	</script>
 
 	<br><br>

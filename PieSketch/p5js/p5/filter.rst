@@ -72,7 +72,6 @@ filter ( filterType, filterParam )
 	 filter(THRESHOLD);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -87,7 +86,6 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(GRAY);
 	}
-
 
 	</script>
 
@@ -104,7 +102,6 @@ filter ( filterType, filterParam )
 	 filter(OPAQUE);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -119,7 +116,6 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(INVERT);
 	}
-
 
 	</script>
 
@@ -136,7 +132,6 @@ filter ( filterType, filterParam )
 	 filter(POSTERIZE,3);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -151,7 +146,6 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(DILATE);
 	}
-
 
 	</script>
 
@@ -168,7 +162,6 @@ filter ( filterType, filterParam )
 	 filter(BLUR,3);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -183,7 +176,6 @@ filter ( filterType, filterParam )
 	 image(img, 0, 0);
 	 filter(ERODE);
 	}
-
 
 	</script>
 

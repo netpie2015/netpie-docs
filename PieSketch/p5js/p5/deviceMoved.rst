@@ -32,7 +32,6 @@ deviceMoved ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

@@ -44,7 +44,6 @@ bezierVertex ( x2, y2, x3, y3, x4, y4 )
 	bezierVertex(80, 0, 80, 75, 30, 75);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -56,7 +55,6 @@ bezierVertex ( x2, y2, x3, y3, x4, y4 )
 	bezierVertex(80, 0, 80, 75, 30, 75);
 	bezierVertex(50, 80, 60, 25, 30, 20);
 	endShape();
-
 
 	</script>
 

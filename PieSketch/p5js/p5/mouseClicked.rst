@@ -41,7 +41,6 @@ mouseClicked ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -53,7 +52,6 @@ mouseClicked ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

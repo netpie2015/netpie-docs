@@ -32,7 +32,6 @@ append ( array, value )
 	
 	}
 
-
 	</script>
 
 	<br><br>

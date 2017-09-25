@@ -33,7 +33,6 @@ str ( n )
 	print(str(false)); // "false"
 	print(str([true, "10.3", 9.8])); // [ "true", "10.3", "9.8" ]
 
-
 	</script>
 
 	<br><br>

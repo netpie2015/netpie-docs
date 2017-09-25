@@ -32,7 +32,6 @@ clear ( )
 	  clear();
 	}
 
-
 	</script>
 
 	<br><br>

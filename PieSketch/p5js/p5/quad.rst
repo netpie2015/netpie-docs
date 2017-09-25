@@ -39,7 +39,6 @@ quad ( x1, y1, x2, y2, x3, y3, x4, y4 )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	quad(38, 31, 86, 20, 69, 63, 30, 76);
 
-
 	</script>
 
 	<br><br>

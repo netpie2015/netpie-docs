@@ -38,7 +38,6 @@ doubleClicked ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -50,7 +49,6 @@ doubleClicked ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

@@ -33,7 +33,6 @@ print ( contents )
 	print("The value of x is " + x);
 	// prints "The value of x is 10"
 
-
 	</script>
 
 	<br><br>

@@ -61,7 +61,6 @@ norm ( value, start, stop )
 	  text(normalized, normalX, normalY);
 	}
 
-
 	</script>
 
 	<br><br>

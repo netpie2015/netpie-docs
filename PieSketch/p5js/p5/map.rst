@@ -52,7 +52,6 @@ map ( value, start1, stop1, start2, stop2 )
 	    }
 	  
 
-
 	</script>
 
 	<br><br>

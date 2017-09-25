@@ -53,7 +53,6 @@ curve ( x1, y1, x2, y2, x3, y3, x4, y4 )
 	stroke(255, 102, 0);
 	curve(73, 24, 73, 61, 15, 65, 15, 65);
 
-
 	</script>
 
 	<br><br>
@@ -69,7 +68,6 @@ curve ( x1, y1, x2, y2, x3, y3, x4, y4 )
 	curve(p1.x, p1.y, p2.x, p2.y, p3.x, p3.y, p4.x, p4.y)
 	stroke(255, 102, 0);
 	curve(p2.x, p2.y, p3.x, p3.y, p4.x, p4.y, p4.x, p4.y)
-
 
 	</script>
 

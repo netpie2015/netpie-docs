@@ -35,7 +35,6 @@ boolean ( n )
 	print(boolean("abcd"));          // false
 	print(boolean([0, 12, "true"])); // [false, true, false]
 
-
 	</script>
 
 	<br><br>

@@ -53,7 +53,6 @@ ortho ( left, right, bottom, top, near, far )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

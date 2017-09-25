@@ -32,7 +32,6 @@ acos ( value )
 	// Prints: "3.1415927 : -1.0 : 3.1415927"
 	print(a + " : " + c + " : " +  ac);
 
-
 	</script>
 
 	<br><br>
@@ -44,7 +43,6 @@ acos ( value )
 	var ac = acos(c);
 	// Prints: "3.926991 : -0.70710665 : 2.3561943"
 	print(a + " : " + c + " : " +  ac);
-
 
 	</script>
 

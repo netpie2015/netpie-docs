@@ -38,7 +38,6 @@ mousePressed ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -50,7 +49,6 @@ mousePressed ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

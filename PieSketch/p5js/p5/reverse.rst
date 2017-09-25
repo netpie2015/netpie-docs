@@ -27,7 +27,6 @@ reverse ( list )
 	  print(myArray); // ["C","B","A"]
 	}
 
-
 	</script>
 
 	<br><br>

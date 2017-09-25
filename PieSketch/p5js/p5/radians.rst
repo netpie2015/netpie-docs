@@ -32,7 +32,6 @@ radians ( degrees )
 	print(deg + " degrees is " + rad + " radians");
 	// Prints: 45 degrees is 0.7853981633974483 radians
 
-
 	</script>
 
 	<br><br>

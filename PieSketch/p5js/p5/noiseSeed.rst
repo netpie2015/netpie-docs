@@ -35,7 +35,6 @@ noiseSeed ( seed )
 	  line(n, 0, n, height);
 	}
 
-
 	</script>
 
 	<br><br>

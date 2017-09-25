@@ -51,7 +51,6 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 	  sphere(50);
 	}
 
-
 	</script>
 
 	<br><br>

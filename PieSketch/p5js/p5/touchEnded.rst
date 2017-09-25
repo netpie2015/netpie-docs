@@ -36,7 +36,6 @@ touchEnded ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -48,7 +47,6 @@ touchEnded ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

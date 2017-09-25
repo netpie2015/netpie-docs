@@ -34,7 +34,6 @@ join ( list, separator )
 	var message = join(array, separator);
 	text(message, 5, 50);
 
-
 	</script>
 
 	<br><br>

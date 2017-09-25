@@ -41,7 +41,6 @@ randomGaussian ( mean, sd )
 	 line(50, y, x, y);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -68,7 +67,6 @@ randomGaussian ( mean, sd )
 	   line(0, 0, dist, 0);
 	 }
 	}
-
 
 	</script>
 

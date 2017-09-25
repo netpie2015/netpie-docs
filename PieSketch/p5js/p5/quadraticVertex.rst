@@ -38,7 +38,6 @@ quadraticVertex ( cx, cy, x3, y3 )
 	quadraticVertex(80, 20, 50, 50);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -53,7 +52,6 @@ quadraticVertex ( cx, cy, x3, y3 )
 	quadraticVertex(20, 80, 80, 80);
 	vertex(80, 60);
 	endShape();
-
 
 	</script>
 

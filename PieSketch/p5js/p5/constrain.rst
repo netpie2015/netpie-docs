@@ -53,7 +53,6 @@ constrain ( n, low, high )
 	  ellipse(xc, 66, 9,9); // Constrained
 	}
 
-
 	</script>
 
 	<br><br>

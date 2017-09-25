@@ -54,7 +54,6 @@ keyIsDown ( code )
 	  ellipse(x, y, 50, 50);
 	}
 
-
 	</script>
 
 	<br><br>

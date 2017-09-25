@@ -23,7 +23,6 @@ minute ( )
 	var m = minute();
 	text("Current minute: \n" + m, 5, 50);
 
-
 	</script>
 
 	<br><br>

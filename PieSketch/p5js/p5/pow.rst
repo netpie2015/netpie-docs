@@ -44,7 +44,6 @@ pow ( n, e )
 	  ellipse(eLoc*8, eLoc*8, pow(eSize, 4), pow(eSize, 4));
 	}
 
-
 	</script>
 
 	<br><br>

@@ -48,7 +48,6 @@ set ( x, y, c )
 	set(30, 75, black);
 	updatePixels();
 
-
 	</script>
 
 	<br><br>
@@ -62,7 +61,6 @@ set ( x, y, c )
 	  }
 	}
 	updatePixels();
-
 
 	</script>
 
@@ -81,7 +79,6 @@ set ( x, y, c )
 	  line(0, 0, width, height);
 	  line(0, height, width, 0);
 	}
-
 
 	</script>
 

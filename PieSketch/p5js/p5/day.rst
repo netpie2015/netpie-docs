@@ -23,7 +23,6 @@ day ( )
 	var d = day();
 	text("Current day: \n" + d, 5, 50);
 
-
 	</script>
 
 	<br><br>

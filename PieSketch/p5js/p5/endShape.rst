@@ -37,7 +37,6 @@ endShape ( [mode] )
 	vertex(75, 80);
 	endShape();
 
-
 	</script>
 
 	<br><br>

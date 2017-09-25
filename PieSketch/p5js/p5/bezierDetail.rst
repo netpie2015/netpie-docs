@@ -24,7 +24,6 @@ bezierDetail ( detail )
 	bezierDetail(50);
 	bezier(85, 20, 10, 10, 90, 90, 15, 80);
 
-
 	</script>
 
 	<br><br>

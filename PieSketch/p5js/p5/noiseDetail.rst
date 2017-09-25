@@ -62,7 +62,6 @@ noiseDetail ( lod, falloff )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

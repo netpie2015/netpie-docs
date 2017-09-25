@@ -46,7 +46,6 @@ matchAll ( str, regexp )
 	var regexp = "Hello"
 	matchAll(string, regexp);
 
-
 	</script>
 
 	<br><br>

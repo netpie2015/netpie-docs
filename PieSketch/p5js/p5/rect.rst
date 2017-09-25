@@ -50,7 +50,6 @@ rect ( x, y, w, h, [tl], [tr], [br], [bl] )
 	// Draw a rectangle at location (30, 20) with a width and height of 55.
 	rect(30, 20, 55, 55);
 
-
 	</script>
 
 	<br><br>
@@ -59,7 +58,6 @@ rect ( x, y, w, h, [tl], [tr], [br], [bl] )
 	
 	// Draw a rectangle with rounded corners, each having a radius of 20.
 	rect(30, 20, 55, 55, 20);
-
 
 	</script>
 
@@ -70,7 +68,6 @@ rect ( x, y, w, h, [tl], [tr], [br], [bl] )
 	// Draw a rectangle with rounded corners having the following radii:
 	// top-left = 20, top-right = 15, bottom-right = 10, bottom-left = 5.
 	rect(30, 20, 55, 55, 20, 15, 10, 5);
-
 
 	</script>
 

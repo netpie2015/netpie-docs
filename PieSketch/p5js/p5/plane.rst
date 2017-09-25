@@ -40,7 +40,6 @@ plane ( width, height, [detailX], [detailY] )
 	  plane(50, 50);
 	}
 
-
 	</script>
 
 	<br><br>

@@ -37,7 +37,6 @@ cylinder ( radius, height, [detailX], [detailY] )
 	  cylinder(200, 200);
 	}
 
-
 	</script>
 
 	<br><br>

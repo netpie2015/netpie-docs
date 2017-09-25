@@ -23,7 +23,6 @@ month ( )
 	var m = month();
 	text("Current month: \n" + m, 5, 50);
 
-
 	</script>
 
 	<br><br>

@@ -19,7 +19,6 @@ noCanvas ( )
 	  noCanvas();
 	}
 
-
 	</script>
 
 	<br><br>

@@ -41,7 +41,6 @@ atan2 ( y, x )
 	  rect(-30, -5, 60, 10);
 	}
 
-
 	</script>
 
 	<br><br>

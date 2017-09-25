@@ -37,7 +37,6 @@ ellipsoid ( radiusx, radiusy, radiusz, [detailX], [detailY] )
 	  ellipsoid(20, 30, 40);
 	}
 
-
 	</script>
 
 	<br><br>

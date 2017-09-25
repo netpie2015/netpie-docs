@@ -35,7 +35,6 @@ mouseDragged ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -47,7 +46,6 @@ mouseDragged ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

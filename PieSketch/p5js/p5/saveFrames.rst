@@ -45,7 +45,6 @@ saveFrames ( filename, extension, duration, framerate, [callback] )
 	 }
 	 
 
-
 	</script>
 
 	<br><br>

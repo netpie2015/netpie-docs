@@ -82,7 +82,6 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 	  blend(img1, 0, 0, 33, 100, 67, 0, 33, 100, ADD);
 	}
 
-
 	</script>
 
 	<br><br>

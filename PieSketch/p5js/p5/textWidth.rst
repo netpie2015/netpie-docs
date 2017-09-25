@@ -36,7 +36,6 @@ textWidth ( theText )
 	text(aString, 0, 85);
 	line(sWidth, 50, sWidth, 100);
 
-
 	</script>
 
 	<br><br>

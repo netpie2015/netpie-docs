@@ -18,7 +18,6 @@ noStroke ( )
 	noStroke();
 	rect(20, 20, 60, 60);
 
-
 	</script>
 
 	<br><br>

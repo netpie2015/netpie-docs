@@ -34,7 +34,6 @@ shorten ( list )
 	  print(newArray); // ["A","B"]
 	}
 
-
 	</script>
 
 	<br><br>

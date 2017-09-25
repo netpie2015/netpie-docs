@@ -35,7 +35,6 @@ translate ( x, y, [z] )
 	translate(30, 20);
 	rect(0, 0, 55, 55);
 
-
 	</script>
 
 	<br><br>
@@ -47,7 +46,6 @@ translate ( x, y, [z] )
 	rect(0, 0, 55, 55);  // Draw rect at new 0,0
 	translate(14, 14);
 	rect(0, 0, 55, 55);  // Draw rect at new 0,0
-
 
 	</script>
 

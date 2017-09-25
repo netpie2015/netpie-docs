@@ -38,7 +38,6 @@ split ( value, delim )
 	text(splitString[1], 5, 50);
 	text(splitString[2], 5, 70);
 
-
 	</script>
 
 	<br><br>

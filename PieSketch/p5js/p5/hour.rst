@@ -23,7 +23,6 @@ hour ( )
 	var h = hour();
 	text("Current hour:\n" + h, 5, 50);
 
-
 	</script>
 
 	<br><br>

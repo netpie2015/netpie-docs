@@ -23,7 +23,6 @@ noCursor ( )
 	  ellipse(mouseX, mouseY, 10, 10);
 	}
 
-
 	</script>
 
 	<br><br>

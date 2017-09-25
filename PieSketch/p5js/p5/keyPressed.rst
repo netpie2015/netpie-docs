@@ -46,7 +46,6 @@ keyPressed ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -65,7 +64,6 @@ keyPressed ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -75,7 +73,6 @@ keyPressed ( )
 	  // Do something
 	  return false; // prevent any default behaviour
 	}
-
 
 	</script>
 

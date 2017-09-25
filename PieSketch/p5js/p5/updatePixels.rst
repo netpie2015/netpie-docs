@@ -46,7 +46,6 @@ updatePixels ( [x], [y], [w], [h] )
 	  updatePixels();
 	}
 
-
 	</script>
 
 	<br><br>

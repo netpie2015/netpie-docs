@@ -40,7 +40,6 @@ beginShape ( [kind] )
 	vertex(30, 75);
 	endShape(CLOSE);
 
-
 	</script>
 
 	<br><br>
@@ -55,7 +54,6 @@ beginShape ( [kind] )
 	vertex(30, 75);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -68,7 +66,6 @@ beginShape ( [kind] )
 	vertex(85, 75);
 	vertex(30, 75);
 	endShape();
-
 
 	</script>
 
@@ -83,7 +80,6 @@ beginShape ( [kind] )
 	vertex(85, 75);
 	vertex(30, 75);
 	endShape();
-
 
 	</script>
 
@@ -99,7 +95,6 @@ beginShape ( [kind] )
 	vertex(30, 75);
 	endShape(CLOSE);
 
-
 	</script>
 
 	<br><br>
@@ -114,7 +109,6 @@ beginShape ( [kind] )
 	vertex(70, 75);
 	vertex(80, 20);
 	endShape();
-
 
 	</script>
 
@@ -132,7 +126,6 @@ beginShape ( [kind] )
 	vertex(90, 75);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -147,7 +140,6 @@ beginShape ( [kind] )
 	vertex(22, 50);
 	vertex(57.5, 15);
 	endShape();
-
 
 	</script>
 
@@ -166,7 +158,6 @@ beginShape ( [kind] )
 	vertex(85, 20);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -184,7 +175,6 @@ beginShape ( [kind] )
 	vertex(85, 75);
 	endShape();
 
-
 	</script>
 
 	<br><br>
@@ -199,7 +189,6 @@ beginShape ( [kind] )
 	vertex(60, 60);
 	vertex(20, 60);
 	endShape(CLOSE);
-
 
 	</script>
 

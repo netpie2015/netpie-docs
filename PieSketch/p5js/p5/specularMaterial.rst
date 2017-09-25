@@ -38,7 +38,6 @@ specularMaterial ( v1, [v2], [v3], [a] )
 	 sphere(50);
 	}
 
-
 	</script>
 
 	<br><br>

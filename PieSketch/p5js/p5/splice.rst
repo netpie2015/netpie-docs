@@ -38,7 +38,6 @@ splice ( list, value, position )
 	  print(myArray); // [0,1,2,"A","B","C",3,4]
 	}
 
-
 	</script>
 
 	<br><br>

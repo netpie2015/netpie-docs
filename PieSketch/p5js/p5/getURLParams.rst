@@ -28,7 +28,6 @@ getURLParams ( )
 	  text(params.year, 10, 60);
 	}
 
-
 	</script>
 
 	<br><br>

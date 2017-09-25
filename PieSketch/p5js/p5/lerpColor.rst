@@ -53,7 +53,6 @@ lerpColor ( c1, c2, amt )
 	fill(to);
 	rect(70, 20, 20, 60);
 
-
 	</script>
 
 	<br><br>

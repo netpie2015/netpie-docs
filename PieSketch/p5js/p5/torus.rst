@@ -37,7 +37,6 @@ torus ( radius, tubeRadius, [detailX], [detailY] )
 	  torus(200, 60);
 	}
 
-
 	</script>
 
 	<br><br>

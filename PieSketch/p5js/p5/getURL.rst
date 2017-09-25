@@ -34,7 +34,6 @@ getURL ( )
 	  x--;
 	}
 
-
 	</script>
 
 	<br><br>

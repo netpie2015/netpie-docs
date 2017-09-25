@@ -39,7 +39,6 @@ scale ( s, [y], [z] )
 	rotate(PI/3.0);
 	rect(-26, -26, 52, 52);
 
-
 	</script>
 
 	<br><br>
@@ -49,7 +48,6 @@ scale ( s, [y], [z] )
 	rect(30, 20, 50, 50);
 	scale(0.5, 1.3);
 	rect(30, 20, 50, 50);
-
 
 	</script>
 

@@ -33,7 +33,6 @@ red ( color )
 	fill(redValue, 0, 0);  // Use 'redValue' in new fill
 	rect(50, 20, 35, 60);  // Draw right rectangle
 
-
 	</script>
 
 	<br><br>
@@ -45,7 +44,6 @@ red ( color )
 	colorMode(RGB, 1);
 	var myColor = red(c);
 	print(myColor);
-
 
 	</script>
 

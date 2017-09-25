@@ -36,7 +36,6 @@ deviceTurned ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -60,7 +59,6 @@ deviceTurned ( )
 	    }
 	  }
 	}
-
 
 	</script>
 

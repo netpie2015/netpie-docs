@@ -23,7 +23,6 @@ year ( )
 	var y = year();
 	text("Current year: \n" + y, 5, 50);
 
-
 	</script>
 
 	<br><br>

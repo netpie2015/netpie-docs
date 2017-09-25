@@ -55,7 +55,6 @@ copy ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh )
 	  rect(7, 22, 10, 10);
 	}
 
-
 	</script>
 
 	<br><br>

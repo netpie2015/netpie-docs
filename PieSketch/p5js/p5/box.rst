@@ -39,7 +39,6 @@ box ( width, [Height], [depth], [detailX], [detailY] )
 	  box(200, 200, 200);
 	}
 
-
 	</script>
 
 	<br><br>

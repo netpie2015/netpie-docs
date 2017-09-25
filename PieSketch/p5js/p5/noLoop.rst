@@ -57,7 +57,6 @@ noLoop ( )
 	  loop();
 	}
 
-
 	</script>
 
 	<br><br>

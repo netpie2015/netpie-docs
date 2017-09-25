@@ -29,7 +29,6 @@ point ( x, y )
 	point(85, 75);
 	point(30, 75);
 
-
 	</script>
 
 	<br><br>

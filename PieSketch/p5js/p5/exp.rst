@@ -59,7 +59,6 @@ exp ( n )
 	  line(0, height-1, width, height-1);
 	}
 
-
 	</script>
 
 	<br><br>

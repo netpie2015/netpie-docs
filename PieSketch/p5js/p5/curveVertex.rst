@@ -41,7 +41,6 @@ curveVertex ( x, y )
 	curveVertex(32, 100);
 	endShape();
 
-
 	</script>
 
 	<br><br>

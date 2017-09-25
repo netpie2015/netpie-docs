@@ -53,7 +53,6 @@ lerp ( start, stop, amt )
 	  point(e, y);
 	}
 
-
 	</script>
 
 	<br><br>

@@ -32,7 +32,6 @@ ellipse ( x, y, w, [h] )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	ellipse(56, 46, 55, 55);
 
-
 	</script>
 
 	<br><br>

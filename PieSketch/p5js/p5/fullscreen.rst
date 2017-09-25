@@ -39,7 +39,6 @@ fullscreen ( [val] )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

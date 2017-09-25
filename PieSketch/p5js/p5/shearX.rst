@@ -36,7 +36,6 @@ shearX ( angle )
 	shearX(PI/4.0);
 	rect(0, 0, 30, 30);
 
-
 	</script>
 
 	<br><br>

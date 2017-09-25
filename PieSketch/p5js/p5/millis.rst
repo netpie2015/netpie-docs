@@ -24,7 +24,6 @@ millis ( )
 	var millisecond = millis();
 	text("Milliseconds \nrunning: \n" + millisecond, 5, 40);
 
-
 	</script>
 
 	<br><br>

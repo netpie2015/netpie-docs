@@ -31,7 +31,6 @@ deviceShaken ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>

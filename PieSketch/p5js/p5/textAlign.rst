@@ -44,7 +44,6 @@ textAlign ( horizAlign, [vertAlign] )
 	textAlign(LEFT);
 	text("IJKL", 50, 70);
 
-
 	</script>
 
 	<br><br>

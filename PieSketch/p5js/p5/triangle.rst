@@ -33,7 +33,6 @@ triangle ( x1, y1, x2, y2, x3, y3 )
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	triangle(30, 75, 58, 20, 86, 75);
 
-
 	</script>
 
 	<br><br>

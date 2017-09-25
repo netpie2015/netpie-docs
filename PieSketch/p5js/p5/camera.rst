@@ -55,7 +55,6 @@ camera ( [x], [y], [z], [centerX], [centerY], [centerZ], [upX], [upY], [upZ] )
 	 plane(120, 120);
 	}
 
-
 	</script>
 
 	<br><br>

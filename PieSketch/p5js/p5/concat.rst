@@ -42,7 +42,6 @@ concat ( a, b )
 	
 	}
 
-
 	</script>
 
 	<br><br>

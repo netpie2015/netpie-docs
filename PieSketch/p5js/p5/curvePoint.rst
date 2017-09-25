@@ -52,14 +52,12 @@ curvePoint ( a, b, c, d, t )
 	  ellipse(x, y, 5, 5);
 	}
 
-
 	</script>
 
 	<br><br>
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	line hooking down to right-bottom with 13 5x5 white ellipse points
-
 
 	</script>
 

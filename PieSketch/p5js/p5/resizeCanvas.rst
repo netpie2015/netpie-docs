@@ -37,7 +37,6 @@ resizeCanvas ( w, h, noRedraw )
 	  resizeCanvas(windowWidth, windowHeight);
 	}
 
-
 	</script>
 
 	<br><br>

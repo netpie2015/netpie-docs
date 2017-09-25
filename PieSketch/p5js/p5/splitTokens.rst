@@ -39,7 +39,6 @@ splitTokens ( value, [delim] )
 	  print(myStrArr); // prints : ["Mango"," Banana"," Lime"]
 	}
 
-
 	</script>
 
 	<br><br>

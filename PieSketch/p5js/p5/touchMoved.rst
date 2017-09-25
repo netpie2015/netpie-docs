@@ -35,7 +35,6 @@ touchMoved ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -47,7 +46,6 @@ touchMoved ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

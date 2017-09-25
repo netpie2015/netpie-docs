@@ -1,0 +1,35 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+mouseIsPressed
+================
+
+The boolean system variable mouseIsPressed is true if the mouse is pressed
+and false if not.
+
+**รูปแบบการใช้งาน**
+
+mouseIsPressed
+
+.. raw:: html
+
+	<script type="text/p5" data-autoplay data-hide-sourcecode>
+	function draw() {
+	  background(237, 34, 93);
+	  fill(0);
+	
+	  if (mouseIsPressed)
+	    ellipse(50, 50, 50, 50);
+	  else
+	    rect(25, 25, 50, 50);
+	
+	  print(mouseIsPressed);
+	}
+
+	</script>
+
+	<br><br>
+
+.. toctree::
+

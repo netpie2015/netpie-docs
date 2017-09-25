@@ -33,7 +33,6 @@ float ( str )
 	var diameter = float(str);
 	ellipse(width/2, height/2, diameter, diameter);
 
-
 	</script>
 
 	<br><br>

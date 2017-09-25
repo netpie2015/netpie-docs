@@ -51,7 +51,6 @@ applyMatrix ( a, b, c, d, e, f )
 	  rect(0, 0, 50, 50);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -70,7 +69,6 @@ applyMatrix ( a, b, c, d, e, f )
 	  applyMatrix(1 / step, 0, 0, 1 / step, 0, 0);
 	  rect(0, 0, 50, 50);
 	}
-
 
 	</script>
 
@@ -94,7 +92,6 @@ applyMatrix ( a, b, c, d, e, f )
 	  rect(0, 0, 50, 50);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -115,7 +112,6 @@ applyMatrix ( a, b, c, d, e, f )
 	  applyMatrix(1, 0, shear_factor, 1, 0, 0);
 	  rect(0, 0, 50, 50);
 	}
-
 
 	</script>
 

@@ -46,7 +46,6 @@ match ( str, regexp )
 	var match = match(string, regexp);
 	text(match, 5, 50);
 
-
 	</script>
 
 	<br><br>

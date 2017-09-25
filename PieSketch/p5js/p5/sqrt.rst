@@ -55,7 +55,6 @@ sqrt ( n )
 	  text("sqrt(x) = " + x2, 0, y2 + spacing);
 	}
 
-
 	</script>
 
 	<br><br>

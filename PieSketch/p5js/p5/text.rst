@@ -54,7 +54,6 @@ text ( str, x, y, [x2], [y2] )
 	fill(0, 102, 153, 51);
 	text("word", 10, 90);
 
-
 	</script>
 
 	<br><br>
@@ -63,7 +62,6 @@ text ( str, x, y, [x2], [y2] )
 	s = "The quick brown fox jumped over the lazy dog.";
 	fill(50);
 	text(s, 10, 10, 70, 80); // Text wraps within text box
-
 
 	</script>
 

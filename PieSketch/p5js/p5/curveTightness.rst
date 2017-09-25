@@ -46,7 +46,6 @@ curveTightness ( amount )
 	  endShape();
 	}
 
-
 	</script>
 
 	<br><br>

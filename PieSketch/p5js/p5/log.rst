@@ -63,7 +63,6 @@ log ( n )
 	  line(0,height/2,width, height/2);
 	}
 
-
 	</script>
 
 	<br><br>

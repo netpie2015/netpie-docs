@@ -33,7 +33,6 @@ angleMode ( mode )
 	  rect(-40, -5, 20, 10); // Smaller rectangle is rotating in radians
 	}
 
-
 	</script>
 
 	<br><br>

@@ -49,7 +49,6 @@ ceil ( n )
 	  text(nfc(bx,1,1), bx, by - 5);
 	}
 
-
 	</script>
 
 	<br><br>

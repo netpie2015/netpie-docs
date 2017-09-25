@@ -32,7 +32,6 @@ asin ( value )
 	// Prints: "1.0471976 : 0.86602545 : 1.0471976"
 	print(a + " : " + s + " : " +  as);
 
-
 	</script>
 
 	<br><br>
@@ -44,7 +43,6 @@ asin ( value )
 	var as = asin(s);
 	// Prints: "4.1887903 : -0.86602545 : -1.0471976"
 	print(a + " : " + s + " : " +  as);
-
 
 	</script>
 

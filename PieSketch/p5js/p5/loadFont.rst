@@ -75,7 +75,6 @@ loadFont ( path, [callback] )
 	  myDiv.style('font-family', 'Avenir');
 	}
 
-
 	</script>
 
 	<br><br>

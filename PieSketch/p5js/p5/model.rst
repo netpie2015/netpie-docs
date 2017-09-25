@@ -35,7 +35,6 @@ model ( model )
 	  model(teapot);
 	}
 
-
 	</script>
 
 	<br><br>

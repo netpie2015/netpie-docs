@@ -45,7 +45,7 @@ color ( gray, [alpha] )
 	fill(c);  // Use color variable 'c' as fill color
 	noStroke();  // Don't draw a stroke around shapes
 	rect(30, 20, 55, 55);  // Draw rectangle
-	
+
 	</script>
 
 	<br><br>
@@ -63,7 +63,6 @@ color ( gray, [alpha] )
 	fill(c);  // Use updated 'c' as fill color
 	ellipse(75, 75, 80, 80);  // Draw right circle
 
-
 	</script>
 
 	<br><br>
@@ -75,7 +74,6 @@ color ( gray, [alpha] )
 	fill(c);  // Use 'c' as fill color
 	noStroke();  // Don't draw a stroke around shapes
 	rect(20, 20, 60, 60);  // Draw rectangle
-
 
 	</script>
 
@@ -92,7 +90,6 @@ color ( gray, [alpha] )
 	c = color('#00ff00');
 	fill(c);  // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
-
 
 	</script>
 
@@ -120,7 +117,6 @@ color ( gray, [alpha] )
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 55, 35, 35);  // Draw rectangle
 
-
 	</script>
 
 	<br><br>
@@ -139,7 +135,6 @@ color ( gray, [alpha] )
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
 
-
 	</script>
 
 	<br><br>
@@ -157,7 +152,6 @@ color ( gray, [alpha] )
 	c = color('hsba(160, 100%, 50%, 0.5)');
 	fill(c); // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw rectangle
-
 
 	</script>
 
@@ -178,7 +172,6 @@ color ( gray, [alpha] )
 	c = color(50, 55, 100);  // Update 'c' with new color
 	fill(c);  // Use updated 'c' as fill color
 	rect(55, 10, 45, 80);  // Draw right rect
-
 
 	</script>
 

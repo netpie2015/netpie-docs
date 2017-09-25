@@ -33,7 +33,6 @@ lightness ( color )
 	fill(value);
 	rect(50, 20, 35, 60);
 
-
 	</script>
 
 	<br><br>

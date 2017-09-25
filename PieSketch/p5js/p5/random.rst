@@ -41,7 +41,6 @@ random ( [min], [max] )
 	  line(50, i, 50+r, i);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -52,7 +51,6 @@ random ( [min], [max] )
 	  line(50,i,50+r,i);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -62,7 +60,6 @@ random ( [min], [max] )
 	var words = [ "apple", "bear", "cat", "dog" ];
 	var word = random(words);  // select random word
 	text(word,10,50);  // draw the word
-
 
 	</script>
 

@@ -46,7 +46,6 @@ createCanvas ( w, h, [renderer] )
 	  line(0, 0, width, height);
 	}
 
-
 	</script>
 
 	<br><br>

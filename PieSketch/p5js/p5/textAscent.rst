@@ -34,7 +34,6 @@ textAscent ( )
 	line(40, base - asc, width, base - asc);
 	text("dp", 40, base);  // Draw text on baseline
 
-
 	</script>
 
 	<br><br>

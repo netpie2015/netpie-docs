@@ -32,7 +32,6 @@ atan ( value )
 	// Prints: "1.0471976 : 1.7320509 : 1.0471976"
 	print(a + " : " + t + " : " +  at);
 
-
 	</script>
 
 	<br><br>
@@ -44,7 +43,6 @@ atan ( value )
 	var at = atan(t);
 	// Prints: "4.1887903 : 1.7320513 : 1.0471977"
 	print(a + " : " + t + " : " +  at);
-
 
 	</script>
 

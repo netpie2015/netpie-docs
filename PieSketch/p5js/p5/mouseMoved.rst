@@ -34,7 +34,6 @@ mouseMoved ( )
 	  }
 	}
 
-
 	</script>
 
 	<br><br>
@@ -46,7 +45,6 @@ mouseMoved ( )
 	  // prevent default
 	  return false;
 	}
-
 
 	</script>
 

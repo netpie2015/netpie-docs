@@ -32,7 +32,6 @@ tan ( angle )
 	    a = a + inc;
 	  }
 
-
 	</script>
 
 	<br><br>

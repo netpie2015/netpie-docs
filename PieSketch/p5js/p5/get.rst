@@ -61,7 +61,6 @@ get ( [x], [y], [w], [h] )
 	  image(c, width/2, 0);
 	}
 
-
 	</script>
 
 	<br><br>
@@ -79,7 +78,6 @@ get ( [x], [y], [w], [h] )
 	  noStroke();
 	  rect(25, 25, 50, 50);
 	}
-
 
 	</script>
 

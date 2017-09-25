@@ -46,7 +46,6 @@ max ( n0 )
 	  text(max(numArray), maxX, maxY);
 	}
 
-
 	</script>
 
 	<br><br>

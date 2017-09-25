@@ -34,7 +34,6 @@ sort ( list, [count] )
 	  print(words); // ["apple", "banana", "lime", "pear"]
 	}
 
-
 	</script>
 
 	<br><br>
@@ -48,7 +47,6 @@ sort ( list, [count] )
 	  numbers = sort(numbers, count);
 	  print(numbers); // [1,2,5,6,14,9,8,12]
 	}
-
 
 	</script>
 

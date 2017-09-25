@@ -57,7 +57,6 @@ blendMode ( mode )
 	stroke(255, 50, 50);
 	line(75, 25, 25, 75);
 
-
 	</script>
 
 	<br><br>
@@ -69,7 +68,6 @@ blendMode ( mode )
 	line(25, 25, 75, 75);
 	stroke(255, 50, 50);
 	line(75, 25, 25, 75);
-
 
 	</script>
 

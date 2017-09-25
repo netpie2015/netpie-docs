@@ -21,7 +21,6 @@ resetMatrix ( )
 	resetMatrix();
 	rect(0, 0, 20, 20);
 
-
 	</script>
 
 	<br><br>
