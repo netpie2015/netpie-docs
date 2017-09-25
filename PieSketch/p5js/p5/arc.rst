@@ -5,78 +5,53 @@
 arc()
 =====
 
-Draw an arc to the screen. If called with only a, b, c, d, start, and
-stop, the arc will be drawn as an open pie. If mode is provided, the arc
-will be drawn either open, as a chord, or as a pie as specified. The
-origin may be changed with the ellipseMode() function.
 
-Note that drawing a full circle (ex: 0 to TWO_PI) will appear blank
-because 0 and TWO_PI are the same position on the unit circle. The
-best way to handle this is by using the ellipse() function instead
-to create a closed ellipse, and to use the arc() function
-only to draw parts of an ellipse.
+วาดส่วนโค้งบนหน้าจอ หากมีการส่งผ่านค่าพารามิเตอร์ไม่ครบ คือส่งเข้ามาเพียง a, b, c, d, start และ stop จะเป็นการวาดส่วนโค้งวงกลมแบบเปิด แต่หากมีการส่งพารามิเตอร์ mode ส่วนโค้งที่วาดสามารถเป็นได้ทั้งแบบเปิด (OPEN) หรือเป็นคอร์ด (CHORD) หรือเป็นรูปพาย (PIE) แล้วแต่จะระบุ จุดศูนย์กลางของส่วนโค้งสามารถเปลี่ยนค่าได้ โดยใช้ฟังก์ชัน ellipseMode()
+
+ท้งนี้การสั่งวาดวงกลมแบบเต็มวง (คือลากจาก 0 ถึง TWO_PI) จะไม่ปรากฏเส้นโค้งใดๆ เนื่องจาก 0 โค้งใดๆและ TWO_PI เป็นตำแหน่งจุดเดียวกันในวงกลม วิธีที่ดีที่สุดในการจัดการคือ การใช้ฟังก์ชัน ellipse() แทนที่จะสร้างรูปวงกลมหรือวงรีที่ปิด และใช้ฟังก์ชัน arc() เพื่อวาดส่วนของวงกลมหรือวงรี
 
 **รูปแบบการใช้งาน**
 
-arc ( a, b, c, d, start, stop, [mode] )
+arc (*a,b,c,d,start,stop,[mode]* )
 
 **พารามิเตอร์**
-
-- ``a``  Number: x-coordinate of the arc's ellipse
-
-- ``b``  Number: y-coordinate of the arc's ellipse
-
-- ``c``  Number: width of the arc's ellipse by default
-
-- ``d``  Number: height of the arc's ellipse by default
-
-- ``start``  Number: angle to start the arc, specified in radians
-
-- ``stop``  Number: angle to stop the arc, specified in radians
-
-- ``mode``  Constant: optional parameter to determine the way of drawing the arc. either CHORD or PIE
 
 
 .. raw:: html
 
-	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	arc(50, 55, 50, 50, 0, HALF_PI);
-	noFill();
-	arc(50, 55, 60, 60, HALF_PI, PI);
-	arc(50, 55, 70, 70, PI, PI+QUARTER_PI);
-	arc(50, 55, 80, 80, PI+QUARTER_PI, TWO_PI);
-
-
+	<script type="text/p5" data-autoplay data-height="220">
+	function setup() {
+	    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, OPEN);
+	}
 	</script>
 
 	<br><br>
 
-	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	
-	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, OPEN);
-
-
+	<script type="text/p5" data-autoplay data-height="220">
+	function setup() {
+	    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, CHORD);
+	}
 	</script>
 
 	<br><br>
 
-	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	
-	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, CHORD);
-
-
+	<script type="text/p5" data-autoplay data-height="220">
+	function setup() {
+	    arc(50, 50, 80, 80, 0, PI+QUARTER_PI, PIE);
+	}
 	</script>
 
 	<br><br>
 
-	<script type="text/p5" data-autoplay data-hide-sourcecode>
-	
-	arc(50, 50, 80, 80, 0, PI+QUARTER_PI, PIE);
-
-
+	<script type="text/p5" data-autoplay data-height="280">
+	function setup() {
+	    arc(50, 55, 50, 50, 0, HALF_PI);
+	    noFill();
+	    arc(50, 55, 60, 60, HALF_PI, PI);
+	    arc(50, 55, 70, 70, PI, PI+QUARTER_PI);
+	    arc(50, 55, 80, 80, PI+QUARTER_PI, TWO_PI);
+	}
 	</script>
 
-	<br><br>
 
 .. toctree::
-
