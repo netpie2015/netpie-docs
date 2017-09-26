@@ -5,17 +5,19 @@
 curveDetail()
 =============
 
-Sets the resolution at which curves display.
-The default value is 20.
+ตั้งค่าความละเอียดที่เส้นโค้งแสดง ค่าดีฟอลต์คือ 20
 
+.. Sets the resolution at which curves display.
+.. The default value is 20.
 **รูปแบบการใช้งาน**
 
 curveDetail ( resolution )
 
 **พารามิเตอร์**
 
-- ``resolution``  Number: of the curves
+- ``resolution``  Number: ของเส้นโค้ง
 
+.. ``resolution``  Number: of the curves
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ curveDetail ( resolution )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

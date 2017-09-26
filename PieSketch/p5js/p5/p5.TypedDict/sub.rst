@@ -5,19 +5,22 @@
 sub()
 =====
 
-Subtract from a value stored at a certain key
-The difference is stored in that location in the Dictionary.
+ลบค่าที่จัดเก็บไว้ที่กุญแจหนึ่ง ๆ ความแตกต่างจะถูกเก็บไว้ในตำแหน่งนั้นในพจนานุกรม
 
+.. Subtract from a value stored at a certain key
+.. The difference is stored in that location in the Dictionary.
 **รูปแบบการใช้งาน**
 
 sub ( Key, Amount )
 
 **พารามิเตอร์**
 
-- ``Key``  Number: for value you wish to subtract from
+- ``Key``  Number: สำหรับค่าที่คุณต้องการลบ
 
-- ``Amount``  Number: to subtract from the value
+- ``Amount``  Number: เพื่อลบออกจากค่า
 
+.. ``Key``  Number: for value you wish to subtract from
+.. ``Amount``  Number: to subtract from the value
 
 .. raw:: html
 
@@ -32,5 +35,4 @@ sub ( Key, Amount )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,16 +5,17 @@
 rotateZ()
 =========
 
-Rotates around Z axis. Webgl mode only.
+หมุนรอบแกน Z โหมด Webgl เท่านั้น
 
+.. Rotates around Z axis. Webgl mode only.
 **รูปแบบการใช้งาน**
 
 rotateZ ( rad )
 
 **พารามิเตอร์**
 
-- ``rad``  Number: angles in radians
+- ``rad``  Number: มุมในเรเดียน
 
+.. ``rad``  Number: angles in radians
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

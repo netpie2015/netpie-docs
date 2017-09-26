@@ -5,14 +5,16 @@
 touchStarted()
 ==============
 
-The touchStarted() function is called once after every time a touch is
-registered. If no touchStarted() function is defined, the mousePressed()
-function will be called instead if it is defined.
+ฟังก์ชัน touchStarted () เรียกว่าครั้งหลังจากลงทะเบียนทุกครั้ง หากไม่มีฟังก์ชัน touchStarted () ฟังก์ชัน mousePressed () จะถูกเรียกใช้แทนถ้ากำหนดไว้ 
+เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์การสัมผัสต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด
 
-Browsers may have different default behaviors attached to various touch
-events. To prevent any default behavior for this event, add "return false"
-to the end of the method.
-
+.. The touchStarted() function is called once after every time a touch is
+.. registered. If no touchStarted() function is defined, the mousePressed()
+.. function will be called instead if it is defined.
+.. 
+.. Browsers may have different default behaviors attached to various touch
+.. events. To prevent any default behavior for this event, add "return false"
+.. to the end of the method.
 **รูปแบบการใช้งาน**
 
 touchStarted ( )
@@ -52,5 +54,4 @@ touchStarted ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

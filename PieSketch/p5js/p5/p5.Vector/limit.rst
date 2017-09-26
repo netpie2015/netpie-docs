@@ -5,17 +5,19 @@
 limit()
 =======
 
-Limit the magnitude of this vector to the value used for the max
-parameter.
+จำกัด ขนาดของเวกเตอร์นี้ให้เป็นค่าที่ใช้สำหรับพารามิเตอร์ สูงสุด
 
+.. Limit the magnitude of this vector to the value used for the max
+.. parameter.
 **รูปแบบการใช้งาน**
 
 limit ( max )
 
 **พารามิเตอร์**
 
-- ``max``  Number: the maximum magnitude for the vector
+- ``max``  Number: ขนาดสูงสุดของเวกเตอร์
 
+.. ``max``  Number: the maximum magnitude for the vector
 
 .. raw:: html
 
@@ -30,5 +32,4 @@ limit ( max )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

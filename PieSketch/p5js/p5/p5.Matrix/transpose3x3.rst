@@ -5,8 +5,9 @@
 transpose3x3()
 ==============
 
-transposes a 3x3 p5.Matrix by a mat3
+transposes 3x3 p5.Matrix โดย mat3
 
+.. transposes a 3x3 p5.Matrix by a mat3
 **รูปแบบการใช้งาน**
 
 transpose3x3 ( mat3 )
@@ -15,6 +16,6 @@ transpose3x3 ( mat3 )
 
 - ``mat3``  : 
 
+.. ``mat3``  : 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

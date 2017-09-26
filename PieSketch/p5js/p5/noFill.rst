@@ -5,9 +5,10 @@
 noFill()
 ========
 
-Disables filling geometry. If both noStroke() and noFill() are called,
-nothing will be drawn to the screen.
+ปิดการใช้งานรูปทรงเรขาคณิต ถ้าทั้งสองคำสั่ง noStroke () และ noFill () เรียกว่าไม่มีอะไรจะถูกลากไปที่หน้าจอ
 
+.. Disables filling geometry. If both noStroke() and noFill() are called,
+.. nothing will be drawn to the screen.
 **รูปแบบการใช้งาน**
 
 noFill ( )
@@ -23,5 +24,4 @@ noFill ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

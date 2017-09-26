@@ -5,28 +5,38 @@
 pointLight()
 ============
 
-Creates a point light with a color and a light position
+สร้างไฟจุดที่มีสีและตำแหน่งสว่าง
 
+.. Creates a point light with a color and a light position
 **รูปแบบการใช้งาน**
 
 pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 **พารามิเตอร์**
 
-- ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
+- ``v1``  Number,Array,String,p5.Color: ค่าสีเทาค่าสีแดงหรือสี (ขึ้นอยู่กับโหมดสีปัจจุบัน) หรืออาร์เรย์สีหรือสตริงสี CSS
 
-- ``v2``  Number: optional: green or saturation value
+- ``v2``  Number: ตัวเลือก: สีเขียวหรือความอิ่มตัวของสี
 
-- ``v3``  Number: optional: blue or brightness value
+- ``v3``  Number: ตัวเลือก: สีน้ำเงินหรือความสว่าง
 
-- ``a``  Number: optional: opacity
+- ``a``  Number: ตัวเลือก: ความทึบ
 
-- ``x``  Number,p5.Vector: x axis position or a p5.Vector
+- ``x``  Number,p5.Vector: ตำแหน่งแกน x หรือ p5.Vector
 
-- ``y``  Number: optional: y axis position
+- ``y``  Number: ตัวเลือก: ตำแหน่งแกน y
 
-- ``z``  Number: optional: z axis position
+- ``z``  Number: ตำแหน่งแกน z
 
+.. ``v1``  Number,Array,String,p5.Color: gray value,
+red or hue value (depending on the current color mode),
+or color Array, or CSS color string
+.. ``v2``  Number: optional: green or saturation value
+.. ``v3``  Number: optional: blue or brightness value
+.. ``a``  Number: optional: opacity
+.. ``x``  Number,p5.Vector: x axis position or a p5.Vector
+.. ``y``  Number: optional: y axis position
+.. ``z``  Number: optional: z axis position
 
 .. raw:: html
 
@@ -55,5 +65,4 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

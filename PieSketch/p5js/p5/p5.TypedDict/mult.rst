@@ -5,19 +5,22 @@
 mult()
 ======
 
-Multiply a value stored at a certain key
-The product is stored in that location in the Dictionary.
+คูณค่าที่จัดเก็บไว้ในคีย์หลักผลิตภัณฑ์จะถูกเก็บไว้ในตำแหน่งนั้นในพจนานุกรม
 
+.. Multiply a value stored at a certain key
+.. The product is stored in that location in the Dictionary.
 **รูปแบบการใช้งาน**
 
 mult ( Key, Amount )
 
 **พารามิเตอร์**
 
-- ``Key``  Number: for value you wish to multiply
+- ``Key``  Number: สำหรับค่าที่คุณต้องการคูณ
 
-- ``Amount``  Number: to multiply the value by
+- ``Amount``  Number: เพื่อคูณค่าด้วย
 
+.. ``Key``  Number: for value you wish to multiply
+.. ``Amount``  Number: to multiply the value by
 
 .. raw:: html
 
@@ -32,5 +35,4 @@ mult ( Key, Amount )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

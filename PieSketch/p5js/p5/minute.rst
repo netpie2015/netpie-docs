@@ -5,17 +5,19 @@
 minute()
 ========
 
-p5.js communicates with the clock on your computer. The minute() function
-returns the current minute as a value from 0 - 59.
+p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน minute () จะคืนค่านาทีปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 59
 
+.. p5.js communicates with the clock on your computer. The minute() function
+.. returns the current minute as a value from 0 - 59.
 **รูปแบบการใช้งาน**
 
 minute ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the current minute
+- Number: นาทีปัจจุบัน
 
+.. Number: the current minute
 
 .. raw:: html
 
@@ -27,5 +29,4 @@ minute ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

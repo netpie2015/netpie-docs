@@ -5,11 +5,12 @@
 TWO_PI
 ========
 
-TWO_PI is a mathematical constant with the value
-6.28318530717958647693. It is twice the ratio of the
-circumference of a circle to its diameter. It is useful in
-combination with the trigonometric functions sin() and cos().
+TWO_PI เป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 6.28318530717958647693 มันเป็นสองเท่าของขนาดเส้นรอบวงของวงกลม มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos ()
 
+.. TWO_PI is a mathematical constant with the value
+.. 6.28318530717958647693. It is twice the ratio of the
+.. circumference of a circle to its diameter. It is useful in
+.. combination with the trigonometric functions sin() and cos().
 **รูปแบบการใช้งาน**
 
 TWO_PI
@@ -23,5 +24,4 @@ TWO_PI
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

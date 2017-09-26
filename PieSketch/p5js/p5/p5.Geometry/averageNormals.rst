@@ -5,12 +5,12 @@
 averageNormals()
 ================
 
-Averages the vertex normals. Used in curved
-surfaces
+ให้คะแนนเฉลี่ยสูงสุด ใช้ในพื้นผิวโค้ง
 
+.. Averages the vertex normals. Used in curved
+.. surfaces
 **รูปแบบการใช้งาน**
 
 averageNormals ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,8 +5,9 @@
 opaque()
 ========
 
-Sets the alpha channel to entirely opaque. No parameter is used.
+ตั้งค่าช่องอัลฟ่าให้เป็นสีทึบ ไม่มีพารามิเตอร์ที่ใช้
 
+.. Sets the alpha channel to entirely opaque. No parameter is used.
 **รูปแบบการใช้งาน**
 
 opaque ( canvas )
@@ -15,6 +16,6 @@ opaque ( canvas )
 
 - ``canvas``  Canvas: 
 
+.. ``canvas``  Canvas: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

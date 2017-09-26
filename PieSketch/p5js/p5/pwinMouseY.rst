@@ -5,10 +5,11 @@
 pwinMouseY
 ============
 
-The system variable pwinMouseY always contains the vertical position of
-the mouse in the frame previous to the current frame, relative to (0, 0)
-of the window.
+ตัวแปรของระบบ pwinMouseY จะประกอบด้วยตำแหน่งในแนวตั้งของเมาส์ในกรอบก่อนหน้ากรอบปัจจุบันเทียบกับ (0, 0) ของหน้าต่าง
 
+.. The system variable pwinMouseY always contains the vertical position of
+.. the mouse in the frame previous to the current frame, relative to (0, 0)
+.. of the window.
 **รูปแบบการใช้งาน**
 
 pwinMouseY
@@ -43,5 +44,4 @@ pwinMouseY
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

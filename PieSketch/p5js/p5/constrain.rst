@@ -5,25 +5,30 @@
 constrain()
 ===========
 
-Constrains a value between a minimum and maximum value.
+จำกัด ค่าระหว่างค่าต่ำสุดและสูงสุด
 
+.. Constrains a value between a minimum and maximum value.
 **รูปแบบการใช้งาน**
 
 constrain ( n, low, high )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to constrain
+- ``n``  Number: จำนวนที่ จำกัด
 
-- ``low``  Number: minimum limit
+- ``low``  Number: ขีด จำกัด ขั้นต่ำ
 
-- ``high``  Number: maximum limit
+- ``high``  Number: ขีด จำกัด สูงสุด
 
+.. ``n``  Number: number to constrain
+.. ``low``  Number: minimum limit
+.. ``high``  Number: maximum limit
 
 **ค่าที่ส่งออกมา**
 
-- Number: constrained number
+- Number: จำนวนข้อ จำกัด
 
+.. Number: constrained number
 
 .. raw:: html
 
@@ -57,5 +62,4 @@ constrain ( n, low, high )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

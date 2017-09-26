@@ -11,8 +11,8 @@ translate ( v )
 
 **พารามิเตอร์**
 
-- ``v``  Array.<Number>: vector to translate by
+- ``v``  Array.<Number>: เวกเตอร์ที่จะแปลโดย
 
+.. ``v``  Array.<Number>: vector to translate by
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,16 +5,18 @@
 remove()
 ========
 
-Removes a key-value pair in the Dictionary
+ลบคู่คีย์ - ค่าในพจนานุกรม
 
+.. Removes a key-value pair in the Dictionary
 **รูปแบบการใช้งาน**
 
 remove ( key )
 
 **พารามิเตอร์**
 
-- ``key``  Number,String: for the pair to remove
+- ``key``  Number,String: สำหรับคู่ที่จะลบ
 
+.. ``key``  Number,String: for the pair to remove
 
 .. raw:: html
 
@@ -35,5 +37,4 @@ remove ( key )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

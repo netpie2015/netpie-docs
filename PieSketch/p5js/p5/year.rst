@@ -5,17 +5,19 @@
 year()
 ======
 
-p5.js communicates with the clock on your computer. The year() function
-returns the current year as an integer (2014, 2015, 2016, etc).
+p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชันปี () จะส่งคืนปีปัจจุบันเป็นจำนวนเต็ม (2014, 2015, 2016 ฯลฯ )
 
+.. p5.js communicates with the clock on your computer. The year() function
+.. returns the current year as an integer (2014, 2015, 2016, etc).
 **รูปแบบการใช้งาน**
 
 year ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the current year
+- Number: ปีปัจจุบัน
 
+.. Number: the current year
 
 .. raw:: html
 
@@ -27,5 +29,4 @@ year ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,31 +5,39 @@
 ortho()
 =======
 
-Setup ortho camera
+ตั้งกล้อง ortho
 
+.. Setup ortho camera
 **รูปแบบการใช้งาน**
 
 ortho ( left, right, bottom, top, near, far )
 
 **พารามิเตอร์**
 
-- ``left``  Number: camera frustum left plane
+- ``left``  Number: กล้องด้านซ้ายของเครื่องบิน
 
-- ``right``  Number: camera frustum right plane
+- ``right``  Number: กล้อง frustum right plane
 
-- ``bottom``  Number: camera frustum bottom plane
+- ``bottom``  Number: กล้องด้านล่างเป็นวงโคจร
 
-- ``top``  Number: camera frustum top plane
+- ``top``  Number: กล้องบนเครื่องบินโครเมี่ยม
 
-- ``near``  Number: camera frustum near plane
+- ``near``  Number: กล้อง frustum ใกล้ระนาบ
 
-- ``far``  Number: camera frustum far plane
+- ``far``  Number: กล้องเครื่องบินไกล
 
+.. ``left``  Number: camera frustum left plane
+.. ``right``  Number: camera frustum right plane
+.. ``bottom``  Number: camera frustum bottom plane
+.. ``top``  Number: camera frustum top plane
+.. ``near``  Number: camera frustum near plane
+.. ``far``  Number: camera frustum far plane
 
 **ค่าที่ส่งออกมา**
 
-- p5: the p5 object
+- p5: วัตถุ p5
 
+.. p5: the p5 object
 
 .. raw:: html
 
@@ -57,5 +65,4 @@ ortho ( left, right, bottom, top, near, far )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

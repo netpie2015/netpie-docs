@@ -5,9 +5,10 @@
 isKeyPressed
 ==============
 
-The boolean system variable keyIsPressed is true if any key is pressed
-and false if no keys are pressed.
+คีย์ตัวแปรระบบบูลีนเป็นจริงหากมีการกดปุ่มใด ๆ และเท็จหากไม่มีการกดปุ่มใด ๆ
 
+.. The boolean system variable keyIsPressed is true if any key is pressed
+.. and false if no keys are pressed.
 **รูปแบบการใช้งาน**
 
 isKeyPressed
@@ -29,5 +30,4 @@ isKeyPressed
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

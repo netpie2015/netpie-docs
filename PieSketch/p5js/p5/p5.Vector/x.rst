@@ -5,11 +5,11 @@
 x
 ===
 
-The x component of the vector
+องค์ประกอบ x ของเวกเตอร์
 
+.. The x component of the vector
 **รูปแบบการใช้งาน**
 
 x
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

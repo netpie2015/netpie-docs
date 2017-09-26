@@ -5,11 +5,11 @@
 bindShader()
 ============
 
-initializes (if needed) and binds the shader program.
+เริ่มต้น (ถ้าจำเป็น) และผูกโปรแกรม shader
 
+.. initializes (if needed) and binds the shader program.
 **รูปแบบการใช้งาน**
 
 bindShader ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

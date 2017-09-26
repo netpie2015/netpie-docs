@@ -5,10 +5,11 @@
 focused
 =========
 
-Confirms if the window a p5.js program is in is "focused," meaning that
-the sketch will accept mouse or keyboard input. This variable is
-"true" if the window is focused and "false" if not.
+ยืนยันว่าหน้าต่างที่โปรแกรม p5.js มีอยู่หรือไม่ &quot;เน้น&quot; ซึ่งหมายความว่าร่างจะยอมรับการป้อนข้อมูลจากเมาส์หรือแป้นพิมพ์ ตัวแปรนี้คือ &quot;true&quot; ถ้าหน้าต่างถูกโฟกัสและ &quot;false&quot; ถ้าไม่
 
+.. Confirms if the window a p5.js program is in is "focused," meaning that
+.. the sketch will accept mouse or keyboard input. This variable is
+.. "true" if the window is focused and "false" if not.
 **รูปแบบการใช้งาน**
 
 focused
@@ -35,5 +36,4 @@ focused
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,8 +5,9 @@
 getURLParams()
 ==============
 
-Gets the current URL params as an Object.
+รับ params URL ปัจจุบันเป็น Object
 
+.. Gets the current URL params as an Object.
 **รูปแบบการใช้งาน**
 
 getURLParams ( )
@@ -15,6 +16,7 @@ getURLParams ( )
 
 - Object: URL params
 
+.. Object: URL params
 
 .. raw:: html
 
@@ -32,5 +34,4 @@ getURLParams ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

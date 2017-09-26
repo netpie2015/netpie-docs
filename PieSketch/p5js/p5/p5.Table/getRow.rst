@@ -5,22 +5,25 @@
 getRow()
 ========
 
-Returns a reference to the specified p5.TableRow. The reference
-can then be used to get and set values of the selected row.
+ส่งคืนการอ้างอิงไปยัง p5.TableRow ที่ระบุ จากนั้นสามารถใช้ข้อมูลอ้างอิงเพื่อรับและตั้งค่าของแถวที่เลือกได้
 
+.. Returns a reference to the specified p5.TableRow. The reference
+.. can then be used to get and set values of the selected row.
 **รูปแบบการใช้งาน**
 
 getRow ( rowID )
 
 **พารามิเตอร์**
 
-- ``rowID``  Number: ID number of the row to get
+- ``rowID``  Number: หมายเลขประจำตัวของแถวที่จะได้รับ
 
+.. ``rowID``  Number: ID number of the row to get
 
 **ค่าที่ส่งออกมา**
 
-- p5.TableRow: p5.TableRow object
+- p5.TableRow: p5.TableRow วัตถุ
 
+.. p5.TableRow: p5.TableRow object
 
 .. raw:: html
 
@@ -53,5 +56,4 @@ getRow ( rowID )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

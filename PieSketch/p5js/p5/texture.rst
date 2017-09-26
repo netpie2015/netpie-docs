@@ -5,17 +5,20 @@
 texture()
 =========
 
-Texture for geometry.  You can view other possible materials in this
-example.
+พื้นผิวสำหรับรูปทรงเรขาคณิต คุณสามารถดูเนื้อหาที่เป็นไปได้อื่น ๆ ใน ตัวอย่าง นี้
 
+.. Texture for geometry.  You can view other possible materials in this
+.. example.
 **รูปแบบการใช้งาน**
 
 texture ( tex )
 
 **พารามิเตอร์**
 
-- ``tex``  p5.Image,p5.MediaElement,p5.Graphics: 2-dimensional graphics to render as texture
+- ``tex``  p5.Image,p5.MediaElement,p5.Graphics: กราฟิก 2 มิติเพื่อแสดงเป็นพื้นผิว
 
+.. ``tex``  p5.Image,p5.MediaElement,p5.Graphics: 2-dimensional graphics
+                   to render as texture
 
 .. raw:: html
 
@@ -85,5 +88,4 @@ texture ( tex )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

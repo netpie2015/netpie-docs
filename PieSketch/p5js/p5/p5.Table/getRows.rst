@@ -5,16 +5,18 @@
 getRows()
 =========
 
-Gets all rows from the table. Returns an array of p5.TableRows.
+เรียกแถวทั้งหมดจากตาราง ส่งกลับอาร์เรย์ของ p5.TableRows
 
+.. Gets all rows from the table. Returns an array of p5.TableRows.
 **รูปแบบการใช้งาน**
 
 getRows ( )
 
 **ค่าที่ส่งออกมา**
 
-- Array.<p5.TableRow>: Array of p5.TableRows
+- Array.<p5.TableRow>: อาร์เรย์ของ p5.TableRows
 
+.. Array.<p5.TableRow>: Array of p5.TableRows
 
 .. raw:: html
 
@@ -52,5 +54,4 @@ getRows ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,12 +5,12 @@
 saveJSON()
 ==========
 
-Converts the Dictionary into a JSON file for local
-storage.
+แปลงพจนานุกรมเป็นไฟล์ JSON สำหรับที่จัดเก็บในตัวเครื่อง
 
+.. Converts the Dictionary into a JSON file for local
+.. storage.
 **รูปแบบการใช้งาน**
 
 saveJSON ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

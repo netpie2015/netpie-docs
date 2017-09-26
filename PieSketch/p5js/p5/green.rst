@@ -5,21 +5,24 @@
 green()
 =======
 
-Extracts the green value from a color or pixel array.
+แยกค่าสีเขียวจากอาร์เรย์สีหรือพิกเซล
 
+.. Extracts the green value from a color or pixel array.
 **รูปแบบการใช้งาน**
 
 green ( color )
 
 **พารามิเตอร์**
 
-- ``color``  p5.Color,Array: p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object หรือ pixel array
 
+.. ``color``  p5.Color,Array: p5.Color object or pixel array
 
 **ค่าที่ส่งออกมา**
 
-- Number: the green value
+- Number: ค่าสีเขียว
 
+.. Number: the green value
 
 .. raw:: html
 
@@ -37,5 +40,4 @@ green ( color )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

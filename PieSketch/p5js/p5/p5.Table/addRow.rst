@@ -5,21 +5,23 @@
 addRow()
 ========
 
-Use addRow() to add a new row of data to a p5.Table object. By default,
- an empty row is created. Typically, you would store a reference to
- the new row in a TableRow object (see newRow in the example above),
- and then set individual values using set().
- If a p5.TableRow object is included as a parameter, then that row is
- duplicated and added to the table.
+ใช้ addRow () เพื่อเพิ่มแถวข้อมูลใหม่ลงในอ็อบเจ็กต์ p5.Table โดยค่าเริ่มต้นจะสร้างแถวว่างไว้ โดยปกติคุณจะเก็บข้อมูลอ้างอิงไปยังแถวใหม่ในอ็อบเจ็กต์ TableRow (ดู newRow ในตัวอย่างข้างต้น) จากนั้นตั้งค่าแต่ละค่าโดยใช้ set () ถ้ามีการรวมอ็อบเจ็กต์ p5.TableRow เป็นพารามิเตอร์แถวนั้นจะถูกทำซ้ำและเพิ่มลงในตาราง
 
+.. Use addRow() to add a new row of data to a p5.Table object. By default,
+..  an empty row is created. Typically, you would store a reference to
+..  the new row in a TableRow object (see newRow in the example above),
+..  and then set individual values using set().
+..  If a p5.TableRow object is included as a parameter, then that row is
+..  duplicated and added to the table.
 **รูปแบบการใช้งาน**
 
 addRow ( [row] )
 
 **พารามิเตอร์**
 
-- ``row``  p5.TableRow: row to be added to the table
+- ``row``  p5.TableRow: แถวที่จะเพิ่มลงในตาราง
 
+.. ``row``  p5.TableRow: row to be added to the table
 
 .. raw:: html
 
@@ -57,5 +59,4 @@ addRow ( [row] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

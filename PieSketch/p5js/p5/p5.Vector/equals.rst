@@ -5,25 +5,31 @@
 equals()
 ========
 
-Equality check against a p5.Vector
+การตรวจสอบความเสมอภาคกับ p5.Vector
 
+.. Equality check against a p5.Vector
 **รูปแบบการใช้งาน**
 
 equals ( [x], [y], [z] )
 
 **พารามิเตอร์**
 
-- ``x``  Number,p5.Vector,Array: the x component of the vector or a p5.Vector or an Array
+- ``x``  Number,p5.Vector,Array: คอมโพเนนต์ x ของเวกเตอร์หรือ p5.Vector หรือ Array
 
-- ``y``  Number: the y component of the vector
+- ``y``  Number: องค์ประกอบ y ของเวกเตอร์
 
-- ``z``  Number: the z component of the vector
+- ``z``  Number: องค์ประกอบ z ของเวกเตอร์
 
+.. ``x``  Number,p5.Vector,Array: the x component of the vector or a
+                                    p5.Vector or an Array
+.. ``y``  Number: the y component of the vector
+.. ``z``  Number: the z component of the vector
 
 **ค่าที่ส่งออกมา**
 
-- Boolean: whether the vectors are equals
+- Boolean: ไม่ว่าจะเป็นพาหะเท่ากับ
 
+.. Boolean: whether the vectors are equals
 
 .. raw:: html
 
@@ -50,5 +56,4 @@ equals ( [x], [y], [z] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

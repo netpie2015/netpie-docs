@@ -5,13 +5,15 @@
 pRotationX
 ============
 
-The system variable pRotationX always contains the rotation of the
-device along the x axis in the frame previous to the current frame. Value
-is represented as 0 to +/-180 degrees.
+ตัวแปรระบบ pRotationX ประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน x ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง +/- 180 องศา 
+pRotationX สามารถใช้กับ rotationX เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน X
 
-pRotationX can also be used with rotationX to determine the rotate
-direction of the device along the X-axis.
-
+.. The system variable pRotationX always contains the rotation of the
+.. device along the x axis in the frame previous to the current frame. Value
+.. is represented as 0 to +/-180 degrees.
+.. 
+.. pRotationX can also be used with rotationX to determine the rotate
+.. direction of the device along the X-axis.
 **รูปแบบการใช้งาน**
 
 pRotationX
@@ -45,5 +47,4 @@ pRotationX
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

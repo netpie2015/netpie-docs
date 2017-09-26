@@ -5,9 +5,10 @@
 mouseIsPressed
 ================
 
-The boolean system variable mouseIsPressed is true if the mouse is pressed
-and false if not.
+ตัวแปรระบบบูลีน mouseIsPressed เป็นจริงหากเมาส์ถูกกดและเท็จถ้าไม่
 
+.. The boolean system variable mouseIsPressed is true if the mouse is pressed
+.. and false if not.
 **รูปแบบการใช้งาน**
 
 mouseIsPressed
@@ -31,5 +32,4 @@ mouseIsPressed
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

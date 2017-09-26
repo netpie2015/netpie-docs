@@ -5,22 +5,25 @@
 floor()
 =======
 
-Calculates the closest int value that is less than or equal to the
-value of the parameter. Maps to Math.floor().
+คำนวณค่า int ที่ใกล้เคียงที่สุดที่น้อยกว่าหรือเท่ากับค่าของพารามิเตอร์ Maps to Math.floor ()
 
+.. Calculates the closest int value that is less than or equal to the
+.. value of the parameter. Maps to Math.floor().
 **รูปแบบการใช้งาน**
 
 floor ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to round down
+- ``n``  Number: จำนวนรอบ
 
+.. ``n``  Number: number to round down
 
 **ค่าที่ส่งออกมา**
 
-- Number: rounded down number
+- Number: ตัวเลขปัดเศษ
 
+.. Number: rounded down number
 
 .. raw:: html
 
@@ -52,5 +55,4 @@ floor ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

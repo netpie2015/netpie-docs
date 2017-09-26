@@ -5,17 +5,20 @@
 touchEnded()
 ============
 
-The .touchEnded() function is called once after every time a touch is
-registered. This can be used to attach element specific event listeners.
+ฟังก์ชัน .touchEnded () เรียกว่าครั้งหลังจากทุกครั้งที่มีการลงทะเบียนแล้ว สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .touchEnded() function is called once after every time a touch is
+.. registered. This can be used to attach element specific event listeners.
 **รูปแบบการใช้งาน**
 
 touchEnded ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when touch is ended over the element.
+- ``fxn``  function: ฟังก์ชันที่จะถูกยิงเมื่อสัมผัสถูกสิ้นสุดลงเหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when touch is
+                   ended over the element.
 
 .. raw:: html
 
@@ -50,5 +53,4 @@ touchEnded ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

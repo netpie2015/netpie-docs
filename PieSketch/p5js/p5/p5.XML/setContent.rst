@@ -5,16 +5,18 @@
 setContent()
 ============
 
-Sets the element's content.
+ตั้งค่าเนื้อหาขององค์ประกอบ
 
+.. Sets the element's content.
 **รูปแบบการใช้งาน**
 
 setContent ( text )
 
 **พารามิเตอร์**
 
-- ``text``  String: the new content
+- ``text``  String: เนื้อหาใหม่
 
+.. ``text``  String: the new content
 
 .. raw:: html
 
@@ -50,5 +52,4 @@ setContent ( text )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

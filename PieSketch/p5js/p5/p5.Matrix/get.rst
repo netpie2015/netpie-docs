@@ -5,16 +5,17 @@
 get()
 =====
 
-Gets a copy of the vector, returns a p5.Matrix object.
+รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Matrix
 
+.. Gets a copy of the vector, returns a p5.Matrix object.
 **รูปแบบการใช้งาน**
 
 get ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.Matrix: the copy of the p5.Matrix object
+- p5.Matrix: สำเนาของวัตถุ p5.Matrix
 
+.. p5.Matrix: the copy of the p5.Matrix object
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

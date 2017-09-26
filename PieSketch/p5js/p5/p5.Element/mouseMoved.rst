@@ -5,18 +5,21 @@
 mouseMoved()
 ============
 
-The .mouseMoved() function is called once every time a
-mouse moves over the element. This can be used to attach an
-element specific event listener.
+ฟังก์ชัน. mouseMoved () เรียกว่าครั้งทุกครั้งที่เมาส์เคลื่อนที่ผ่านองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .mouseMoved() function is called once every time a
+.. mouse moves over the element. This can be used to attach an
+.. element specific event listener.
 **รูปแบบการใช้งาน**
 
 mouseMoved ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is moved over the element.
+- ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกย้ายไปยังองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   moved over the element.
 
 .. raw:: html
 
@@ -59,5 +62,4 @@ mouseMoved ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

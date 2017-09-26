@@ -5,8 +5,9 @@
 height
 ========
 
-Image height.
+ความสูงของภาพ
 
+.. Image height.
 **รูปแบบการใช้งาน**
 
 height
@@ -33,5 +34,4 @@ height
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

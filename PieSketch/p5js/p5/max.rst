@@ -5,23 +5,26 @@
 max()
 =====
 
-Determines the largest value in a sequence of numbers, and then returns
-that value. max() accepts any number of Number parameters, or an Array
-of any length.
+กำหนดค่าที่ใหญ่ที่สุดในลำดับของตัวเลขจากนั้นจะส่งคืนค่านั้น max () ยอมรับพารามิเตอร์ Number จำนวนหนึ่งหรืออาร์เรย์ที่มีความยาวใดก็ได้
 
+.. Determines the largest value in a sequence of numbers, and then returns
+.. that value. max() accepts any number of Number parameters, or an Array
+.. of any length.
 **รูปแบบการใช้งาน**
 
 max ( n0 )
 
 **พารามิเตอร์**
 
-- ``n0``  Number,Array: Numbers to compare
+- ``n0``  Number,Array: ตัวเลขเพื่อเปรียบเทียบ
 
+.. ``n0``  Number,Array: Numbers to compare
 
 **ค่าที่ส่งออกมา**
 
-- Number: maximum Number
+- Number: จำนวนสูงสุด
 
+.. Number: maximum Number
 
 .. raw:: html
 
@@ -50,5 +53,4 @@ max ( n0 )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

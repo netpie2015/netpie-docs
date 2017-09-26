@@ -5,11 +5,12 @@
 posterize()
 ===========
 
-Limits each channel of the image to the number of colors specified as
-the parameter. The parameter can be set to values between 2 and 255, but
-results are most noticeable in the lower ranges.
-Adapted from java based processing implementation
+จำกัด แต่ละช่องของภาพตามจำนวนสีที่ระบุเป็นพารามิเตอร์ พารามิเตอร์สามารถตั้งค่าเป็นค่าระหว่าง 2 ถึง 255 แต่ผลลัพธ์ที่เห็นได้ชัดที่สุดในช่วงล่าง ปรับเปลี่ยนจากการประมวลผลตาม java
 
+.. Limits each channel of the image to the number of colors specified as
+.. the parameter. The parameter can be set to values between 2 and 255, but
+.. results are most noticeable in the lower ranges.
+.. Adapted from java based processing implementation
 **รูปแบบการใช้งาน**
 
 posterize ( canvas, level )
@@ -20,6 +21,7 @@ posterize ( canvas, level )
 
 - ``level``  Integer: 
 
+.. ``canvas``  Canvas: 
+.. ``level``  Integer: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

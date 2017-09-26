@@ -5,8 +5,9 @@
 getAttributeCount()
 ===================
 
-Counts the specified element's number of attributes, returned as an Number.
+นับจำนวนแอตทริบิวต์ขององค์ประกอบที่ระบุซึ่งส่งกลับเป็นตัวเลข
 
+.. Counts the specified element's number of attributes, returned as an Number.
 **รูปแบบการใช้งาน**
 
 getAttributeCount ( )
@@ -15,6 +16,7 @@ getAttributeCount ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -47,5 +49,4 @@ getAttributeCount ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

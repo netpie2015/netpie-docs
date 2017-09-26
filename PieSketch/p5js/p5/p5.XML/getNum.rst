@@ -5,26 +5,30 @@
 getNum()
 ========
 
-Returns an attribute value of the element as an Number. If the defaultValue
-parameter is specified and the attribute doesn't exist, then defaultValue
-is returned. If no defaultValue is specified and the attribute doesn't
-exist, the value 0 is returned.
+ส่งกลับค่าแอตทริบิวต์ของอิลิเมนต์เป็นจำนวน ถ้ามีระบุพารามิเตอร์ defaultValue และไม่มีแอตทริบิวต์แล้วค่า defaultValue จะถูกส่งคืน หากไม่มีการระบุ defaultValue และไม่มีแอตทริบิวต์ค่านี้จะถูกส่งคืน
 
+.. Returns an attribute value of the element as an Number. If the defaultValue
+.. parameter is specified and the attribute doesn't exist, then defaultValue
+.. is returned. If no defaultValue is specified and the attribute doesn't
+.. exist, the value 0 is returned.
 **รูปแบบการใช้งาน**
 
 getNum ( name, [defaultValue] )
 
 **พารามิเตอร์**
 
-- ``name``  String: the non-null full name of the attribute
+- ``name``  String: ไม่ใช่ชื่อเต็มของแอตทริบิวต์
 
-- ``defaultValue``  Number: the default value of the attribute
+- ``defaultValue``  Number: ค่าเริ่มต้นของแอตทริบิวต์
 
+.. ``name``  String: the non-null full name of the attribute
+.. ``defaultValue``  Number: the default value of the attribute
 
 **ค่าที่ส่งออกมา**
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -57,5 +61,4 @@ getNum ( name, [defaultValue] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

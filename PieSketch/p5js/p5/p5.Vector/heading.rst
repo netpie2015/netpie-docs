@@ -5,16 +5,18 @@
 heading()
 =========
 
-Calculate the angle of rotation for this vector (only 2D vectors)
+คำนวณมุมของการหมุนสำหรับเวกเตอร์นี้ (เฉพาะเวกเตอร์ 2D)
 
+.. Calculate the angle of rotation for this vector (only 2D vectors)
 **รูปแบบการใช้งาน**
 
 heading ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the angle of rotation
+- Number: มุมของการหมุน
 
+.. Number: the angle of rotation
 
 .. raw:: html
 
@@ -34,5 +36,4 @@ heading ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

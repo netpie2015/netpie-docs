@@ -5,13 +5,15 @@
 pRotationZ
 ============
 
-The system variable pRotationZ always contains the rotation of the
-device along the z axis in the frame previous to the current frame. Value
-is represented as 0 to 359 degrees.
+ตัวแปรระบบ pRotationZ ประกอบด้วยการหมุนของอุปกรณ์พร้อมแกน z ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง 359 องศา 
+pRotationZ สามารถใช้กับ rotationZ เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน Z
 
-pRotationZ can also be used with rotationZ to determine the rotate
-direction of the device along the Z-axis.
-
+.. The system variable pRotationZ always contains the rotation of the
+.. device along the z axis in the frame previous to the current frame. Value
+.. is represented as 0 to 359 degrees.
+.. 
+.. pRotationZ can also be used with rotationZ to determine the rotate
+.. direction of the device along the Z-axis.
 **รูปแบบการใช้งาน**
 
 pRotationZ
@@ -45,5 +47,4 @@ pRotationZ
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

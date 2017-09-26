@@ -5,16 +5,18 @@
 displayDensity()
 ================
 
-Returns the pixel density of the current display the sketch is running on.
+แสดงความหนาแน่นของพิกเซลของการแสดงผลปัจจุบันที่ร่างกำลังทำงานอยู่
 
+.. Returns the pixel density of the current display the sketch is running on.
 **รูปแบบการใช้งาน**
 
 displayDensity ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: current pixel density of the display
+- Number: ความหนาแน่นของพิกเซลปัจจุบันของจอแสดงผล
 
+.. Number: current pixel density of the display
 
 .. raw:: html
 
@@ -31,5 +33,4 @@ displayDensity ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

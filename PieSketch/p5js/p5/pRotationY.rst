@@ -5,13 +5,15 @@
 pRotationY
 ============
 
-The system variable pRotationY always contains the rotation of the
-device along the y axis in the frame previous to the current frame. Value
-is represented as 0 to +/-90 degrees.
+ตัวแปรระบบ pRotationY ประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน y ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง +/- 90 องศา 
+pRotationY สามารถใช้กับ rotationY เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน Y
 
-pRotationY can also be used with rotationY to determine the rotate
-direction of the device along the Y-axis.
-
+.. The system variable pRotationY always contains the rotation of the
+.. device along the y axis in the frame previous to the current frame. Value
+.. is represented as 0 to +/-90 degrees.
+.. 
+.. pRotationY can also be used with rotationY to determine the rotate
+.. direction of the device along the Y-axis.
 **รูปแบบการใช้งาน**
 
 pRotationY
@@ -45,5 +47,4 @@ pRotationY
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

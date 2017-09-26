@@ -5,8 +5,9 @@
 noCursor()
 ==========
 
-Hides the cursor from view.
+ซ่อนเคอร์เซอร์จากมุมมอง
 
+.. Hides the cursor from view.
 **รูปแบบการใช้งาน**
 
 noCursor ( )
@@ -27,5 +28,4 @@ noCursor ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

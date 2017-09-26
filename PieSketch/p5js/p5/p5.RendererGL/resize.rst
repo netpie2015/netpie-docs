@@ -5,18 +5,20 @@
 resize()
 ========
 
-[resize description]
+[ปรับขนาดคำอธิบาย]
 
+.. [resize description]
 **รูปแบบการใช้งาน**
 
 resize ( w, h )
 
 **พารามิเตอร์**
 
-- ``w``  Number: [description]
+- ``w``  Number: [รายละเอียด]
 
-- ``h``  Number: [description]
+- ``h``  Number: [รายละเอียด]
 
+.. ``w``  Number: [description]
+.. ``h``  Number: [description]
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

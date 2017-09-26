@@ -5,11 +5,12 @@
 key
 =====
 
-The system variable key always contains the value of the most recent
-key on the keyboard that was typed. To get the proper capitalization, it
-is best to use it within keyTyped(). For non-ASCII keys, use the keyCode
-variable.
+คีย์ตัวแปรระบบประกอบด้วยค่าของคีย์ล่าสุดบนแป้นพิมพ์ที่พิมพ์อยู่เสมอ เพื่อให้ได้ตัวพิมพ์ใหญ่ที่เหมาะสมคุณควรใช้คีย์นี้ภายในคีย์ไทม์ () สำหรับคีย์ที่ไม่ใช่ ASCII ให้ใช้ตัวแปร keyCode
 
+.. The system variable key always contains the value of the most recent
+.. key on the keyboard that was typed. To get the proper capitalization, it
+.. is best to use it within keyTyped(). For non-ASCII keys, use the keyCode
+.. variable.
 **รูปแบบการใช้งาน**
 
 key
@@ -33,5 +34,4 @@ key
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

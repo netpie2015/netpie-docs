@@ -5,22 +5,25 @@
 shorten()
 =========
 
-Decreases an array by one element and returns the shortened array,
-maps to Array.pop().
+ลดอาร์เรย์โดยองค์ประกอบหนึ่งและส่งกลับค่าอาร์เรย์ที่สั้นลงไปยัง Array.pop ()
 
+.. Decreases an array by one element and returns the shortened array,
+.. maps to Array.pop().
 **รูปแบบการใช้งาน**
 
 shorten ( list )
 
 **พารามิเตอร์**
 
-- ``list``  Array: Array to shorten
+- ``list``  Array: อาร์เรย์ย่อ
 
+.. ``list``  Array: Array to shorten
 
 **ค่าที่ส่งออกมา**
 
-- Array: shortened Array
+- Array: ย่ออาร์เรย์
 
+.. Array: shortened Array
 
 .. raw:: html
 
@@ -38,5 +41,4 @@ shorten ( list )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

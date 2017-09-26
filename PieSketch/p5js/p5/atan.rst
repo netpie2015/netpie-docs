@@ -9,6 +9,9 @@ The inverse of tan(), returns the arc tangent of a value. This function
 expects the values in the range of -Infinity to Infinity (exclusive) and
 values are returned in the range -PI/2 to PI/2.
 
+.. The inverse of tan(), returns the arc tangent of a value. This function
+.. expects the values in the range of -Infinity to Infinity (exclusive) and
+.. values are returned in the range -PI/2 to PI/2.
 **รูปแบบการใช้งาน**
 
 atan ( value )
@@ -17,11 +20,13 @@ atan ( value )
 
 - ``value``  Number: the value whose arc tangent is to be returned
 
+.. ``value``  Number: the value whose arc tangent is to be returned
 
 **ค่าที่ส่งออกมา**
 
 - Number: the arc tangent of the given value
 
+.. Number: the arc tangent of the given value
 
 .. raw:: html
 
@@ -48,5 +53,4 @@ atan ( value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

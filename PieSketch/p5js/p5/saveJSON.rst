@@ -5,10 +5,11 @@
 saveJSON()
 ==========
 
-Writes the contents of an Array or a JSON object to a .json file.
- The file saving process and location of the saved file will
- vary between web browsers.
+เขียนเนื้อหาของอาร์เรย์หรือวัตถุ JSON เป็นไฟล์. json กระบวนการบันทึกไฟล์และตำแหน่งของไฟล์ที่บันทึกไว้จะแตกต่างกันไปในแต่ละเว็บเบราเซอร์
 
+.. Writes the contents of an Array or a JSON object to a .json file.
+..  The file saving process and location of the saved file will
+..  vary between web browsers.
 **รูปแบบการใช้งาน**
 
 saveJSON ( json, filename, [optimize] )
@@ -19,8 +20,14 @@ saveJSON ( json, filename, [optimize] )
 
 - ``filename``  String: 
 
-- ``optimize``  Boolean: If true, removes line breaks and spaces from the output file to optimize filesize (but not readability).
+- ``optimize``  Boolean: ถ้าเป็นจริงให้เอาเส้นแบ่งและช่องว่างออกจากไฟล์ที่ส่งออกเพื่อเพิ่มประสิทธิภาพไฟล์ (แต่ไม่สามารถอ่านได้)
 
+.. ``json``  Array,Object: 
+.. ``filename``  String: 
+.. ``optimize``  Boolean: If true, removes line breaks
+                                and spaces from the output
+                                file to optimize filesize
+                                (but not readability).
 
 .. raw:: html
 
@@ -51,5 +58,4 @@ saveJSON ( json, filename, [optimize] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

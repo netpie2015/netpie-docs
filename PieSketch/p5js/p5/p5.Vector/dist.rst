@@ -5,22 +5,25 @@
 dist()
 ======
 
-Calculates the Euclidean distance between two points (considering a
-point as a vector object).
+คำนวณระยะทางยุคลิดระหว่างสองจุด (พิจารณาจุดเป็นวัตถุเวกเตอร์)
 
+.. Calculates the Euclidean distance between two points (considering a
+.. point as a vector object).
 **รูปแบบการใช้งาน**
 
 dist ( v )
 
 **พารามิเตอร์**
 
-- ``v``  p5.Vector: the x, y, and z coordinates of a p5.Vector
+- ``v``  p5.Vector: พิกัด x, y และ z ของ p5.Vector
 
+.. ``v``  p5.Vector: the x, y, and z coordinates of a p5.Vector
 
 **ค่าที่ส่งออกมา**
 
-- Number: the distance
+- Number: ระยะทาง
 
+.. Number: the distance
 
 .. raw:: html
 
@@ -46,5 +49,4 @@ dist ( v )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

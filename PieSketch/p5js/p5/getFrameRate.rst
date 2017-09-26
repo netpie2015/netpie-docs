@@ -5,16 +5,17 @@
 getFrameRate()
 ==============
 
-Returns the current framerate.
+ส่งคืนกรอบภาพปัจจุบัน
 
+.. Returns the current framerate.
 **รูปแบบการใช้งาน**
 
 getFrameRate ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: current frameRate
+- Number: frameRate ปัจจุบัน
 
+.. Number: current frameRate
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

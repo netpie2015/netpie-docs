@@ -5,9 +5,10 @@
 winMouseY
 ===========
 
-The system variable winMouseY always contains the current vertical
-position of the mouse, relative to (0, 0) of the window.
+ตัวแปรระบบ winMouseY จะมีตำแหน่งแนวตั้งในแนวตั้งของเมาส์โดยสัมพันธ์กับ (0, 0) ของหน้าต่าง
 
+.. The system variable winMouseY always contains the current vertical
+.. position of the mouse, relative to (0, 0) of the window.
 **รูปแบบการใช้งาน**
 
 winMouseY
@@ -39,5 +40,4 @@ winMouseY
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

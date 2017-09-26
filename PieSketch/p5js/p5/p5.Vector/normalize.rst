@@ -5,16 +5,18 @@
 normalize()
 ===========
 
-Normalize the vector to length 1 (make it a unit vector).
+Normalize เวกเตอร์ให้มีความยาว 1 (ทำให้เป็นเวกเตอร์หน่วย)
 
+.. Normalize the vector to length 1 (make it a unit vector).
 **รูปแบบการใช้งาน**
 
 normalize ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.Vector: normalized p5.Vector
+- p5.Vector: ปกติ p5.Vector
 
+.. p5.Vector: normalized p5.Vector
 
 .. raw:: html
 
@@ -29,5 +31,4 @@ normalize ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

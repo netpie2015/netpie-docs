@@ -5,10 +5,11 @@
 frameCount
 ============
 
-The system variable frameCount contains the number of frames that have
-been displayed since the program started. Inside setup() the value is 0,
-after the first iteration of draw it is 1, etc.
+ตัวแปรเฟรม frameCount ประกอบด้วยจำนวนเฟรมที่แสดงขึ้นตั้งแต่เริ่มต้นโปรแกรม ภายในการตั้งค่า () ค่าเป็น 0 หลังจากที่ทำซ้ำครั้งแรกของการวาดเป็น 1 ฯลฯ
 
+.. The system variable frameCount contains the number of frames that have
+.. been displayed since the program started. Inside setup() the value is 0,
+.. after the first iteration of draw it is 1, etc.
 **รูปแบบการใช้งาน**
 
 frameCount
@@ -33,5 +34,4 @@ frameCount
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,26 +5,32 @@
 ortho()
 =======
 
-sets the ortho matrix
+กำหนดเมธอด ortho
 
+.. sets the ortho matrix
 **รูปแบบการใช้งาน**
 
 ortho ( left, right, bottom, top, near, far )
 
 **พารามิเตอร์**
 
-- ``left``  Number: [description]
+- ``left``  Number: [รายละเอียด]
 
-- ``right``  Number: [description]
+- ``right``  Number: [รายละเอียด]
 
-- ``bottom``  Number: [description]
+- ``bottom``  Number: [รายละเอียด]
 
-- ``top``  Number: [description]
+- ``top``  Number: [รายละเอียด]
 
-- ``near``  Number: near clipping plane
+- ``near``  Number: ใกล้ระนาบตัด
 
-- ``far``  Number: far clipping plane
+- ``far``  Number: เครื่องบินตัดยาว
 
+.. ``left``  Number: [description]
+.. ``right``  Number: [description]
+.. ``bottom``  Number: [description]
+.. ``top``  Number: [description]
+.. ``near``  Number: near clipping plane
+.. ``far``  Number: far clipping plane
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

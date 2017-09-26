@@ -5,8 +5,9 @@
 maxValue()
 ==========
 
-Return the highest value.
+ส่งคืนค่าสูงสุด
 
+.. Return the highest value.
 **รูปแบบการใช้งาน**
 
 maxValue ( )
@@ -15,6 +16,7 @@ maxValue ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ maxValue ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

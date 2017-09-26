@@ -5,8 +5,9 @@
 minKey()
 ========
 
-Return the lowest key.
+ส่งคืนคีย์ที่ต่ำที่สุด
 
+.. Return the lowest key.
 **รูปแบบการใช้งาน**
 
 minKey ( )
@@ -15,6 +16,7 @@ minKey ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ minKey ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,21 +5,24 @@
 alpha()
 =======
 
-Extracts the alpha value from a color or pixel array.
+แยกค่า alpha ออกจากอาร์เรย์สีหรือพิกเซล
 
+.. Extracts the alpha value from a color or pixel array.
 **รูปแบบการใช้งาน**
 
 alpha ( color )
 
 **พารามิเตอร์**
 
-- ``color``  p5.Color,Array: p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object หรือ pixel array
 
+.. ``color``  p5.Color,Array: p5.Color object or pixel array
 
 **ค่าที่ส่งออกมา**
 
-- Number: the alpha value
+- Number: ค่า alpha
 
+.. Number: the alpha value
 
 .. raw:: html
 
@@ -36,5 +39,4 @@ alpha ( color )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

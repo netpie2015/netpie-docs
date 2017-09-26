@@ -5,30 +5,37 @@
 perspective()
 =============
 
-Sets perspective camera. When called with no arguments, the defaults
-provided are equivalent to
-perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0)
-where cameraZ is ((height/2.0) / tan(PI*60.0/360.0));
+ตั้งกล้องมุมมอง ค่าที่ตั้งไว้จะเท่ากับมุมมอง (PI / 3.0, width / height, cameraZ / 10.0, cameraZ * 10.0) โดยที่ cameraZ คือ ((สูง / 2.0) / tan (PI * 60.0 / 360.0));
 
+.. Sets perspective camera. When called with no arguments, the defaults
+.. provided are equivalent to
+.. perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0)
+.. where cameraZ is ((height/2.0) / tan(PI*60.0/360.0));
 **รูปแบบการใช้งาน**
 
 perspective ( [fovy], [aspect], [near], [far] )
 
 **พารามิเตอร์**
 
-- ``fovy``  Number: camera frustum vertical field of view, from bottom to top of view, in degrees
+- ``fovy``  Number: กล้องดูแนวตั้งจากมุมมองด้านล่างถึงมุมมองด้านบนเป็นองศา
 
-- ``aspect``  Number: camera frustum aspect ratio
+- ``aspect``  Number: อัตราสเปรดชีตของกล้อง
 
-- ``near``  Number: frustum near plane length
+- ``near``  Number: frustum ใกล้ระนาบ
 
-- ``far``  Number: frustum far plane length
+- ``far``  Number: frustum ยาวระนาบ
 
+.. ``fovy``  Number: camera frustum vertical field of view,
+                          from bottom to top of view, in degrees
+.. ``aspect``  Number: camera frustum aspect ratio
+.. ``near``  Number: frustum near plane length
+.. ``far``  Number: frustum far plane length
 
 **ค่าที่ส่งออกมา**
 
-- p5: the p5 object
+- p5: วัตถุ p5
 
+.. p5: the p5 object
 
 .. raw:: html
 
@@ -58,5 +65,4 @@ perspective ( [fovy], [aspect], [near], [far] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

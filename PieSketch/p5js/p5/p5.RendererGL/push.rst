@@ -5,12 +5,12 @@
 push()
 ======
 
-pushes a copy of the model view matrix onto the
-MV Matrix stack.
+ผลักดันสำเนาเมทริกซ์มุมมองแบบลงบนสแต็ค MV Matrix
 
+.. pushes a copy of the model view matrix onto the
+.. MV Matrix stack.
 **รูปแบบการใช้งาน**
 
 push ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

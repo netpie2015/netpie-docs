@@ -5,20 +5,28 @@
 sphere()
 ========
 
-Draw a sphere with given radius
+วาดทรงกลมที่มีรัศมีให้
 
+.. Draw a sphere with given radius
 **รูปแบบการใช้งาน**
 
 sphere ( radius, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  Number: radius of circle
+- ``radius``  Number: รัศมีวงกลม
 
-- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
+- ``detailX``  Number: ไม่จำเป็น: จำนวนกลุ่มส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 24
 
-- ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16
+- ``detailY``  Number: ไม่จำเป็น: จำนวนกลุ่มส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 16
 
+.. ``radius``  Number: radius of circle
+.. ``detailX``  Number: optional: number of segments,
+                                   the more segments the smoother geometry
+                                   default is 24
+.. ``detailY``  Number: optional: number of segments,
+                                   the more segments the smoother geometry
+                                   default is 16
 
 .. raw:: html
 
@@ -37,5 +45,4 @@ sphere ( radius, [detailX], [detailY] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

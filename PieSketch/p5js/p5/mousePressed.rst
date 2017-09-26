@@ -5,16 +5,18 @@
 mousePressed()
 ==============
 
-The mousePressed() function is called once after every time a mouse button
-is pressed. The mouseButton variable (see the related reference entry)
-can be used to determine which button has been pressed. If no
-mousePressed() function is defined, the touchStarted() function will be
-called instead if it is defined.
+ฟังก์ชัน mousePressed () เรียกว่าครั้งหลังจากทุกครั้งที่กดปุ่มเมาส์ ตัวแปร mouseButton (ดูรายการอ้างอิงที่เกี่ยวข้อง) สามารถใช้เพื่อกำหนดว่าปุ่มใดถูกกด หากไม่มีฟังก์ชัน mousePressed () ฟังก์ชัน touchStarted () จะถูกเรียกใช้แทนถ้ากำหนดไว้ 
+เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด
 
-Browsers may have different default
-behaviors attached to various mouse events. To prevent any default
-behavior for this event, add "return false" to the end of the method.
-
+.. The mousePressed() function is called once after every time a mouse button
+.. is pressed. The mouseButton variable (see the related reference entry)
+.. can be used to determine which button has been pressed. If no
+.. mousePressed() function is defined, the touchStarted() function will be
+.. called instead if it is defined.
+.. 
+.. Browsers may have different default
+.. behaviors attached to various mouse events. To prevent any default
+.. behavior for this event, add "return false" to the end of the method.
 **รูปแบบการใช้งาน**
 
 mousePressed ( )
@@ -54,5 +56,4 @@ mousePressed ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

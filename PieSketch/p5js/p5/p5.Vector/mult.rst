@@ -5,18 +5,20 @@
 mult()
 ======
 
-Multiply the vector by a scalar. The static version of this method
-creates a new p5.Vector while the non static version acts on the vector
-directly. See the examples for more context.
+คูณเวกเตอร์ด้วยสเกลาร เวอร์ชันคงที่ของวิธีนี้จะสร้าง p5.Vector ใหม่ในขณะที่เวอร์ชันที่ไม่ใช่แบบคงที่จะทำงานบนเวกเตอร์โดยตรง ดูตัวอย่างสำหรับบริบทเพิ่มเติม
 
+.. Multiply the vector by a scalar. The static version of this method
+.. creates a new p5.Vector while the non static version acts on the vector
+.. directly. See the examples for more context.
 **รูปแบบการใช้งาน**
 
 mult ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: the number to multiply with the vector
+- ``n``  Number: จำนวนคูณด้วยเวกเตอร์
 
+.. ``n``  Number: the number to multiply with the vector
 
 .. raw:: html
 
@@ -40,5 +42,4 @@ mult ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

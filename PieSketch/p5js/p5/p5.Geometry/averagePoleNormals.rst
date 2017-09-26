@@ -5,11 +5,11 @@
 averagePoleNormals()
 ====================
 
-Averages pole normals.  Used in spherical primitives
+ค่าเฉลี่ยของขั้วโลกธรรมดา ใช้ในรูปทรงกลม
 
+.. Averages pole normals.  Used in spherical primitives
 **รูปแบบการใช้งาน**
 
 averagePoleNormals ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,16 +5,18 @@
 strokeWeight()
 ==============
 
-Change weight of stroke
+เปลี่ยนน้ำหนักของโรคหลอดเลือดสมอง
 
+.. Change weight of stroke
 **รูปแบบการใช้งาน**
 
 strokeWeight ( stroke )
 
 **พารามิเตอร์**
 
-- ``stroke``  Number: weight to be used for drawing
+- ``stroke``  Number: น้ำหนักที่จะใช้สำหรับการวาด
 
+.. ``stroke``  Number: weight to be used for drawing
 
 .. raw:: html
 
@@ -50,5 +52,4 @@ strokeWeight ( stroke )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

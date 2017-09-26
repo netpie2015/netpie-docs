@@ -5,28 +5,33 @@
 mouseWheel()
 ============
 
-The .mouseWheel() function is called once after every time a
-mouse wheel is scrolled over the element. This can be used to
-attach element specific event listeners.
+ฟังก์ชัน. mouseWheel () เรียกว่าครั้งหลังจากทุกครั้งที่มีการเลื่อนเมาส์ไปบนองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน 
+ฟังก์ชันรับฟังก์ชันเรียกกลับเป็นอาร์กิวเมนต์ซึ่งจะทำงานเมื่อเหตุการณ์ `ล้อเลื่อนถูกเรียกใช้บนองค์ประกอบฟังก์ชันการเรียกกลับจะถูกส่งผ่านเหตุการณ์` อาร์กิวเมนต์หนึ่ง ๆ &#39; คุณสมบัติ `event.deltaY` ส่งกลับค่าลบหากล้อเลื่อนของเมาส์ถูกหมุนขึ้นหรือออกจากผู้ใช้และบวกในทิศทางอื่น `event.deltaX` ทำเช่นเดียวกับ` event.deltaY` ยกเว้นจะอ่านสเกลล้อแนวนอนของล้อเลื่อนเมาส์ 
+ใน OS X ที่มีการเลื่อนแบบ &quot;ธรรมชาติ&quot; ค่าของ event.local จะกลับรายการ
 
-The function accepts a callback function as argument which will be executed
-when the `wheel` event is triggered on the element, the callback function is
-passed one argument `event`. The `event.deltaY` property returns negative
-values if the mouse wheel is rotated up or away from the user and positive
-in the other direction. The `event.deltaX` does the same as `event.deltaY`
-except it reads the horizontal wheel scroll of the mouse wheel.
-
-On OS X with "natural" scrolling enabled, the `event.deltaY` values are
-reversed.
-
+.. The .mouseWheel() function is called once after every time a
+.. mouse wheel is scrolled over the element. This can be used to
+.. attach element specific event listeners.
+.. 
+.. The function accepts a callback function as argument which will be executed
+.. when the `wheel` event is triggered on the element, the callback function is
+.. passed one argument `event`. The `event.deltaY` property returns negative
+.. values if the mouse wheel is rotated up or away from the user and positive
+.. in the other direction. The `event.deltaX` does the same as `event.deltaY`
+.. except it reads the horizontal wheel scroll of the mouse wheel.
+.. 
+.. On OS X with "natural" scrolling enabled, the `event.deltaY` values are
+.. reversed.
 **รูปแบบการใช้งาน**
 
 mouseWheel ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse wheel is scrolled over the element.
+- ``fxn``  function: จะถูกเรียกใช้เมื่อเลื่อนเมาส์ไปบนองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse wheel is
+                   scrolled over the element.
 
 .. raw:: html
 
@@ -67,5 +72,4 @@ mouseWheel ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,10 +5,11 @@
 pwinMouseX
 ============
 
-The system variable pwinMouseX always contains the horizontal position
-of the mouse in the frame previous to the current frame, relative to
-(0, 0) of the window.
+ตัวแปรของระบบ pwinMouseX ประกอบด้วยตำแหน่งในแนวนอนของเมาส์ในกรอบก่อนหน้ากรอบปัจจุบันเทียบกับ (0, 0) ของหน้าต่าง
 
+.. The system variable pwinMouseX always contains the horizontal position
+.. of the mouse in the frame previous to the current frame, relative to
+.. (0, 0) of the window.
 **รูปแบบการใช้งาน**
 
 pwinMouseX
@@ -43,5 +44,4 @@ pwinMouseX
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,28 +5,32 @@
 curveVertex()
 =============
 
-Specifies vertex coordinates for curves. This function may only
-be used between beginShape() and endShape() and only when there
-is no MODE parameter specified to beginShape().
+ระบุพิกัดจุดสุดยอดสำหรับเส้นโค้ง ฟังก์ชันนี้ใช้ได้เฉพาะระหว่าง beginShape () และ endShape () เท่านั้นเมื่อไม่มีพารามิเตอร์ MODE ที่ระบุเพื่อเริ่มต้นรูปร่าง () 
+จุดแรกและจุดสุดท้ายในชุดเส้นโค้ง () จะถูกใช้เพื่อเป็นแนวทางในการเริ่มต้นและจุดสิ้นสุดของเส้นโค้ง ต้องใช้จุดอย่างน้อยสี่จุดเพื่อวาดเส้นโค้งเล็ก ๆ ระหว่างจุดที่สองและจุดที่สาม การเพิ่มจุดที่ห้าด้วย curveVertex () จะวาดเส้นโค้งระหว่างจุดที่สองสามและสี่ ฟังก์ชัน curveVertex () คือการดำเนินการ Splines Catmull-Rom
 
-The first and last points in a series of curveVertex() lines will be used to
-guide the beginning and end of a the curve. A minimum of four
-points is required to draw a tiny curve between the second and
-third points. Adding a fifth point with curveVertex() will draw
-the curve between the second, third, and fourth points. The
-curveVertex() function is an implementation of Catmull-Rom
-splines.
-
+.. Specifies vertex coordinates for curves. This function may only
+.. be used between beginShape() and endShape() and only when there
+.. is no MODE parameter specified to beginShape().
+.. 
+.. The first and last points in a series of curveVertex() lines will be used to
+.. guide the beginning and end of a the curve. A minimum of four
+.. points is required to draw a tiny curve between the second and
+.. third points. Adding a fifth point with curveVertex() will draw
+.. the curve between the second, third, and fourth points. The
+.. curveVertex() function is an implementation of Catmull-Rom
+.. splines.
 **รูปแบบการใช้งาน**
 
 curveVertex ( x, y )
 
 **พารามิเตอร์**
 
-- ``x``  Number: x-coordinate of the vertex
+- ``x``  Number: พิกัด x ของจุดสุดยอด
 
-- ``y``  Number: y-coordinate of the vertex
+- ``y``  Number: y พิกัดของจุดยอด
 
+.. ``x``  Number: x-coordinate of the vertex
+.. ``y``  Number: y-coordinate of the vertex
 
 .. raw:: html
 
@@ -45,5 +49,4 @@ curveVertex ( x, y )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

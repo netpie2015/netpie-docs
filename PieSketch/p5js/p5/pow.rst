@@ -5,27 +5,31 @@
 pow()
 =====
 
-Facilitates exponential expressions. The pow() function is an efficient
-way of multiplying numbers by themselves (or their reciprocals) in large
-quantities. For example, pow(3, 5) is equivalent to the expression
-3*3*3*3*3 and pow(3, -5) is equivalent to 1 / 3*3*3*3*3. Maps to
-Math.pow().
+อำนวยความสะดวกในการแสดงออกที่เป็นเอกลัษณ์ ฟังก์ชัน pow () เป็นวิธีที่มีประสิทธิภาพในการคูณตัวเลขด้วยตัวเอง (หรือสิ่งตอบแทน) ในปริมาณมาก ยกตัวอย่างเช่น pow (3, 5) เทียบเท่ากับการแสดงออก 3 * 3 * 3 * 3 * 3 และ pow (3, -5) เท่ากับ 1/3 * 3 * 3 * 3 * 3 Maps to Math.pow ()
 
+.. Facilitates exponential expressions. The pow() function is an efficient
+.. way of multiplying numbers by themselves (or their reciprocals) in large
+.. quantities. For example, pow(3, 5) is equivalent to the expression
+.. 3*3*3*3*3 and pow(3, -5) is equivalent to 1 / 3*3*3*3*3. Maps to
+.. Math.pow().
 **รูปแบบการใช้งาน**
 
 pow ( n, e )
 
 **พารามิเตอร์**
 
-- ``n``  Number: base of the exponential expression
+- ``n``  Number: ฐานของนิพจน์เลขชี้กำลัง
 
-- ``e``  Number: power by which to raise the base
+- ``e``  Number: พลังที่จะยกฐาน
 
+.. ``n``  Number: base of the exponential expression
+.. ``e``  Number: power by which to raise the base
 
 **ค่าที่ส่งออกมา**
 
-- Number: n^e
+- Number: n ^ อี
 
+.. Number: n^e
 
 .. raw:: html
 
@@ -48,5 +52,4 @@ pow ( n, e )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

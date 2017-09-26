@@ -5,16 +5,17 @@
 drawBuffers()
 =============
 
-Draws buffers given a geometry key ID
+วาดบัฟเฟอร์ที่ระบุรหัสคีย์รูปทรงเรขาคณิต
 
+.. Draws buffers given a geometry key ID
 **รูปแบบการใช้งาน**
 
 drawBuffers ( gId )
 
 **พารามิเตอร์**
 
-- ``gId``  String: ID in our geom hash
+- ``gId``  String: ID ของเราในรูปแบบข้อมูลภูมิศาสตร์ของเรา
 
+.. ``gId``  String: ID in our geom hash
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,38 +5,46 @@
 color()
 =======
 
-Creates colors for storing in variables of the color datatype. The
-parameters are interpreted as RGB or HSB values depending on the
-current colorMode(). The default mode is RGB values from 0 to 255
-and, therefore, the function call color(255, 204, 0) will return a
-bright yellow color.
+สร้างสีสำหรับจัดเก็บในตัวแปรประเภทข้อมูลสี พารามิเตอร์ถูกตีความว่าเป็นค่า RGB หรือ HSB ขึ้นอยู่กับ colorMode ปัจจุบัน () โหมดค่าเริ่มต้นคือค่า RGB ตั้งแต่ 0 ถึง 255 ดังนั้นสีของฟังก์ชันเรียกฟังก์ชัน (255, 204, 0) จะกลับเป็นสีเหลืองสดใส 
+โปรดทราบว่าหากมีการระบุสีให้เป็นสีเดียว () ค่านี้จะถูกตีความว่าเป็นค่าสีเทา เพิ่มค่าที่สองและจะใช้สำหรับความโปร่งใสของ alpha เมื่อมีการระบุค่าสามค่าค่าเหล่านี้จะถูกตีความว่าเป็นค่า RGB หรือ HSB การเพิ่มค่าที่สี่ใช้ความโปร่งใสของ alpha 
+ถ้ามีอาร์กิวเมนต์สตริงเดียวให้ใช้สตริงสี RGB, RGBA และ Hex CSS และสตริงสีที่มีชื่อทั้งหมด ในกรณีนี้ไม่สนับสนุนค่าตัวเลขอัลฟาเป็นอาร์กิวเมนต์ที่สองให้ใช้รูปแบบ RGBA
 
-Note that if only one value is provided to color(), it will be interpreted
-as a grayscale value. Add a second value, and it will be used for alpha
-transparency. When three values are specified, they are interpreted as
-either RGB or HSB values. Adding a fourth value applies alpha
-transparency.
-
-If a single string argument is provided, RGB, RGBA and Hex CSS color
-strings and all named color strings are supported. In this case, an alpha
-number value as a second argument is not supported, the RGBA form should be
-used.
-
+.. Creates colors for storing in variables of the color datatype. The
+.. parameters are interpreted as RGB or HSB values depending on the
+.. current colorMode(). The default mode is RGB values from 0 to 255
+.. and, therefore, the function call color(255, 204, 0) will return a
+.. bright yellow color.
+.. 
+.. Note that if only one value is provided to color(), it will be interpreted
+.. as a grayscale value. Add a second value, and it will be used for alpha
+.. transparency. When three values are specified, they are interpreted as
+.. either RGB or HSB values. Adding a fourth value applies alpha
+.. transparency.
+.. 
+.. If a single string argument is provided, RGB, RGBA and Hex CSS color
+.. strings and all named color strings are supported. In this case, an alpha
+.. number value as a second argument is not supported, the RGBA form should be
+.. used.
 **รูปแบบการใช้งาน**
 
 color ( gray, [alpha] )
 
 **พารามิเตอร์**
 
-- ``gray``  Number: number specifying value between white and black.
+- ``gray``  Number: หมายเลขระบุค่าระหว่างสีขาวและสีดำ
 
-- ``alpha``  Number: alpha value relative to current color range (default is 0-255)
+- ``alpha``  Number: ค่า alpha เทียบกับช่วงสีปัจจุบัน (ค่าเริ่มต้นคือ 0-255)
 
+.. ``gray``  Number: number specifying value between white
+                                and black.
+.. ``alpha``  Number: alpha value relative to current color range
+                                (default is 0-255)
 
 **ค่าที่ส่งออกมา**
 
-- p5.Color: resulting color
+- p5.Color: สีที่เกิดขึ้น
 
+.. p5.Color: resulting color
 
 .. raw:: html
 
@@ -177,5 +185,4 @@ color ( gray, [alpha] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

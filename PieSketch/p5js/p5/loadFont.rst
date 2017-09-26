@@ -5,31 +5,38 @@
 loadFont()
 ==========
 
-Loads an opentype font file (.otf, .ttf) from a file or a URL,
-and returns a PFont Object. This method is asynchronous,
-meaning it may not finish before the next line in your sketch
-is executed.
+โหลดไฟล์ font opentype (.otf, .ttf) จากไฟล์หรือ URL และส่งคืนออบเจ็กต์ PFont วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ 
+เส้นทางไปยังแบบอักษรควรเทียบกับไฟล์ HTML ที่ลิงก์ในร่างของคุณ การโหลด URL จากที่อยู่ระยะไกลหรืออื่น ๆ อาจถูกบล็อกเนื่องจากความปลอดภัยในตัวของเบราเซอร์
 
-The path to the font should be relative to the HTML file
-that links in your sketch. Loading an from a URL or other
-remote location may be blocked due to your browser's built-in
-security.
-
+.. Loads an opentype font file (.otf, .ttf) from a file or a URL,
+.. and returns a PFont Object. This method is asynchronous,
+.. meaning it may not finish before the next line in your sketch
+.. is executed.
+.. 
+.. The path to the font should be relative to the HTML file
+.. that links in your sketch. Loading an from a URL or other
+.. remote location may be blocked due to your browser's built-in
+.. security.
 **รูปแบบการใช้งาน**
 
 loadFont ( path, [callback] )
 
 **พารามิเตอร์**
 
-- ``path``  String: name of the file or url to load
+- ``path``  String: ชื่อไฟล์หรือ URL ที่จะโหลด
 
-- ``callback``  function: function to be executed after loadFont() completes
+- ``callback``  function: ฟังก์ชันที่จะดำเนินการหลังจาก loadFont () เสร็จสิ้น
 
+.. ``path``  String: name of the file or url to load
+.. ``callback``  function: function to be executed after
+                                   loadFont()
+                                   completes
 
 **ค่าที่ส่งออกมา**
 
 - p5.Font: p5.Font object
 
+.. p5.Font: p5.Font object
 
 .. raw:: html
 
@@ -79,5 +86,4 @@ loadFont ( path, [callback] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

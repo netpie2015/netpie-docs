@@ -5,26 +5,36 @@
 httpGet()
 =========
 
-Method for executing an HTTP GET request. If data type is not specified,
-p5 will try to guess based on the URL, defaulting to text. This is equivalent to
-calling httpDo(path, 'GET').
+วิธีการดำเนินการคำขอ HTTP GET หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ นี่เทียบเท่ากับการเรียก httpDo(path, &#39;GET&#39;)
 
+.. Method for executing an HTTP GET request. If data type is not specified,
+.. p5 will try to guess based on the URL, defaulting to text. This is equivalent to
+.. calling httpDo(path, 'GET').
 **รูปแบบการใช้งาน**
 
 httpGet ( path, [datatype], [data], [callback], [errorCallback] )
 
 **พารามิเตอร์**
 
-- ``path``  String: name of the file or url to load
+- ``path``  String: ชื่อไฟล์หรือ URL ที่จะโหลด
 
-- ``datatype``  String: "json", "jsonp", "xml", or "text"
+- ``datatype``  String: &quot;json&quot;, &quot;jsonp&quot;, &quot;xml&quot; หรือ &quot;ข้อความ&quot;
 
-- ``data``  Object: param data passed sent with request
+- ``data``  Object: ข้อมูล param ที่ส่งมาพร้อมกับคำขอ
 
-- ``callback``  function: function to be executed after httpGet() completes, data is passed in as first argument
+- ``callback``  function: ฟังก์ชันที่จะดำเนินการหลังจาก httpget () เสร็จสมบูรณ์แล้วข้อมูลจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
-- ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
+- ``errorCallback``  function: ฟังก์ชันที่จะดำเนินการถ้ามีข้อผิดพลาดการตอบสนองจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
+.. ``path``  String: name of the file or url to load
+.. ``datatype``  String: "json", "jsonp", "xml", or "text"
+.. ``data``  Object: param data passed sent with request
+.. ``callback``  function: function to be executed after
+                                   httpGet() completes, data is passed in
+                                   as first argument
+.. ``errorCallback``  function: function to be executed if
+                                   there is an error, response is passed
+                                   in as first argument
 
 .. raw:: html
 
@@ -62,5 +72,4 @@ httpGet ( path, [datatype], [data], [callback], [errorCallback] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

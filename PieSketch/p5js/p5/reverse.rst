@@ -5,16 +5,18 @@
 reverse()
 =========
 
-Reverses the order of an array, maps to Array.reverse()
+เปลี่ยนลำดับของอาร์เรย์กลับไปที่ Array.reverse ()
 
+.. Reverses the order of an array, maps to Array.reverse()
 **รูปแบบการใช้งาน**
 
 reverse ( list )
 
 **พารามิเตอร์**
 
-- ``list``  Array: Array to reverse
+- ``list``  Array: อาร์เรย์ย้อนกลับ
 
+.. ``list``  Array: Array to reverse
 
 .. raw:: html
 
@@ -31,5 +33,4 @@ reverse ( list )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

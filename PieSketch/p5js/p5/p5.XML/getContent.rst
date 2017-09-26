@@ -5,22 +5,25 @@
 getContent()
 ============
 
-Returns the content of an element. If there is no such content,
-defaultValue is returned if specified, otherwise null is returned.
+ส่งกลับเนื้อหาขององค์ประกอบ หากไม่มีเนื้อหาดังกล่าวค่าดีฟอลต์จะถูกส่งกลับถ้าระบุมิฉะนั้นจะถูกส่งกลับค่า null
 
+.. Returns the content of an element. If there is no such content,
+.. defaultValue is returned if specified, otherwise null is returned.
 **รูปแบบการใช้งาน**
 
 getContent ( [defaultValue] )
 
 **พารามิเตอร์**
 
-- ``defaultValue``  String: value returned if no content is found
+- ``defaultValue``  String: ค่าที่ส่งคืนหากไม่พบเนื้อหา
 
+.. ``defaultValue``  String: value returned if no content is found
 
 **ค่าที่ส่งออกมา**
 
 - String: 
 
+.. String: 
 
 .. raw:: html
 
@@ -53,5 +56,4 @@ getContent ( [defaultValue] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

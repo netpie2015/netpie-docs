@@ -5,11 +5,11 @@
 z
 ===
 
-The z component of the vector
+องค์ประกอบ z ของเวกเตอร์
 
+.. The z component of the vector
 **รูปแบบการใช้งาน**
 
 z
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

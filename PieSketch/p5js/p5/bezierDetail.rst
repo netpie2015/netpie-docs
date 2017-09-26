@@ -5,17 +5,19 @@
 bezierDetail()
 ==============
 
-Sets the resolution at which Beziers display.
-The default value is 20.
+ตั้งค่าความละเอียดที่ Beziers แสดง ค่าดีฟอลต์คือ 20
 
+.. Sets the resolution at which Beziers display.
+.. The default value is 20.
 **รูปแบบการใช้งาน**
 
 bezierDetail ( detail )
 
 **พารามิเตอร์**
 
-- ``detail``  Number: resolution of the curves
+- ``detail``  Number: ความละเอียดของเส้นโค้ง
 
+.. ``detail``  Number: resolution of the curves
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ bezierDetail ( detail )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

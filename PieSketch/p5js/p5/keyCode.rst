@@ -5,12 +5,13 @@
 keyCode
 =========
 
-The variable keyCode is used to detect special keys such as BACKSPACE,
-DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,
-DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
-You can also check for custom keys by looking up the keyCode of any key
-on a site like this: keycode.info.
+คีย์รหัสตัวแปรใช้เพื่อตรวจจับคีย์พิเศษเช่น BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW นอกจากนี้คุณยังสามารถตรวจสอบคีย์ที่กำหนดเองโดยค้นหาคีย์รหัสของคีย์ใด ๆ ในไซต์เช่น: keycode.info
 
+.. The variable keyCode is used to detect special keys such as BACKSPACE,
+.. DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW,
+.. DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
+.. You can also check for custom keys by looking up the keyCode of any key
+.. on a site like this: keycode.info.
 **รูปแบบการใช้งาน**
 
 keyCode
@@ -37,5 +38,4 @@ keyCode
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

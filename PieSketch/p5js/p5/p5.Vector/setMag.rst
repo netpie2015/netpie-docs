@@ -5,17 +5,19 @@
 setMag()
 ========
 
-Set the magnitude of this vector to the value used for the len
-parameter.
+กำหนดขนาดของเวกเตอร์นี้เป็นค่าที่ใช้สำหรับพารามิเตอร์ len
 
+.. Set the magnitude of this vector to the value used for the len
+.. parameter.
 **รูปแบบการใช้งาน**
 
 setMag ( len )
 
 **พารามิเตอร์**
 
-- ``len``  number: the new length for this vector
+- ``len``  number: ความยาวใหม่สำหรับเวกเตอร์นี้
 
+.. ``len``  number: the new length for this vector
 
 .. raw:: html
 
@@ -29,5 +31,4 @@ setMag ( len )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

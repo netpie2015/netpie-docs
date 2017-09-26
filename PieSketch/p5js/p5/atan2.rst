@@ -14,6 +14,14 @@ Note: The y-coordinate of the point is the first parameter, and the
 x-coordinate is the second parameter, due the the structure of calculating
 the tangent.
 
+.. Calculates the angle (in radians) from a specified point to the coordinate
+.. origin as measured from the positive x-axis. Values are returned as a
+.. float in the range from PI to -PI. The atan2() function is most often used
+.. for orienting geometry to the position of the cursor.
+.. 
+.. Note: The y-coordinate of the point is the first parameter, and the
+.. x-coordinate is the second parameter, due the the structure of calculating
+.. the tangent.
 **รูปแบบการใช้งาน**
 
 atan2 ( y, x )
@@ -24,11 +32,14 @@ atan2 ( y, x )
 
 - ``x``  Number: x-coordinate of the point
 
+.. ``y``  Number: y-coordinate of the point
+.. ``x``  Number: x-coordinate of the point
 
 **ค่าที่ส่งออกมา**
 
 - Number: the arc tangent of the given point
 
+.. Number: the arc tangent of the given point
 
 .. raw:: html
 
@@ -45,5 +56,4 @@ atan2 ( y, x )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,18 +5,20 @@
 div()
 =====
 
-Divide the vector by a scalar. The static version of this method creates a
-new p5.Vector while the non static version acts on the vector directly.
-See the examples for more context.
+แบ่งเวคเตอร์ด้วยสเกลาร เวอร์ชันคงที่ของวิธีนี้จะสร้าง p5.Vector ใหม่ในขณะที่เวอร์ชันที่ไม่ใช่แบบคงที่จะทำงานบนเวกเตอร์โดยตรง ดูตัวอย่างสำหรับบริบทเพิ่มเติม
 
+.. Divide the vector by a scalar. The static version of this method creates a
+.. new p5.Vector while the non static version acts on the vector directly.
+.. See the examples for more context.
 **รูปแบบการใช้งาน**
 
 div ( n )
 
 **พารามิเตอร์**
 
-- ``n``  number: the number to divide the vector by
+- ``n``  number: จำนวนที่จะแบ่งเวคเตอร์ด้วย
 
+.. ``n``  number: the number to divide the vector by
 
 .. raw:: html
 
@@ -39,5 +41,4 @@ div ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,18 +5,21 @@
 mouseReleased()
 ===============
 
-The .mouseReleased() function is called once after every time a
-mouse button is released over the element. This can be used to
-attach element specific event listeners.
+ฟังก์ชัน. mouseReleased () เรียกว่าครั้งหลังจากทุกครั้งที่มีการปล่อยปุ่มเมาส์เหนือองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .mouseReleased() function is called once after every time a
+.. mouse button is released over the element. This can be used to
+.. attach element specific event listeners.
 **รูปแบบการใช้งาน**
 
 mouseReleased ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is released over the element.
+- ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเม้าส์ถูกปล่อยออกมาเหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   released over the element.
 
 .. raw:: html
 
@@ -53,5 +56,4 @@ mouseReleased ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

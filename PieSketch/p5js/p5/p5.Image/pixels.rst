@@ -5,37 +5,39 @@
 pixels
 ========
 
-Array containing the values for all the pixels in the display window.
-These values are numbers. This array is the size (include an appropriate
-factor for pixelDensity) of the display window x4,
-representing the R, G, B, A values in order for each pixel, moving from
-left to right across each row, then down each column. Retina and other
-high denisty displays may have more pixels[] (by a factor of
-pixelDensity^2).
-For example, if the image is 100x100 pixels, there will be 40,000. With
-pixelDensity = 2, there will be 160,000. The first four values
-(indices 0-3) in the array will be the R, G, B, A values of the pixel at
-(0, 0). The second four values (indices 4-7) will contain the R, G, B, A
-values of the pixel at (1, 0). More generally, to set values for a pixel
-at (x, y):
-```javascript
-var d = pixelDensity;
-for (var i = 0; i < d; i++) {
-  for (var j = 0; j < d; j++) {
-    // loop over
-    idx = 4 * ((y * d + j) * width * d + (x * d + i));
-    pixels[idx] = r;
-    pixels[idx+1] = g;
-    pixels[idx+2] = b;
-    pixels[idx+3] = a;
-  }
-}
-```
+อาร์เรย์ที่มีค่าสำหรับพิกเซลทั้งหมดในหน้าต่างที่แสดง ค่าเหล่านี้คือตัวเลข อาร์เรย์นี้เป็นขนาด (รวมถึงปัจจัยที่เหมาะสมสำหรับ pixelDensity) ของหน้าต่างแสดง x4 แทนค่า R, G, B, A เพื่อให้แต่ละพิกเซลเคลื่อนที่จากซ้ายไปขวาในแต่ละแถวจากนั้นให้ลดแต่ละคอลัมน์ เรตินาและจอแสดงผลที่มีความละเอียดสูงอื่น ๆ อาจมีพิกเซลมากขึ้น [] (โดยค่าพิกเซลความหนาแน่น = 2) ตัวอย่างเช่นถ้าภาพมีขนาด 100x100 พิกเซลจะมี 40,000 ภาพ ด้วย pixelDensity = 2 จะมี 160,000 สี่ค่าแรก (ดัชนี 0-3) ในอาร์เรย์จะเป็นค่า R, G, B, A ของพิกเซลที่ (0, 0) ค่าที่สองสี่ (ดัชนี 4-7) จะมีค่า R, G, B, A ของพิกเซลที่ (1, 0) โดยทั่วไปในการตั้งค่าพิกเซลที่ (x, y): `` javascript var d = pixelDensity; สำหรับ (var i = 0; i &lt;d; i ++) {สำหรับ (var j = 0; j &lt;d; j ++) {// วนรอบ idx = 4 * ((y * d + j) * width * d + ( x * d + i)); พิกเซล [idx] = r; พิกเซล [idx + 1] = g; พิกเซล [idx + 2] = b; พิกเซล [idx + 3] = a; }} `` ` 
+ก่อนที่จะเข้าถึงอาร์เรย์นี้ข้อมูลต้องโหลดด้วยฟังก์ชัน loadPixels () หลังจากที่ข้อมูลอาร์เรย์ได้รับการแก้ไขต้องใช้ฟังก์ชัน updatePixels () เพื่ออัพเดตการเปลี่ยนแปลง
 
-Before accessing this array, the data must loaded with the loadPixels()
-function. After the array data has been modified, the updatePixels()
-function must be run to update the changes.
-
+.. Array containing the values for all the pixels in the display window.
+.. These values are numbers. This array is the size (include an appropriate
+.. factor for pixelDensity) of the display window x4,
+.. representing the R, G, B, A values in order for each pixel, moving from
+.. left to right across each row, then down each column. Retina and other
+.. high denisty displays may have more pixels[] (by a factor of
+.. pixelDensity^2).
+.. For example, if the image is 100x100 pixels, there will be 40,000. With
+.. pixelDensity = 2, there will be 160,000. The first four values
+.. (indices 0-3) in the array will be the R, G, B, A values of the pixel at
+.. (0, 0). The second four values (indices 4-7) will contain the R, G, B, A
+.. values of the pixel at (1, 0). More generally, to set values for a pixel
+.. at (x, y):
+.. ```javascript
+.. var d = pixelDensity;
+.. for (var i = 0; i < d; i++) {
+..   for (var j = 0; j < d; j++) {
+..     // loop over
+..     idx = 4 * ((y * d + j) * width * d + (x * d + i));
+..     pixels[idx] = r;
+..     pixels[idx+1] = g;
+..     pixels[idx+2] = b;
+..     pixels[idx+3] = a;
+..   }
+.. }
+.. ```
+.. 
+.. Before accessing this array, the data must loaded with the loadPixels()
+.. function. After the array data has been modified, the updatePixels()
+.. function must be run to update the changes.
 **รูปแบบการใช้งาน**
 
 pixels
@@ -74,5 +76,4 @@ pixels
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

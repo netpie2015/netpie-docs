@@ -5,8 +5,9 @@
 width
 =======
 
-Image width.
+ความกว้างของภาพ
 
+.. Image width.
 **รูปแบบการใช้งาน**
 
 width
@@ -33,5 +34,4 @@ width
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

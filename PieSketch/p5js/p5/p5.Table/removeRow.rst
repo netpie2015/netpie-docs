@@ -5,16 +5,18 @@
 removeRow()
 ===========
 
-Removes a row from the table object.
+ลบแถวออกจากวัตถุตาราง
 
+.. Removes a row from the table object.
 **รูปแบบการใช้งาน**
 
 removeRow ( id )
 
 **พารามิเตอร์**
 
-- ``id``  Number: ID number of the row to remove
+- ``id``  Number: หมายเลขประจำตัวของแถวที่จะลบ
 
+.. ``id``  Number: ID number of the row to remove
 
 .. raw:: html
 
@@ -49,5 +51,4 @@ removeRow ( id )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

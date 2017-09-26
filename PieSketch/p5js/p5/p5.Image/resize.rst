@@ -5,21 +5,24 @@
 resize()
 ========
 
-Resize the image to a new width and height. To make the image scale
-proportionally, use 0 as the value for the wide or high parameter.
-For instance, to make the width of an image 150 pixels, and change
-the height using the same proportion, use resize(150, 0).
+ปรับขนาดภาพใหม่เป็นความกว้างและความสูง หากต้องการปรับสัดส่วนภาพให้เหมาะสมให้ใช้ 0 เป็นค่าสำหรับพารามิเตอร์กว้างหรือสูง ตัวอย่างเช่นเพื่อให้ความกว้างของภาพ 150 พิกเซลและเปลี่ยนความสูงโดยใช้สัดส่วนเดียวกันให้ใช้การปรับขนาด (150, 0)
 
+.. Resize the image to a new width and height. To make the image scale
+.. proportionally, use 0 as the value for the wide or high parameter.
+.. For instance, to make the width of an image 150 pixels, and change
+.. the height using the same proportion, use resize(150, 0).
 **รูปแบบการใช้งาน**
 
 resize ( width, height )
 
 **พารามิเตอร์**
 
-- ``width``  Number: the resized image width
+- ``width``  Number: ความกว้างของภาพที่ปรับขนาดได้
 
-- ``height``  Number: the resized image height
+- ``height``  Number: ความสูงของภาพที่ปรับขนาด
 
+.. ``width``  Number: the resized image width
+.. ``height``  Number: the resized image height
 
 .. raw:: html
 
@@ -41,5 +44,4 @@ resize ( width, height )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,19 +5,21 @@
 magSq()
 =======
 
-Calculates the squared magnitude of the vector and returns the result
-as a float (this is simply the equation (x*x + y*y + z*z).)
-Faster if the real length is not required in the
-case of comparing vectors, etc.
+คำนวณสมการกำลังสองของเวกเตอร์และส่งกลับผลลัพธ์เป็นลอย (นี่เป็นเพียงสมการ (x * x + y * y + z * z) ) เร็วขึ้นถ้าความยาวจริงไม่จำเป็นต้องใช้ในกรณีเปรียบเทียบเวกเตอร์ เป็นต้น
 
+.. Calculates the squared magnitude of the vector and returns the result
+.. as a float (this is simply the equation (x*x + y*y + z*z).)
+.. Faster if the real length is not required in the
+.. case of comparing vectors, etc.
 **รูปแบบการใช้งาน**
 
 magSq ( )
 
 **ค่าที่ส่งออกมา**
 
-- number: squared magnitude of the vector
+- number: squared ขนาดของเวกเตอร์
 
+.. number: squared magnitude of the vector
 
 .. raw:: html
 
@@ -30,5 +32,4 @@ magSq ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

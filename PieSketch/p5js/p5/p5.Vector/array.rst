@@ -5,19 +5,21 @@
 array()
 =======
 
-Return a representation of this vector as a float array. This is only
-for temporary use. If used in any other fashion, the contents should be
-copied by using the p5.Vector.copy() method to copy into your own
-array.
+แสดงการเป็นตัวแทนของเวกเตอร์นี้เป็นอาร์เรย์ float ใช้สำหรับการใช้งานชั่วคราวเท่านั้น หากใช้ในรูปแบบอื่นใดเนื้อหาควรถูกคัดลอกโดยใช้วิธี p5.Vector.copy () เพื่อคัดลอกลงในอาร์เรย์ของคุณเอง
 
+.. Return a representation of this vector as a float array. This is only
+.. for temporary use. If used in any other fashion, the contents should be
+.. copied by using the p5.Vector.copy() method to copy into your own
+.. array.
 **รูปแบบการใช้งาน**
 
 array ( )
 
 **ค่าที่ส่งออกมา**
 
-- Array.<Number>: an Array with the 3 values
+- Array.<Number>: อาร์เรย์ที่มี 3 ค่า
 
+.. Array.<Number>: an Array with the 3 values
 
 .. raw:: html
 
@@ -42,5 +44,4 @@ array ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

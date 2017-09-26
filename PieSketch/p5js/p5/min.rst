@@ -5,23 +5,26 @@
 min()
 =====
 
-Determines the smallest value in a sequence of numbers, and then returns
-that value. min() accepts any number of Number parameters, or an Array
-of any length.
+กำหนดค่าที่เล็กที่สุดในลำดับของตัวเลขจากนั้นส่งคืนค่านั้น min () รับหมายเลขพารามิเตอร์จำนวนหนึ่งหรืออาร์เรย์ยาว ๆ
 
+.. Determines the smallest value in a sequence of numbers, and then returns
+.. that value. min() accepts any number of Number parameters, or an Array
+.. of any length.
 **รูปแบบการใช้งาน**
 
 min ( n0 )
 
 **พารามิเตอร์**
 
-- ``n0``  Number,Array: Numbers to compare
+- ``n0``  Number,Array: ตัวเลขเพื่อเปรียบเทียบ
 
+.. ``n0``  Number,Array: Numbers to compare
 
 **ค่าที่ส่งออกมา**
 
-- Number: minimum Number
+- Number: จำนวนขั้นต่ำ
 
+.. Number: minimum Number
 
 .. raw:: html
 
@@ -50,5 +53,4 @@ min ( n0 )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

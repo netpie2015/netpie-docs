@@ -5,11 +5,11 @@
 font
 ======
 
-Underlying opentype font implementation
+การใช้งานแบบอักษร opentype
 
+.. Underlying opentype font implementation
 **รูปแบบการใช้งาน**
 
 font
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

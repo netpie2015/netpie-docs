@@ -5,17 +5,19 @@
 month()
 =======
 
-p5.js communicates with the clock on your computer. The month() function
-returns the current month as a value from 1 - 12.
+p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน month () จะส่งคืนเดือนปัจจุบันเป็นค่าตั้งแต่ 1 ถึง 12
 
+.. p5.js communicates with the clock on your computer. The month() function
+.. returns the current month as a value from 1 - 12.
 **รูปแบบการใช้งาน**
 
 month ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the current month
+- Number: เดือนปัจจุบัน
 
+.. Number: the current month
 
 .. raw:: html
 
@@ -27,5 +29,4 @@ month ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

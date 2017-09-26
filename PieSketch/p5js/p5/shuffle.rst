@@ -5,25 +5,29 @@
 shuffle()
 =========
 
-Randomizes the order of the elements of an array. Implements
+สุ่มลำดับขององค์ประกอบของอาร์เรย์ ใช้ ฟิลเตอร์ - เยสสับเปลี่ยนอัลกอริธึม
 
-Fisher-Yates Shuffle Algorithm.
-
+.. Randomizes the order of the elements of an array. Implements
+.. 
+.. Fisher-Yates Shuffle Algorithm.
 **รูปแบบการใช้งาน**
 
 shuffle ( array, [bool] )
 
 **พารามิเตอร์**
 
-- ``array``  Array: Array to shuffle
+- ``array``  Array: อาร์เรย์สับเปลี่ยน
 
-- ``bool``  Boolean: modify passed array
+- ``bool``  Boolean: แก้ไขอาร์เรย์ที่ส่งผ่าน
 
+.. ``array``  Array: Array to shuffle
+.. ``bool``  Boolean: modify passed array
 
 **ค่าที่ส่งออกมา**
 
 - Array: shuffled Array
 
+.. Array: shuffled Array
 
 .. raw:: html
 
@@ -44,5 +48,4 @@ shuffle ( array, [bool] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,11 +5,12 @@
 mouseX
 ========
 
-The system variable mouseX always contains the current horizontal
-position of the mouse, relative to (0, 0) of the canvas. If touch is
-used instead of mouse input, mouseX will hold the x value of the most
-recent touch point.
+ตัวแปร systemX mouseX จะมีตำแหน่งในแนวนอนในแนวนอนของเมาส์โดยสัมพันธ์กับ (0, 0) ของผ้าใบ หากใช้การแตะแทนการป้อนข้อมูลเมาส์ mouseX จะถือค่า x ของจุดสัมผัสล่าสุด
 
+.. The system variable mouseX always contains the current horizontal
+.. position of the mouse, relative to (0, 0) of the canvas. If touch is
+.. used instead of mouse input, mouseX will hold the x value of the most
+.. recent touch point.
 **รูปแบบการใช้งาน**
 
 mouseX
@@ -27,5 +28,4 @@ mouseX
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

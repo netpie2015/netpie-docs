@@ -5,21 +5,24 @@
 hasAttribute()
 ==============
 
-Checks whether or not an element has the specified attribute.
+ตรวจสอบว่าองค์ประกอบมีแอตทริบิวต์ที่ระบุหรือไม่
 
+.. Checks whether or not an element has the specified attribute.
 **รูปแบบการใช้งาน**
 
 hasAttribute ( the )
 
 **พารามิเตอร์**
 
-- ``the``  String: attribute to be checked
+- ``the``  String: แอตทริบิวต์ที่จะตรวจสอบ
 
+.. ``the``  String: attribute to be checked
 
 **ค่าที่ส่งออกมา**
 
-- boolean: true if attribute found else false
+- boolean: true ถ้าแอตทริบิวต์พบ false อื่น
 
+.. boolean: true if attribute found else false
 
 .. raw:: html
 
@@ -54,5 +57,4 @@ hasAttribute ( the )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

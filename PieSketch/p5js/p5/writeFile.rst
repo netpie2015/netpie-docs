@@ -5,11 +5,12 @@
 writeFile()
 ===========
 
-Generate a blob of file data as a url to prepare for download.
- Accepts an array of data, a filename, and an extension (optional).
- This is a private function because it does not do any formatting,
- but it is used by saveStrings, saveJSON, saveTable etc.
+สร้างหยดข้อมูลไฟล์เป็น URL เพื่อเตรียมการดาวน์โหลด ยอมรับอาร์เรย์ของข้อมูลชื่อไฟล์และส่วนขยาย (ตัวเลือก) นี่เป็นฟังก์ชันส่วนตัวเพราะไม่มีการฟอร์แมต แต่ถูกใช้โดย saveStrings, saveJSON, saveTable เป็นต้น
 
+.. Generate a blob of file data as a url to prepare for download.
+..  Accepts an array of data, a filename, and an extension (optional).
+..  This is a private function because it does not do any formatting,
+..  but it is used by saveStrings, saveJSON, saveTable etc.
 **รูปแบบการใช้งาน**
 
 writeFile ( dataToDownload, filename, extension )
@@ -22,6 +23,8 @@ writeFile ( dataToDownload, filename, extension )
 
 - ``extension``  : 
 
+.. ``dataToDownload``  Array: 
+.. ``filename``  String: 
+.. ``extension``  : 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

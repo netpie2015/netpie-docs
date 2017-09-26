@@ -5,23 +5,27 @@
 doubleClicked()
 ===============
 
-The .doubleClicked() function is called once after every time a
-mouse button is pressed twice over the element. This can be used to
-attach element and action specific event listeners.
+ฟังก์ชัน doubleClicked () เรียกว่าครั้งหลังจากทุกครั้งที่กดปุ่มเมาส์สองครั้งเหนือองค์ประกอบ ซึ่งสามารถใช้เพื่อแนบผู้ฟังเหตุการณ์ของ element และ action ได้
 
+.. The .doubleClicked() function is called once after every time a
+.. mouse button is pressed twice over the element. This can be used to
+.. attach element and action specific event listeners.
 **รูปแบบการใช้งาน**
 
 doubleClicked ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is pressed over the element.
+- ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกกดเหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   pressed over the element.
 
 **ค่าที่ส่งออกมา**
 
 - p5.Element: 
 
+.. p5.Element: 
 
 .. raw:: html
 
@@ -56,5 +60,4 @@ doubleClicked ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

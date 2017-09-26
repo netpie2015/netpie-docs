@@ -5,22 +5,25 @@
 sort()
 ======
 
-Sorts an array of numbers from smallest to largest, or puts an array of
-words in alphabetical order. The original array is not modified; a
-re-ordered array is returned. The count parameter states the number of
-elements to sort. For example, if there are 12 elements in an array and
-count is set to 5, only the first 5 elements in the array will be sorted.
+จัดเรียงอาร์เรย์ของตัวเลขจากที่เล็กที่สุดไปจนถึงใหญ่สุดหรือใส่อาร์เรย์ของคำตามลำดับตัวอักษร อาร์เรย์ต้นฉบับจะไม่ได้รับการแก้ไข อาร์เรย์ที่เรียงใหม่จะถูกส่งกลับ พารามิเตอร์นับระบุจำนวนองค์ประกอบที่จะเรียงลำดับ ตัวอย่างเช่นถ้ามี 12 องค์ประกอบในอาร์เรย์และมีการนับเป็น 5 จะมีการจัดเรียงเฉพาะ 5 องค์ประกอบแรกในอาร์เรย์
 
+.. Sorts an array of numbers from smallest to largest, or puts an array of
+.. words in alphabetical order. The original array is not modified; a
+.. re-ordered array is returned. The count parameter states the number of
+.. elements to sort. For example, if there are 12 elements in an array and
+.. count is set to 5, only the first 5 elements in the array will be sorted.
 **รูปแบบการใช้งาน**
 
 sort ( list, [count] )
 
 **พารามิเตอร์**
 
-- ``list``  Array: Array to sort
+- ``list``  Array: เรียงลำดับ
 
-- ``count``  Number: number of elements to sort, starting from 0
+- ``count``  Number: จำนวนองค์ประกอบที่จะเรียงลำดับเริ่มจาก 0
 
+.. ``list``  Array: Array to sort
+.. ``count``  Number: number of elements to sort, starting from 0
 
 .. raw:: html
 
@@ -52,5 +55,4 @@ sort ( list, [count] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

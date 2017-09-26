@@ -5,8 +5,9 @@
 minValue()
 ==========
 
-Return the lowest value.
+ส่งคืนค่าต่ำสุด
 
+.. Return the lowest value.
 **รูปแบบการใช้งาน**
 
 minValue ( )
@@ -15,6 +16,7 @@ minValue ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ minValue ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

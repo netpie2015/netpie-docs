@@ -5,11 +5,11 @@
 background()
 ============
 
-[background description]
+[คำอธิบายพื้นหลัง]
 
+.. [background description]
 **รูปแบบการใช้งาน**
 
 background ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

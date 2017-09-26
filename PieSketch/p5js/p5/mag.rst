@@ -5,27 +5,31 @@
 mag()
 =====
 
-Calculates the magnitude (or length) of a vector. A vector is a direction
-in space commonly used in computer graphics and linear algebra. Because it
-has no "start" position, the magnitude of a vector can be thought of as
-the distance from the coordinate 0,0 to its x,y value. Therefore, mag() is
-a shortcut for writing dist(0, 0, x, y).
+คำนวณขนาด (หรือความยาว) ของเวกเตอร์ เวกเตอร์เป็นทิศทางในพื้นที่ที่ใช้กันโดยทั่วไปในด้านกราฟิกคอมพิวเตอร์และพีชคณิตเชิงเส้น เนื่องจากไม่มีตำแหน่ง &quot;เริ่มต้น&quot; ขนาดของเวกเตอร์อาจถือได้ว่าเป็นระยะทางจากพิกัด 0,0 ถึงค่า x, y ของมัน ดังนั้น mag () เป็นทางลัดสำหรับการเขียน dist (0, 0, x, y)
 
+.. Calculates the magnitude (or length) of a vector. A vector is a direction
+.. in space commonly used in computer graphics and linear algebra. Because it
+.. has no "start" position, the magnitude of a vector can be thought of as
+.. the distance from the coordinate 0,0 to its x,y value. Therefore, mag() is
+.. a shortcut for writing dist(0, 0, x, y).
 **รูปแบบการใช้งาน**
 
 mag ( a, b )
 
 **พารามิเตอร์**
 
-- ``a``  Number: first value
+- ``a``  Number: ค่าแรก
 
-- ``b``  Number: second value
+- ``b``  Number: ค่าที่สอง
 
+.. ``a``  Number: first value
+.. ``b``  Number: second value
 
 **ค่าที่ส่งออกมา**
 
-- Number: magnitude of vector from (0,0) to (a,b)
+- Number: ขนาดของเวกเตอร์จาก (0,0) ถึง (a, b)
 
+.. Number: magnitude of vector from (0,0) to (a,b)
 
 .. raw:: html
 
@@ -50,5 +54,4 @@ mag ( a, b )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

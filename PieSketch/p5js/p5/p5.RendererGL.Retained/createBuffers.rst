@@ -7,16 +7,18 @@ createBuffers()
 
 createBuffers description
 
+.. createBuffers description
 **รูปแบบการใช้งาน**
 
 createBuffers ( gId, obj )
 
 **พารามิเตอร์**
 
-- ``gId``  String: key of the geometry object
+- ``gId``  String: สำคัญของวัตถุรูปทรงเรขาคณิต
 
-- ``obj``  p5.Geometry: contains geometry data
+- ``obj``  p5.Geometry: ประกอบด้วยข้อมูลเรขาคณิต
 
+.. ``gId``  String: key of the geometry object
+.. ``obj``  p5.Geometry: contains geometry data
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

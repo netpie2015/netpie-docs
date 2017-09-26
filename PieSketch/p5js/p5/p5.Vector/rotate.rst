@@ -5,17 +5,19 @@
 rotate()
 ========
 
-Rotate the vector by an angle (only 2D vectors), magnitude remains the
-same
+หมุนเวกเตอร์ตามมุม (เฉพาะเวกเตอร์ 2 มิติ) ขนาดยังคงเหมือนเดิม
 
+.. Rotate the vector by an angle (only 2D vectors), magnitude remains the
+.. same
 **รูปแบบการใช้งาน**
 
 rotate ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  number: the angle of rotation
+- ``angle``  number: มุมของการหมุน
 
+.. ``angle``  number: the angle of rotation
 
 .. raw:: html
 
@@ -29,5 +31,4 @@ rotate ( angle )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

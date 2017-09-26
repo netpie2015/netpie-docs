@@ -5,17 +5,19 @@
 second()
 ========
 
-p5.js communicates with the clock on your computer. The second() function
-returns the current second as a value from 0 - 59.
+p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชันที่สอง () จะคืนค่าวินาทีปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 59
 
+.. p5.js communicates with the clock on your computer. The second() function
+.. returns the current second as a value from 0 - 59.
 **รูปแบบการใช้งาน**
 
 second ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the current second
+- Number: วินาทีปัจจุบัน
 
+.. Number: the current second
 
 .. raw:: html
 
@@ -27,5 +29,4 @@ second ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

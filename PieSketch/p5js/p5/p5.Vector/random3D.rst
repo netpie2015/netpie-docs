@@ -5,16 +5,18 @@
 random3D()
 ==========
 
-Make a new random 3D unit vector.
+สร้างเวกเตอร์ 3D แบบสุ่มใหม่
 
+.. Make a new random 3D unit vector.
 **รูปแบบการใช้งาน**
 
 random3D ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.Vector: the new p5.Vector object
+- p5.Vector: วัตถุ p5.Vector ใหม่
 
+.. p5.Vector: the new p5.Vector object
 
 .. raw:: html
 
@@ -29,5 +31,4 @@ random3D ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,23 +5,26 @@
 str()
 =====
 
-Converts a boolean, string or number to its string representation.
-When an array of values is passed in, then an array of strings of the same
-length is returned.
+แปลงสตริงบูลีนสตริงหรือตัวเลขเป็นสตริงแทน เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ของสตริงที่มีความยาวเท่ากันจะถูกส่งกลับ
 
+.. Converts a boolean, string or number to its string representation.
+.. When an array of values is passed in, then an array of strings of the same
+.. length is returned.
 **รูปแบบการใช้งาน**
 
 str ( n )
 
 **พารามิเตอร์**
 
-- ``n``  String,Boolean,Number,Array: value to parse
+- ``n``  String,Boolean,Number,Array: ค่าเพื่อแยกวิเคราะห์
 
+.. ``n``  String,Boolean,Number,Array: value to parse
 
 **ค่าที่ส่งออกมา**
 
-- String: string representation of value
+- String: การแสดงค่าของสายอักขระ
 
+.. String: string representation of value
 
 .. raw:: html
 
@@ -37,5 +40,4 @@ str ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

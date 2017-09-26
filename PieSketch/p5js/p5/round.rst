@@ -5,22 +5,25 @@
 round()
 =======
 
-Calculates the integer closest to the n parameter. For example,
-round(133.8) returns the value 134. Maps to Math.round().
+คำนวณจำนวนเต็มใกล้เคียงกับพารามิเตอร์ n มากที่สุด ตัวอย่างเช่นรอบ (133.8) ส่งกลับค่า 134 แผนที่ไป Math.round ()
 
+.. Calculates the integer closest to the n parameter. For example,
+.. round(133.8) returns the value 134. Maps to Math.round().
 **รูปแบบการใช้งาน**
 
 round ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to round
+- ``n``  Number: จำนวนรอบ
 
+.. ``n``  Number: number to round
 
 **ค่าที่ส่งออกมา**
 
-- Number: rounded number
+- Number: เลขกลม
 
+.. Number: rounded number
 
 .. raw:: html
 
@@ -52,5 +55,4 @@ round ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

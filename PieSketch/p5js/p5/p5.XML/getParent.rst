@@ -5,17 +5,19 @@
 getParent()
 ===========
 
-Gets a copy of the element's parent. Returns the parent as another
-p5.XML object.
+รับสำเนาของพาเรนต์ขององค์ประกอบ ส่งกลับผู้ปกครองเป็นอีกหนึ่งวัตถุ p5.XML
 
+.. Gets a copy of the element's parent. Returns the parent as another
+.. p5.XML object.
 **รูปแบบการใช้งาน**
 
 getParent ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.XML: element parent
+- p5.XML: องค์ประกอบหลัก
 
+.. p5.XML: element parent
 
 .. raw:: html
 
@@ -49,5 +51,4 @@ getParent ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

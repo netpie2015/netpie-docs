@@ -5,33 +5,44 @@
 loadJSON()
 ==========
 
-Loads a JSON file from a file or a URL, and returns an Object or Array.
-This method is asynchronous, meaning it may not finish before the next
-line in your sketch is executed. JSONP is supported via a polyfill and you
-can pass in as the second argument an object with definitions of the json
-callback following the syntax specified here.
+โหลดไฟล์ JSON จากไฟล์หรือ URL และส่งคืนออบเจ็กต์หรืออาร์เรย์ วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ JSONP ได้รับการสนับสนุนผ่าน polyfill และคุณสามารถส่งผ่านเป็นอาร์กิวเมนต์ที่สองของวัตถุที่มีคำจำกัดความของการเรียกกลับ json ตามไวยากรณ์ที่ระบุไว้ ที่นี่
 
+.. Loads a JSON file from a file or a URL, and returns an Object or Array.
+.. This method is asynchronous, meaning it may not finish before the next
+.. line in your sketch is executed. JSONP is supported via a polyfill and you
+.. can pass in as the second argument an object with definitions of the json
+.. callback following the syntax specified here.
 **รูปแบบการใช้งาน**
 
 loadJSON ( path, [jsonpOptions], [datatype], [callback], [errorCallback] )
 
 **พารามิเตอร์**
 
-- ``path``  String: name of the file or url to load
+- ``path``  String: ชื่อไฟล์หรือ URL ที่จะโหลด
 
-- ``jsonpOptions``  Object: options object for jsonp related settings
+- ``jsonpOptions``  Object: วัตถุตัวเลือกสำหรับการตั้งค่าที่เกี่ยวข้องกับ jsonp
 
-- ``datatype``  String: "json" or "jsonp"
+- ``datatype``  String: &quot;json&quot; หรือ &quot;jsonp&quot;
 
-- ``callback``  function: function to be executed after loadJSON() completes, data is passed in as first argument
+- ``callback``  function: ฟังก์ชันที่จะดำเนินการหลังจาก loadJSON () เสร็จสมบูรณ์แล้วข้อมูลจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
-- ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
+- ``errorCallback``  function: ฟังก์ชันที่จะดำเนินการถ้ามีข้อผิดพลาดการตอบสนองจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
+.. ``path``  String: name of the file or url to load
+.. ``jsonpOptions``  Object: options object for jsonp related settings
+.. ``datatype``  String: "json" or "jsonp"
+.. ``callback``  function: function to be executed after
+                                   loadJSON() completes, data is passed
+                                   in as first argument
+.. ``errorCallback``  function: function to be executed if
+                                   there is an error, response is passed
+                                   in as first argument
 
 **ค่าที่ส่งออกมา**
 
-- Object,Array: JSON data
+- Object,Array: ข้อมูล JSON
 
+.. Object,Array: JSON data
 
 .. raw:: html
 
@@ -89,5 +100,4 @@ loadJSON ( path, [jsonpOptions], [datatype], [callback], [errorCallback] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

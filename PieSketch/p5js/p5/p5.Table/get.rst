@@ -5,25 +5,30 @@
 get()
 =====
 
-Retrieves a value from the Table's specified row and column.
-The row is specified by its ID, while the column may be specified by
-either its ID or title.
+เรียกค้นค่าจากแถวและคอลัมน์ที่ระบุ แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ
 
+.. Retrieves a value from the Table's specified row and column.
+.. The row is specified by its ID, while the column may be specified by
+.. either its ID or title.
 **รูปแบบการใช้งาน**
 
 get ( row, column )
 
 **พารามิเตอร์**
 
-- ``row``  Number: row ID
+- ``row``  Number: ID แถว
 
-- ``column``  String,Number: columnName (string) or ID (number)
+- ``column``  String,Number: columnName (string) หรือ ID (number)
 
+.. ``row``  Number: row ID
+.. ``column``  String,Number: columnName (string) or
+                                  ID (number)
 
 **ค่าที่ส่งออกมา**
 
 - String,Number: 
 
+.. String,Number: 
 
 .. raw:: html
 
@@ -55,5 +60,4 @@ get ( row, column )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,22 +5,25 @@
 exp()
 =====
 
-Returns Euler's number e (2.71828...) raised to the power of the n
-parameter. Maps to Math.exp().
+ส่งกลับค่า Euler ของ e (2.71828 ... ) ยกกำลังของพารามิเตอร์ n Maps ไปยัง Math.exp ()
 
+.. Returns Euler's number e (2.71828...) raised to the power of the n
+.. parameter. Maps to Math.exp().
 **รูปแบบการใช้งาน**
 
 exp ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: exponent to raise
+- ``n``  Number: เลขยกกำลังยกขึ้น
 
+.. ``n``  Number: exponent to raise
 
 **ค่าที่ส่งออกมา**
 
-- Number: e^n
+- Number: E ^ n
 
+.. Number: e^n
 
 .. raw:: html
 
@@ -63,5 +66,4 @@ exp ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

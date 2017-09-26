@@ -5,16 +5,17 @@
 getName()
 =========
 
-Gets the element's full name, which is returned as a String.
+เรียกชื่อเต็มขององค์ประกอบซึ่งจะส่งกลับเป็นสตริง
 
+.. Gets the element's full name, which is returned as a String.
 **รูปแบบการใช้งาน**
 
 getName ( )
 
 **ค่าที่ส่งออกมา**
 
-- String: the name of the node
+- String: ชื่อโหนด
 
+.. String: the name of the node
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

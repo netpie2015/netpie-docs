@@ -10,6 +10,10 @@ function must always be called before reading from or writing to pixels[].
 Note that only changes made with set() or direct manipulation of pixels[]
 will occur.
 
+.. Loads the pixel data for the display window into the pixels[] array. This
+.. function must always be called before reading from or writing to pixels[].
+.. Note that only changes made with set() or direct manipulation of pixels[]
+.. will occur.
 **รูปแบบการใช้งาน**
 
 loadPixels ( )
@@ -38,5 +42,4 @@ loadPixels ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

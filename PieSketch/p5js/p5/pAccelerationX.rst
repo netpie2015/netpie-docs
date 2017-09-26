@@ -5,13 +5,13 @@
 pAccelerationX
 ================
 
-The system variable pAccelerationX always contains the acceleration of the
-device along the x axis in the frame previous to the current frame. Value
-is represented as meters per second squared.
+ตัวแปร pAccelerationX ของระบบประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน x ในเฟรมก่อนเฟรมปัจจุบัน ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง
 
+.. The system variable pAccelerationX always contains the acceleration of the
+.. device along the x axis in the frame previous to the current frame. Value
+.. is represented as meters per second squared.
 **รูปแบบการใช้งาน**
 
 pAccelerationX
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

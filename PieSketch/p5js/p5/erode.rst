@@ -5,8 +5,9 @@
 erode()
 =======
 
-increases the bright areas in an image
+เพิ่มพื้นที่สว่างในภาพ
 
+.. increases the bright areas in an image
 **รูปแบบการใช้งาน**
 
 erode ( canvas )
@@ -15,6 +16,6 @@ erode ( canvas )
 
 - ``canvas``  Canvas: 
 
+.. ``canvas``  Canvas: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

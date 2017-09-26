@@ -5,23 +5,27 @@
 getObject()
 ===========
 
-Retrieves all table data and returns as an object. If a column name is
-passed in, each row object will be stored with that attribute as its
-title.
+เรียกข้อมูลตารางทั้งหมดและส่งคืนเป็นวัตถุ ถ้าชื่อคอลัมน์ถูกส่งผ่านไปวัตถุแต่ละแถวจะถูกเก็บไว้พร้อมกับแอตทริบิวต์นั้นเป็นชื่อของมัน
 
+.. Retrieves all table data and returns as an object. If a column name is
+.. passed in, each row object will be stored with that attribute as its
+.. title.
 **รูปแบบการใช้งาน**
 
 getObject ( headerColumn )
 
 **พารามิเตอร์**
 
-- ``headerColumn``  String: Name of the column which should be used to title each row object (optional)
+- ``headerColumn``  String: ชื่อของคอลัมน์ที่ควรใช้เพื่อตั้งชื่อเรื่องแต่ละแถว (ไม่จำเป็น)
 
+.. ``headerColumn``  String: Name of the column which should be used to
+                             title each row object (optional)
 
 **ค่าที่ส่งออกมา**
 
 - Object: 
 
+.. Object: 
 
 .. raw:: html
 
@@ -53,5 +57,4 @@ getObject ( headerColumn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,10 +5,11 @@
 loop()
 ======
 
-By default, p5.js loops through draw() continuously, executing the code
-within it. However, the draw() loop may be stopped by calling noLoop().
-In that case, the draw() loop can be resumed with loop().
+p5.js วนลูปผ่าน draw () อย่างต่อเนื่องรันโค้ดภายในโค้ด p5.js อย่างไรก็ตามวง draw () อาจถูกหยุดโดยการเรียก noLoop () ในกรณีนี้วง draw () สามารถทำงานต่อด้วย loop ()
 
+.. By default, p5.js loops through draw() continuously, executing the code
+.. within it. However, the draw() loop may be stopped by calling noLoop().
+.. In that case, the draw() loop can be resumed with loop().
 **รูปแบบการใช้งาน**
 
 loop ( )
@@ -43,5 +44,4 @@ loop ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

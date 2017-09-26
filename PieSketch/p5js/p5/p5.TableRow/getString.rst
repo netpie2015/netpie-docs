@@ -5,23 +5,26 @@
 getString()
 ===========
 
-Retrieves an String value from the TableRow's specified
- column. The column may be specified by either its ID or
- title.
+เรียกค่าสตริงจากคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ
 
+.. Retrieves an String value from the TableRow's specified
+..  column. The column may be specified by either its ID or
+..  title.
 **รูปแบบการใช้งาน**
 
 getString ( column )
 
 **พารามิเตอร์**
 
-- ``column``  String,Number: columnName (string) or ID (number)
+- ``column``  String,Number: columnName (string) หรือ ID (number)
 
+.. ``column``  String,Number: columnName (string) or
+                                  ID (number)
 
 **ค่าที่ส่งออกมา**
 
-- String: String
+- String: เชือก
 
+.. String: String
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

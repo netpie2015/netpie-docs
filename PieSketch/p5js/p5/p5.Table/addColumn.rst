@@ -5,19 +5,21 @@
 addColumn()
 ===========
 
-Use addColumn() to add a new column to a Table object.
- Typically, you will want to specify a title, so the column
- may be easily referenced later by name. (If no title is
- specified, the new column's title will be null.)
+ใช้ addColumn () เพื่อเพิ่มคอลัมน์ใหม่ลงในอ็อบเจ็กต์ Table โดยปกติคุณจะต้องระบุชื่อเพื่อให้คอลัมน์สามารถอ้างอิงได้ง่ายในภายหลังโดยใช้ชื่อ (หากไม่มีชื่อระบุชื่อคอลัมน์ใหม่จะเป็น null)
 
+.. Use addColumn() to add a new column to a Table object.
+..  Typically, you will want to specify a title, so the column
+..  may be easily referenced later by name. (If no title is
+..  specified, the new column's title will be null.)
 **รูปแบบการใช้งาน**
 
 addColumn ( [title] )
 
 **พารามิเตอร์**
 
-- ``title``  String: title of the given column
+- ``title``  String: ชื่อของคอลัมน์ที่ระบุ
 
+.. ``title``  String: title of the given column
 
 .. raw:: html
 
@@ -54,5 +56,4 @@ addColumn ( [title] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

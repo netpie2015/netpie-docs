@@ -5,8 +5,9 @@
 loadPixels()
 ============
 
-Loads the pixels data for this image into the [pixels] attribute.
+โหลดข้อมูลพิกเซลสำหรับภาพนี้ลงในแอตทริบิวต์ [pixels]
 
+.. Loads the pixels data for this image into the [pixels] attribute.
 **รูปแบบการใช้งาน**
 
 loadPixels ( )
@@ -38,5 +39,4 @@ loadPixels ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

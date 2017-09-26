@@ -5,9 +5,10 @@
 clearRows()
 ===========
 
-Removes all rows from a Table. While all rows are removed,
- columns and column titles are maintained.
+ลบแถวทั้งหมดออกจากตาราง แม้ว่าแถวทั้งหมดจะถูกลบออกคอลัมน์และชื่อคอลัมน์จะยังคงอยู่
 
+.. Removes all rows from a Table. While all rows are removed,
+..  columns and column titles are maintained.
 **รูปแบบการใช้งาน**
 
 clearRows ( )
@@ -41,5 +42,4 @@ clearRows ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

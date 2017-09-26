@@ -10,6 +10,10 @@ Radians and degrees are two ways of measuring the same thing. There are
 360 degrees in a circle and 2*PI radians in a circle. For example,
 90° = PI/2 = 1.5707964.
 
+.. Converts a radian measurement to its corresponding value in degrees.
+.. Radians and degrees are two ways of measuring the same thing. There are
+.. 360 degrees in a circle and 2*PI radians in a circle. For example,
+.. 90° = PI/2 = 1.5707964.
 **รูปแบบการใช้งาน**
 
 degrees ( radians )
@@ -18,11 +22,13 @@ degrees ( radians )
 
 - ``radians``  Number: the radians value to convert to degrees
 
+.. ``radians``  Number: the radians value to convert to degrees
 
 **ค่าที่ส่งออกมา**
 
 - Number: the converted angle
 
+.. Number: the converted angle
 
 .. raw:: html
 
@@ -36,5 +42,4 @@ degrees ( radians )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

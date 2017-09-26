@@ -5,23 +5,26 @@
 sq()
 ====
 
-Squares a number (multiplies a number by itself). The result is always a
-positive number, as multiplying two negative numbers always yields a
-positive result. For example, -1 * -1 = 1.
+สี่เหลี่ยมจัตุรัสตัวเลข (คูณตัวเลขด้วยตัวเอง) ผลลัพธ์เป็นจำนวนบวกเสมอเนื่องจากการคูณสองจำนวนลบจะให้ผลบวกเสมอ ตัวอย่างเช่น -1 * -1 = 1
 
+.. Squares a number (multiplies a number by itself). The result is always a
+.. positive number, as multiplying two negative numbers always yields a
+.. positive result. For example, -1 * -1 = 1.
 **รูปแบบการใช้งาน**
 
 sq ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to square
+- ``n``  Number: จำนวนถึงสี่เหลี่ยมจัตุรัส
 
+.. ``n``  Number: number to square
 
 **ค่าที่ส่งออกมา**
 
-- Number: squared number
+- Number: จำนวนเต็ม
 
+.. Number: squared number
 
 .. raw:: html
 
@@ -58,5 +61,4 @@ sq ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

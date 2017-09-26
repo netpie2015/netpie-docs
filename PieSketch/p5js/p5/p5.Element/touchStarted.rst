@@ -5,17 +5,20 @@
 touchStarted()
 ==============
 
-The .touchStarted() function is called once after every time a touch is
-registered. This can be used to attach element specific event listeners.
+ฟังก์ชัน touchStarted () เรียกว่าครั้งหลังจากลงทะเบียนแล้วทุกครั้ง สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .touchStarted() function is called once after every time a touch is
+.. registered. This can be used to attach element specific event listeners.
 **รูปแบบการใช้งาน**
 
 touchStarted ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when touch is started over the element.
+- ``fxn``  function: ฟังก์ชันที่จะถูกเรียกใช้เมื่อเริ่มต้นสัมผัสกับองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when touch is
+                   started over the element.
 
 .. raw:: html
 
@@ -50,5 +53,4 @@ touchStarted ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

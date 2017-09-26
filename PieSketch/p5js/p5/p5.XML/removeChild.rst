@@ -5,16 +5,18 @@
 removeChild()
 =============
 
-Removes the element specified by name or index.
+ลบองค์ประกอบที่ระบุโดยชื่อหรือดัชนี
 
+.. Removes the element specified by name or index.
 **รูปแบบการใช้งาน**
 
 removeChild ( name )
 
 **พารามิเตอร์**
 
-- ``name``  String,Number: element name or index
+- ``name``  String,Number: ชื่อหรือดัชนีขององค์ประกอบ
 
+.. ``name``  String,Number: element name or index
 
 .. raw:: html
 
@@ -68,5 +70,4 @@ removeChild ( name )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

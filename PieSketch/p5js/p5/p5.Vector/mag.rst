@@ -5,17 +5,19 @@
 mag()
 =====
 
-Calculates the magnitude (length) of the vector and returns the result as
-a float (this is simply the equation sqrt(x*x + y*y + z*z).)
+คำนวณขนาด (ความยาว) ของเวกเตอร์และส่งกลับผลลัพธ์เป็น float (นี่เป็นเพียงสมการ sqrt (x * x + y * y + z * z))
 
+.. Calculates the magnitude (length) of the vector and returns the result as
+.. a float (this is simply the equation sqrt(x*x + y*y + z*z).)
 **รูปแบบการใช้งาน**
 
 mag ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: magnitude of the vector
+- Number: ขนาดของเวกเตอร์
 
+.. Number: magnitude of the vector
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ mag ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

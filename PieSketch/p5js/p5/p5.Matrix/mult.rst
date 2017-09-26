@@ -5,16 +5,18 @@
 mult()
 ======
 
-multiply two mat4s
+คูณสอง mat4s
 
+.. multiply two mat4s
 **รูปแบบการใช้งาน**
 
 mult ( multMatrix )
 
 **พารามิเตอร์**
 
-- ``multMatrix``  p5.Matrix,Float32Array,Array: The matrix we want to multiply by
+- ``multMatrix``  p5.Matrix,Float32Array,Array: เมทริกซ์ที่เราต้องการคูณด้วย
 
+.. ``multMatrix``  p5.Matrix,Float32Array,Array: The matrix
+                                               we want to multiply by
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

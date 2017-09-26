@@ -5,33 +5,40 @@
 curvePoint()
 ============
 
-Evaluates the curve at position t for points a, b, c, d.
-The parameter t varies between 0 and 1, a and d are points
-on the curve, and b and c are the control points.
-This can be done once with the x coordinates and a second time
-with the y coordinates to get the location of a curve at t.
+ประเมินเส้นโค้งที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ t แปรผันระหว่าง 0 และ 1, a และ d เป็นจุดบนเส้นโค้งและ b และ c เป็นจุดควบคุม นี้สามารถทำได้ครั้งเดียวกับพิกัด x และครั้งที่สองกับพิกัด y เพื่อให้ได้ตำแหน่งของเส้นโค้งที่ t
 
+.. Evaluates the curve at position t for points a, b, c, d.
+.. The parameter t varies between 0 and 1, a and d are points
+.. on the curve, and b and c are the control points.
+.. This can be done once with the x coordinates and a second time
+.. with the y coordinates to get the location of a curve at t.
 **รูปแบบการใช้งาน**
 
 curvePoint ( a, b, c, d, t )
 
 **พารามิเตอร์**
 
-- ``a``  Number: coordinate of first point on the curve
+- ``a``  Number: พิกัดของจุดแรกบนเส้นโค้ง
 
-- ``b``  Number: coordinate of first control point
+- ``b``  Number: พิกัดของจุดควบคุมแรก
 
-- ``c``  Number: coordinate of second control point
+- ``c``  Number: พิกัดของจุดควบคุมที่สอง
 
-- ``d``  Number: coordinate of second point on the curve
+- ``d``  Number: พิกัดของจุดที่สองบนเส้นโค้ง
 
-- ``t``  Number: value between 0 and 1
+- ``t``  Number: ค่าระหว่าง 0 ถึง 1
 
+.. ``a``  Number: coordinate of first point on the curve
+.. ``b``  Number: coordinate of first control point
+.. ``c``  Number: coordinate of second control point
+.. ``d``  Number: coordinate of second point on the curve
+.. ``t``  Number: value between 0 and 1
 
 **ค่าที่ส่งออกมา**
 
-- Number: bezier value at position t
+- Number: ค่า Bezier ที่ตำแหน่ง t
 
+.. Number: bezier value at position t
 
 .. raw:: html
 
@@ -63,5 +70,4 @@ curvePoint ( a, b, c, d, t )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

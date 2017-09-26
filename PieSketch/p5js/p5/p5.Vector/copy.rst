@@ -5,16 +5,18 @@
 copy()
 ======
 
-Gets a copy of the vector, returns a p5.Vector object.
+รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Vector
 
+.. Gets a copy of the vector, returns a p5.Vector object.
 **รูปแบบการใช้งาน**
 
 copy ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.Vector: the copy of the p5.Vector object
+- p5.Vector: สำเนาของวัตถุ p5.Vector
 
+.. p5.Vector: the copy of the p5.Vector object
 
 .. raw:: html
 
@@ -28,5 +30,4 @@ copy ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

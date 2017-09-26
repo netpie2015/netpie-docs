@@ -5,21 +5,24 @@
 textWidth()
 ===========
 
-Calculates and returns the width of any character or text string.
+คำนวณและส่งกลับค่าความกว้างของอักขระหรือสตริงข้อความ
 
+.. Calculates and returns the width of any character or text string.
 **รูปแบบการใช้งาน**
 
 textWidth ( theText )
 
 **พารามิเตอร์**
 
-- ``theText``  String: the String of characters to measure
+- ``theText``  String: สายอักขระที่จะวัด
 
+.. ``theText``  String: the String of characters to measure
 
 **ค่าที่ส่งออกมา**
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -40,5 +43,4 @@ textWidth ( theText )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

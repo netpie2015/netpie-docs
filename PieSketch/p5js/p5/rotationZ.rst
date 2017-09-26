@@ -5,16 +5,19 @@
 rotationZ
 ===========
 
-The system variable rotationZ always contains the rotation of the
-device along the z axis. Value is represented as 0 to 359 degrees.
+การหมุนตัวแปรของระบบมักประกอบด้วยการหมุนของอุปกรณ์ไปตามแกน z ค่าจะแสดงเป็น 0 ถึง 359 องศา 
+ไม่เหมือน rotationX และ rotationY ตัวแปรนี้สามารถใช้ได้กับอุปกรณ์ที่มีเข็มทิศในตัวเท่านั้น 
+หมายเหตุ: ลำดับการหมุนเวียนเรียกว่าสำคัญเช่น ถ้าใช้ร่วมกันจะต้องเรียกว่า ZXY ตามลำดับหรืออาจมีพฤติกรรมที่ไม่คาดคิด
 
-Unlike rotationX and rotationY, this variable is available for devices
-with a built-in compass only.
-
-Note: The order the rotations are called is important, ie. if used
-together, it must be called in the order Z-X-Y or there might be
-unexpected behaviour.
-
+.. The system variable rotationZ always contains the rotation of the
+.. device along the z axis. Value is represented as 0 to 359 degrees.
+.. 
+.. Unlike rotationX and rotationY, this variable is available for devices
+.. with a built-in compass only.
+.. 
+.. Note: The order the rotations are called is important, ie. if used
+.. together, it must be called in the order Z-X-Y or there might be
+.. unexpected behaviour.
 **รูปแบบการใช้งาน**
 
 rotationZ
@@ -38,5 +41,4 @@ rotationZ
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

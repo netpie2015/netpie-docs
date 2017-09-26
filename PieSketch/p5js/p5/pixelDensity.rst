@@ -5,24 +5,27 @@
 pixelDensity()
 ==============
 
-Sets the pixel scaling for high pixel density displays. By default
-pixel density is set to match display density, call pixelDensity(1)
-to turn this off. Calling pixelDensity() with no arguments returns
-the current pixel density of the sketch.
+ตั้งค่าการปรับพิกเซลสำหรับการแสดงความหนาแน่นของพิกเซลสูง โดยค่าเริ่มต้นความหนาแน่นของพิกเซลถูกตั้งค่าให้ตรงกับความหนาแน่นของการแสดงผลให้เรียก pixelDensity (1) เพื่อปิดการทำงานนี้ การเรียก pixelDensity () ที่ไม่มีอาร์กิวเมนต์จะส่งกลับความหนาแน่นของพิกเซลในปัจจุบันของร่าง
 
+.. Sets the pixel scaling for high pixel density displays. By default
+.. pixel density is set to match display density, call pixelDensity(1)
+.. to turn this off. Calling pixelDensity() with no arguments returns
+.. the current pixel density of the sketch.
 **รูปแบบการใช้งาน**
 
 pixelDensity ( [val] )
 
 **พารามิเตอร์**
 
-- ``val``  Number: whether or how much the sketch should scale
+- ``val``  Number: ไม่ว่าจะเป็นภาพร่างหรือขนาดเท่าไร
 
+.. ``val``  Number: whether or how much the sketch should scale
 
 **ค่าที่ส่งออกมา**
 
-- Number: current pixel density of the sketch
+- Number: ความหนาแน่นของพิกเซลในปัจจุบันของร่าง
 
+.. Number: current pixel density of the sketch
 
 .. raw:: html
 
@@ -50,5 +53,4 @@ pixelDensity ( [val] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

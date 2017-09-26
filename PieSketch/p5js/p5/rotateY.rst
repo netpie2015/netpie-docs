@@ -5,16 +5,17 @@
 rotateY()
 =========
 
-Rotates around Y axis.
+หมุนรอบแกน Y
 
+.. Rotates around Y axis.
 **รูปแบบการใช้งาน**
 
 rotateY ( rad )
 
 **พารามิเตอร์**
 
-- ``rad``  Number: angles in radians
+- ``rad``  Number: มุมในเรเดียน
 
+.. ``rad``  Number: angles in radians
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

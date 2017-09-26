@@ -5,10 +5,11 @@
 textDescent()
 =============
 
-Returns the descent of the current font at its current size. The descent
-represents the distance, in pixels, of the character with the longest
-descender below the baseline.
+ส่งกลับค่าโควต้าของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน โคตรหมายถึงระยะทางเป็นพิกเซลของตัวละครที่มีระยะห่างที่ยาวที่สุดต่ำกว่าเส้นฐาน
 
+.. Returns the descent of the current font at its current size. The descent
+.. represents the distance, in pixels, of the character with the longest
+.. descender below the baseline.
 **รูปแบบการใช้งาน**
 
 textDescent ( )
@@ -17,6 +18,7 @@ textDescent ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -38,5 +40,4 @@ textDescent ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

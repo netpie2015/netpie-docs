@@ -5,32 +5,39 @@
 bezierTangent()
 ===============
 
-Evaluates the tangent to the Bezier at position t for points a, b, c, d.
-The parameters a and d are the first and last points
-on the curve, and b and c are the control points.
-The final parameter t varies between 0 and 1.
+ประเมินจุดสัมผัสกับ Bezier ที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ a และ d เป็นจุดแรกและจุดสุดท้ายของเส้นโค้งและ b และ c เป็นจุดควบคุม พารามิเตอร์สุดท้าย t แปรผันระหว่าง 0 และ 1
 
+.. Evaluates the tangent to the Bezier at position t for points a, b, c, d.
+.. The parameters a and d are the first and last points
+.. on the curve, and b and c are the control points.
+.. The final parameter t varies between 0 and 1.
 **รูปแบบการใช้งาน**
 
 bezierTangent ( a, b, c, d, t )
 
 **พารามิเตอร์**
 
-- ``a``  Number: coordinate of first point on the curve
+- ``a``  Number: พิกัดของจุดแรกบนเส้นโค้ง
 
-- ``b``  Number: coordinate of first control point
+- ``b``  Number: พิกัดของจุดควบคุมแรก
 
-- ``c``  Number: coordinate of second control point
+- ``c``  Number: พิกัดของจุดควบคุมที่สอง
 
-- ``d``  Number: coordinate of second point on the curve
+- ``d``  Number: พิกัดของจุดที่สองบนเส้นโค้ง
 
-- ``t``  Number: value between 0 and 1
+- ``t``  Number: ค่าระหว่าง 0 ถึง 1
 
+.. ``a``  Number: coordinate of first point on the curve
+.. ``b``  Number: coordinate of first control point
+.. ``c``  Number: coordinate of second control point
+.. ``d``  Number: coordinate of second point on the curve
+.. ``t``  Number: value between 0 and 1
 
 **ค่าที่ส่งออกมา**
 
-- Number: the tangent at position t
+- Number: สัมผัสกันที่ตำแหน่ง t
 
+.. Number: the tangent at position t
 
 .. raw:: html
 
@@ -84,5 +91,4 @@ bezierTangent ( a, b, c, d, t )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

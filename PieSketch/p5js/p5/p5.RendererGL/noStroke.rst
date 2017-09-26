@@ -5,8 +5,9 @@
 noStroke()
 ==========
 
-Does not render stroke
+ไม่ทำให้จังหวะ
 
+.. Does not render stroke
 **รูปแบบการใช้งาน**
 
 noStroke ( )
@@ -31,5 +32,4 @@ noStroke ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

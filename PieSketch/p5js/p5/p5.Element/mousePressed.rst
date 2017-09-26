@@ -5,18 +5,21 @@
 mousePressed()
 ==============
 
-The .mousePressed() function is called once after every time a
-mouse button is pressed over the element. This can be used to
-attach element specific event listeners.
+ฟังก์ชัน. mousePressed () เรียกว่าครั้งหลังจากทุกครั้งที่กดปุ่มเมาส์เหนือองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .mousePressed() function is called once after every time a
+.. mouse button is pressed over the element. This can be used to
+.. attach element specific event listeners.
 **รูปแบบการใช้งาน**
 
 mousePressed ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is pressed over the element.
+- ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกกดเหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   pressed over the element.
 
 .. raw:: html
 
@@ -51,5 +54,4 @@ mousePressed ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

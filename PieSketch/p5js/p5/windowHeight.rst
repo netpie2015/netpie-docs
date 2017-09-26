@@ -5,9 +5,10 @@
 windowHeight
 ==============
 
-System variable that stores the height of the inner window, it maps to
-window.innerHeight.
+ตัวแปรระบบที่เก็บความสูงของหน้าต่างด้านในจะแม็พกับ window.innerHeight
 
+.. System variable that stores the height of the inner window, it maps to
+.. window.innerHeight.
 **รูปแบบการใช้งาน**
 
 windowHeight
@@ -21,5 +22,4 @@ windowHeight
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

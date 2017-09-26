@@ -5,10 +5,11 @@
 pmouseY
 =========
 
-The system variable pmouseY always contains the vertical position of the
-mouse or finger in the frame previous to the current frame, relative to
-(0, 0) of the canvas.
+ตัวแปรระบบ pmouseY จะมีตำแหน่งในแนวตั้งของเมาส์หรือนิ้วในกรอบก่อนเฟรมปัจจุบันเทียบกับ (0, 0) ของผืนผ้าใบ
 
+.. The system variable pmouseY always contains the vertical position of the
+.. mouse or finger in the frame previous to the current frame, relative to
+.. (0, 0) of the canvas.
 **รูปแบบการใช้งาน**
 
 pmouseY
@@ -31,5 +32,4 @@ pmouseY
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

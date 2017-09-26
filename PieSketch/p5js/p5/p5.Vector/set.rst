@@ -5,21 +5,26 @@
 set()
 =====
 
-Sets the x, y, and z component of the vector using two or three separate
-variables, the data from a p5.Vector, or the values from a float array.
+ตั้งค่าคอมโพเนนต์ x, y และ z ของเวกเตอร์โดยใช้ตัวแปรแยกสองหรือสามตัวแปรข้อมูลจาก p5.Vector หรือค่าจากอาร์เรย์ float
 
+.. Sets the x, y, and z component of the vector using two or three separate
+.. variables, the data from a p5.Vector, or the values from a float array.
 **รูปแบบการใช้งาน**
 
 set ( [x], [y], [z] )
 
 **พารามิเตอร์**
 
-- ``x``  Number,p5.Vector,Array: the x component of the vector or a p5.Vector or an Array
+- ``x``  Number,p5.Vector,Array: คอมโพเนนต์ x ของเวกเตอร์หรือ p5.Vector หรือ Array
 
-- ``y``  Number: the y component of the vector
+- ``y``  Number: องค์ประกอบ y ของเวกเตอร์
 
-- ``z``  Number: the z component of the vector
+- ``z``  Number: องค์ประกอบ z ของเวกเตอร์
 
+.. ``x``  Number,p5.Vector,Array: the x component of the vector or a
+                                    p5.Vector or an Array
+.. ``y``  Number: the y component of the vector
+.. ``z``  Number: the z component of the vector
 
 .. raw:: html
 
@@ -37,5 +42,4 @@ set ( [x], [y], [z] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

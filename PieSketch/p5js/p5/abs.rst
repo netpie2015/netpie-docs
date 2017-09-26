@@ -5,22 +5,25 @@
 abs()
 =====
 
-Calculates the absolute value (magnitude) of a number. Maps to Math.abs().
-The absolute value of a number is always positive.
+คำนวณค่าสัมบูรณ์ (ขนาด) ของตัวเลข Maps ไปยัง Math.abs () ค่าสัมบูรณ์ของจำนวนเป็นบวกเสมอ
 
+.. Calculates the absolute value (magnitude) of a number. Maps to Math.abs().
+.. The absolute value of a number is always positive.
 **รูปแบบการใช้งาน**
 
 abs ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to compute
+- ``n``  Number: จำนวนที่จะคำนวณ
 
+.. ``n``  Number: number to compute
 
 **ค่าที่ส่งออกมา**
 
-- Number: absolute value of given number
+- Number: ค่าสัมบูรณ์ของจำนวนที่ระบุ
 
+.. Number: absolute value of given number
 
 .. raw:: html
 
@@ -37,5 +40,4 @@ abs ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

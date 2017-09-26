@@ -5,14 +5,16 @@
 touchMoved()
 ============
 
-The touchMoved() function is called every time a touch move is registered.
-If no touchMoved() function is defined, the mouseDragged() function will
-be called instead if it is defined.
+ฟังก์ชัน touchMoved () เรียกว่าทุกครั้งที่มีการบันทึกการแตะย้าย ถ้าไม่มีฟังก์ชัน touchMoved () ฟังก์ชัน mouseDragged () จะถูกเรียกใช้แทนถ้ากำหนดไว้ 
+เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์การสัมผัสต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด
 
-Browsers may have different default behaviors attached to various touch
-events. To prevent any default behavior for this event, add "return false"
-to the end of the method.
-
+.. The touchMoved() function is called every time a touch move is registered.
+.. If no touchMoved() function is defined, the mouseDragged() function will
+.. be called instead if it is defined.
+.. 
+.. Browsers may have different default behaviors attached to various touch
+.. events. To prevent any default behavior for this event, add "return false"
+.. to the end of the method.
 **รูปแบบการใช้งาน**
 
 touchMoved ( )
@@ -51,5 +53,4 @@ touchMoved ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

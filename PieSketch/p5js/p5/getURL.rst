@@ -5,16 +5,18 @@
 getURL()
 ========
 
-Gets the current URL.
+ได้รับ URL ปัจจุบัน
 
+.. Gets the current URL.
 **รูปแบบการใช้งาน**
 
 getURL ( )
 
 **ค่าที่ส่งออกมา**
 
-- String: url
+- String: URL
 
+.. String: url
 
 .. raw:: html
 
@@ -38,5 +40,4 @@ getURL ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

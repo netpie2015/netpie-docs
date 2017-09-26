@@ -5,16 +5,18 @@
 random2D()
 ==========
 
-Make a new 2D unit vector from a random angle
+สร้างเวกเตอร์แบบ 2D ใหม่จากมุมสุ่ม
 
+.. Make a new 2D unit vector from a random angle
 **รูปแบบการใช้งาน**
 
 random2D ( )
 
 **ค่าที่ส่งออกมา**
 
-- p5.Vector: the new p5.Vector object
+- p5.Vector: วัตถุ p5.Vector ใหม่
 
+.. p5.Vector: the new p5.Vector object
 
 .. raw:: html
 
@@ -29,5 +31,4 @@ random2D ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

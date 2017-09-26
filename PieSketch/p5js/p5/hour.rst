@@ -5,17 +5,19 @@
 hour()
 ======
 
-p5.js communicates with the clock on your computer. The hour() function
-returns the current hour as a value from 0 - 23.
+p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน hour () จะคืนค่าชั่วโมงปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 23
 
+.. p5.js communicates with the clock on your computer. The hour() function
+.. returns the current hour as a value from 0 - 23.
 **รูปแบบการใช้งาน**
 
 hour ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the current hour
+- Number: ชั่วโมงปัจจุบัน
 
+.. Number: the current hour
 
 .. raw:: html
 
@@ -27,5 +29,4 @@ hour ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

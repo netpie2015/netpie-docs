@@ -5,10 +5,11 @@
 deviceMoved()
 =============
 
-The deviceMoved() function is called when the device is moved by more than
-the threshold value along X, Y or Z axis. The default threshold is set to
-0.5.
+ฟังก์ชั่น deviceMoved () เรียกว่าเมื่ออุปกรณ์ถูกเคลื่อนย้ายโดยค่ามากกว่าเกณฑ์ตามแกน X, Y หรือ Z เกณฑ์เริ่มต้นถูกตั้งค่าเป็น 0.5
 
+.. The deviceMoved() function is called when the device is moved by more than
+.. the threshold value along X, Y or Z axis. The default threshold is set to
+.. 0.5.
 **รูปแบบการใช้งาน**
 
 deviceMoved ( )
@@ -36,5 +37,4 @@ deviceMoved ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

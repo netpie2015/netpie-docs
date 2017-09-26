@@ -9,6 +9,9 @@ The inverse of cos(), returns the arc cosine of a value. This function
 expects the values in the range of -1 to 1 and values are returned in
 the range 0 to PI (3.1415927).
 
+.. The inverse of cos(), returns the arc cosine of a value. This function
+.. expects the values in the range of -1 to 1 and values are returned in
+.. the range 0 to PI (3.1415927).
 **รูปแบบการใช้งาน**
 
 acos ( value )
@@ -17,11 +20,13 @@ acos ( value )
 
 - ``value``  Number: the value whose arc cosine is to be returned
 
+.. ``value``  Number: the value whose arc cosine is to be returned
 
 **ค่าที่ส่งออกมา**
 
 - Number: the arc cosine of the given value
 
+.. Number: the arc cosine of the given value
 
 .. raw:: html
 
@@ -48,5 +53,4 @@ acos ( value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

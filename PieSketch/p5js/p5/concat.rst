@@ -5,24 +5,28 @@
 concat()
 ========
 
-Concatenates two arrays, maps to Array.concat(). Does not modify the
-input arrays.
+เชื่อมต่ออาร์เรย์สองชุดเข้ากับ Array.concat () ไม่แก้ไขอาร์เรย์ของอินพุต
 
+.. Concatenates two arrays, maps to Array.concat(). Does not modify the
+.. input arrays.
 **รูปแบบการใช้งาน**
 
 concat ( a, b )
 
 **พารามิเตอร์**
 
-- ``a``  Array: first Array to concatenate
+- ``a``  Array: อาร์เรย์แรกที่ต่อกัน
 
-- ``b``  Array: second Array to concatenate
+- ``b``  Array: อาร์เรย์ที่สองให้ต่อกัน
 
+.. ``a``  Array: first Array to concatenate
+.. ``b``  Array: second Array to concatenate
 
 **ค่าที่ส่งออกมา**
 
-- Array: concatenated array
+- Array: อาร์เรย์ที่ต่อกัน
 
+.. Array: concatenated array
 
 .. raw:: html
 
@@ -46,5 +50,4 @@ concat ( a, b )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

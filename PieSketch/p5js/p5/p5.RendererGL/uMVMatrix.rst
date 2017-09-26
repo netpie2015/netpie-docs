@@ -5,12 +5,12 @@
 uMVMatrix
 ===========
 
-model view, projection, & normal
-matrices
+มุมมองแบบ, การฉายและการฝึกอบรมปกติ
 
+.. model view, projection, & normal
+.. matrices
 **รูปแบบการใช้งาน**
 
 uMVMatrix
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

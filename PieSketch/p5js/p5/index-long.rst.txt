@@ -12,25 +12,25 @@ core
 ^^^^^^^^^^^^^
 
 .. toctree::
-	arc() : Draw an arc to the screen. <arc>
-	ellipse() : Draws an ellipse (oval) to the screen. <ellipse>
-	line() : Draws a line (a direct path between two points) to the screen. <line>
-	point() : Draws a point, a coordinate in space at the dimension of one pixel. <point>
-	quad() : Draw a quad. <quad>
-	rect() : Draws a rectangle to the screen. <rect>
-	triangle() : A triangle is a plane created by connecting three points. <triangle>
+	arc() : วาดส่วนโค้งไปที่หน้าจอ ถ้าเรียกว่ามีเฉพาะ a, b, c, d, เริ่มต้นและหยุด, ส่วนโค้งจะวาดเป็นพายเปิด หากมีการจัดเตรียมโหมดไว้ส่วนโค้งจะวาดทั้งแบบเปิดเป็นคอร์ดหรือเป็นพายตามที่ระบุ ต้นกำเนิดอาจเปลี่ยนแปลงได้โดยใช้ฟังก์ชัน ellipseMode ()  โปรดทราบว่าการวาดวงกลมแบบเต็ม (เช่น: 0 ถึง TWO_PI) จะปรากฏเป็นค่าว่างเนื่องจาก 0 และ TWO_PI เป็นตำแหน่งเดียวกันกับวงกลมหน่วย วิธีที่ดีที่สุดในการจัดการนี้คือการใช้ฟังก์ชัน ellipse () แทนที่จะสร้างวงรีที่ปิดและใช้ฟังก์ชัน arc () เพื่อวาดส่วนของวงรี <arc>
+	ellipse() : วาดวงรี (รูปวงรี) ไปที่หน้าจอ วงรีที่มีความกว้างและความสูงเท่ากันคือวงกลม พารามิเตอร์สองตัวแรกกำหนดตำแหน่งและพารามิเตอร์ที่สามและสี่กำหนดความกว้างและความสูงของรูปร่าง หากไม่มีการระบุความสูงค่าความกว้างจะใช้ทั้งความกว้างและความสูง ถ้ามีการระบุความสูงหรือความกว้างเชิงลบจะใช้ค่าสัมบูรณ์ ต้นกำเนิดอาจเปลี่ยนแปลงได้โดยใช้ฟังก์ชัน ellipseMode () <ellipse>
+	line() : วาดเส้น (เส้นทางตรงระหว่างจุดสองจุด) ไปยังหน้าจอ รุ่นของบรรทัด () ที่มีสี่พารามิเตอร์วาดเส้นในรูปแบบ 2D เมื่อต้องการทำสีเส้นให้ใช้ฟังก์ชัน stroke () ไม่สามารถเติมเส้นได้ดังนั้นฟังก์ชัน fill () จะไม่ส่งผลต่อสีของเส้น เส้น 2D จะวาดด้วยความกว้างหนึ่งพิกเซลตามค่าเริ่มต้น แต่สามารถเปลี่ยนแปลงได้ด้วยฟังก์ชัน strokeWeight () <line>
+	point() : วาดจุดพิกัดในพื้นที่ที่ขนาดหนึ่งพิกเซล พารามิเตอร์แรกคือค่าแนวนอนสำหรับจุดค่าที่สองคือค่าแนวตั้งสำหรับจุด สีของจุดจะถูกกำหนดโดยจังหวะปัจจุบัน <point>
+	quad() : วาดรูปสี่เหลี่ยมผืนผ้า รูปสี่เหลี่ยมเป็นรูปสี่เหลี่ยมผืนผ้าสี่เหลี่ยมรูปหลายเหลี่ยม มีลักษณะคล้ายกับรูปสี่เหลี่ยมผืนผ้า แต่มุมระหว่างขอบไม่ได้ จำกัด ไว้ที่ 90 องศา คู่แรกของพารามิเตอร์ (x1, y1) ตั้งค่าจุดสุดยอดแรกและคู่ที่ตามมาควรดำเนินการตามเข็มนาฬิกาหรือทวนเข็มนาฬิกาตามรูปร่างที่กำหนดไว้ <quad>
+	rect() : วาดรูปสี่เหลี่ยมผืนผ้าไปที่หน้าจอ สี่เหลี่ยมผืนผ้าเป็นรูปสี่เหลี่ยมผืนผ้ามีทุกมุมที่ 90 องศา พารามิเตอร์สองตัวแรกกำหนดตำแหน่งของมุมซ้ายบนส่วนที่สามกำหนดความกว้างและที่สี่กำหนดความสูง วิธีการตีความพารามิเตอร์เหล่านี้อาจเปลี่ยนแปลงได้โดยใช้ฟังก์ชัน rectMode ()  พารามิเตอร์ที่ห้า, หก, เจ็ดและแปดถ้าระบุให้กำหนดรัศมีมุมสำหรับมุมบนขวาล่างซ้ายล่างมุมขวาล่างและมุมล่างซ้ายตามลำดับ พารามิเตอร์รัศมีมุมละเว้นถูกตั้งค่าเป็นค่ารัศมีที่ระบุไว้ก่อนหน้านี้ในรายการพารามิเตอร์ <rect>
+	triangle() : รูปสามเหลี่ยมเป็นเครื่องบินที่สร้างขึ้นโดยการเชื่อมต่อสามจุด อาร์กิวเมนต์สองตัวแรกระบุจุดแรกอาร์กิวเมนต์สองตัวกลางระบุจุดที่สองและอาร์กิวเมนต์สองตัวสุดท้ายระบุจุดที่สาม <triangle>
 
 attributes
 ^^^^^^^^^^
 
 .. toctree::
-	textAlign() : Sets the current alignment for drawing text. <textAlign>
-	textAscent() : Returns the ascent of the current font at its current size. <textAscent>
-	textDescent() : Returns the descent of the current font at its current size. <textDescent>
-	textLeading() : Sets/gets the spacing, in pixels, between lines of text. <textLeading>
-	textSize() : Sets/gets the current font size. <textSize>
-	textStyle() : Sets/gets the style of the text for system fonts to NORMAL, ITALIC, or BOLD. <textStyle>
-	textWidth() : Calculates and returns the width of any character or text string. <textWidth>
+	textAlign() : ตั้งค่าการจัดตำแหน่งปัจจุบันสำหรับการวาดข้อความ ยอมรับอาร์กิวเมนต์สองตัว: horizAlign (ซ้ายขวากลางและขวา) และ vertAlign (TOP, BOTTOM, CENTER หรือ BASELINE) พารามิเตอร์ horizAlign อ้างอิงถึงค่า x ของข้อความ () ฟังก์ชันในขณะที่พารามิเตอร์ vertAlign อยู่ในการอ้างอิงถึงค่า y ดังนั้นหากคุณเขียน textAlign (LEFT) คุณจะจัดเรียงขอบด้านซ้ายของข้อความให้เป็นค่า x ที่คุณให้ไว้ในข้อความ () หากคุณเขียน textAlign (RIGHT, TOP) คุณจะจัดเรียงขอบด้านขวาของข้อความให้เป็นค่า x และด้านบนของขอบของข้อความเป็นค่า y <textAlign>
+	textAscent() : แสดงการขึ้นของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน การขึ้นจะแสดงระยะทางเป็นพิกเซลของอักขระที่สูงที่สุดเหนือเส้นฐาน <textAscent>
+	textDescent() : ส่งกลับค่าโควต้าของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน โคตรหมายถึงระยะทางเป็นพิกเซลของตัวละครที่มีระยะห่างที่ยาวที่สุดต่ำกว่าเส้นฐาน <textDescent>
+	textLeading() : ตั้งค่า / รับระยะห่างเป็นพิกเซลระหว่างบรรทัดของข้อความ การตั้งค่านี้จะใช้ในการเรียกใช้ฟังก์ชันข้อความ () ทั้งหมดในครั้งต่อ ๆ ไป <textLeading>
+	textSize() : ตั้งค่า / รับขนาดแบบอักษรปัจจุบัน ขนาดนี้จะใช้ในการเรียกใช้ฟังก์ชันข้อความ () ทั้งหมดในครั้งต่อ ๆ ไป ขนาดแบบอักษรวัดเป็นพิกเซล <textSize>
+	textStyle() : ตั้งค่า / รับสไตล์ของข้อความสำหรับแบบอักษรของระบบเป็น NORMAL, ITALIC หรือ BOLD หมายเหตุ: นี่อาจถูกแทนที่ด้วยสไตล์ CSS สำหรับแบบอักษรที่ไม่ใช่ระบบ (opentype, truetype ฯลฯ ) โปรดใส่แบบอักษรที่จัดรูปแบบไว้แทน <textStyle>
+	textWidth() : คำนวณและส่งกลับค่าความกว้างของอักขระหรือสตริงข้อความ <textWidth>
 
 constants
 ^^^^^^^^^
@@ -57,7 +57,7 @@ constants
 	ERODE :  <ERODE>
 	EXCLUSION :  <EXCLUSION>
 	GRAY :  <GRAY>
-	HALF_PI : HALF_PI is a mathematical constant with the value 1.57079632679489661923. <HALF_PI>
+	HALF_PI : HALF_PI เป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่าเท่ากับ 1.57079632679489661923 มันเป็นครึ่งหนึ่งของอัตราส่วนของเส้นรอบวงของวงกลมกับเส้นผ่าศูนย์กลาง มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos () <HALF_PI>
 	HARD_LIGHT :  <HARD_LIGHT>
 	HSB :  <HSB>
 	HSL :  <HSL>
@@ -76,7 +76,7 @@ constants
 	OPEN :  <OPEN>
 	OVERLAY :  <OVERLAY>
 	P2D :  <P2D>
-	PI : PI is a mathematical constant with the value 3.14159265358979323846. <PI>
+	PI : PI เป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 3.14159265358979323846 เป็นอัตราส่วนของเส้นรอบวงของวงกลมกับเส้นผ่าศูนย์กลาง มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos () <PI>
 	PIE :  <PIE>
 	POINTS :  <POINTS>
 	PORTRAIT :  <PORTRAIT>
@@ -84,7 +84,7 @@ constants
 	PROJECT :  <PROJECT>
 	QUADS :  <QUADS>
 	QUAD_STRIP :  <QUAD_STRIP>
-	QUARTER_PI : QUARTER_PI is a mathematical constant with the value 0.7853982. <QUARTER_PI>
+	QUARTER_PI : QUARTER_PI เป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 0.7853982 เป็นหนึ่งในสี่ของอัตราส่วนของเส้นรอบวงของวงกลมกับเส้นผ่าศูนย์กลาง มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos () <QUARTER_PI>
 	RADIANS :  <RADIANS>
 	RADIUS :  <RADIUS>
 	REPLACE :  <REPLACE>
@@ -94,127 +94,127 @@ constants
 	SCREEN :  <SCREEN>
 	SOFT_LIGHT :  <SOFT_LIGHT>
 	SQUARE :  <SQUARE>
-	TAU : TAU is an alias for TWO_PI, a mathematical constant with the value 6.28318530717958647693. <TAU>
+	TAU : TAU เป็นนามแฝงสำหรับ TWO_PI ซึ่งเป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 6.28318530717958647693 มันเป็นสองเท่าของขนาดเส้นรอบวงของวงกลม มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos () <TAU>
 	THRESHOLD :  <THRESHOLD>
 	TOP :  <TOP>
 	TRIANGLES :  <TRIANGLES>
 	TRIANGLE_FAN :  <TRIANGLE_FAN>
 	TRIANGLE_STRIP :  <TRIANGLE_STRIP>
-	TWO_PI : TWO_PI is a mathematical constant with the value 6.28318530717958647693. <TWO_PI>
+	TWO_PI : TWO_PI เป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 6.28318530717958647693 มันเป็นสองเท่าของขนาดเส้นรอบวงของวงกลม มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos () <TWO_PI>
 	WEBGL :  <WEBGL>
 
 curves
 ^^^^^^
 
 .. toctree::
-	bezier() : Draws a cubic Bezier curve on the screen. <bezier>
-	bezierDetail() : Sets the resolution at which Beziers display. <bezierDetail>
-	bezierPoint() : Evaluates the Bezier at position t for points a, b, c, d. <bezierPoint>
-	bezierTangent() : Evaluates the tangent to the Bezier at position t for points a, b, c, d. <bezierTangent>
-	curve() : Draws a curved line on the screen between two points, given as the middle four parameters. <curve>
-	curveDetail() : Sets the resolution at which curves display. <curveDetail>
-	curvePoint() : Evaluates the curve at position t for points a, b, c, d. <curvePoint>
-	curveTangent() : Evaluates the tangent to the curve at position t for points a, b, c, d. <curveTangent>
-	curveTightness() : Modifies the quality of forms created with curve() and curveVertex(). <curveTightness>
+	bezier() : วาดโค้ง Bezier ลูกบาศก์บนหน้าจอ เส้นโค้งเหล่านี้ถูกกำหนดโดยชุดจุดยึดและจุดควบคุม พารามิเตอร์สองตัวแรกระบุจุดยึดแรกและพารามิเตอร์สองตัวสุดท้ายระบุจุดยึดอื่น ๆ ซึ่งจะกลายเป็นจุดแรกและจุดสุดท้ายของเส้นโค้ง พารามิเตอร์กลางระบุจุดควบคุมสองจุดที่กำหนดรูปร่างของเส้นโค้ง ประมาณพูดจุดควบคุม &quot;ดึง&quot; เส้นโค้งไปทางพวกเขา  เส้นโค้ง Bezier ได้รับการพัฒนาโดยวิศวกรชาวฝรั่งเศส Pierre Bezier และมักใช้กราฟิกคอมพิวเตอร์เพื่อกำหนดเส้นโค้งที่ลาดเอียงเล็กน้อย ดูเพิ่มเติมที่ curve () <bezier>
+	bezierDetail() : ตั้งค่าความละเอียดที่ Beziers แสดง ค่าดีฟอลต์คือ 20 <bezierDetail>
+	bezierPoint() : ประเมิน Bezier ที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ a และ d เป็นจุดแรกและจุดสุดท้ายของเส้นโค้งและ b และ c เป็นจุดควบคุม พารามิเตอร์สุดท้าย t แตกต่างกันระหว่าง 0 ถึง 1 ซึ่งสามารถทำได้ครั้งเดียวกับพิกัด x และครั้งที่สองโดยใช้พิกัด y เพื่อหาตำแหน่งของเส้นโค้ง Bezier ที่ t <bezierPoint>
+	bezierTangent() : ประเมินจุดสัมผัสกับ Bezier ที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ a และ d เป็นจุดแรกและจุดสุดท้ายของเส้นโค้งและ b และ c เป็นจุดควบคุม พารามิเตอร์สุดท้าย t แปรผันระหว่าง 0 และ 1 <bezierTangent>
+	curve() : วาดเส้นโค้งบนหน้าจอระหว่างสองจุดให้เป็นสี่พารามิเตอร์กลาง พารามิเตอร์สองตัวแรกเป็นจุดควบคุมราวกับว่าเส้นโค้งมาจากจุดนี้ถึงแม้ว่าจะไม่วาดก็ตาม พารามิเตอร์สองตัวสุดท้ายอธิบายจุดควบคุมอื่น ๆ ในทำนองเดียวกัน  เส้นโค้งที่ยาวขึ้นสามารถสร้างขึ้นได้โดยการใช้ชุดของฟังก์ชัน curve () ร่วมกันหรือใช้ curveVertex () ฟังก์ชันเพิ่มเติมที่เรียกว่า curveTightness () ให้การควบคุมคุณภาพภาพของเส้นโค้ง ฟังก์ชัน curve () คือการดำเนินการ Splines Catmull-Rom <curve>
+	curveDetail() : ตั้งค่าความละเอียดที่เส้นโค้งแสดง ค่าดีฟอลต์คือ 20 <curveDetail>
+	curvePoint() : ประเมินเส้นโค้งที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ t แปรผันระหว่าง 0 และ 1, a และ d เป็นจุดบนเส้นโค้งและ b และ c เป็นจุดควบคุม นี้สามารถทำได้ครั้งเดียวกับพิกัด x และครั้งที่สองกับพิกัด y เพื่อให้ได้ตำแหน่งของเส้นโค้งที่ t <curvePoint>
+	curveTangent() : ประเมินจุดสัมผัสกับเส้นโค้งที่ตำแหน่ง t สำหรับจุด a, b, c, d พารามิเตอร์ t แปรผันระหว่าง 0 และ 1, a และ d เป็นจุดบนเส้นโค้งและ b และ c เป็นจุดควบคุม <curveTangent>
+	curveTightness() : ปรับเปลี่ยนคุณภาพของฟอร์มที่สร้างด้วยเส้นโค้ง () และ curveVertex () ความหนาแน่นของพารามิเตอร์กำหนดว่าเส้นโค้งจะพอดีกับจุดยอดจุดไหน ค่านี้เป็นค่าดีฟอลต์สำหรับความรัดกุม (ค่านี้กำหนดเส้นโค้งให้เป็นรูปทรงกระบอก Catmull-Rom) และค่า 1.0 จะเชื่อมต่อจุดทั้งหมดด้วยเส้นตรง ค่าในช่วง -5.0 และ 5.0 จะเปลี่ยนรูปโค้ง แต่จะทำให้พวกเขาเป็นที่รู้จักและเป็นค่าที่เพิ่มขึ้นในขนาดที่พวกเขาจะยังคงทำให้เสียโฉม <curveTightness>
 
 environment
 ^^^^^^^^^^^
 
 .. toctree::
-	cursor() : Sets the cursor to a predefined symbol or an image, or makes it visible if already hidden. <cursor>
-	displayDensity() : Returns the pixel density of the current display the sketch is running on. <displayDensity>
-	displayHeight : System variable that stores the height of the entire screen display. <displayHeight>
-	displayWidth : System variable that stores the width of the entire screen display. <displayWidth>
-	focused : Confirms if the window a p5.js program is in is "focused," meaning that the sketch will accept mouse or keyboard input. <focused>
-	frameCount : The system variable frameCount contains the number of frames that have been displayed since the program started. <frameCount>
-	frameRate() : Specifies the number of frames to be displayed every second. <frameRate>
-	fullscreen() : If argument is given, sets the sketch to fullscreen or not based on the value of the argument. <fullscreen>
-	getFrameRate() : Returns the current framerate. <getFrameRate>
-	getURL() : Gets the current URL. <getURL>
-	getURLParams() : Gets the current URL params as an Object. <getURLParams>
-	getURLPath() : Gets the current URL path as an array. <getURLPath>
-	height : System variable that stores the height of the drawing canvas. <height>
-	noCursor() : Hides the cursor from view. <noCursor>
-	pixelDensity() : Sets the pixel scaling for high pixel density displays. <pixelDensity>
-	print() : The print() function writes to the console area of your browser. <print>
-	setFrameRate() : Specifies the number of frames to be displayed every second. <setFrameRate>
-	width : System variable that stores the width of the drawing canvas. <width>
-	windowHeight : System variable that stores the height of the inner window, it maps to window.innerHeight. <windowHeight>
-	windowResized() : The windowResized() function is called once every time the browser window is resized. <windowResized>
-	windowWidth : System variable that stores the width of the inner window, it maps to window.innerWidth. <windowWidth>
+	cursor() : ตั้งค่าเคอร์เซอร์ไปที่สัญลักษณ์หรือรูปภาพที่กำหนดไว้ล่วงหน้าหรือทำให้ปรากฏหากซ่อนอยู่แล้ว หากคุณพยายามกำหนดภาพเป็นเคอร์เซอร์ขนาดที่แนะนำคือ 16x16 หรือ 32x32 พิกเซล ไม่สามารถโหลดภาพเป็นเคอร์เซอร์หากคุณกำลังส่งออกโปรแกรมของคุณสำหรับเว็บและโหมดทั้งหมดไม่ทำงานกับเบราว์เซอร์ทั้งหมด ค่าสำหรับพารามิเตอร์ x และ y ต้องน้อยกว่าขนาดของภาพ <cursor>
+	displayDensity() : แสดงความหนาแน่นของพิกเซลของการแสดงผลปัจจุบันที่ร่างกำลังทำงานอยู่ <displayDensity>
+	displayHeight : ตัวแปรระบบที่เก็บความสูงของหน้าจอทั้งหมด ใช้เพื่อเรียกใช้โปรแกรมเต็มหน้าจอในทุกขนาดการแสดงผล <displayHeight>
+	displayWidth : ตัวแปรระบบที่เก็บความกว้างของการแสดงผลหน้าจอทั้งหมด ใช้เพื่อเรียกใช้โปรแกรมเต็มหน้าจอในทุกขนาดการแสดงผล <displayWidth>
+	focused : ยืนยันว่าหน้าต่างที่โปรแกรม p5.js มีอยู่หรือไม่ &quot;เน้น&quot; ซึ่งหมายความว่าร่างจะยอมรับการป้อนข้อมูลจากเมาส์หรือแป้นพิมพ์ ตัวแปรนี้คือ &quot;true&quot; ถ้าหน้าต่างถูกโฟกัสและ &quot;false&quot; ถ้าไม่ <focused>
+	frameCount : ตัวแปรเฟรม frameCount ประกอบด้วยจำนวนเฟรมที่แสดงขึ้นตั้งแต่เริ่มต้นโปรแกรม ภายในการตั้งค่า () ค่าเป็น 0 หลังจากที่ทำซ้ำครั้งแรกของการวาดเป็น 1 ฯลฯ <frameCount>
+	frameRate() : ระบุจำนวนเฟรมที่จะแสดงทุกวินาที ตัวอย่างเช่นเฟรมการเรียกฟังก์ชัน Rate (30) จะพยายามรีเฟรช 30 ครั้งต่อวินาที หากโปรเซสเซอร์ไม่เร็วพอที่จะรักษาอัตราที่กำหนดอัตราเฟรมจะไม่สามารถทำได้ แนะนำให้ตั้งค่าอัตราเฟรมภายในการตั้งค่า () อัตราการผิดนัดคือ 60 เฟรมต่อวินาที นี่เป็นเช่นเดียวกับ setFrameRate (val)  การเรียก frameRate () ที่ไม่มีอาร์กิวเมนต์จะส่งกลับเฟรมเรตปัจจุบัน ฟังก์ชันการวาดต้องทำงานอย่างน้อยหนึ่งครั้งก่อนที่จะส่งคืนค่า นี่เป็นเช่นเดียวกับ getFrameRate ()  การเรียก frameRate () ที่มีอาร์กิวเมนต์ที่ไม่ใช่ตัวเลขประเภทหรือไม่เป็นบวกจะส่งกลับเฟรมปัจจุบันด้วย <frameRate>
+	fullscreen() : ถ้าได้รับอาร์กิวเมนต์ให้กำหนดสเกลให้เต็มหน้าจอหรือไม่ขึ้นอยู่กับค่าอาร์กิวเมนต์ ถ้าอาร์กิวเมนต์ไม่ได้รับจะส่งกลับสถานะปัจจุบันแบบเต็มหน้าจอ โปรดทราบว่าเนื่องจากข้อ จำกัด ของเบราเซอร์นี้สามารถเรียกได้เฉพาะในการป้อนข้อมูลของผู้ใช้ตัวอย่างเช่นเมื่อกดเมาส์เช่นตัวอย่างด้านล่าง <fullscreen>
+	getFrameRate() : ส่งคืนกรอบภาพปัจจุบัน <getFrameRate>
+	getURL() : ได้รับ URL ปัจจุบัน <getURL>
+	getURLParams() : รับ params URL ปัจจุบันเป็น Object <getURLParams>
+	getURLPath() : รับเส้นทาง URL ปัจจุบันเป็นอาร์เรย์ <getURLPath>
+	height : ตัวแปรระบบที่เก็บความสูงของผืนผ้าใบรูปวาด ค่านี้ถูกกำหนดโดยพารามิเตอร์ที่สองของฟังก์ชัน createCanvas () ตัวอย่างเช่นการเรียกใช้ฟังก์ชัน createCanvas (320, 240) จะกำหนดตัวแปรความสูงให้เป็นค่า 240 ค่าของความสูงเป็นค่าเริ่มต้นเป็น 100 หากไม่ได้ใช้ createCanvas () ในโปรแกรม <height>
+	noCursor() : ซ่อนเคอร์เซอร์จากมุมมอง <noCursor>
+	pixelDensity() : ตั้งค่าการปรับพิกเซลสำหรับการแสดงความหนาแน่นของพิกเซลสูง โดยค่าเริ่มต้นความหนาแน่นของพิกเซลถูกตั้งค่าให้ตรงกับความหนาแน่นของการแสดงผลให้เรียก pixelDensity (1) เพื่อปิดการทำงานนี้ การเรียก pixelDensity () ที่ไม่มีอาร์กิวเมนต์จะส่งกลับความหนาแน่นของพิกเซลในปัจจุบันของร่าง <pixelDensity>
+	print() : ฟังก์ชัน print () เขียนลงในพื้นที่คอนโซลของเบราเซอร์ของคุณ ฟังก์ชันนี้มักจะเป็นประโยชน์สำหรับการดูข้อมูลที่โปรแกรมกำลังผลิตอยู่ ฟังก์ชันนี้จะสร้างบรรทัดใหม่ของข้อความสำหรับการโทรแต่ละครั้งไปยังฟังก์ชัน แต่ละองค์ประกอบสามารถคั่นด้วยเครื่องหมายคำพูด (&quot;&quot;) และเชื่อมต่อกับโอเปอเรเตอร์ add (+)  ในขณะที่ print () มีลักษณะคล้ายกับ console.log () ไม่ตรงไปตรงมาเพื่อจำลองพฤติกรรมให้เข้าใจง่ายกว่า console.log () ด้วยเหตุนี้มันจึงช้าลง เพื่อผลลัพธ์ที่เร็วที่สุดให้ใช้ console.log () <print>
+	setFrameRate() : ระบุจำนวนเฟรมที่จะแสดงทุกวินาที ตัวอย่างเช่นเฟรมการเรียกฟังก์ชัน Rate (30) จะพยายามรีเฟรช 30 ครั้งต่อวินาที หากโปรเซสเซอร์ไม่เร็วพอที่จะรักษาอัตราที่กำหนดอัตราเฟรมจะไม่สามารถทำได้ แนะนำให้ตั้งค่าอัตราเฟรมภายในการตั้งค่า () อัตราการผิดนัดคือ 60 เฟรมต่อวินาที การเรียก frameRate () ที่ไม่มีอาร์กิวเมนต์จะส่งกลับเฟรมเรตปัจจุบัน <setFrameRate>
+	width : ตัวแปรระบบที่เก็บความกว้างของผืนผ้าใบรูปวาด ค่านี้ถูกกำหนดโดยพารามิเตอร์แรกของฟังก์ชัน createCanvas () ตัวอย่างเช่นการเรียกใช้ฟังก์ชัน createCanvas (320, 240) กำหนดตัวแปรความกว้างเป็นค่า 320 ค่าของความกว้างที่กำหนดไว้เป็น 100 ถ้าไม่ได้ใช้ createCanvas () ในโปรแกรม <width>
+	windowHeight : ตัวแปรระบบที่เก็บความสูงของหน้าต่างด้านในจะแม็พกับ window.innerHeight <windowHeight>
+	windowResized() : ฟังก์ชัน windowResized () เรียกว่าทุกครั้งที่มีการปรับขนาดหน้าต่างเบราเซอร์ นี่เป็นสถานที่ที่ดีในการปรับขนาดของผืนผ้าใบหรือปรับแต่งอื่น ๆ เพื่อรองรับขนาดหน้าต่างใหม่ <windowResized>
+	windowWidth : ตัวแปรระบบที่เก็บความกว้างของหน้าต่างด้านในจะแม็พกับ window.innerWidth <windowWidth>
 
 p5.Element
 ^^^^^^^^^^
 
 .. toctree::
-	changed() : The .changed() function is called when the value of an element is changed. <p5.Element/changed>
-	class() : Adds given class to the element. <p5.Element/class>
-	doubleClicked() : The .doubleClicked() function is called once after every time a mouse button is pressed twice over the element. <p5.Element/doubleClicked>
-	dragLeave() : The .dragLeave() function is called once after every time a dragged file leaves the element area. <p5.Element/dragLeave>
-	dragOver() : The .dragOver() function is called once after every time a file is dragged over the element. <p5.Element/dragOver>
-	drop() : The .drop() function is called for each file dropped on the element. <p5.Element/drop>
-	elt : Underlying HTML element. <p5.Element/elt>
-	id() : Sets the ID of the element. <p5.Element/id>
-	input() : The .input() function is called when any user input is detected with an element. <p5.Element/input>
-	mouseClicked() : The .mouseClicked() function is called once after a mouse button is pressed and released over the element. <p5.Element/mouseClicked>
-	mouseMoved() : The .mouseMoved() function is called once every time a mouse moves over the element. <p5.Element/mouseMoved>
-	mouseOut() : The .mouseOut() function is called once after every time a mouse moves off the element. <p5.Element/mouseOut>
-	mouseOver() : The .mouseOver() function is called once after every time a mouse moves onto the element. <p5.Element/mouseOver>
-	mousePressed() : The .mousePressed() function is called once after every time a mouse button is pressed over the element. <p5.Element/mousePressed>
-	mouseReleased() : The .mouseReleased() function is called once after every time a mouse button is released over the element. <p5.Element/mouseReleased>
-	mouseWheel() : The .mouseWheel() function is called once after every time a mouse wheel is scrolled over the element. <p5.Element/mouseWheel>
-	parent() : Attaches the element to the parent specified. <p5.Element/parent>
-	touchEnded() : The .touchEnded() function is called once after every time a touch is registered. <p5.Element/touchEnded>
-	touchMoved() : The .touchMoved() function is called once after every time a touch move is registered. <p5.Element/touchMoved>
-	touchStarted() : The .touchStarted() function is called once after every time a touch is registered. <p5.Element/touchStarted>
+	changed() : ฟังก์ชัน .changed () จะถูกเรียกเมื่อเปลี่ยนค่าขององค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน <p5.Element/changed>
+	class() : เพิ่มคลาสที่กำหนดให้กับองค์ประกอบ ถ้าไม่มีอาร์กิวเมนต์คลาสถูกส่งผ่านไปจะแทนสตริงที่มีคลาสปัจจุบันขององค์ประกอบ <p5.Element/class>
+	doubleClicked() : ฟังก์ชัน doubleClicked () เรียกว่าครั้งหลังจากทุกครั้งที่กดปุ่มเมาส์สองครั้งเหนือองค์ประกอบ ซึ่งสามารถใช้เพื่อแนบผู้ฟังเหตุการณ์ของ element และ action ได้ <p5.Element/doubleClicked>
+	dragLeave() : ฟังก์ชัน. <p5.Element/dragLeave>
+	dragOver() : ฟังก์ชัน. <p5.Element/dragOver>
+	drop() : มีการเรียกใช้ฟังก์ชัน. <p5.Element/drop>
+	elt : องค์ประกอบ HTML ที่อ้างอิง สามารถเรียกใช้วิธีการ HTML แบบปกติทั้งหมดได้ <p5.Element/elt>
+	id() : ตั้งค่า ID ขององค์ประกอบ ถ้าไม่มีอาร์กิวเมนต์ ID ถูกส่งผ่านไประบบจะส่งคืน ID ปัจจุบันขององค์ประกอบ <p5.Element/id>
+	input() : ฟังก์ชัน. <p5.Element/input>
+	mouseClicked() : ฟังก์ชัน mousesClicked () เรียกว่าครั้งหลังจากที่กดปุ่มเมาส์และปล่อยผ่านองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน <p5.Element/mouseClicked>
+	mouseMoved() : ฟังก์ชัน. <p5.Element/mouseMoved>
+	mouseOut() : ฟังก์ชัน. <p5.Element/mouseOut>
+	mouseOver() : ฟังก์ชัน. <p5.Element/mouseOver>
+	mousePressed() : ฟังก์ชัน. <p5.Element/mousePressed>
+	mouseReleased() : ฟังก์ชัน. <p5.Element/mouseReleased>
+	mouseWheel() : ฟังก์ชัน. <p5.Element/mouseWheel>
+	parent() : แนบองค์ประกอบกับผู้ปกครองที่ระบุ วิธีการตั้งค่าคอนเทนเนอร์สำหรับองค์ประกอบ ยอมรับ ID สตริงโหนด DOM หรือ p5.Element ถ้าไม่มีอาร์กิวเมนต์ให้โหนดหลักจะถูกส่งคืน สำหรับวิธีการเพิ่มเติมในการวางผืนผ้าใบให้ดูที่การ วางตำแหน่ง หน้าวิกิพีเดีย ผ้าใบ <p5.Element/parent>
+	touchEnded() : ฟังก์ชัน .touchEnded () เรียกว่าครั้งหลังจากทุกครั้งที่มีการลงทะเบียนแล้ว สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน <p5.Element/touchEnded>
+	touchMoved() : ฟังก์ชัน .touchMoved () เรียกว่าครั้งหลังจากทุกครั้งที่มีการบันทึกการเคลื่อนไหวแบบสัมผัส สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน <p5.Element/touchMoved>
+	touchStarted() : ฟังก์ชัน touchStarted () เรียกว่าครั้งหลังจากลงทะเบียนแล้วทุกครั้ง สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน <p5.Element/touchStarted>
 
 rendering
 ^^^^^^^^^
 
 .. toctree::
-	blendMode() : Blends the pixels in the display window according to the defined mode. <blendMode>
-	createCanvas() : Creates a canvas element in the document, and sets the dimensions of it in pixels. <createCanvas>
-	createGraphics() : Creates and returns a new p5.Renderer object. <createGraphics>
-	noCanvas() : Removes the default canvas for a p5 sketch that doesn't require a canvas <noCanvas>
-	resizeCanvas() : Resizes the canvas to given width and height. <resizeCanvas>
+	blendMode() : ผสมผสานพิกเซลในหน้าต่างแสดงผลตามโหมดที่กำหนด มีโหมดต่อไปนี้ให้เลือกผสมผสานพิกเซลต้นฉบับ (A) กับพิกเซลที่มีอยู่ในหน้าต่างแสดงผล (B):  BLEND - การแก้ไขเชิงเส้นของสี: C = A * factor + B นี่เป็นโหมดการผสมเริ่มต้น  ADD - ผลรวมของ A และ B  DARKEST - เฉพาะสีที่มืดที่สุดเท่านั้นที่ประสบความสำเร็จ: C = min (A * factor, B)  LIGHTEST - เฉพาะสีที่เบาที่สุดเท่านั้นที่ประสบความสำเร็จ: C = max (A * factor, B)  DIFFERENCE - ลบสีจากภาพต้นแบบ  EXCLUSION - คล้ายคลึงกับ DIFFERENCE แต่ไม่รุนแรงมากนัก  MULTIPLY - คูณสีผลจะเป็นสีเข้มเสมอ  SCREEN - ตรงข้ามคูณใช้ค่าผกผันของสี  REPLACE - พิกเซลทั้งหมดแทนที่ผู้อื่นและไม่ใช้ค่า alpha (โปร่งใส)  OVERLAY - การผสมผสานของ MULTIPLY และ SCREEN คูณค่าความสว่างและค่าแสงของหน้าจอ  HARD_LIGHT - SCREEN เมื่อสีเทามากกว่า 50% MULTIPLY เมื่อลดลง  SOFT_LIGHT - ผสมผสานระหว่าง DARKEST และ LIGHTEST ที่สุด ทำงานได้เหมือน OVERLAY แต่ไม่รุนแรงมากนัก  DODGE - ลดแสงและเพิ่มความคมชัดและไม่สนใจ Darks  BURN - ใช้พื้นที่เข้มขึ้นเพิ่มความคมชัดไม่สนใจไฟ  <blendMode>
+	createCanvas() : สร้างองค์ประกอบผ้าใบในเอกสารและกำหนดขนาดของภาพในพิกเซล วิธีนี้ควรจะเรียกว่าเพียงครั้งเดียวเมื่อเริ่มต้นของการติดตั้ง การเรียก createCanvas มากกว่าหนึ่งครั้งในร่างจะส่งผลให้เกิดพฤติกรรมที่ไม่อาจคาดเดาได้มาก ถ้าคุณต้องการภาพวาดมากกว่าหนึ่งภาพคุณสามารถใช้ createGraphics (ซ่อนไว้โดยค่าเริ่มต้น แต่สามารถแสดงได้)  ความกว้างของตัวแปรระบบและความสูงถูกกำหนดโดยพารามิเตอร์ที่ส่งผ่านไปยังฟังก์ชันนี้ หากไม่ได้ใช้ createCanvas () หน้าต่างจะได้รับขนาดเริ่มต้น 100x100 พิกเซล  สำหรับวิธีการเพิ่มเติมในการวางผืนผ้าใบให้ดูที่การ วางตำแหน่ง หน้าวิกิพีเดีย ผ้าใบ <createCanvas>
+	createGraphics() : สร้างและส่งกลับอ็อบเจ็กต์ p5.Renderer ใหม่ ใช้คลาสนี้ถ้าคุณต้องการวาดลงในบัฟเฟอร์กราฟิกนอกจอ พารามิเตอร์ทั้งสองกำหนดความกว้างและความสูงเป็นพิกเซล <createGraphics>
+	noCanvas() : ลบผ้าใบเริ่มต้นสำหรับร่าง p5 ที่ไม่จำเป็นต้องมีผ้าใบ <noCanvas>
+	resizeCanvas() : ปรับขนาดผ้าใบเพื่อให้ได้ความกว้างและความสูง ผืนผ้าใบจะถูกล้างและวาดจะเรียกทันทีเพื่อให้ร่างภาพสามารถแสดงผลใหม่ในผืนผ้าใบที่ปรับขนาดได้ <resizeCanvas>
 
 structure
 ^^^^^^^^^
 
 .. toctree::
-	loop() : By default, p5.js loops through draw() continuously, executing the code within it. <loop>
-	noLoop() : Stops p5.js from continuously executing the code within draw(). <noLoop>
-	pop() : The push() function saves the current drawing style settings and transformations, while pop() restores these settings. <pop>
-	push() : The push() function saves the current drawing style settings and transformations, while pop() restores these settings. <push>
-	redraw() : Executes the code within draw() one time. <redraw>
+	loop() : p5.js วนลูปผ่าน draw () อย่างต่อเนื่องรันโค้ดภายในโค้ด p5.js อย่างไรก็ตามวง draw () อาจถูกหยุดโดยการเรียก noLoop () ในกรณีนี้วง draw () สามารถทำงานต่อด้วย loop () <loop>
+	noLoop() : หยุด p5.js จากการดำเนินการโค้ดภายใน draw () อย่างต่อเนื่อง ถ้าเรียกว่า loop () โค้ดใน draw () จะเริ่มทำงานอย่างต่อเนื่องอีกครั้ง ถ้าใช้ noLoop () ใน setup () ควรเป็นบรรทัดสุดท้ายภายในบล็อค  เมื่อใช้ noLoop () ไม่สามารถจัดการหรือเข้าถึงหน้าจอภายในฟังก์ชันการจัดการเหตุการณ์เช่น mousePressed () หรือ keyPressed () ใช้ฟังก์ชันเหล่านี้เพื่อเรียก redraw () หรือ loop () ซึ่งจะเรียกใช้ draw () ซึ่งสามารถปรับปรุงหน้าจอได้อย่างถูกต้อง ซึ่งหมายความว่าเมื่อเรียกใช้งาน noLoop () การวาดภาพไม่สามารถเกิดขึ้นได้และอาจใช้ฟังก์ชันเช่น saveFrame () หรือ loadPixels () ได้  โปรดทราบว่าหากมีการปรับขนาดสเปรดชีตวาดใหม่ () จะถูกเรียกเพื่อปรับปรุงโครงร่างแม้จะมีการระบุ noLoop () มิฉะนั้นสเก็ตช์จะเข้าสู่สถานะคี่จนกระทั่งมีการเรียกใช้ลูป () <noLoop>
+	pop() : ฟังก์ชัน push () จะบันทึกการตั้งค่ารูปแบบการวาดภาพปัจจุบันและการแปลงในขณะที่ pop () คืนค่าการตั้งค่าเหล่านี้ โปรดทราบว่าฟังก์ชันเหล่านี้ใช้กันอยู่เสมอ พวกเขาช่วยให้คุณสามารถเปลี่ยนรูปแบบและการตั้งค่าการแปลงและภายหลังกลับไปสิ่งที่คุณมี เมื่อสถานะใหม่เริ่มต้นด้วย push () จะสร้างสไตล์และเปลี่ยนข้อมูลปัจจุบัน สามารถฝังฟังก์ชัน push () และ pop () เพื่อให้สามารถควบคุมได้มากขึ้น (ดูตัวอย่างที่สองสำหรับการสาธิต)  push () เก็บข้อมูลที่เกี่ยวข้องกับสถานะปัจจุบันของการแปลงและการตั้งค่าสไตล์ที่ควบคุมโดยฟังก์ชันต่อไปนี้: fill (), stroke (), tint (), strokeWeight (), strokeCap ​​(), strokeJoin (), imageMode (), rectMode ( ), ellipseMode (), colorMode (), textAlign (), textFont (), textMode (), textSize (), textLeading () <pop>
+	push() : ฟังก์ชัน push () จะบันทึกการตั้งค่ารูปแบบการวาดภาพปัจจุบันและการแปลงในขณะที่ pop () คืนค่าการตั้งค่าเหล่านี้ โปรดทราบว่าฟังก์ชันเหล่านี้ใช้กันอยู่เสมอ พวกเขาช่วยให้คุณสามารถเปลี่ยนรูปแบบและการตั้งค่าการแปลงและภายหลังกลับไปสิ่งที่คุณมี เมื่อสถานะใหม่เริ่มต้นด้วย push () จะสร้างสไตล์และเปลี่ยนข้อมูลปัจจุบัน สามารถฝังฟังก์ชัน push () และ pop () เพื่อให้สามารถควบคุมได้มากขึ้น (ดูตัวอย่างที่สองสำหรับการสาธิต)  push () เก็บข้อมูลที่เกี่ยวข้องกับสถานะปัจจุบันของการแปลงและการตั้งค่าสไตล์ที่ควบคุมโดยฟังก์ชันต่อไปนี้: fill (), stroke (), tint (), strokeWeight (), strokeCap ​​(), strokeJoin (), imageMode (), rectMode ( ), ellipseMode (), colorMode (), textAlign (), textFont (), textMode (), textSize (), textLeading () <push>
+	redraw() : ดำเนินการรหัสภายใน draw () หนึ่งครั้ง ฟังก์ชันนี้ช่วยให้โปรแกรมสามารถปรับปรุงหน้าต่างแสดงผลได้เฉพาะเมื่อจำเป็นเท่านั้นเช่นเมื่อเหตุการณ์ที่ลงทะเบียนโดย mousePressed () หรือ keyPressed () เกิดขึ้น  ในการจัดโครงสร้างโปรแกรมจะทำให้เรียกซ้ำการวาดภาพ () ซ้ำภายในเหตุการณ์เช่น mousePressed () เนื่องจากการวาดใหม่ () ไม่ได้เรียกใช้ draw () ทันที (มีการตั้งค่าสถานะที่ระบุว่าจำเป็นต้องอัปเดตเท่านั้น)  ฟังก์ชัน redraw () ไม่ทำงานอย่างถูกต้องเมื่อเรียกภายใน draw () หากต้องการเปิด / ปิดการใช้งานภาพเคลื่อนไหวให้ใช้ loop () และ noLoop ()  นอกจากนี้คุณสามารถกำหนดจำนวนของภาพวาดต่อการเรียกใช้เมธอด เพียงเพิ่มจำนวนเต็มเป็นพารามิเตอร์เดียวสำหรับจำนวนภาพวาด <redraw>
 
 transform
 ^^^^^^^^^
 
 .. toctree::
-	applyMatrix() : Multiplies the current matrix by the one specified through the parameters. <applyMatrix>
-	resetMatrix() : Replaces the current matrix with the identity matrix. <resetMatrix>
-	rotate() : Rotates a shape the amount specified by the angle parameter. <rotate>
-	rotateX() : Rotates around X axis. <rotateX>
-	rotateY() : Rotates around Y axis. <rotateY>
-	rotateZ() : Rotates around Z axis. <rotateZ>
-	scale() : Increases or decreases the size of a shape by expanding and contracting vertices. <scale>
-	shearX() : Shears a shape around the x-axis the amount specified by the angle parameter. <shearX>
-	shearY() : Shears a shape around the y-axis the amount specified by the angle parameter. <shearY>
-	translate() : Specifies an amount to displace objects within the display window. <translate>
+	applyMatrix() : คูณเมทริกซ์ปัจจุบันตามค่าที่กำหนดโดยพารามิเตอร์ นี่คือการดำเนินงานที่มีประสิทธิภาพซึ่งสามารถทำงานได้เทียบเท่ากับการแปล, การวัด, การเฉือนและการหมุนทั้งหมดในครั้งเดียว คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับเมทริกซ์การเปลี่ยนแปลงใน วิกิพีเดีย การตั้งชื่อของอาร์กิวเมนต์ที่นี่มีดังต่อไปนี้การตั้งชื่อ ข้อกำหนด WHATWG และสอดคล้องกับเมทริกซ์การเปลี่ยนแปลงของแบบฟอร์ม:&gt;  <applyMatrix>
+	resetMatrix() : แทนที่เมทริกซ์ปัจจุบันด้วยเมตริกซ์ข้อมูลประจำตัว <resetMatrix>
+	rotate() : หมุนรูปร่างจำนวนที่กำหนดโดยพารามิเตอร์มุม ฟังก์ชันนี้ใช้สำหรับมุมองศาเพื่อให้มุมสามารถป้อนได้ทั้งใน RADIANS หรือ DEGREES  วัตถุหมุนไปรอบ ๆ ตำแหน่งสัมพัทธ์ไปยังต้นทางและจำนวนที่เป็นบวกจะหมุนวัตถุตามเข็มนาฬิกา การแปลงใช้กับทุกสิ่งทุกอย่างที่เกิดขึ้นหลังจากการโทรไปยังฟังก์ชันนั้นสะสมผล ตัวอย่างเช่นการหมุนหมายเลข (HALF_PI) แล้วหมุน (HALF_PI) จะเหมือนกับการหมุน (PI) การปรับเปลี่ยนทั้งหมดจะถูกรีเซ็ตเมื่อวาด () เริ่มต้นอีกครั้ง  เทคนิคหมุน () คูณเมทริกซ์การเปลี่ยนแปลงปัจจุบันโดยเมทริกซ์การหมุน ฟังก์ชั่นนี้สามารถควบคุมได้โดยกด () และ pop () <rotate>
+	rotateX() : หมุนรอบแกน X <rotateX>
+	rotateY() : หมุนรอบแกน Y <rotateY>
+	rotateZ() : หมุนรอบแกน Z โหมด Webgl เท่านั้น <rotateZ>
+	scale() : เพิ่มหรือลดขนาดของรูปร่างโดยการขยายและหดจุด วัตถุมักมีขนาดจากต้นกำเนิดสัมพัทธ์ไปยังระบบพิกัด ค่าสเกลถูกระบุเป็นเปอร์เซ็นต์ทศนิยม ยกตัวอย่างเช่นระดับการเรียกฟังก์ชัน (2.0) จะเพิ่มมิติของรูปร่างขึ้น 200%  การแปลงใช้กับทุกสิ่งทุกอย่างที่เกิดขึ้นหลังจากและต่อมาเรียกใช้ฟังก์ชันคูณเอฟเฟ็กต์ ตัวอย่างเช่นระดับการโทร (2.0) และระดับ (1.5) จะเหมือนกับขนาด (3.0) ถ้า scale () ถูกเรียกภายใน draw () การแปลงจะถูกรีเซ็ตเมื่อลูปเริ่มใหม่อีกครั้ง  การใช้ฟังก์ชันนี้กับพารามิเตอร์ z จะใช้ได้เฉพาะในโหมด WEBGL เท่านั้น ฟังก์ชั่นนี้สามารถควบคุมด้วย push () และ pop () <scale>
+	shearX() : ตัดเส้นรูปร่างรอบแกน x จำนวนที่กำหนดโดยพารามิเตอร์มุม ควรระบุมุมในมุมฉากปัจจุบัน วัตถุจะถูกตัดรอบตำแหน่งสัมพัทธ์ไปยังต้นกำเนิดและตัวเลขบวกจะตัดวัตถุตามทิศทางตามเข็มนาฬิกา  การแปลงใช้กับทุกสิ่งทุกอย่างที่เกิดขึ้นหลังจากการโทรไปยังฟังก์ชันนั้นสะสมผล ตัวอย่างเช่นการเรียก shearX (PI / 2) แล้ว shearX (PI / 2) จะเหมือนกับ shearX (PI) ถ้า shearX () ถูกเรียกภายใน draw () การแปลงจะถูกรีเซ็ตเมื่อลูปเริ่มใหม่อีกครั้ง  เทคนิค shearX () คูณเมทริกซ์การเปลี่ยนแปลงปัจจุบันโดยเมทริกซ์การหมุน ฟังก์ชั่นนี้สามารถควบคุมได้โดยใช้ฟังก์ชั่น push () และ pop () <shearX>
+	shearY() : ตัดเส้นรูปร่างรอบแกน y จำนวนที่กำหนดโดยพารามิเตอร์มุม ควรระบุมุมในมุมฉากปัจจุบัน วัตถุจะถูกตัดรอบตำแหน่งสัมพัทธ์ไปยังต้นกำเนิดและตัวเลขบวกจะตัดวัตถุตามทิศทางตามเข็มนาฬิกา  การแปลงใช้กับทุกสิ่งทุกอย่างที่เกิดขึ้นหลังจากการโทรไปยังฟังก์ชันนั้นสะสมผล ตัวอย่างเช่นการเรียก sheary (PI / 2) และ shearY (PI / 2) เหมือนกับ sheary (PI) ถ้า shearY () ถูกเรียกภายใน draw () การแปลงจะถูกรีเซ็ตเมื่อลูปเริ่มต้นอีกครั้ง  เทคนิค sheary () คูณเมทริกซ์การเปลี่ยนแปลงปัจจุบันโดยเมทริกซ์การหมุน ฟังก์ชั่นนี้สามารถควบคุมได้โดยใช้ฟังก์ชั่น push () และ pop () <shearY>
+	translate() : ระบุจำนวนที่จะแทนที่วัตถุภายในหน้าต่างแสดง พารามิเตอร์ x ระบุการแปลแบบซ้าย / ขวาพารามิเตอร์ y ระบุการแปลขึ้น / ลง  การแปลงจะสะสมและใช้กับทุกสิ่งทุกอย่างที่เกิดขึ้นหลังจากการโทรไปยังฟังก์ชันนั้นสะสมผลกระทบ ตัวอย่างเช่นโทรแปล (50, 0) แล้วแปล (20, 0) เหมือนกับแปล (70, 0) ถ้าแปล () ถูกเรียกภายใน draw () การแปลงจะถูกรีเซ็ตเมื่อลูปเริ่มใหม่อีกครั้ง ฟังก์ชั่นนี้สามารถควบคุมได้โดยใช้ปุ่ม push () และ pop () <translate>
 
 vertex
 ^^^^^^
 
 .. toctree::
-	beginContour() : Use the beginContour() and endContour() functions to create negative shapes within shapes such as the center of the letter 'O'. <beginContour>
-	beginShape() : Using the beginShape() and endShape() functions allow creating more complex forms. <beginShape>
-	bezierVertex() : Specifies vertex coordinates for Bezier curves. <bezierVertex>
-	curveVertex() : Specifies vertex coordinates for curves. <curveVertex>
-	endContour() : Use the beginContour() and endContour() functions to create negative shapes within shapes such as the center of the letter 'O'. <endContour>
-	endShape() : The endShape() function is the companion to beginShape() and may only be called after beginShape(). <endShape>
-	quadraticVertex() : Specifies vertex coordinates for quadratic Bezier curves. <quadraticVertex>
-	vertex() : All shapes are constructed by connecting a series of vertices. <vertex>
+	beginContour() : ใช้ฟังก์ชัน beginContour () และ endContour () เพื่อสร้างรูปร่างเชิงลบภายในรูปร่างเช่นตรงกลางของตัวอักษร &#39;O&#39; beginContour () เริ่มบันทึกจุดสำหรับรูปร่างและ endContour () หยุดการบันทึก จุดที่กำหนดรูปร่างเชิงลบต้อง &quot;ลม&quot; ไปในทิศทางตรงกันข้ามกับรูปทรงภายนอก วาดจุดแรกสำหรับคำสั่งภายนอกตามเข็มนาฬิกาแล้วสำหรับรูปร่างภายในให้วาดรูปร่างของยอดในทวนเข็มนาฬิกา  ฟังก์ชันเหล่านี้สามารถใช้งานได้ภายในคู่สัญญา beginShape () / endShape () เท่านั้นและการแปลงเช่น translate (), rotate () และ scale () ไม่ทำงานภายในคู่ beginContour () / endContour () นอกจากนี้ยังไม่สามารถใช้รูปทรงอื่น ๆ เช่นวงรี () หรือ rect () ภายในได้ <beginContour>
+	beginShape() : การใช้ฟังก์ชัน beginShape () และ endShape () ช่วยในการสร้างฟอร์มที่ซับซ้อนมากขึ้น beginShape () เริ่มบันทึกจุดสำหรับรูปร่างและ endShape () หยุดการบันทึก ค่าของพารามิเตอร์ชนิดระบุชนิดของรูปร่างที่จะสร้างจากจุดยอดที่ให้ไว้ โดยไม่มีการระบุโหมดรูปร่างอาจเป็นรูปหลายเหลี่ยมที่ไม่สม่ำเสมอ  พารามิเตอร์ที่ใช้ได้สำหรับ beginShape () คือ POINTS, LINES, TRIANGLES, TRIANGLE_FAN, TRIANGLE_STRIP, QUADS และ QUAD_STRIP หลังจากเรียกใช้ฟังก์ชัน beginShape () แล้วชุดคำสั่ง vertex () ต้องปฏิบัติตาม หากต้องการหยุดการวาดรูปให้โทร endShape () แต่ละรูปร่างจะถูกร่างด้วยสีของจังหวะในปัจจุบันและเต็มไปด้วยสีเติม  การแปลงเช่น translate (), rotate () และ scale () ไม่ทำงานภายใน beginShape () นอกจากนี้ยังไม่สามารถใช้รูปร่างอื่น ๆ ได้เช่นวงรี () หรือ rect () ภายใน beginShape () <beginShape>
+	bezierVertex() : ระบุพิกัดจุดสุดยอดสำหรับเส้นโค้ง Bezier การเรียกไปยัง bezierVertex () จะกำหนดตำแหน่งของจุดควบคุมสองจุดและจุดยึดหนึ่งเส้นของเส้นโค้ง Bezier เพิ่มส่วนใหม่ลงในเส้นหรือรูปร่าง  ครั้งแรก bezierVertex () จะถูกใช้ภายในการโทรแบบ beginShape () จะต้องมีการโทรไปยังจุดยอด () เพื่อตั้งจุดยึดแรก ต้องใช้ฟังก์ชันนี้ระหว่าง BeginShape () และ endShape () และเฉพาะเมื่อไม่มีพารามิเตอร์ MODE ที่ระบุเพื่อเริ่มต้น Shape () <bezierVertex>
+	curveVertex() : ระบุพิกัดจุดสุดยอดสำหรับเส้นโค้ง ฟังก์ชันนี้ใช้ได้เฉพาะระหว่าง beginShape () และ endShape () เท่านั้นเมื่อไม่มีพารามิเตอร์ MODE ที่ระบุเพื่อเริ่มต้นรูปร่าง ()  จุดแรกและจุดสุดท้ายในชุดเส้นโค้ง () จะถูกใช้เพื่อเป็นแนวทางในการเริ่มต้นและจุดสิ้นสุดของเส้นโค้ง ต้องใช้จุดอย่างน้อยสี่จุดเพื่อวาดเส้นโค้งเล็ก ๆ ระหว่างจุดที่สองและจุดที่สาม การเพิ่มจุดที่ห้าด้วย curveVertex () จะวาดเส้นโค้งระหว่างจุดที่สองสามและสี่ ฟังก์ชัน curveVertex () คือการดำเนินการ Splines Catmull-Rom <curveVertex>
+	endContour() : ใช้ฟังก์ชัน beginContour () และ endContour () เพื่อสร้างรูปร่างเชิงลบภายในรูปร่างเช่นตรงกลางของตัวอักษร &#39;O&#39; beginContour () เริ่มบันทึกจุดสำหรับรูปร่างและ endContour () หยุดการบันทึก จุดที่กำหนดรูปร่างเชิงลบต้อง &quot;ลม&quot; ไปในทิศทางตรงกันข้ามกับรูปทรงภายนอก วาดจุดแรกสำหรับคำสั่งภายนอกตามเข็มนาฬิกาแล้วสำหรับรูปร่างภายในให้วาดรูปร่างของยอดในทวนเข็มนาฬิกา  ฟังก์ชันเหล่านี้สามารถใช้งานได้ภายในคู่สัญญา beginShape () / endShape () เท่านั้นและการแปลงเช่น translate (), rotate () และ scale () ไม่ทำงานภายในคู่ beginContour () / endContour () นอกจากนี้ยังไม่สามารถใช้รูปทรงอื่น ๆ เช่นวงรี () หรือ rect () ภายในได้ <endContour>
+	endShape() : ฟังก์ชั่น endShape () เป็นตัวช่วยในการเริ่มต้นรูปร่าง () และสามารถเรียกได้เฉพาะหลังจากที่ beginShape () เมื่อเรียกข้อมูล endshape () ข้อมูลภาพทั้งหมดที่กำหนดตั้งแต่การเรียกใช้ครั้งก่อนเพื่อเริ่มต้นรูปร่าง () จะถูกเขียนลงในบัฟเฟอร์ภาพ CLOSE คงที่เป็นค่าสำหรับพารามิเตอร์ MODE เพื่อปิดรูปร่าง (เพื่อเชื่อมต่อจุดเริ่มต้นและจุดสิ้นสุด) <endShape>
+	quadraticVertex() : ระบุพิกัดจุดสุดยอดสำหรับเส้นโค้ง Bezier แบบสี่เหลี่ยม การโทรไปยัง quadraticVertex () จะกำหนดตำแหน่งของจุดควบคุมหนึ่งจุดและจุดยึดหนึ่งเส้นของเส้นโค้ง Bezier เพิ่มส่วนใหม่ลงในเส้นหรือรูปร่าง ครั้งแรก quadraticVertex () จะถูกใช้ภายในการโทรเริ่มต้น () คุณต้องใส่คำนำหน้าไปยังจุดยอด () เพื่อตั้งจุดสมอแรก ต้องใช้ฟังก์ชันนี้ระหว่าง BeginShape () และ endShape () และเฉพาะเมื่อไม่มีพารามิเตอร์ MODE ที่ระบุเพื่อเริ่มต้น Shape () <quadraticVertex>
+	vertex() : รูปร่างทั้งหมดถูกสร้างขึ้นโดยเชื่อมต่อชุดของจุดยอด จุดสุดยอด () ใช้เพื่อระบุพิกัดจุดสุดยอดสำหรับจุดเส้นเสี้ยวสามเหลี่ยมสี่เหลี่ยมและรูปหลายเหลี่ยม ใช้เฉพาะภายในฟังก์ชัน beginShape () และ endShape () เท่านั้น <vertex>
 
 color
 -----
@@ -223,28 +223,28 @@ creating_reading
 ^^^^^^^^^^^^^^^^
 
 .. toctree::
-	alpha() : Extracts the alpha value from a color or pixel array. <alpha>
-	blue() : Extracts the blue value from a color or pixel array. <blue>
-	brightness() : Extracts the HSB brightness value from a color or pixel array. <brightness>
-	color() : Creates colors for storing in variables of the color datatype. <color>
-	green() : Extracts the green value from a color or pixel array. <green>
-	hue() : Extracts the hue value from a color or pixel array. <hue>
-	lerpColor() : Blends two colors to find a third color somewhere between them. <lerpColor>
-	lightness() : Extracts the HSL lightness value from a color or pixel array. <lightness>
-	red() : Extracts the red value from a color or pixel array. <red>
-	saturation() : Extracts the saturation value from a color or pixel array. <saturation>
+	alpha() : แยกค่า alpha ออกจากอาร์เรย์สีหรือพิกเซล <alpha>
+	blue() : แยกค่าสีน้ำเงินจากอาร์เรย์สีหรือพิกเซล <blue>
+	brightness() : แยกค่าความสว่าง HSB จากอาร์เรย์สีหรือพิกเซล <brightness>
+	color() : สร้างสีสำหรับจัดเก็บในตัวแปรประเภทข้อมูลสี พารามิเตอร์ถูกตีความว่าเป็นค่า RGB หรือ HSB ขึ้นอยู่กับ colorMode ปัจจุบัน () โหมดค่าเริ่มต้นคือค่า RGB ตั้งแต่ 0 ถึง 255 ดังนั้นสีของฟังก์ชันเรียกฟังก์ชัน (255, 204, 0) จะกลับเป็นสีเหลืองสดใส  โปรดทราบว่าหากมีการระบุสีให้เป็นสีเดียว () ค่านี้จะถูกตีความว่าเป็นค่าสีเทา เพิ่มค่าที่สองและจะใช้สำหรับความโปร่งใสของ alpha เมื่อมีการระบุค่าสามค่าค่าเหล่านี้จะถูกตีความว่าเป็นค่า RGB หรือ HSB การเพิ่มค่าที่สี่ใช้ความโปร่งใสของ alpha  ถ้ามีอาร์กิวเมนต์สตริงเดียวให้ใช้สตริงสี RGB, RGBA และ Hex CSS และสตริงสีที่มีชื่อทั้งหมด ในกรณีนี้ไม่สนับสนุนค่าตัวเลขอัลฟาเป็นอาร์กิวเมนต์ที่สองให้ใช้รูปแบบ RGBA <color>
+	green() : แยกค่าสีเขียวจากอาร์เรย์สีหรือพิกเซล <green>
+	hue() : แยกค่าสีออกจากอาร์เรย์สีหรือพิกเซล ฮิวอยู่ใน HSB และ HSL ฟังก์ชั่นนี้จะส่งกลับสี HSB ตามปกติเมื่อให้มาพร้อมกับวัตถุสี HSB (หรือเมื่อมาพร้อมกับอาร์เรย์พิกเซลในขณะที่โหมดสีเป็น HSB) แต่จะเป็นค่าเริ่มต้นของสี HSL-normalized (ค่าจะแตกต่างกันถ้าการตั้งค่าสีสูงสุดสำหรับแต่ละระบบแตกต่างกัน) <hue>
+	lerpColor() : ผสมสีสองสีเพื่อหาสีที่สามระหว่างที่อยู่ พารามิเตอร์ amt คือจำนวนที่จะสอดแทรกระหว่างสองค่าซึ่ง 0.0 เท่ากับสีแรกซึ่ง 0.1 ใกล้เคียงกับสีแรก 0.5 อยู่กึ่งกลางระหว่างเป็นต้นจำนวนเงินที่ต่ำกว่า 0 จะถือว่าเท่ากับ 0. <lerpColor>
+	lightness() : แยกค่าความสว่าง HSL จากอาร์เรย์สีหรือพิกเซล <lightness>
+	red() : แยกค่าสีแดงจากอาร์เรย์สีหรือพิกเซล <red>
+	saturation() : แยกค่าความอิ่มตัวจากอาร์เรย์สีหรือพิกเซล ความอิ่มตัวของสีจะแตกต่างกันไปใน HSB และ HSL ฟังก์ชั่นนี้จะส่งกลับค่าความอิ่มตัวของ HSB เมื่อมีวัตถุสี HSB (หรือเมื่อมาพร้อมกับพิกเซลในขณะที่โหมดสีเป็น HSB) แต่จะมีความอิ่มตัวของ HSL ตามค่าดีฟอลต์ <saturation>
 
 setting
 ^^^^^^^
 
 .. toctree::
-	background() : The background() function sets the color used for the background of the p5.js canvas. <background>
-	clear() : Clears the pixels within a buffer. <clear>
-	colorMode() : colorMode() changes the way p5.js interprets color data. <colorMode>
-	fill() : Sets the color used to fill shapes. <fill>
-	noFill() : Disables filling geometry. <noFill>
-	noStroke() : Disables drawing the stroke (outline). <noStroke>
-	stroke() : Sets the color used to draw lines and borders around shapes. <stroke>
+	background() : ฟังก์ชัน background () กำหนดสีที่ใช้สำหรับพื้นหลังของ p5.js canvas พื้นหลังดีฟอลต์คือสีเทาอ่อน ใช้ฟังก์ชันนี้ในการวาด () เพื่อล้างหน้าต่างการแสดงผลในตอนเริ่มต้นของแต่ละเฟรม แต่คุณสามารถใช้ภายในการตั้งค่า () เพื่อตั้งค่าพื้นหลังของเฟรมแรกของภาพเคลื่อนไหวหรือหากต้องการตั้งพื้นหลังเพียงครั้งเดียว  สีระบุเป็นสี RGB, HSB หรือ HSL ขึ้นอยู่กับ colorMode ปัจจุบัน (พื้นที่สีเริ่มต้นคือ RGB โดยแต่ละค่าจะอยู่ในช่วงตั้งแต่ 0 ถึง 255)  ถ้ามีอาร์กิวเมนต์สตริงเดียวให้ใช้สตริงสี RGB, RGBA และ Hex CSS และสตริงสีที่มีชื่อทั้งหมด ในกรณีนี้ไม่สนับสนุนค่าตัวเลขอัลฟาเป็นอาร์กิวเมนต์ที่สองให้ใช้รูปแบบ RGBA  วัตถุสี p5. <background>
+	clear() : ล้างพิกเซลภายในบัฟเฟอร์ ฟังก์ชันนี้ใช้งานได้เฉพาะกับวัตถุ p5.Canvas ที่สร้างขึ้นด้วย createCanvas () function; มันจะไม่ทำงานกับหน้าต่างการแสดงผลหลัก พิกเซลในพื้นที่กราฟิกเพิ่มเติมที่สร้างขึ้นด้วย createGraphics () อาจมีความโปร่งใสทั้งหมดหรือบางส่วน ฟังก์ชั่นนี้จะล้างทุกอย่างเพื่อให้ทุกพิกเซลโปร่งใส 100% <clear>
+	colorMode() : colorMode () เปลี่ยนวิธี p5.js ตีความข้อมูลสี พารามิเตอร์สำหรับ fill (), stroke (), background () และ color () จะถูกกำหนดโดยค่าระหว่าง 0 ถึง 255 โดยใช้รูปแบบสี RGB นี้เทียบเท่ากับการตั้งค่า colorMode (RGB, 255) การตั้งค่า colorMode (HSB) ช่วยให้คุณใช้ระบบ HSB แทน โดยค่าเริ่มต้นนี่คือ colorMode (HSB, 360, 100, 100, 1) คุณยังสามารถใช้ HSL  หมายเหตุ: ออบเจกต์สีที่มีอยู่จะจดจำโหมดที่สร้างขึ้นเพื่อให้คุณสามารถเปลี่ยนโหมดได้ตามต้องการโดยไม่ส่งผลกระทบต่อรูปลักษณ์ <colorMode>
+	fill() : ตั้งค่าสีที่ใช้เติมรูปร่าง ตัวอย่างเช่นถ้าคุณเรียกใช้ fill (204, 102, 0) รูปทรงที่ตามมาทั้งหมดจะเต็มไปด้วยสีส้ม สีนี้มีการระบุไว้ในรูปแบบของสี RGB หรือ HSB ขึ้นอยู่กับ colorMode ปัจจุบัน () (พื้นที่สีเริ่มต้นคือ RGB โดยแต่ละค่าจะอยู่ในช่วงตั้งแต่ 0 ถึง 255)  ถ้ามีอาร์กิวเมนต์สตริงเดียวให้ใช้สตริงสี RGB, RGBA และ Hex CSS และสตริงสีที่มีชื่อทั้งหมด ในกรณีนี้ไม่สนับสนุนค่าตัวเลขอัลฟาเป็นอาร์กิวเมนต์ที่สองให้ใช้รูปแบบ RGBA  วัตถุสี p5 สามารถจัดเตรียมเพื่อกำหนดสีเติม <fill>
+	noFill() : ปิดการใช้งานรูปทรงเรขาคณิต ถ้าทั้งสองคำสั่ง noStroke () และ noFill () เรียกว่าไม่มีอะไรจะถูกลากไปที่หน้าจอ <noFill>
+	noStroke() : ปิดใช้งานการวาดเส้นโครงร่าง (โครงร่าง) ถ้าทั้งสองคำสั่ง noStroke () และ noFill () เรียกว่าไม่มีอะไรจะถูกลากไปที่หน้าจอ <noStroke>
+	stroke() : ตั้งค่าสีที่ใช้ในการวาดเส้นและเส้นขอบรอบรูปทรง สีนี้มีการระบุในรูปแบบของสี RGB หรือ HSB ขึ้นอยู่กับ colorMode ปัจจุบัน () (พื้นที่สีเริ่มต้นคือ RGB โดยแต่ละค่าจะอยู่ในช่วงตั้งแต่ 0 ถึง 255)  ถ้ามีอาร์กิวเมนต์สตริงเดียวให้ใช้สตริงสี RGB, RGBA และ Hex CSS และสตริงสีที่มีชื่อทั้งหมด ในกรณีนี้ไม่สนับสนุนค่าตัวเลขอัลฟาเป็นอาร์กิวเมนต์ที่สองให้ใช้รูปแบบ RGBA  วัตถุสี p5 สามารถจัดเตรียมเพื่อกำหนดสีของจังหวะ <stroke>
 
 data
 ----
@@ -253,26 +253,26 @@ p5.TypedDict
 ^^^^^^^^^^^^
 
 .. toctree::
-	add() : Add to a value stored at a certain key The sum is stored in that location in the Dictionary. <p5.TypedDict/add>
-	clear() : Empties Dictionary of all key-value pairs <p5.TypedDict/clear>
-	create() : Removes a key-value pair in the Dictionary <p5.TypedDict/create>
-	createNumberDict() : Creates a new instance of p5.NumberDict using the key, value pair or object you provide. <p5.TypedDict/createNumberDict>
-	createStringDict() : Creates a new instance of p5.StringDict using the key, value pair or object you provide. <p5.TypedDict/createStringDict>
-	div() : Divide a value stored at a certain key The quotient is stored in that location in the Dictionary. <p5.TypedDict/div>
-	get() : Returns value stored at supplied key. <p5.TypedDict/get>
-	hasKey() : Returns true if key exists in Dictionary otherwise returns false <p5.TypedDict/hasKey>
-	maxKey() : Return the highest key. <p5.TypedDict/maxKey>
-	maxValue() : Return the highest value. <p5.TypedDict/maxValue>
-	minKey() : Return the lowest key. <p5.TypedDict/minKey>
-	minValue() : Return the lowest value. <p5.TypedDict/minValue>
-	mult() : Multiply a value stored at a certain key The product is stored in that location in the Dictionary. <p5.TypedDict/mult>
-	print() : Logs the list of items currently in the Dictionary to the console <p5.TypedDict/print>
-	remove() : Removes a key-value pair in the Dictionary <p5.TypedDict/remove>
-	saveJSON() : Converts the Dictionary into a JSON file for local storage. <p5.TypedDict/saveJSON>
-	saveTable() : Converts the Dictionary into a CSV file for local storage. <p5.TypedDict/saveTable>
-	set() : Changes the value of key if in it already exists in in the Dictionary otherwise makes a new key-value pair <p5.TypedDict/set>
-	size() : Returns the number of key-value pairs currently in Dictionary object <p5.TypedDict/size>
-	sub() : Subtract from a value stored at a certain key The difference is stored in that location in the Dictionary. <p5.TypedDict/sub>
+	add() : จำนวนที่เก็บอยู่ในตำแหน่งนั้นในพจนานุกรม <p5.TypedDict/add>
+	clear() : Empties Dictionary ของคู่คีย์ - ค่าทั้งหมด <p5.TypedDict/clear>
+	create() : ลบคู่คีย์ - ค่าในพจนานุกรม <p5.TypedDict/create>
+	createNumberDict() : สร้างอินสแตนซ์ใหม่ของ p5.NumberDict โดยใช้คีย์คู่ค่าหรืออ็อบเจ็กต์ที่คุณระบุ <p5.TypedDict/createNumberDict>
+	createStringDict() : สร้างอินสแตนซ์ใหม่ของ p5.StringDict โดยใช้คีย์คู่ค่าหรืออ็อบเจ็กต์ที่คุณระบุ <p5.TypedDict/createStringDict>
+	div() : หารค่าที่เก็บไว้ในคีย์หนึ่ง ๆ ผลหารจะถูกเก็บไว้ในตำแหน่งนั้นในพจนานุกรม <p5.TypedDict/div>
+	get() : ส่งคืนค่าที่จัดเก็บไว้ในคีย์ที่ให้มา <p5.TypedDict/get>
+	hasKey() : ส่งกลับค่าจริงถ้าคีย์มีอยู่ในพจนานุกรมมิฉะนั้นจะส่งกลับค่าเท็จ <p5.TypedDict/hasKey>
+	maxKey() : ส่งคืนคีย์ที่สูงที่สุด <p5.TypedDict/maxKey>
+	maxValue() : ส่งคืนค่าสูงสุด <p5.TypedDict/maxValue>
+	minKey() : ส่งคืนคีย์ที่ต่ำที่สุด <p5.TypedDict/minKey>
+	minValue() : ส่งคืนค่าต่ำสุด <p5.TypedDict/minValue>
+	mult() : คูณค่าที่จัดเก็บไว้ในคีย์หลักผลิตภัณฑ์จะถูกเก็บไว้ในตำแหน่งนั้นในพจนานุกรม <p5.TypedDict/mult>
+	print() : บันทึกรายการของไอเทมที่อยู่ในพจนานุกรมไปยังคอนโซล <p5.TypedDict/print>
+	remove() : ลบคู่คีย์ - ค่าในพจนานุกรม <p5.TypedDict/remove>
+	saveJSON() : แปลงพจนานุกรมเป็นไฟล์ JSON สำหรับที่จัดเก็บในตัวเครื่อง <p5.TypedDict/saveJSON>
+	saveTable() : แปลงพจนานุกรมเป็นไฟล์ CSV สำหรับจัดเก็บข้อมูลในเครื่อง <p5.TypedDict/saveTable>
+	set() : เปลี่ยนค่าของคีย์หากอยู่ในนั้นมีอยู่แล้วในในพจนานุกรมทำให้คู่คีย์ - ค่าใหม่ <p5.TypedDict/set>
+	size() : แสดงจำนวนคู่คีย์ - ค่าที่อยู่ในออบเจ็กต์ Dictionary <p5.TypedDict/size>
+	sub() : ลบค่าที่จัดเก็บไว้ที่กุญแจหนึ่ง ๆ ความแตกต่างจะถูกเก็บไว้ในตำแหน่งนั้นในพจนานุกรม <p5.TypedDict/sub>
 
 events
 ------
@@ -281,69 +281,69 @@ acceleration
 ^^^^^^^^^^^^
 
 .. toctree::
-	accelerationX : The system variable accelerationX always contains the acceleration of the device along the x axis. <accelerationX>
-	accelerationY : The system variable accelerationY always contains the acceleration of the device along the y axis. <accelerationY>
-	accelerationZ : The system variable accelerationZ always contains the acceleration of the device along the z axis. <accelerationZ>
-	deviceMoved() : The deviceMoved() function is called when the device is moved by more than the threshold value along X, Y or Z axis. <deviceMoved>
-	deviceOrientation : The system variable deviceOrientation always contains the orientation of the device. <deviceOrientation>
-	deviceShaken() : The deviceShaken() function is called when the device total acceleration changes of accelerationX and accelerationY values is more than the threshold value. <deviceShaken>
-	deviceTurned() : The deviceTurned() function is called when the device rotates by more than 90 degrees continuously. <deviceTurned>
-	pAccelerationX : The system variable pAccelerationX always contains the acceleration of the device along the x axis in the frame previous to the current frame. <pAccelerationX>
-	pAccelerationY : The system variable pAccelerationY always contains the acceleration of the device along the y axis in the frame previous to the current frame. <pAccelerationY>
-	pAccelerationZ : The system variable pAccelerationZ always contains the acceleration of the device along the z axis in the frame previous to the current frame. <pAccelerationZ>
-	pRotationX : The system variable pRotationX always contains the rotation of the device along the x axis in the frame previous to the current frame. <pRotationX>
-	pRotationY : The system variable pRotationY always contains the rotation of the device along the y axis in the frame previous to the current frame. <pRotationY>
-	pRotationZ : The system variable pRotationZ always contains the rotation of the device along the z axis in the frame previous to the current frame. <pRotationZ>
-	rotationX : The system variable rotationX always contains the rotation of the device along the x axis. <rotationX>
-	rotationY : The system variable rotationY always contains the rotation of the device along the y axis. <rotationY>
-	rotationZ : The system variable rotationZ always contains the rotation of the device along the z axis. <rotationZ>
-	setMoveThreshold() : The setMoveThreshold() function is used to set the movement threshold for the deviceMoved() function. <setMoveThreshold>
-	setShakeThreshold() : The setShakeThreshold() function is used to set the movement threshold for the deviceShaken() function. <setShakeThreshold>
+	accelerationX : ระบบเร่งแบบผันแปร X มักประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน x ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <accelerationX>
+	accelerationY : ระบบเร่งตัวแบบแปรผันมักประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน y ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <accelerationY>
+	accelerationZ : การเร่งด้วยความเร่งของระบบมักประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน z ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <accelerationZ>
+	deviceMoved() : ฟังก์ชั่น deviceMoved () เรียกว่าเมื่ออุปกรณ์ถูกเคลื่อนย้ายโดยค่ามากกว่าเกณฑ์ตามแกน X, Y หรือ Z เกณฑ์เริ่มต้นถูกตั้งค่าเป็น 0.5 <deviceMoved>
+	deviceOrientation : อุปกรณ์ตัวแปรตัวแปรการจัดตำแหน่งมักประกอบด้วยการวางแนวของอุปกรณ์ ค่าของตัวแปรนี้จะถูกตั้งค่าเป็น &quot;แนวนอน&quot; หรือ &quot;แนวตั้ง&quot; หากไม่มีข้อมูลใด ๆ จะมีการตั้งค่าเป็น &#39;undefined&#39; LANDSCAPE หรือ PORTRAIT <deviceOrientation>
+	deviceShaken() : ฟังก์ชัน deviceShaken () เรียกว่าเมื่อการเร่งความเร็วทั้งหมดของอุปกรณ์มีการเปลี่ยนแปลงของค่า accelerationX และ accelerationY มากกว่าค่า threshold เกณฑ์เริ่มต้นถูกตั้งค่าเป็น 30 <deviceShaken>
+	deviceTurned() : ฟังก์ชั่น deviceTurned () เรียกว่าเมื่ออุปกรณ์หมุนได้มากกว่า 90 องศาอย่างต่อเนื่อง  แกนที่เรียกใช้เมธอด turned () ถูกเก็บไว้ในตัวแปร turnAxis คุณสามารถล็อกออปเจ็กต์ deviceTurned () เพื่อเรียกใช้แกนใดก็ได้: X, Y หรือ Z โดยการเปรียบเทียบตัวแปร turnAxis กับ &#39;X&#39;, &#39;Y&#39; หรือ &#39;Z&#39; <deviceTurned>
+	pAccelerationX : ตัวแปร pAccelerationX ของระบบประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน x ในเฟรมก่อนเฟรมปัจจุบัน ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <pAccelerationX>
+	pAccelerationY : ตัวแปร pAccelerationY ของระบบประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน y ในเฟรมก่อนเฟรมปัจจุบัน ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <pAccelerationY>
+	pAccelerationZ : ตัวแปรระบบ pAccelerationZ จะประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน z ในเฟรมก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง <pAccelerationZ>
+	pRotationX : ตัวแปรระบบ pRotationX ประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน x ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง +/- 180 องศา  pRotationX สามารถใช้กับ rotationX เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน X <pRotationX>
+	pRotationY : ตัวแปรระบบ pRotationY ประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน y ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง +/- 90 องศา  pRotationY สามารถใช้กับ rotationY เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน Y <pRotationY>
+	pRotationZ : ตัวแปรระบบ pRotationZ ประกอบด้วยการหมุนของอุปกรณ์พร้อมแกน z ในกรอบก่อนหน้ากรอบปัจจุบัน ค่าจะแสดงเป็น 0 ถึง 359 องศา  pRotationZ สามารถใช้กับ rotationZ เพื่อกำหนดทิศทางการหมุนของอุปกรณ์ตามแนวแกน Z <pRotationZ>
+	rotationX : การหมุนตัวแปรของระบบ X มักประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน x ค่าจะแสดงเป็น 0 ถึง +/- 180 องศา  หมายเหตุ: ลำดับการหมุนเวียนเรียกว่าสำคัญเช่น ถ้าใช้ร่วมกันจะต้องเรียกว่า ZXY ตามลำดับหรืออาจมีพฤติกรรมที่ไม่คาดคิด <rotationX>
+	rotationY : การหมุนตัวแปรของระบบมักประกอบด้วยการหมุนของอุปกรณ์ตามแนวแกน y ค่าจะแสดงเป็น 0 ถึง +/- 90 องศา  หมายเหตุ: ลำดับการหมุนเวียนเรียกว่าสำคัญเช่น ถ้าใช้ร่วมกันจะต้องเรียกว่า ZXY ตามลำดับหรืออาจมีพฤติกรรมที่ไม่คาดคิด <rotationY>
+	rotationZ : การหมุนตัวแปรของระบบมักประกอบด้วยการหมุนของอุปกรณ์ไปตามแกน z ค่าจะแสดงเป็น 0 ถึง 359 องศา  ไม่เหมือน rotationX และ rotationY ตัวแปรนี้สามารถใช้ได้กับอุปกรณ์ที่มีเข็มทิศในตัวเท่านั้น  หมายเหตุ: ลำดับการหมุนเวียนเรียกว่าสำคัญเช่น ถ้าใช้ร่วมกันจะต้องเรียกว่า ZXY ตามลำดับหรืออาจมีพฤติกรรมที่ไม่คาดคิด <rotationZ>
+	setMoveThreshold() : ใช้ฟังก์ชัน setMoveThreshold () เพื่อกำหนดเกณฑ์การเคลื่อนที่สำหรับฟังก์ชัน deviceMoved () เกณฑ์เริ่มต้นถูกตั้งค่าเป็น 0.5 <setMoveThreshold>
+	setShakeThreshold() : ใช้ฟังก์ชัน setShakeThreshold () เพื่อกำหนดเกณฑ์การเคลื่อนไหวสำหรับฟังก์ชัน deviceShaken () เกณฑ์เริ่มต้นถูกตั้งค่าเป็น 30 <setShakeThreshold>
 
 keyboard
 ^^^^^^^^
 
 .. toctree::
-	areDownKeys() : The checkDownKeys function returns a boolean true if any keys pressed and a false if no keys are currently pressed. <areDownKeys>
-	downKeys : Holds the key codes of currently pressed keys. <downKeys>
-	isKeyPressed : The boolean system variable keyIsPressed is true if any key is pressed and false if no keys are pressed. <isKeyPressed>
-	key : The system variable key always contains the value of the most recent key on the keyboard that was typed. <key>
-	keyCode : The variable keyCode is used to detect special keys such as BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW. <keyCode>
-	keyIsDown() : The keyIsDown() function checks if the key is currently down, i.e. <keyIsDown>
-	keyPressed() : The keyPressed() function is called once every time a key is pressed. <keyPressed>
-	keyReleased() : The keyReleased() function is called once every time a key is released. <keyReleased>
-	keyTyped() : The keyTyped() function is called once every time a key is pressed, but action keys such as Ctrl, Shift, and Alt are ignored. <keyTyped>
+	areDownKeys() : ฟังก์ชัน checkDownKeys ส่งกลับค่าบูลีนจริงถ้ากดปุ่มใด ๆ และเป็นเท็จหากไม่มีการกดปุ่มใด ๆ ช่วยหลีกเลี่ยงกรณีที่มีการกดปุ่มหลายปุ่มพร้อมกันและปล่อยคีย์เดียวจากนั้นจะเปลี่ยนคุณสมบัติ keyIsPressed เป็น true <areDownKeys>
+	downKeys : ถือรหัสกุญแจของแป้นกดปัจจุบัน <downKeys>
+	isKeyPressed : คีย์ตัวแปรระบบบูลีนเป็นจริงหากมีการกดปุ่มใด ๆ และเท็จหากไม่มีการกดปุ่มใด ๆ <isKeyPressed>
+	key : คีย์ตัวแปรระบบประกอบด้วยค่าของคีย์ล่าสุดบนแป้นพิมพ์ที่พิมพ์อยู่เสมอ เพื่อให้ได้ตัวพิมพ์ใหญ่ที่เหมาะสมคุณควรใช้คีย์นี้ภายในคีย์ไทม์ () สำหรับคีย์ที่ไม่ใช่ ASCII ให้ใช้ตัวแปร keyCode <key>
+	keyCode : คีย์รหัสตัวแปรใช้เพื่อตรวจจับคีย์พิเศษเช่น BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW นอกจากนี้คุณยังสามารถตรวจสอบคีย์ที่กำหนดเองโดยค้นหาคีย์รหัสของคีย์ใด ๆ ในไซต์เช่น: keycode.info <keyCode>
+	keyIsDown() : ฟังก์ชัน keyIsDown () จะตรวจสอบว่าคีย์อยู่ในขณะนี้หรือไม่เช่นกดปุ่ม สามารถใช้งานได้ถ้าคุณมีวัตถุเคลื่อนที่และคุณต้องการให้คีย์หลายตัวสามารถส่งผลต่อพฤติกรรมของตัวเองได้พร้อม ๆ กันเช่นการย้ายสไปรต์ตามแนวทแยงมุม คุณสามารถใส่หมายเลขใด ๆ แทน keyCode ของคีย์หรือใช้ชื่อคีย์โคดตัวแปรใดก็ได้ ที่นี่ <keyIsDown>
+	keyPressed() : ฟังก์ชัน keyPressed () เรียกว่าครั้งทุกครั้งที่กดปุ่ม keyCode สำหรับคีย์ที่ถูกกดถูกเก็บไว้ในตัวแปร keyCode  สำหรับคีย์ที่ไม่ใช่ ASCII ให้ใช้ตัวแปร keyCode คุณสามารถตรวจสอบได้ว่าคีย์ลัดมีค่าเท่ากับ BACKSPACE, DELETE, ENTER, RETURN, TAB, ESCAPE, SHIFT, CONTROL, OPTION, ALT, UP_ARROW, DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW  สำหรับคีย์ ASCII ที่ถูกกดจะถูกเก็บไว้ในตัวแปรหลัก อย่างไรก็ตามไม่ได้แยกความแตกต่างระหว่างตัวพิมพ์ใหญ่และตัวพิมพ์เล็ก ด้วยเหตุนี้ขอแนะนำให้ใช้ keyTyped () เพื่ออ่านตัวแปรหลักซึ่งจะแยกแยะกรณีของตัวแปร  เนื่องจากระบบปฏิบัติการจัดการกับการทำซ้ำที่สำคัญการกดคีย์ค้างไว้อาจทำให้เกิดการเรียกหลาย ๆ ครั้งที่ keyTyped () (และ keyReleased () ด้วย) อัตราการทำซ้ำถูกกำหนดโดยระบบปฏิบัติการและวิธีการกำหนดค่าคอมพิวเตอร์แต่ละเครื่อง  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นต่างกันไปตามเหตุการณ์สำคัญต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <keyPressed>
+	keyReleased() : ฟังก์ชัน keyReleased () เรียกว่าทุกครั้งที่มีการปลดล็อคคีย์ ดูคีย์และคีย์โค๊ดสำหรับข้อมูลเพิ่มเติม  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นต่างกันไปตามเหตุการณ์สำคัญต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <keyReleased>
+	keyTyped() : ฟังก์ชัน keyTyped () เรียกว่าทุกครั้งที่มีการกดปุ่ม แต่ปุ่มดำเนินการเช่น Ctrl, Shift และ Alt จะถูกละเลย กดคีย์ล่าสุดจะถูกเก็บไว้ในตัวแปรหลัก  เนื่องจากระบบปฏิบัติการจัดการกับการทำซ้ำที่สำคัญการกดคีย์ค้างไว้จะทำให้หลาย ๆ การเรียกไปยัง keyTyped () (และ keyReleased () ด้วย) อัตราการทำซ้ำถูกกำหนดโดยระบบปฏิบัติการและวิธีการกำหนดค่าคอมพิวเตอร์แต่ละเครื่อง  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นต่างกันไปตามเหตุการณ์สำคัญต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <keyTyped>
 
 mouse
 ^^^^^
 
 .. toctree::
-	doubleClicked() : The doubleClicked() function is executed every time a event listener has detected a dblclick event which is a part of the DOM L3 specification. <doubleClicked>
-	mouseButton : Processing automatically tracks if the mouse button is pressed and which button is pressed. <mouseButton>
-	mouseClicked() : The mouseClicked() function is called once after a mouse button has been pressed and then released. <mouseClicked>
-	mouseDragged() : The mouseDragged() function is called once every time the mouse moves and a mouse button is pressed. <mouseDragged>
-	mouseIsPressed : The boolean system variable mouseIsPressed is true if the mouse is pressed and false if not. <mouseIsPressed>
-	mouseMoved() : The mouseMoved() function is called every time the mouse moves and a mouse button is not pressed. <mouseMoved>
-	mousePressed() : The mousePressed() function is called once after every time a mouse button is pressed. <mousePressed>
-	mouseReleased() : The mouseReleased() function is called every time a mouse button is released. <mouseReleased>
-	mouseWheel() : The function mouseWheel() is executed every time a vertical mouse wheel event is detected either triggered by an actual mouse wheel or by a touchpad. <mouseWheel>
-	mouseX : The system variable mouseX always contains the current horizontal position of the mouse, relative to (0, 0) of the canvas. <mouseX>
-	mouseY : The system variable mouseY always contains the current vertical position of the mouse, relative to (0, 0) of the canvas. <mouseY>
-	pmouseX : The system variable pmouseX always contains the horizontal position of the mouse or finger in the frame previous to the current frame, relative to (0, 0) of the canvas. <pmouseX>
-	pmouseY : The system variable pmouseY always contains the vertical position of the mouse or finger in the frame previous to the current frame, relative to (0, 0) of the canvas. <pmouseY>
-	pwinMouseX : The system variable pwinMouseX always contains the horizontal position of the mouse in the frame previous to the current frame, relative to (0, 0) of the window. <pwinMouseX>
-	pwinMouseY : The system variable pwinMouseY always contains the vertical position of the mouse in the frame previous to the current frame, relative to (0, 0) of the window. <pwinMouseY>
-	winMouseX : The system variable winMouseX always contains the current horizontal position of the mouse, relative to (0, 0) of the window. <winMouseX>
-	winMouseY : The system variable winMouseY always contains the current vertical position of the mouse, relative to (0, 0) of the window. <winMouseY>
+	doubleClicked() : ฟังก์ชัน doubleClicked () จะทำงานทุกครั้งที่ผู้ฟังเหตุการณ์ตรวจพบเหตุการณ์ dblclick ซึ่งเป็นส่วนหนึ่งของข้อกำหนดของ DOM L3 เหตุการณ์ doubleClicked จะเริ่มทำงานเมื่อปุ่มอุปกรณ์ชี้ตำแหน่ง (โดยปกติจะเป็นปุ่มหลักของเมาส์) จะถูกคลิกสองครั้งบนองค์ประกอบเดี่ยว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเหตุการณ์ dblclick โปรดดูเอกสารของ mozilla ที่นี่: https://developer.mozilla.org/en-US/docs/Web/Events/dblclick <doubleClicked>
+	mouseButton : การประมวลผลจะติดตามโดยอัตโนมัติหากกดปุ่มเมาส์และกดปุ่มใด ค่าของ mouseButton ตัวแปรระบบคือ LEFT, RIGHT หรือ CENTER ขึ้นอยู่กับปุ่มใดที่กดปุ่มสุดท้าย คำเตือน: เบราว์เซอร์อื่นอาจติดตาม mouseButton แตกต่างกัน <mouseButton>
+	mouseClicked() : ฟังก์ชัน mouseClicked () เรียกว่าครั้งหลังจากที่กดปุ่มเมาส์แล้วปล่อยออกมา  เบราว์เซอร์จัดการการคลิกที่แตกต่างกันดังนั้นฟังก์ชันนี้จึงรับประกันได้ว่าจะทำงานเมื่อคลิกปุ่มเมาส์ซ้ายเท่านั้น เมื่อต้องการจัดการกับปุ่มเมาส์อื่น ๆ ที่ถูกกดหรือปล่อยให้ดูที่ mousePressed () หรือ mouseReleased ()  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <mouseClicked>
+	mouseDragged() : ฟังก์ชัน mouseDragged () เรียกว่าทุกครั้งที่เมาส์เลื่อนและกดปุ่มเมาส์ หากไม่มีการกำหนดฟังก์ชัน mouseDragged () ฟังก์ชัน touchMoved () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <mouseDragged>
+	mouseIsPressed : ตัวแปรระบบบูลีน mouseIsPressed เป็นจริงหากเมาส์ถูกกดและเท็จถ้าไม่ <mouseIsPressed>
+	mouseMoved() : ฟังก์ชัน mouseMoved () เรียกว่าทุกครั้งที่เมาส์เคลื่อนที่และไม่ได้กดปุ่มเมาส์  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <mouseMoved>
+	mousePressed() : ฟังก์ชัน mousePressed () เรียกว่าครั้งหลังจากทุกครั้งที่กดปุ่มเมาส์ ตัวแปร mouseButton (ดูรายการอ้างอิงที่เกี่ยวข้อง) สามารถใช้เพื่อกำหนดว่าปุ่มใดถูกกด หากไม่มีฟังก์ชัน mousePressed () ฟังก์ชัน touchStarted () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <mousePressed>
+	mouseReleased() : ฟังก์ชัน mouseReleased () เรียกว่าทุกครั้งที่มีการปล่อยปุ่มเมาส์ หากไม่มีฟังก์ชัน mouseReleased () ฟังก์ชัน touchEnded () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <mouseReleased>
+	mouseWheel() : เมาส์ฟังก์ชัน (MouseWheel) จะถูกเรียกใช้งานทุกครั้งที่มีการตรวจพบเหตุการณ์ล้อเมาส์แบบแนวตั้งที่ทริกเกอร์โดยล้อเมาส์จริงหรือด้วยทัชแพด  คุณสมบัติ event.delta จะส่งกลับจำนวนล้อเลื่อนของเมาส์ที่เลื่อนลง ค่านี้สามารถเป็นค่าบวกหรือค่าลบได้ทั้งนี้ขึ้นอยู่กับทิศทางการเลื่อน (ใน OS X ด้วยการเลื่อนแบบ &quot;ธรรมชาติ&quot; การใช้งานจะมีการเปลี่ยนสัญญาณ)  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์ต่างๆของเมาส์ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด  เนื่องจากปัจจุบันมีการสนับสนุนเหตุการณ์ &quot;wheel&quot; ใน Safari ฟังก์ชันนี้จะทำงานได้ตามปกติเท่านั้นหากมีการ &quot;return false&quot; ในขณะที่ใช้ Safari <mouseWheel>
+	mouseX : ตัวแปร systemX mouseX จะมีตำแหน่งในแนวนอนในแนวนอนของเมาส์โดยสัมพันธ์กับ (0, 0) ของผ้าใบ หากใช้การแตะแทนการป้อนข้อมูลเมาส์ mouseX จะถือค่า x ของจุดสัมผัสล่าสุด <mouseX>
+	mouseY : ตัวแปร mouseY ของระบบจะมีตำแหน่งในแนวตั้งของเมาส์อยู่เสมอเมื่อเทียบกับ (0, 0) ของผืนผ้าใบ หากใช้การแตะแทนการป้อนข้อมูลเมาส์ mouseY จะถือค่า y ของจุดสัมผัสล่าสุด <mouseY>
+	pmouseX : ตัวแปรระบบ pmouseX ประกอบด้วยตำแหน่งในแนวนอนของเมาส์หรือนิ้วในเฟรมก่อนเฟรมปัจจุบันเทียบกับ (0, 0) ของผืนผ้าใบ <pmouseX>
+	pmouseY : ตัวแปรระบบ pmouseY จะมีตำแหน่งในแนวตั้งของเมาส์หรือนิ้วในกรอบก่อนเฟรมปัจจุบันเทียบกับ (0, 0) ของผืนผ้าใบ <pmouseY>
+	pwinMouseX : ตัวแปรของระบบ pwinMouseX ประกอบด้วยตำแหน่งในแนวนอนของเมาส์ในกรอบก่อนหน้ากรอบปัจจุบันเทียบกับ (0, 0) ของหน้าต่าง <pwinMouseX>
+	pwinMouseY : ตัวแปรของระบบ pwinMouseY จะประกอบด้วยตำแหน่งในแนวตั้งของเมาส์ในกรอบก่อนหน้ากรอบปัจจุบันเทียบกับ (0, 0) ของหน้าต่าง <pwinMouseY>
+	winMouseX : ตัวแปรระบบ winMouseX ประกอบด้วยตำแหน่งในแนวนอนในปัจจุบันของเมาส์เทียบกับ (0, 0) ของหน้าต่าง <winMouseX>
+	winMouseY : ตัวแปรระบบ winMouseY จะมีตำแหน่งแนวตั้งในแนวตั้งของเมาส์โดยสัมพันธ์กับ (0, 0) ของหน้าต่าง <winMouseY>
 
 touch
 ^^^^^
 
 .. toctree::
-	touchEnded() : The touchEnded() function is called every time a touch ends. <touchEnded>
-	touchMoved() : The touchMoved() function is called every time a touch move is registered. <touchMoved>
-	touchStarted() : The touchStarted() function is called once after every time a touch is registered. <touchStarted>
-	touches : The system variable touches[] contains an array of the positions of all current touch points, relative to (0, 0) of the canvas, and IDs identifying a unique touch as it moves. <touches>
+	touchEnded() : ฟังก์ชัน touchEnded () เรียกว่าทุกครั้งที่มีการแตะ หากไม่มีการกำหนดฟังก์ชัน touchEnded () ฟังก์ชัน mouseReleased () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์การสัมผัสต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <touchEnded>
+	touchMoved() : ฟังก์ชัน touchMoved () เรียกว่าทุกครั้งที่มีการบันทึกการแตะย้าย ถ้าไม่มีฟังก์ชัน touchMoved () ฟังก์ชัน mouseDragged () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์การสัมผัสต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <touchMoved>
+	touchStarted() : ฟังก์ชัน touchStarted () เรียกว่าครั้งหลังจากลงทะเบียนทุกครั้ง หากไม่มีฟังก์ชัน touchStarted () ฟังก์ชัน mousePressed () จะถูกเรียกใช้แทนถ้ากำหนดไว้  เบราว์เซอร์อาจมีพฤติกรรมเริ่มต้นแตกต่างกันไปตามเหตุการณ์การสัมผัสต่างๆ หากต้องการป้องกันไม่ให้เกิดการทำงานดีฟอลต์สำหรับเหตุการณ์นี้ให้เพิ่ม &quot;return false&quot; ที่ด้านท้ายสุดของเมธอด <touchStarted>
+	touches : ตัวแปรระบบสัมผัส [] ประกอบด้วยอาร์เรย์ของตำแหน่งของจุดสัมผัสทั้งหมดในปัจจุบันเทียบกับ (0, 0) ของผืนผ้าใบและรหัสที่ระบุการสัมผัสที่ไม่เหมือนใครขณะที่ย้าย แต่ละองค์ประกอบในอาร์เรย์เป็นอ็อบเจ็กต์ที่มีคุณสมบัติ x, y และ id อาร์เรย์ touches [] ไม่ได้รับการสนับสนุนบน Safari และ IE บนเดสก์ท็อปแบบสัมผัส (แล็ปท็อป) <touches>
 
 image
 -----
@@ -352,50 +352,50 @@ filters
 ^^^^^^^
 
 .. toctree::
-	apply() : Applys a filter function to a canvas. <apply>
-	dilate() : reduces the bright areas in an image <dilate>
-	erode() : increases the bright areas in an image <erode>
-	gray() : Converts any colors in the image to grayscale equivalents. <gray>
-	invert() : Sets each pixel to its inverse value. <invert>
-	opaque() : Sets the alpha channel to entirely opaque. <opaque>
-	posterize() : Limits each channel of the image to the number of colors specified as the parameter. <posterize>
-	threshold() : Converts the image to black and white pixels depending if they are above or below the threshold defined by the level parameter. <threshold>
+	apply() : ใช้ฟังก์ชันตัวกรองกับผืนผ้าใบ ความแตกต่างระหว่างฟังก์ชันการกรองนี้กับฟังก์ชันการกรองตามจริงที่กำหนดไว้ด้านล่างนี้คือการทำงานของตัวกรองโดยทั่วไปจะปรับเปลี่ยนบัฟเฟอร์ของพิกเซล แต่ไม่ได้นำข้อมูลดังกล่าวกลับไปใช้ผืนผ้าใบ (ซึ่งจะปรับปรุงสิ่งที่มองเห็นได้จริง) ตรงกันข้ามวิธีนี้จะทำให้การเปลี่ยนแปลงที่มองเห็นได้จริงในผืนผ้าใบ วิธีการสมัครเป็นวิธีที่ผู้เรียกร้องของโมดูลนี้ใช้กันโดยทั่วไป ได้รับการแยกออกจากตัวกรองจริงเพื่อสนับสนุนกรณีการใช้งานขั้นสูงในการสร้างห่วงโซ่กรองที่ดำเนินการโดยไม่ต้องอัปเดตผืนผ้าใบในระหว่าง everystep <apply>
+	dilate() : ลดพื้นที่สว่างในภาพ <dilate>
+	erode() : เพิ่มพื้นที่สว่างในภาพ <erode>
+	gray() : แปลงสีในภาพให้เป็นสีเทาเทียบเท่า ไม่มีพารามิเตอร์ที่ใช้ ยืมมาจาก http://www.html5rocks.com/th/tutorials/canvas/imagefilters/ <gray>
+	invert() : ตั้งค่าแต่ละพิกเซลเป็นค่าผกผัน ไม่มีพารามิเตอร์ที่ใช้ <invert>
+	opaque() : ตั้งค่าช่องอัลฟ่าให้เป็นสีทึบ ไม่มีพารามิเตอร์ที่ใช้ <opaque>
+	posterize() : จำกัด แต่ละช่องของภาพตามจำนวนสีที่ระบุเป็นพารามิเตอร์ พารามิเตอร์สามารถตั้งค่าเป็นค่าระหว่าง 2 ถึง 255 แต่ผลลัพธ์ที่เห็นได้ชัดที่สุดในช่วงล่าง ปรับเปลี่ยนจากการประมวลผลตาม java <posterize>
+	threshold() : แปลงภาพเป็นพิกเซลขาวดำขึ้นอยู่กับว่าอยู่เหนือหรือต่ำกว่าเกณฑ์ที่กำหนดโดยพารามิเตอร์ระดับ พารามิเตอร์ต้องอยู่ระหว่าง 0.0 (สีดำ) และ 1.0 (สีขาว) ถ้าไม่มีการระบุระดับไว้ใช้ 0.5 ยืมมาจาก http://www.html5rocks.com/th/tutorials/canvas/imagefilters/ <threshold>
 
 image
 ^^^^^
 
 .. toctree::
-	createImage() : Creates a new p5.Image (the datatype for storing images). <createImage>
-	saveCanvas() : Save the current canvas as an image. <saveCanvas>
-	saveFrames() : Capture a sequence of frames that can be used to create a movie. <saveFrames>
+	createImage() : สร้าง p5.Image ใหม่ (ประเภทข้อมูลสำหรับจัดเก็บภาพ) นี่เป็นบัฟเฟอร์ใหม่ของพิกเซลที่เล่นด้วย ตั้งค่าขนาดของบัฟเฟอร์ที่มีพารามิเตอร์ความกว้างและความสูง  พิกเซลให้การเข้าถึงอาร์เรย์ที่มีค่าพิกเซลทั้งหมดในหน้าต่างแสดงผล ค่าเหล่านี้คือตัวเลข อาร์เรย์นี้เป็นขนาด (รวมถึงปัจจัยที่เหมาะสมสำหรับ pixelDensity) ของหน้าต่างแสดง x4 แทนค่า R, G, B, A เพื่อให้แต่ละพิกเซลเคลื่อนที่จากซ้ายไปขวาในแต่ละแถวจากนั้นให้ลดแต่ละคอลัมน์ ดูพิกเซลสำหรับข้อมูลเพิ่มเติม นอกจากนี้ยังอาจจะง่ายกว่าที่จะใช้ set () หรือ get ()  ก่อนที่จะเข้าถึงพิกเซลของรูปภาพข้อมูลต้องโหลดด้วยฟังก์ชัน loadPixels () หลังจากที่ข้อมูลอาร์เรย์ได้รับการแก้ไขต้องใช้ฟังก์ชัน updatePixels () เพื่ออัพเดตการเปลี่ยนแปลง <createImage>
+	saveCanvas() : บันทึกผืนผ้าใบปัจจุบันเป็นภาพ ใน Safari จะเป็นการเปิดภาพในหน้าต่างและผู้ใช้ต้องระบุชื่อไฟล์ของตนเองใน save-as เบราเซอร์อื่น ๆ จะบันทึกไฟล์ทันทีหรือแจ้งผู้ใช้ด้วยหน้าต่างโต้ตอบ <saveCanvas>
+	saveFrames() : จับภาพลำดับเฟรมที่สามารถใช้ในการสร้างภาพยนตร์ ยอมรับการโทรกลับ ตัวอย่างเช่นคุณอาจต้องการส่งเฟรมไปยังเซิร์ฟเวอร์ซึ่งสามารถจัดเก็บหรือแปลงเป็นภาพเคลื่อนไหวได้ หากไม่มีการเรียกกลับมาเบราว์เซอร์จะปรากฏขึ้นเพื่อบันทึกการสนทนาด้วยความพยายามที่จะดาวน์โหลดภาพทั้งหมดที่เพิ่งสร้างขึ้น ด้วยการเรียกกลับให้ข้อมูลภาพไม่ได้รับการบันทึกไว้โดยค่าเริ่มต้น แต่แทนที่จะส่งผ่านเป็นอาร์กิวเมนต์ไปยังฟังก์ชัน callback เป็นอาร์เรย์ของอ็อบเจ็กต์โดยมีขนาดของอาร์เรย์เท่ากับจำนวนรวมของเฟรม <saveFrames>
 
 loading_displaying
 ^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-	loadFont() : Loads an opentype font file (.otf, .ttf) from a file or a URL, and returns a PFont Object. <loadFont>
-	text() : Draws text to the screen. <text>
-	textFont() : Sets the current font that will be drawn with the text() function. <textFont>
+	loadFont() : โหลดไฟล์ font opentype (.otf, .ttf) จากไฟล์หรือ URL และส่งคืนออบเจ็กต์ PFont วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ  เส้นทางไปยังแบบอักษรควรเทียบกับไฟล์ HTML ที่ลิงก์ในร่างของคุณ การโหลด URL จากที่อยู่ระยะไกลหรืออื่น ๆ อาจถูกบล็อกเนื่องจากความปลอดภัยในตัวของเบราเซอร์ <loadFont>
+	text() : วาดข้อความไปที่หน้าจอ แสดงข้อมูลที่ระบุในพารามิเตอร์แรกบนหน้าจอในตำแหน่งที่ระบุโดยพารามิเตอร์เพิ่มเติม แบบอักษรเริ่มต้นจะถูกใช้เว้นแต่ว่าจะมีการตั้งค่าแบบอักษรด้วยฟังก์ชัน textFont () และจะใช้ขนาดเริ่มต้นยกเว้นกรณีที่มีการตั้งค่าแบบอักษรด้วย textSize () เปลี่ยนสีของข้อความด้วยฟังก์ชัน fill () เปลี่ยนเค้าโครงของข้อความด้วยฟังก์ชัน stroke () และ strokeWeight ()  ข้อความจะแสดงขึ้นตามความสัมพันธ์กับฟังก์ชัน textAlign () ซึ่งจะมีตัวเลือกให้วาดไปทางซ้ายขวาและตรงกลางของพิกัด  พารามิเตอร์ x2 และ y2 กำหนดพื้นที่สี่เหลี่ยมเพื่อแสดงภายในและใช้เฉพาะกับข้อมูลสตริงเท่านั้น เมื่อมีการระบุพารามิเตอร์เหล่านี้จะมีการตีความตามการตั้งค่า rectMode () ในปัจจุบัน ข้อความที่ไม่พอดีกับรูปสี่เหลี่ยมผืนผ้าที่ระบุจะไม่ถูกลากไปที่หน้าจอ <text>
+	textFont() : ตั้งค่าแบบอักษรปัจจุบันที่จะวาดด้วยฟังก์ชัน text () <textFont>
 
 p5.Image
 ^^^^^^^^
 
 .. toctree::
-	blend() : Copies a region of pixels from one image to another, using a specified blend mode to do the operation. <p5.Image/blend>
-	copy() : Copies a region of pixels from one image to another. <p5.Image/copy>
-	filter() : Applies an image filter to a p5.Image <p5.Image/filter>
-	get() : Get a region of pixels from an image. <p5.Image/get>
-	height : Image height. <p5.Image/height>
-	isModified() : helper method for web GL mode to figure out if the image has been modified and might need to be re-uploaded to texture memory between frames. <p5.Image/isModified>
-	loadPixels() : Loads the pixels data for this image into the [pixels] attribute. <p5.Image/loadPixels>
-	mask() : Masks part of an image from displaying by loading another image and using it's alpha channel as an alpha channel for this image. <p5.Image/mask>
-	pixels : Array containing the values for all the pixels in the display window. <p5.Image/pixels>
-	resize() : Resize the image to a new width and height. <p5.Image/resize>
-	save() : Saves the image to a file and force the browser to download it. <p5.Image/save>
-	set() : Set the color of a single pixel or write an image into this p5.Image. <p5.Image/set>
-	setModified() : helper method for web GL mode to indicate that an image has been changed or unchanged since last upload. <p5.Image/setModified>
-	updatePixels() : Updates the backing canvas for this image with the contents of the [pixels] array. <p5.Image/updatePixels>
-	width : Image width. <p5.Image/width>
+	blend() : คัดลอกพื้นที่พิกเซลจากภาพหนึ่งไปยังอีกภาพหนึ่งโดยใช้โหมดผสมผสานที่ระบุเพื่อดำเนินการ <p5.Image/blend>
+	copy() : คัดลอกพื้นที่พิกเซลจากภาพหนึ่งไปยังอีกภาพหนึ่ง ถ้าไม่มี srcImage ระบุไว้ใช้เป็นแหล่งข้อมูล หากแหล่งที่มาและปลายทางมีขนาดไม่เท่ากันจะเป็นการปรับขนาดพิกเซลต้นฉบับให้พอดีกับพื้นที่เป้าหมายที่ระบุ <p5.Image/copy>
+	filter() : ใช้ตัวกรองภาพกับ p5.Image <p5.Image/filter>
+	get() : รับพื้นที่พิกเซลจากภาพ ถ้าไม่ผ่าน params ภาพทั้งหมดที่ถูกส่งกลับถ้า x และ y เป็น params เดียวที่ส่งผ่าน pixel เดียวจะถูกแยกออกถ้า params ทั้งหมดถูกส่งผ่านพื้นที่สี่เหลี่ยมผืนผ้าจะถูกแยกและ p5 จะถูกส่งกลับ ส่งกลับไม่ได้กำหนดหากพื้นที่อยู่นอกขอบเขตของรูปภาพ <p5.Image/get>
+	height : ความสูงของภาพ <p5.Image/height>
+	isModified() : วิธีช่วยเหลือสำหรับโหมดเว็บ GL เพื่อดูว่ารูปภาพได้รับการแก้ไขแล้วหรืออาจจำเป็นต้องอัปโหลดใหม่ไปยังหน่วยความจำเนื้อระหว่างเฟรม <p5.Image/isModified>
+	loadPixels() : โหลดข้อมูลพิกเซลสำหรับภาพนี้ลงในแอตทริบิวต์ [pixels] <p5.Image/loadPixels>
+	mask() : มาสก์ส่วนหนึ่งของรูปภาพจากการแสดงโดยการโหลดรูปภาพอื่นและใช้ช่องอัลฟาเป็นช่องอัลฟ่าสำหรับภาพนี้ <p5.Image/mask>
+	pixels : อาร์เรย์ที่มีค่าสำหรับพิกเซลทั้งหมดในหน้าต่างที่แสดง ค่าเหล่านี้คือตัวเลข อาร์เรย์นี้เป็นขนาด (รวมถึงปัจจัยที่เหมาะสมสำหรับ pixelDensity) ของหน้าต่างแสดง x4 แทนค่า R, G, B, A เพื่อให้แต่ละพิกเซลเคลื่อนที่จากซ้ายไปขวาในแต่ละแถวจากนั้นให้ลดแต่ละคอลัมน์ เรตินาและจอแสดงผลที่มีความละเอียดสูงอื่น ๆ อาจมีพิกเซลมากขึ้น [] (โดยค่าพิกเซลความหนาแน่น = 2) ตัวอย่างเช่นถ้าภาพมีขนาด 100x100 พิกเซลจะมี 40,000 ภาพ ด้วย pixelDensity = 2 จะมี 160,000 สี่ค่าแรก (ดัชนี 0-3) ในอาร์เรย์จะเป็นค่า R, G, B, A ของพิกเซลที่ (0, 0) ค่าที่สองสี่ (ดัชนี 4-7) จะมีค่า R, G, B, A ของพิกเซลที่ (1, 0) โดยทั่วไปในการตั้งค่าพิกเซลที่ (x, y): `` javascript var d = pixelDensity; สำหรับ (var i = 0; i &lt;d; i ++) {สำหรับ (var j = 0; j &lt;d; j ++) {// วนรอบ idx = 4 * ((y * d + j) * width * d + ( x * d + i)); พิกเซล [idx] = r; พิกเซล [idx + 1] = g; พิกเซล [idx + 2] = b; พิกเซล [idx + 3] = a; }} `` `  ก่อนที่จะเข้าถึงอาร์เรย์นี้ข้อมูลต้องโหลดด้วยฟังก์ชัน loadPixels () หลังจากที่ข้อมูลอาร์เรย์ได้รับการแก้ไขต้องใช้ฟังก์ชัน updatePixels () เพื่ออัพเดตการเปลี่ยนแปลง <p5.Image/pixels>
+	resize() : ปรับขนาดภาพใหม่เป็นความกว้างและความสูง หากต้องการปรับสัดส่วนภาพให้เหมาะสมให้ใช้ 0 เป็นค่าสำหรับพารามิเตอร์กว้างหรือสูง ตัวอย่างเช่นเพื่อให้ความกว้างของภาพ 150 พิกเซลและเปลี่ยนความสูงโดยใช้สัดส่วนเดียวกันให้ใช้การปรับขนาด (150, 0) <p5.Image/resize>
+	save() : บันทึกภาพลงในไฟล์และบังคับให้เบราว์เซอร์ดาวน์โหลด ยอมรับสตริงที่สองสำหรับชื่อไฟล์และนามสกุลไฟล์รองรับ png (ค่าเริ่มต้น) และ jpg <p5.Image/save>
+	set() : ตั้งค่าสีของพิกเซลเดียวหรือเขียนภาพลงใน p5.Image นี้ โปรดทราบว่าสำหรับพิกเซลจำนวนมากจะช้ากว่าการจัดการอาร์เรย์ของพิกเซลโดยตรงและจากนั้นเรียกใช้ updatePixels () <p5.Image/set>
+	setModified() : วิธีช่วยเหลือสำหรับโหมดเว็บ GL เพื่อระบุว่ารูปภาพมีการเปลี่ยนแปลงหรือไม่เปลี่ยนแปลงนับตั้งแต่อัปโหลดครั้งล่าสุด การอัปโหลดพื้น gl จะทำให้ค่านี้เป็น false หลังจากอัปโหลดพื้นผิว <p5.Image/setModified>
+	updatePixels() : อัปเดตผืนผ้าใบสำหรับภาพนี้กับเนื้อหาในอาร์เรย์ [pixels] <p5.Image/updatePixels>
+	width : ความกว้างของภาพ <p5.Image/width>
 
 pixels
 ^^^^^^
@@ -417,83 +417,83 @@ files
 ^^^^^
 
 .. toctree::
-	destroyClickedElement() : Helper function, a callback for download that deletes  an invisible anchor element from the DOM once the file  has been automatically downloaded. <destroyClickedElement>
-	downloadFile() : Forces download. <downloadFile>
-	httpDo() : Method for executing an HTTP request. <httpDo>
-	httpGet() : Method for executing an HTTP GET request. <httpGet>
-	httpPost() : Method for executing an HTTP POST request. <httpPost>
-	loadJSON() : Loads a JSON file from a file or a URL, and returns an Object or Array. <loadJSON>
-	loadStrings() : Reads the contents of a file and creates a String array of its individual lines. <loadStrings>
-	loadTable() : Reads the contents of a file or URL and creates a p5.Table object with its values. <loadTable>
-	loadXML() : Reads the contents of a file and creates an XML object with its values. <loadXML>
-	save() : Save an image, text, json, csv, wav, or html. <save>
-	saveJSON() : Writes the contents of an Array or a JSON object to a .json file. <saveJSON>
-	saveStrings() : Writes an array of Strings to a text file, one line per String. <saveStrings>
-	saveTable() : Writes the contents of a Table object to a file. <saveTable>
-	writeFile() : Generate a blob of file data as a url to prepare for download. <writeFile>
+	destroyClickedElement() : Helper ซึ่งเป็น callback สำหรับการดาวน์โหลดที่ลบองค์ประกอบ anchor ที่มองไม่เห็นจาก DOM เมื่อไฟล์ได้รับการดาวน์โหลดโดยอัตโนมัติ <destroyClickedElement>
+	downloadFile() : กำลังดาวน์โหลด ยอมรับ url ไปยัง filedata / blob ชื่อไฟล์และนามสกุล (optional) นี่เป็นฟังก์ชันส่วนตัวเพราะไม่มีการฟอร์แมต แต่ถูกใช้โดย saveStrings, saveJSON, saveTable เป็นต้น <downloadFile>
+	httpDo() : วิธีการดำเนินการคำร้องขอ HTTP หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ  สำหรับการใช้งานขั้นสูงคุณอาจผ่านในเส้นทางเป็นอาร์กิวเมนต์แรกและวัตถุเป็นอาร์กิวเมนต์ที่สองลายเซ็นต่อไปนี้ตามที่ระบุในข้อกำหนดของ Fetch API <httpDo>
+	httpGet() : วิธีการดำเนินการคำขอ HTTP GET หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ นี่เทียบเท่ากับการเรียก httpDo(path, &#39;GET&#39;) <httpGet>
+	httpPost() : วิธีการดำเนินการคำขอ HTTP POST หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ นี่เทียบเท่ากับการเรียก httpDo(path, &#39;POST&#39;) <httpPost>
+	loadJSON() : โหลดไฟล์ JSON จากไฟล์หรือ URL และส่งคืนออบเจ็กต์หรืออาร์เรย์ วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ JSONP ได้รับการสนับสนุนผ่าน polyfill และคุณสามารถส่งผ่านเป็นอาร์กิวเมนต์ที่สองของวัตถุที่มีคำจำกัดความของการเรียกกลับ json ตามไวยากรณ์ที่ระบุไว้ ที่นี่ <loadJSON>
+	loadStrings() : อ่านเนื้อหาของไฟล์และสร้างอาร์เรย์สตริงของแต่ละบรรทัด ถ้าชื่อของไฟล์ถูกใช้เป็นพารามิเตอร์เช่นในตัวอย่างข้างต้นไฟล์ต้องอยู่ในไดเร็กทอรี / โฟลเดอร์สเก็ตช์  หรือไฟล์อาจถูกโหลดจากที่ใดก็ได้บนเครื่องคอมพิวเตอร์โดยใช้เส้นทางสัมบูรณ์ (สิ่งที่เริ่มต้นด้วย / on Unix and Linux หรืออักษรชื่อไดรฟ์ใน Windows) หรือพารามิเตอร์ชื่อไฟล์อาจเป็น URL สำหรับไฟล์ที่พบใน เครือข่าย  วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ <loadStrings>
+	loadTable() :  อ่านเนื้อหาของไฟล์หรือ URL และสร้างอ็อบเจ็กต์ p5.Table ด้วยค่า หากระบุไฟล์ไว้ไฟล์ต้องอยู่ในโฟลเดอร์ &quot;data&quot; ของ sketch พารามิเตอร์ชื่อไฟล์อาจเป็น URL ไปยังไฟล์ที่พบในระบบออนไลน์ โดยค่าเริ่มต้นไฟล์จะถือว่าเป็นเครื่องหมายจุลภาค (ในรูปแบบ CSV) ตารางจะมองหาแถวส่วนหัวหากมีการรวมตัวเลือก &quot;ส่วนหัว&quot;  ตัวเลือกที่เป็นไปได้ ได้แก่ :  csv - แยกวิเคราะห์ตารางเป็นค่าที่คั่นด้วยคอมมา  tsv - แยกวิเคราะห์ตารางเป็นค่าที่คั่นด้วยแท็บ  ส่วนหัว - ตารางนี้มีแถวส่วนหัว (ชื่อ)  เมื่อส่งผ่านตัวเลือกหลายตัวให้ส่งต่อพารามิเตอร์เหล่านี้เป็นพารามิเตอร์แยกต่างหากโดยคั่นด้วยเครื่องหมายจุลภาค ตัวอย่างเช่น:  loadTable(&quot;my_csv_file.csv&quot;, &quot;csv&quot;, &quot;header&quot;)   ไฟล์ทั้งหมดที่โหลดและบันทึกจะใช้การเข้ารหัส UTF-8  วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ การเรียก loadTable () ภายใน preload () รับประกันว่าจะเสร็จสิ้นการดำเนินการก่อนการตั้งค่า () และ draw () จะถูกเรียก  นอกเหนือจาก preload () คุณอาจจะจัดหาฟังก์ชัน callback เพื่อจัดการวัตถุ:  <loadTable>
+	loadXML() : อ่านเนื้อหาของไฟล์และสร้างอ็อบเจ็กต์ XML ด้วยค่าของไฟล์ ถ้าชื่อของไฟล์ถูกใช้เป็นพารามิเตอร์เช่นในตัวอย่างข้างต้นไฟล์ต้องอยู่ในไดเร็กทอรี / โฟลเดอร์สเก็ตช์ หรือไฟล์อาจถูกโหลดจากที่ใดก็ได้บนเครื่องคอมพิวเตอร์โดยใช้เส้นทางสัมบูรณ์ (สิ่งที่เริ่มต้นด้วย / on Unix and Linux หรืออักษรชื่อไดรฟ์ใน Windows) หรือพารามิเตอร์ชื่อไฟล์อาจเป็น URL สำหรับไฟล์ที่พบใน เครือข่าย วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ การเรียก loadXML () ภายใน preload () รับประกันว่าจะดำเนินการให้เสร็จสิ้นก่อนที่จะเรียกการตั้งค่า () และ draw () นอกเหนือจาก preload () คุณอาจจะจัดหาฟังก์ชัน callback เพื่อจัดการวัตถุ <loadXML>
+	save() :  บันทึกรูปภาพข้อความ json, csv, wav หรือ html พร้อมท์ให้ดาวน์โหลดไปยังคอมพิวเตอร์ของลูกค้า โปรดทราบว่าไม่แนะนำให้เรียกบันทึก () ภายในการวาดถ้าเป็นลูปเนื่องจากฟังก์ชัน save () จะเปิดกรอบโต้ตอบการบันทึกใหม่ทุกเฟรม  ลักษณะการทำงานเริ่มต้นคือการบันทึกผืนผ้าใบเป็นรูปภาพ คุณสามารถระบุชื่อไฟล์ได้ ตัวอย่างเช่น:  save(); save(&#39;myCanvas.jpg&#39;); // save a specific canvas with a filename  อีกวิธีหนึ่งคือพารามิเตอร์ตัวแรกอาจเป็นตัวชี้ไปยัง p5.Element บนผ้าใบอาร์เรย์ของสตริงอาร์เรย์ของ JSON ออบเจ็กต์ JSON p5.Table p5.Image หรือ p5.SoundFile (ต้องใช้ p5.sound ) พารามิเตอร์ที่สองคือชื่อไฟล์ (รวมถึงส่วนขยาย) พารามิเตอร์ที่สามใช้สำหรับตัวเลือกเฉพาะสำหรับประเภทของอ็อบเจ็กต์นี้ วิธีนี้จะบันทึกไฟล์ที่เหมาะกับพาเรเตอร์ที่ระบุ ตัวอย่างเช่น:  save(&#39;myCanvas.jpg&#39;); // Saves canvas as an image var cnv = createCanvas(100, 100); save(cnv, &#39;myCanvas.jpg&#39;); // Saves canvas as an image var gb = createGraphics(100, 100); save(gb, &#39;myGraphics.jpg&#39;); // Saves p5.Renderer object as an image save(myTable, &#39;myTable.html&#39;); // Saves table as html file save(myTable, &#39;myTable.csv&#39;,); // Comma Separated Values save(myTable, &#39;myTable.tsv&#39;); // Tab Separated Values save(myJSON, &#39;my.json&#39;); // Saves pretty JSON save(myJSON, &#39;my.json&#39;, true); // Optimizes JSON filesize save(img, &#39;my.png&#39;); // Saves pImage as a png image save(arrayOfStrings, &#39;my.txt&#39;); // Saves strings to a text file with line // breaks after each item in the array  <save>
+	saveJSON() : เขียนเนื้อหาของอาร์เรย์หรือวัตถุ JSON เป็นไฟล์. <saveJSON>
+	saveStrings() : เขียนอาร์เรย์ของสตริงในไฟล์ข้อความหนึ่งบรรทัดต่อสตริง กระบวนการบันทึกไฟล์และตำแหน่งของไฟล์ที่บันทึกไว้จะแตกต่างกันไปในแต่ละเว็บเบราเซอร์ <saveStrings>
+	saveTable() : เขียนเนื้อหาของวัตถุ Table ไปยังแฟ้ม ค่าเริ่มต้นเป็นไฟล์ข้อความที่มีคั่นด้วยเครื่องหมายจุลภาค (&#39;csv&#39;) แต่ยังสามารถใช้การแยกแท็บ (&#39;tsv&#39;) หรือสร้างตาราง HTML (&#39;html&#39;) กระบวนการบันทึกไฟล์และตำแหน่งของไฟล์ที่บันทึกไว้จะแตกต่างกันไปในแต่ละเว็บเบราเซอร์ <saveTable>
+	writeFile() : สร้างหยดข้อมูลไฟล์เป็น URL เพื่อเตรียมการดาวน์โหลด ยอมรับอาร์เรย์ของข้อมูลชื่อไฟล์และส่วนขยาย (ตัวเลือก) นี่เป็นฟังก์ชันส่วนตัวเพราะไม่มีการฟอร์แมต แต่ถูกใช้โดย saveStrings, saveJSON, saveTable เป็นต้น <writeFile>
 
 p5.Table
 ^^^^^^^^
 
 .. toctree::
-	addColumn() : Use addColumn() to add a new column to a Table object. <p5.Table/addColumn>
-	addRow() : Use addRow() to add a new row of data to a p5.Table object. <p5.Table/addRow>
-	clearRows() : Removes all rows from a Table. <p5.Table/clearRows>
+	addColumn() : ใช้ addColumn () เพื่อเพิ่มคอลัมน์ใหม่ลงในอ็อบเจ็กต์ Table โดยปกติคุณจะต้องระบุชื่อเพื่อให้คอลัมน์สามารถอ้างอิงได้ง่ายในภายหลังโดยใช้ชื่อ (หากไม่มีชื่อระบุชื่อคอลัมน์ใหม่จะเป็น null) <p5.Table/addColumn>
+	addRow() : ใช้ addRow () เพื่อเพิ่มแถวข้อมูลใหม่ลงในอ็อบเจ็กต์ p5.Table โดยค่าเริ่มต้นจะสร้างแถวว่างไว้ โดยปกติคุณจะเก็บข้อมูลอ้างอิงไปยังแถวใหม่ในอ็อบเจ็กต์ TableRow (ดู newRow ในตัวอย่างข้างต้น) จากนั้นตั้งค่าแต่ละค่าโดยใช้ set () ถ้ามีการรวมอ็อบเจ็กต์ p5.TableRow เป็นพารามิเตอร์แถวนั้นจะถูกทำซ้ำและเพิ่มลงในตาราง <p5.Table/addRow>
+	clearRows() : ลบแถวทั้งหมดออกจากตาราง แม้ว่าแถวทั้งหมดจะถูกลบออกคอลัมน์และชื่อคอลัมน์จะยังคงอยู่ <p5.Table/clearRows>
 	columns :  <p5.Table/columns>
-	findRow() : Finds the first row in the Table that contains the value  provided, and returns a reference to that row. <p5.Table/findRow>
-	findRows() : Finds the rows in the Table that contain the value  provided, and returns references to those rows. <p5.Table/findRows>
-	get() : Retrieves a value from the Table's specified row and column. <p5.Table/get>
-	getArray() : Retrieves all table data and returns it as a multidimensional array. <p5.Table/getArray>
-	getColumn() : Retrieves all values in the specified column, and returns them  as an array. <p5.Table/getColumn>
-	getNum() : Retrieves a Float value from the Table's specified row and column. <p5.Table/getNum>
-	getObject() : Retrieves all table data and returns as an object. <p5.Table/getObject>
-	getRow() : Returns a reference to the specified p5.TableRow. <p5.Table/getRow>
-	getRowCount() : Returns the total number of rows in a Table. <p5.Table/getRowCount>
-	getRows() : Gets all rows from the table. <p5.Table/getRows>
-	getString() : Retrieves a String value from the Table's specified row and column. <p5.Table/getString>
-	matchRow() : Finds the first row in the Table that matches the regular  expression provided, and returns a reference to that row. <p5.Table/matchRow>
-	matchRows() : Finds the rows in the Table that match the regular expression provided,  and returns references to those rows. <p5.Table/matchRows>
-	removeColumn() : Use removeColumn() to remove an existing column from a Table  object. <p5.Table/removeColumn>
-	removeRow() : Removes a row from the table object. <p5.Table/removeRow>
-	removeTokens() : Removes any of the specified characters (or "tokens"). <p5.Table/removeTokens>
+	findRow() : ค้นหาแถวแรกในตารางที่มีค่าที่ให้ไว้และส่งกลับการอ้างอิงไปยังแถวนั้น แม้ว่าจะมีแถวหลายแถวที่เป็นไปได้การจับคู่จะมีการส่งคืนเฉพาะแถวที่ตรงกันเท่านั้น คอลัมน์เพื่อค้นหาอาจระบุโดย ID หรือชื่อ <p5.Table/findRow>
+	findRows() : ค้นหาแถวในตารางที่มีค่าที่ให้ไว้และส่งกลับค่าการอ้างอิงไปยังแถวเหล่านั้น ส่งคืนอาร์เรย์ดังนั้นต้องใช้เพื่อย้ำผ่านแถวทั้งหมดดังที่แสดงไว้ในตัวอย่างข้างต้น คอลัมน์เพื่อค้นหาอาจระบุโดย ID หรือชื่อ <p5.Table/findRows>
+	get() : เรียกค้นค่าจากแถวและคอลัมน์ที่ระบุ แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/get>
+	getArray() : เรียกข้อมูลตารางทั้งหมดและส่งกลับค่าเป็นอาร์เรย์แบบหลายมิติ <p5.Table/getArray>
+	getColumn() : ดึงค่าทั้งหมดในคอลัมน์ที่ระบุและส่งกลับค่าเป็นอาร์เรย์ คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.Table/getColumn>
+	getNum() : ดึงข้อมูล Float จากแถวและคอลัมน์ที่กำหนดไว้ของ Table แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/getNum>
+	getObject() : เรียกข้อมูลตารางทั้งหมดและส่งคืนเป็นวัตถุ ถ้าชื่อคอลัมน์ถูกส่งผ่านไปวัตถุแต่ละแถวจะถูกเก็บไว้พร้อมกับแอตทริบิวต์นั้นเป็นชื่อของมัน <p5.Table/getObject>
+	getRow() : ส่งคืนการอ้างอิงไปยัง p5.TableRow ที่ระบุ จากนั้นสามารถใช้ข้อมูลอ้างอิงเพื่อรับและตั้งค่าของแถวที่เลือกได้ <p5.Table/getRow>
+	getRowCount() : แสดงจำนวนแถวทั้งหมดในตาราง <p5.Table/getRowCount>
+	getRows() : เรียกแถวทั้งหมดจากตาราง ส่งกลับอาร์เรย์ของ p5.TableRows <p5.Table/getRows>
+	getString() : เรียกค่าสตริงจากแถวและคอลัมน์ที่ระบุ แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/getString>
+	matchRow() : ค้นหาแถวแรกในตารางที่ตรงกับนิพจน์ทั่วไปที่มีให้และส่งกลับการอ้างอิงไปยังแถวนั้น แม้ว่าจะมีแถวหลายแถวที่เป็นไปได้การจับคู่จะมีการส่งคืนเฉพาะแถวที่ตรงกันเท่านั้น คอลัมน์เพื่อค้นหาอาจระบุโดย ID หรือชื่อ <p5.Table/matchRow>
+	matchRows() : ค้นหาแถวในตารางที่ตรงกับนิพจน์ทั่วไปที่มีให้และส่งกลับค่าการอ้างอิงไปยังแถวเหล่านั้น ส่งกลับอาร์เรย์ดังนั้นต้องใช้เพื่อย้ำผ่านแถวทั้งหมดดังที่แสดงในตัวอย่าง คอลัมน์เพื่อค้นหาอาจระบุโดย ID หรือชื่อ <p5.Table/matchRows>
+	removeColumn() : ใช้ removeColumn () เพื่อลบคอลัมน์ที่มีอยู่ออกจากอ็อบเจ็กต์ Table คอลัมน์ที่จะลบอาจถูกระบุด้วยชื่อ (สตริง) หรือค่าดัชนี (int) removeColumn (0) จะลบคอลัมน์แรก removeColumn (1) จะลบคอลัมน์ที่สองและอื่น ๆ <p5.Table/removeColumn>
+	removeRow() : ลบแถวออกจากวัตถุตาราง <p5.Table/removeRow>
+	removeTokens() :  ลบอักขระที่ระบุ (หรือ &quot;โทเค็น&quot;)  หากไม่มีการระบุคอลัมน์ระบบจะประมวลผลค่าในคอลัมน์และแถวทั้งหมด คอลัมน์ที่ระบุอาจมีการอ้างอิงโดยใช้รหัสหรือชื่อ  <p5.Table/removeTokens>
 	rows :  <p5.Table/rows>
-	set() : Stores a value in the Table's specified row and column. <p5.Table/set>
-	setNum() : Stores a Float value in the Table's specified row and column. <p5.Table/setNum>
-	setString() : Stores a String value in the Table's specified row and column. <p5.Table/setString>
-	trim() : Trims leading and trailing whitespace, such as spaces and tabs,  from String table values. <p5.Table/trim>
+	set() : จัดเก็บค่าในแถวและคอลัมน์ที่กำหนดไว้ของ Table แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/set>
+	setNum() : เก็บค่า Float ไว้ในแถวและคอลัมน์ที่กำหนดไว้ของ Table แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/setNum>
+	setString() : เก็บค่าสตริงไว้ในแถวและคอลัมน์ที่กำหนดไว้ของตาราง แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ <p5.Table/setString>
+	trim() : การตัดแต่งที่นำทางและต่อท้ายช่องว่างเช่นช่องว่างและแท็บจากค่าตารางสตริง หากไม่มีการระบุคอลัมน์ค่าในคอลัมน์และแถวทั้งหมดจะถูกตัดแต่ง คอลัมน์ที่ระบุอาจมีการอ้างอิงโดยใช้รหัสหรือชื่อ <p5.Table/trim>
 
 p5.TableRow
 ^^^^^^^^^^^
 
 .. toctree::
-	get() : Retrieves a value from the TableRow's specified column. <p5.TableRow/get>
-	getNum() : Retrieves a Float value from the TableRow's specified  column. <p5.TableRow/getNum>
-	getString() : Retrieves an String value from the TableRow's specified  column. <p5.TableRow/getString>
-	set() : Stores a value in the TableRow's specified column. <p5.TableRow/set>
-	setNum() : Stores a Float value in the TableRow's specified column. <p5.TableRow/setNum>
-	setString() : Stores a String value in the TableRow's specified column. <p5.TableRow/setString>
+	get() : เรียกค้นค่าจากคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/get>
+	getNum() : ดึงข้อมูล Float จากคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/getNum>
+	getString() : เรียกค่าสตริงจากคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/getString>
+	set() : จัดเก็บค่าในคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/set>
+	setNum() : เก็บค่า Float ไว้ในคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/setNum>
+	setString() : เก็บค่าสตริงไว้ในคอลัมน์ที่ระบุของ TableRow คอลัมน์อาจถูกระบุโดย ID หรือชื่อ <p5.TableRow/setString>
 
 p5.XML
 ^^^^^^
 
 .. toctree::
-	addChild() : Appends a new child to the element. <p5.XML/addChild>
-	getAttributeCount() : Counts the specified element's number of attributes, returned as an Number. <p5.XML/getAttributeCount>
-	getChild() : Returns the first of the element's children that matches the name parameter or the child of the given index.It returns undefined if no matching child is found. <p5.XML/getChild>
-	getChildren() : Returns all of the element's children as an array of p5.XML objects. <p5.XML/getChildren>
-	getContent() : Returns the content of an element. <p5.XML/getContent>
-	getName() : Gets the element's full name, which is returned as a String. <p5.XML/getName>
-	getNum() : Returns an attribute value of the element as an Number. <p5.XML/getNum>
-	getParent() : Gets a copy of the element's parent. <p5.XML/getParent>
-	getString() : Returns an attribute value of the element as an String. <p5.XML/getString>
-	hasAttribute() : Checks whether or not an element has the specified attribute. <p5.XML/hasAttribute>
-	hasChildren() : Checks whether or not the element has any children, and returns the result as a boolean. <p5.XML/hasChildren>
-	listAttributes() : Gets all of the specified element's attributes, and returns them as an array of Strings. <p5.XML/listAttributes>
-	listChildren() : Get the names of all of the element's children, and returns the names as an array of Strings. <p5.XML/listChildren>
-	removeChild() : Removes the element specified by name or index. <p5.XML/removeChild>
-	setAttribute() : Sets the content of an element's attribute. <p5.XML/setAttribute>
-	setContent() : Sets the element's content. <p5.XML/setContent>
-	setName() : Sets the element's name, which is specified as a String. <p5.XML/setName>
+	addChild() : ผนวกลูกใหม่เข้ากับองค์ประกอบ สามารถระบุเด็กได้ด้วยสตริงซึ่งจะใช้เป็นชื่อแท็กใหม่หรือเป็นการอ้างอิงถึงอ็อบเจ็กต์ p5.XML ที่มีอยู่ การอ้างถึงเด็กที่เพิ่งสร้างใหม่จะถูกส่งกลับเป็น object p5.XML <p5.XML/addChild>
+	getAttributeCount() : นับจำนวนแอตทริบิวต์ขององค์ประกอบที่ระบุซึ่งส่งกลับเป็นตัวเลข <p5.XML/getAttributeCount>
+	getChild() : ส่งกลับค่าแรกของลูกของ element ที่ตรงกับพารามิเตอร์ name หรือเป็น child ของ index ที่กำหนดส่งกลับค่าไม่ได้ถ้าไม่พบ child ที่ตรงกัน <p5.XML/getChild>
+	getChildren() : ส่งคืนเด็กทั้งหมดขององค์ประกอบเป็นอาร์เรย์ของออบเจ็กต์ p5.XML เมื่อมีการระบุพารามิเตอร์ชื่อแล้วจะมีการส่งคืนเด็กทั้งหมดที่ตรงกับชื่อนั้น <p5.XML/getChildren>
+	getContent() : ส่งกลับเนื้อหาขององค์ประกอบ หากไม่มีเนื้อหาดังกล่าวค่าดีฟอลต์จะถูกส่งกลับถ้าระบุมิฉะนั้นจะถูกส่งกลับค่า null <p5.XML/getContent>
+	getName() : เรียกชื่อเต็มขององค์ประกอบซึ่งจะส่งกลับเป็นสตริง <p5.XML/getName>
+	getNum() : ส่งกลับค่าแอตทริบิวต์ของอิลิเมนต์เป็นจำนวน ถ้ามีระบุพารามิเตอร์ defaultValue และไม่มีแอตทริบิวต์แล้วค่า defaultValue จะถูกส่งคืน หากไม่มีการระบุ defaultValue และไม่มีแอตทริบิวต์ค่านี้จะถูกส่งคืน <p5.XML/getNum>
+	getParent() : รับสำเนาของพาเรนต์ขององค์ประกอบ ส่งกลับผู้ปกครองเป็นอีกหนึ่งวัตถุ p5.XML <p5.XML/getParent>
+	getString() : ส่งคืนค่าแอตทริบิวต์ของอิลิเมนต์เป็น String ถ้ามีระบุพารามิเตอร์ defaultValue และไม่มีแอตทริบิวต์แล้วค่า defaultValue จะถูกส่งคืน ถ้าไม่มีการระบุ defaultValue และไม่มีแอตทริบิวต์ค่า null จะถูกส่งกลับ <p5.XML/getString>
+	hasAttribute() : ตรวจสอบว่าองค์ประกอบมีแอตทริบิวต์ที่ระบุหรือไม่ <p5.XML/hasAttribute>
+	hasChildren() : ตรวจสอบว่าองค์ประกอบมีลูกหรือไม่และส่งกลับผลลัพธ์เป็น boolean <p5.XML/hasChildren>
+	listAttributes() : รับแอตทริบิวต์ขององค์ประกอบที่ระบุทั้งหมดและส่งค่าเป็นอาร์เรย์ของสตริง <p5.XML/listAttributes>
+	listChildren() : รับชื่อของลูกทุกองค์ประกอบและส่งคืนชื่อเป็นสตริงของสตริง นี่เหมือนกับการวนรอบและเรียก getName () ในองค์ประกอบลูกแต่ละอัน <p5.XML/listChildren>
+	removeChild() : ลบองค์ประกอบที่ระบุโดยชื่อหรือดัชนี <p5.XML/removeChild>
+	setAttribute() : ตั้งค่าแอตทริบิวต์ขององค์ประกอบ พารามิเตอร์แรกระบุชื่อแอตทริบิวต์ในขณะที่สองระบุเนื้อหาใหม่ <p5.XML/setAttribute>
+	setContent() : ตั้งค่าเนื้อหาขององค์ประกอบ <p5.XML/setContent>
+	setName() : ตั้งค่าชื่อขององค์ประกอบซึ่งระบุเป็นสตริง <p5.XML/setName>
 
 math
 ----
@@ -502,70 +502,70 @@ calculation
 ^^^^^^^^^^^
 
 .. toctree::
-	abs() : Calculates the absolute value (magnitude) of a number. <abs>
-	ceil() : Calculates the closest int value that is greater than or equal to the value of the parameter. <ceil>
-	constrain() : Constrains a value between a minimum and maximum value. <constrain>
-	dist() : Calculates the distance between two points. <dist>
-	exp() : Returns Euler's number e (2.71828...) raised to the power of the n parameter. <exp>
-	floor() : Calculates the closest int value that is less than or equal to the value of the parameter. <floor>
-	lerp() : Calculates a number between two numbers at a specific increment. <lerp>
-	log() : Calculates the natural logarithm (the base-e logarithm) of a number. <log>
-	mag() : Calculates the magnitude (or length) of a vector. <mag>
-	map() : Re-maps a number from one range to another. <map>
-	max() : Determines the largest value in a sequence of numbers, and then returns that value. <max>
-	min() : Determines the smallest value in a sequence of numbers, and then returns that value. <min>
-	norm() : Normalizes a number from another range into a value between 0 and 1. <norm>
-	pow() : Facilitates exponential expressions. <pow>
-	round() : Calculates the integer closest to the n parameter. <round>
-	sq() : Squares a number (multiplies a number by itself). <sq>
-	sqrt() : Calculates the square root of a number. <sqrt>
+	abs() : คำนวณค่าสัมบูรณ์ (ขนาด) ของตัวเลข Maps ไปยัง Math.abs () ค่าสัมบูรณ์ของจำนวนเป็นบวกเสมอ <abs>
+	ceil() : คำนวณค่า int ที่ใกล้เคียงซึ่งมากกว่าหรือเท่ากับค่าของพารามิเตอร์ Maps ไปยัง Math.ceil () ตัวอย่างเช่น ceil (9.03) ส่งกลับค่า 10 <ceil>
+	constrain() : จำกัด ค่าระหว่างค่าต่ำสุดและสูงสุด <constrain>
+	dist() : คำนวณระยะทางระหว่างจุดสองจุด <dist>
+	exp() : ส่งกลับค่า Euler ของ e (2.71828 ... <exp>
+	floor() : คำนวณค่า int ที่ใกล้เคียงที่สุดที่น้อยกว่าหรือเท่ากับค่าของพารามิเตอร์ Maps to Math.floor () <floor>
+	lerp() : คำนวณจำนวนระหว่างตัวเลขสองจำนวนที่เพิ่มขึ้นเฉพาะ พารามิเตอร์ amt คือจำนวนที่จะ interpolate ระหว่างสองค่าซึ่ง 0.0 เท่ากับจุดแรก 0.1 ใกล้จุดแรก 0.5 อยู่ครึ่งทางระหว่างเป็นต้นฟังก์ชั่น lerp เหมาะสำหรับสร้างการเคลื่อนที่ไปตามเส้นทางที่ตรง และสำหรับการวาดเส้นประ <lerp>
+	log() : คำนวณลอการิทึมธรรมชาติ (ฐาน -e ลอการิทึม) ของจำนวน ฟังก์ชันนี้คาดว่าพารามิเตอร์ n จะมีค่ามากกว่า 0.0 แผนที่ไปที่ Math.log () <log>
+	mag() : คำนวณขนาด (หรือความยาว) ของเวกเตอร์ เวกเตอร์เป็นทิศทางในพื้นที่ที่ใช้กันโดยทั่วไปในด้านกราฟิกคอมพิวเตอร์และพีชคณิตเชิงเส้น เนื่องจากไม่มีตำแหน่ง &quot;เริ่มต้น&quot; ขนาดของเวกเตอร์อาจถือได้ว่าเป็นระยะทางจากพิกัด 0,0 ถึงค่า x, y ของมัน ดังนั้น mag () เป็นทางลัดสำหรับการเขียน dist (0, 0, x, y) <mag>
+	map() : ทำแผนที่ใหม่จากช่วงหนึ่งไปยังอีกที่หนึ่ง  ในตัวอย่างแรกด้านบนหมายเลข 25 จะถูกแปลงจากค่าในช่วง 0 ถึง 100 เป็นค่าที่อยู่ในช่วงตั้งแต่ขอบด้านซ้ายของหน้าต่าง (0) ไปยังขอบด้านขวา (กว้าง) <map>
+	max() : กำหนดค่าที่ใหญ่ที่สุดในลำดับของตัวเลขจากนั้นจะส่งคืนค่านั้น max () ยอมรับพารามิเตอร์ Number จำนวนหนึ่งหรืออาร์เรย์ที่มีความยาวใดก็ได้ <max>
+	min() : กำหนดค่าที่เล็กที่สุดในลำดับของตัวเลขจากนั้นส่งคืนค่านั้น min () รับหมายเลขพารามิเตอร์จำนวนหนึ่งหรืออาร์เรย์ยาว ๆ <min>
+	norm() : Normalizes จำนวนจากช่วงอื่นเป็นค่าระหว่าง 0 และ 1 เหมือนกับแผนที่ (ค่า, ต่ำ, สูง, 0, 1) ตัวเลขนอกช่วงไม่ได้รับการติดตั้งเป็น 0 และ 1 เนื่องจากค่าที่อยู่นอกช่วงมีความตั้งใจและเป็นประโยชน์ (ดูตัวอย่างที่สองข้างต้น) <norm>
+	pow() : อำนวยความสะดวกในการแสดงออกที่เป็นเอกลัษณ์ ฟังก์ชัน pow () เป็นวิธีที่มีประสิทธิภาพในการคูณตัวเลขด้วยตัวเอง (หรือสิ่งตอบแทน) ในปริมาณมาก ยกตัวอย่างเช่น pow (3, 5) เทียบเท่ากับการแสดงออก 3 * 3 * 3 * 3 * 3 และ pow (3, -5) เท่ากับ 1/3 * 3 * 3 * 3 * 3 Maps to Math.pow () <pow>
+	round() : คำนวณจำนวนเต็มใกล้เคียงกับพารามิเตอร์ n มากที่สุด ตัวอย่างเช่นรอบ (133.8) ส่งกลับค่า 134 แผนที่ไป Math.round () <round>
+	sq() : สี่เหลี่ยมจัตุรัสตัวเลข (คูณตัวเลขด้วยตัวเอง) ผลลัพธ์เป็นจำนวนบวกเสมอเนื่องจากการคูณสองจำนวนลบจะให้ผลบวกเสมอ ตัวอย่างเช่น -1 * -1 = 1 <sq>
+	sqrt() : คำนวณรากที่สองของจำนวน รากที่สองของจำนวนเป็นบวกแม้ว่าจะมีรากลบที่ถูกต้องก็ตาม รากที่สองของจำนวน a เป็นเช่น s * s = a มันเป็นสิ่งที่ตรงกันข้ามกับการเหลา Maps to Math.sqrt () <sqrt>
 
 noise
 ^^^^^
 
 .. toctree::
-	noise() : Returns the Perlin noise value at specified coordinates. <noise>
-	noiseDetail() : Adjusts the character and level of detail produced by the Perlin noise function. <noiseDetail>
-	noiseSeed() : Sets the seed value for noise(). <noiseSeed>
+	noise() : ส่งกลับค่าเสียง Perlin ที่พิกัดที่ระบุ เสียง Perlin เป็นเครื่องกำเนิดลำดับแบบสุ่มที่ผลิตลำดับตามลำดับของฮาร์โมนิกที่เป็นธรรมชาติมากขึ้นเมื่อเปรียบเทียบกับฟังก์ชัน random () มาตรฐาน มันถูกคิดค้นโดยเคน Perlin ใน 1980s และถูกใช้ตั้งแต่ในโปรแกรมกราฟิกเพื่อผลิตพื้นผิวขั้นตอนการเคลื่อนไหวธรรมชาติรูปภูมิประเทศ ฯลฯ  ความแตกต่างหลัก ๆ ของฟังก์ชัน random () คือเสียง Perlin ถูกกำหนดไว้ในพื้นที่ n มิติที่ไม่มีที่สิ้นสุดซึ่งคู่พิกัดแต่ละคู่จะสอดคล้องกับค่ากึ่งสุ่มที่คงที่ (คงที่สำหรับอายุการใช้งานของโปรแกรมเท่านั้นดู noiseSeed () ฟังก์ชั่น) p5.js สามารถคำนวณสัญญาณรบกวน 1D, 2D และ 3D ขึ้นอยู่กับจำนวนพิกัดที่กำหนด ค่าที่ได้จะอยู่ระหว่าง 0.0 ถึง 1.0 ค่าเสียงสามารถเคลื่อนไหวได้โดยการเคลื่อนที่ผ่านเนื้อที่เสียงดังที่แสดงในตัวอย่างข้างต้น มิติที่ 2 และ 3 ยังสามารถแปลเป็นเวลา  เสียงจริงมีโครงสร้างคล้ายกับสัญญาณเสียงในส่วนที่เกี่ยวกับการใช้ความถี่ของฟังก์ชัน คล้ายกับแนวคิดของฮาร์โมนิกในฟิสิกส์เสียง perlin จะถูกคำนวณด้วยหลายอ็อกเตฟซึ่งจะรวมกันเพื่อให้ได้ผลลัพธ์สุดท้าย  อีกวิธีหนึ่งในการปรับตัวของลำดับผลลัพธ์คือขนาดของพิกัดอินพุท ในฐานะที่เป็นฟังก์ชันทำงานภายในพื้นที่ที่ไม่มีขีด จำกัด ค่าพิกัดไม่สำคัญเช่นนี้เพียงระยะห่างระหว่างพิกัดที่ต่อเนื่อง (เช่นเมื่อใช้ noise () ภายในลูป) ตามกฎทั่วไปความแตกต่างระหว่างพิกัดจะน้อยลงลำดับเสียงรบกวนที่เกิดขึ้นจะนุ่มนวลขึ้น ขั้นตอนการทำงานของ 0.005-0.03 ให้ผลดีที่สุดสำหรับการใช้งานส่วนใหญ่ แต่จะแตกต่างกันไปขึ้นอยู่กับการใช้งาน <noise>
+	noiseDetail() : ปรับตัวอักษรและระดับของรายละเอียดที่ผลิตโดยฟังก์ชัน Perlin noise คล้ายคลึงกับฮาร์โมนิกในฟิสิกส์เสียงจะถูกคำนวณในหลายอ็อกเตฟ อ็อกเทลด้านล่างมีส่วนร่วมกับสัญญาณเอาท์พุทมากขึ้นและเป็นตัวกำหนดความเข้มโดยรวมของเสียงขณะที่โอเว่อร์ที่สูงขึ้นจะสร้างรายละเอียดปลีกย่อยในลำดับสัญญาณรบกวน  โดยค่าเริ่มต้นเสียงจะถูกคำนวณมากกว่า 4 โอห์เลสก์ซึ่งแต่ละคู่มีสัดส่วนครึ่งหนึ่งมากกว่ารุ่นก่อนเริ่มต้นที่ความแรง 50% สำหรับช่วง 1 วินาที จำนวน falloff นี้สามารถเปลี่ยนแปลงได้โดยการเพิ่มพารามิเตอร์ฟังก์ชันเพิ่มเติม เช่น. <noiseDetail>
+	noiseSeed() : กำหนดค่าเมล็ดสำหรับ noise () โดยค่าเริ่มต้น noise () จะให้ผลลัพธ์ที่แตกต่างกันในแต่ละครั้งที่มีการเรียกใช้โปรแกรม ตั้ง ค่า พารามิเตอร์ให้เป็นค่าคงที่เพื่อส่งคืนหมายเลขแบบสุ่มหลอกเดียวกันทุกครั้งที่มีการเรียกใช้ซอฟต์แวร์ <noiseSeed>
 
 p5.Vector
 ^^^^^^^^^
 
 .. toctree::
-	add() : Adds x, y, and z components to a vector, adds one vector to another, or adds two independent vectors together. <p5.Vector/add>
-	angleBetween() : Calculates and returns the angle (in radians) between two vectors. <p5.Vector/angleBetween>
-	array() : Return a representation of this vector as a float array. <p5.Vector/array>
-	copy() : Gets a copy of the vector, returns a p5.Vector object. <p5.Vector/copy>
-	cross() : Calculates and returns a vector composed of the cross product between two vectors. <p5.Vector/cross>
-	dist() : Calculates the Euclidean distance between two points (considering a point as a vector object). <p5.Vector/dist>
-	div() : Divide the vector by a scalar. <p5.Vector/div>
-	dot() : Calculates the dot product of two vectors. <p5.Vector/dot>
-	equals() : Equality check against a p5.Vector <p5.Vector/equals>
-	fromAngle() : Make a new 2D unit vector from an angle <p5.Vector/fromAngle>
-	heading() : Calculate the angle of rotation for this vector (only 2D vectors) <p5.Vector/heading>
-	lerp() : Linear interpolate the vector to another vector <p5.Vector/lerp>
-	limit() : Limit the magnitude of this vector to the value used for the max parameter. <p5.Vector/limit>
-	mag() : Calculates the magnitude (length) of the vector and returns the result as a float (this is simply the equation sqrt(x*x + y*y + z*z).) <p5.Vector/mag>
-	magSq() : Calculates the squared magnitude of the vector and returns the result as a float (this is simply the equation (x*x + y*y + z*z).) Faster if the real length is not required in the case of comparing vectors, etc. <p5.Vector/magSq>
-	mult() : Multiply the vector by a scalar. <p5.Vector/mult>
-	normalize() : Normalize the vector to length 1 (make it a unit vector). <p5.Vector/normalize>
-	random2D() : Make a new 2D unit vector from a random angle <p5.Vector/random2D>
-	random3D() : Make a new random 3D unit vector. <p5.Vector/random3D>
-	rotate() : Rotate the vector by an angle (only 2D vectors), magnitude remains the same <p5.Vector/rotate>
-	set() : Sets the x, y, and z component of the vector using two or three separate variables, the data from a p5.Vector, or the values from a float array. <p5.Vector/set>
-	setMag() : Set the magnitude of this vector to the value used for the len parameter. <p5.Vector/setMag>
-	sub() : Subtracts x, y, and z components from a vector, subtracts one vector from another, or subtracts two independent vectors. <p5.Vector/sub>
-	x : The x component of the vector <p5.Vector/x>
-	y : The y component of the vector <p5.Vector/y>
-	z : The z component of the vector <p5.Vector/z>
+	add() : เพิ่มองค์ประกอบ x, y และ z ลงในเวกเตอร์เพิ่มเวกเตอร์หนึ่งไปอีกอันหนึ่งหรือเพิ่มเวกเตอร์อิสระสองตัวเข้าด้วยกัน รุ่นของวิธีการที่เพิ่มสองเวกเตอร์ร่วมกันเป็นวิธีการแบบคงที่และส่งกลับค่า p5.Vector อื่น ๆ จะทำหน้าที่โดยตรงบนเวกเตอร์ ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/add>
+	angleBetween() : คำนวณและส่งกลับค่ามุม (เป็นเรเดียน) ระหว่างสองพาหะ <p5.Vector/angleBetween>
+	array() : แสดงการเป็นตัวแทนของเวกเตอร์นี้เป็นอาร์เรย์ float ใช้สำหรับการใช้งานชั่วคราวเท่านั้น หากใช้ในรูปแบบอื่นใดเนื้อหาควรถูกคัดลอกโดยใช้วิธี p5.Vector.copy () เพื่อคัดลอกลงในอาร์เรย์ของคุณเอง <p5.Vector/array>
+	copy() : รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Vector <p5.Vector/copy>
+	cross() : คำนวณและส่งกลับเวกเตอร์ประกอบด้วยผลิตภัณฑ์ข้ามระหว่างสองเวกเตอร์ ทั้งแบบคงที่และแบบไม่คงที่จะส่งกลับค่า p5.Vector ใหม่ ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/cross>
+	dist() : คำนวณระยะทางยุคลิดระหว่างสองจุด (พิจารณาจุดเป็นวัตถุเวกเตอร์) <p5.Vector/dist>
+	div() : แบ่งเวคเตอร์ด้วยสเกลาร เวอร์ชันคงที่ของวิธีนี้จะสร้าง p5.Vector ใหม่ในขณะที่เวอร์ชันที่ไม่ใช่แบบคงที่จะทำงานบนเวกเตอร์โดยตรง ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/div>
+	dot() : คำนวณจุดผลิตภัณฑ์ของสองเวกเตอร์ รุ่นของวิธีการคำนวณจุดผลิตภัณฑ์ของสองเวกเตอร์อิสระเป็นวิธีแบบคงที่ ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/dot>
+	equals() : การตรวจสอบความเสมอภาคกับ p5.Vector <p5.Vector/equals>
+	fromAngle() : สร้างเวกเตอร์แบบ 2D ใหม่จากมุมหนึ่ง <p5.Vector/fromAngle>
+	heading() : คำนวณมุมของการหมุนสำหรับเวกเตอร์นี้ (เฉพาะเวกเตอร์ 2D) <p5.Vector/heading>
+	lerp() : เชิงเส้น interpolate เวกเตอร์ไปยังเวกเตอร์อื่น <p5.Vector/lerp>
+	limit() : จำกัด ขนาดของเวกเตอร์นี้ให้เป็นค่าที่ใช้สำหรับพารามิเตอร์ สูงสุด <p5.Vector/limit>
+	mag() : คำนวณขนาด (ความยาว) ของเวกเตอร์และส่งกลับผลลัพธ์เป็น float (นี่เป็นเพียงสมการ sqrt (x * x + y * y + z * z)) <p5.Vector/mag>
+	magSq() : คำนวณสมการกำลังสองของเวกเตอร์และส่งกลับผลลัพธ์เป็นลอย (นี่เป็นเพียงสมการ (x * x + y * y + z * z) ) เร็วขึ้นถ้าความยาวจริงไม่จำเป็นต้องใช้ในกรณีเปรียบเทียบเวกเตอร์ เป็นต้น <p5.Vector/magSq>
+	mult() : คูณเวกเตอร์ด้วยสเกลาร เวอร์ชันคงที่ของวิธีนี้จะสร้าง p5.Vector ใหม่ในขณะที่เวอร์ชันที่ไม่ใช่แบบคงที่จะทำงานบนเวกเตอร์โดยตรง ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/mult>
+	normalize() : Normalize เวกเตอร์ให้มีความยาว 1 (ทำให้เป็นเวกเตอร์หน่วย) <p5.Vector/normalize>
+	random2D() : สร้างเวกเตอร์แบบ 2D ใหม่จากมุมสุ่ม <p5.Vector/random2D>
+	random3D() : สร้างเวกเตอร์ 3D แบบสุ่มใหม่ <p5.Vector/random3D>
+	rotate() : หมุนเวกเตอร์ตามมุม (เฉพาะเวกเตอร์ 2 มิติ) ขนาดยังคงเหมือนเดิม <p5.Vector/rotate>
+	set() : ตั้งค่าคอมโพเนนต์ x, y และ z ของเวกเตอร์โดยใช้ตัวแปรแยกสองหรือสามตัวแปรข้อมูลจาก p5.Vector หรือค่าจากอาร์เรย์ float <p5.Vector/set>
+	setMag() : กำหนดขนาดของเวกเตอร์นี้เป็นค่าที่ใช้สำหรับพารามิเตอร์ len <p5.Vector/setMag>
+	sub() : ลบเซต x, y และ z จากเวกเตอร์ลบเวกเตอร์หนึ่งจากอีกอันหนึ่งหรือลบสองเวกเตอร์อิสระ รุ่นของวิธีการที่ลบสองเวกเตอร์เป็นวิธีการแบบคงที่และส่งกลับค่า p5.Vector การกระทำอื่น ๆ โดยตรงบนเวกเตอร์ ดูตัวอย่างสำหรับบริบทเพิ่มเติม <p5.Vector/sub>
+	x : องค์ประกอบ x ของเวกเตอร์ <p5.Vector/x>
+	y : องค์ประกอบ y ของเวกเตอร์ <p5.Vector/y>
+	z : องค์ประกอบ z ของเวกเตอร์ <p5.Vector/z>
 
 random
 ^^^^^^
 
 .. toctree::
-	random() : Return a random floating-point number. <random>
-	randomGaussian() : Returns a random number fitting a Gaussian, or normal, distribution. <randomGaussian>
-	randomSeed() : Sets the seed value for random(). <randomSeed>
+	random() : ส่งคืนจำนวนจุดลอยตัวแบบสุ่ม ใช้อาร์กิวเมนต์ 0, 1 หรือ 2 ถ้าไม่ได้รับอาร์กิวเมนต์ให้ส่งคืนตัวเลขสุ่มตั้งแต่ 0 ถึง (แต่ไม่รวม) 1 ถ้าอาร์กิวเมนต์หนึ่งได้รับและเป็นตัวเลขให้ส่งกลับตัวเลขสุ่มจาก 0 ถึง (แต่ไม่รวม) จำนวน หากอาร์กิวเมนต์หนึ่งได้รับและเป็นอาร์เรย์ให้ส่งค่าองค์ประกอบแบบสุ่มจากอาร์เรย์นั้น ถ้าอาร์กิวเมนต์สองรายการได้รับให้ส่งกลับตัวเลขสุ่มจากอาร์กิวเมนต์แรกถึง (แต่ไม่รวม) อาร์กิวเมนต์ที่สอง <random>
+	randomGaussian() : ส่งกลับค่าจำนวนสุ่มที่เหมาะสมกับการแจกแจงแบบเกาส์หรือแบบปกติ ในทางทฤษฎีไม่มีค่าต่ำสุดหรือสูงสุดที่ randomGaussian () อาจส่งคืน ค่อนข้างมีเพียงความเป็นไปได้ต่ำมากที่ค่าที่ห่างไกลจากค่าเฉลี่ยจะถูกส่งกลับ และความเป็นไปได้สูงที่ตัวเลขที่ใกล้เคียงกับค่าเฉลี่ยจะถูกส่งกลับ  ใช้อาร์กิวเมนต์ 0, 1 หรือ 2  ถ้าไม่มี args ให้ค่าเฉลี่ยของ 0 และส่วนเบี่ยงเบนมาตรฐานเท่ากับ 1  ถ้า arg หนึ่งอาร์กิวเมนต์นี้เป็นค่าเฉลี่ย (ส่วนเบี่ยงเบนมาตรฐานคือ 1)  ถ้า args สองตัวแรกหมายถึงส่วนที่สองคือส่วนเบี่ยงเบนมาตรฐาน <randomGaussian>
+	randomSeed() : ตั้งค่าเมล็ดสำหรับ random () โดยค่าเริ่มต้น random () จะให้ผลลัพธ์ที่แตกต่างกันในแต่ละครั้งที่มีการเรียกใช้โปรแกรม ตั้งค่าพารามิเตอร์ seed เป็นค่าคงที่เพื่อให้ตัวเลข pseudo-random เดียวกันทุกครั้งที่มีการเรียกใช้ซอฟต์แวร์ <randomSeed>
 
 trigonometry
 ^^^^^^^^^^^^
@@ -589,28 +589,28 @@ attributes
 ^^^^^^^^^^
 
 .. toctree::
-	textAlign() : Sets the current alignment for drawing text. <textAlign>
-	textAscent() : Returns the ascent of the current font at its current size. <textAscent>
-	textDescent() : Returns the descent of the current font at its current size. <textDescent>
-	textLeading() : Sets/gets the spacing, in pixels, between lines of text. <textLeading>
-	textSize() : Sets/gets the current font size. <textSize>
-	textStyle() : Sets/gets the style of the text for system fonts to NORMAL, ITALIC, or BOLD. <textStyle>
-	textWidth() : Calculates and returns the width of any character or text string. <textWidth>
+	textAlign() : ตั้งค่าการจัดตำแหน่งปัจจุบันสำหรับการวาดข้อความ ยอมรับอาร์กิวเมนต์สองตัว: horizAlign (ซ้ายขวากลางและขวา) และ vertAlign (TOP, BOTTOM, CENTER หรือ BASELINE) พารามิเตอร์ horizAlign อ้างอิงถึงค่า x ของข้อความ () ฟังก์ชันในขณะที่พารามิเตอร์ vertAlign อยู่ในการอ้างอิงถึงค่า y ดังนั้นหากคุณเขียน textAlign (LEFT) คุณจะจัดเรียงขอบด้านซ้ายของข้อความให้เป็นค่า x ที่คุณให้ไว้ในข้อความ () หากคุณเขียน textAlign (RIGHT, TOP) คุณจะจัดเรียงขอบด้านขวาของข้อความให้เป็นค่า x และด้านบนของขอบของข้อความเป็นค่า y <textAlign>
+	textAscent() : แสดงการขึ้นของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน การขึ้นจะแสดงระยะทางเป็นพิกเซลของอักขระที่สูงที่สุดเหนือเส้นฐาน <textAscent>
+	textDescent() : ส่งกลับค่าโควต้าของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน โคตรหมายถึงระยะทางเป็นพิกเซลของตัวละครที่มีระยะห่างที่ยาวที่สุดต่ำกว่าเส้นฐาน <textDescent>
+	textLeading() : ตั้งค่า / รับระยะห่างเป็นพิกเซลระหว่างบรรทัดของข้อความ การตั้งค่านี้จะใช้ในการเรียกใช้ฟังก์ชันข้อความ () ทั้งหมดในครั้งต่อ ๆ ไป <textLeading>
+	textSize() : ตั้งค่า / รับขนาดแบบอักษรปัจจุบัน ขนาดนี้จะใช้ในการเรียกใช้ฟังก์ชันข้อความ () ทั้งหมดในครั้งต่อ ๆ ไป ขนาดแบบอักษรวัดเป็นพิกเซล <textSize>
+	textStyle() : ตั้งค่า / รับสไตล์ของข้อความสำหรับแบบอักษรของระบบเป็น NORMAL, ITALIC หรือ BOLD หมายเหตุ: นี่อาจถูกแทนที่ด้วยสไตล์ CSS สำหรับแบบอักษรที่ไม่ใช่ระบบ (opentype, truetype ฯลฯ ) โปรดใส่แบบอักษรที่จัดรูปแบบไว้แทน <textStyle>
+	textWidth() : คำนวณและส่งกลับค่าความกว้างของอักขระหรือสตริงข้อความ <textWidth>
 
 loading_displaying
 ^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-	loadFont() : Loads an opentype font file (.otf, .ttf) from a file or a URL, and returns a PFont Object. <loadFont>
-	text() : Draws text to the screen. <text>
-	textFont() : Sets the current font that will be drawn with the text() function. <textFont>
+	loadFont() : โหลดไฟล์ font opentype (.otf, .ttf) จากไฟล์หรือ URL และส่งคืนออบเจ็กต์ PFont วิธีนี้ไม่ตรงกันซึ่งหมายความว่าอาจไม่เสร็จสิ้นก่อนที่จะดำเนินการบรรทัดถัดไปในร่างของคุณ  เส้นทางไปยังแบบอักษรควรเทียบกับไฟล์ HTML ที่ลิงก์ในร่างของคุณ การโหลด URL จากที่อยู่ระยะไกลหรืออื่น ๆ อาจถูกบล็อกเนื่องจากความปลอดภัยในตัวของเบราเซอร์ <loadFont>
+	text() : วาดข้อความไปที่หน้าจอ แสดงข้อมูลที่ระบุในพารามิเตอร์แรกบนหน้าจอในตำแหน่งที่ระบุโดยพารามิเตอร์เพิ่มเติม แบบอักษรเริ่มต้นจะถูกใช้เว้นแต่ว่าจะมีการตั้งค่าแบบอักษรด้วยฟังก์ชัน textFont () และจะใช้ขนาดเริ่มต้นยกเว้นกรณีที่มีการตั้งค่าแบบอักษรด้วย textSize () เปลี่ยนสีของข้อความด้วยฟังก์ชัน fill () เปลี่ยนเค้าโครงของข้อความด้วยฟังก์ชัน stroke () และ strokeWeight ()  ข้อความจะแสดงขึ้นตามความสัมพันธ์กับฟังก์ชัน textAlign () ซึ่งจะมีตัวเลือกให้วาดไปทางซ้ายขวาและตรงกลางของพิกัด  พารามิเตอร์ x2 และ y2 กำหนดพื้นที่สี่เหลี่ยมเพื่อแสดงภายในและใช้เฉพาะกับข้อมูลสตริงเท่านั้น เมื่อมีการระบุพารามิเตอร์เหล่านี้จะมีการตีความตามการตั้งค่า rectMode () ในปัจจุบัน ข้อความที่ไม่พอดีกับรูปสี่เหลี่ยมผืนผ้าที่ระบุจะไม่ถูกลากไปที่หน้าจอ <text>
+	textFont() : ตั้งค่าแบบอักษรปัจจุบันที่จะวาดด้วยฟังก์ชัน text () <textFont>
 
 p5.Font
 ^^^^^^^
 
 .. toctree::
-	font : Underlying opentype font implementation <p5.Font/font>
-	textBounds() : Returns a tight bounding box for the given text string using this font (currently only supports single lines) <p5.Font/textBounds>
+	font : การใช้งานแบบอักษร opentype <p5.Font/font>
+	textBounds() : ส่งกลับกล่อง bounding แน่นสำหรับสตริงข้อความที่กำหนดโดยใช้แบบอักษรนี้ (ปัจจุบันรองรับเฉพาะบรรทัดเดียวเท่านั้น) <p5.Font/textBounds>
 
 utilities
 ---------
@@ -619,56 +619,56 @@ array_functions
 ^^^^^^^^^^^^^^^
 
 .. toctree::
-	append() : Adds a value to the end of an array. <append>
-	arrayCopy() : Copies an array (or part of an array) to another array. <arrayCopy>
-	concat() : Concatenates two arrays, maps to Array.concat(). <concat>
-	reverse() : Reverses the order of an array, maps to Array.reverse() <reverse>
-	shorten() : Decreases an array by one element and returns the shortened array, maps to Array.pop(). <shorten>
-	shuffle() : Randomizes the order of the elements of an array. <shuffle>
-	sort() : Sorts an array of numbers from smallest to largest, or puts an array of words in alphabetical order. <sort>
-	splice() : Inserts a value or an array of values into an existing array. <splice>
-	subset() : Extracts an array of elements from an existing array. <subset>
+	append() : เพิ่มค่าลงในตอนท้ายของอาร์เรย์ ขยายความยาวของอาร์เรย์หนึ่ง ๆ แผนที่ไปยัง Array.push () <append>
+	arrayCopy() : คัดลอกอาร์เรย์ (หรือบางส่วนของอาร์เรย์) ไปยังอาร์เรย์อื่น อาร์เรย์ src ถูกคัดลอกไปยังอาร์เรย์ dst โดยเริ่มจากตำแหน่งที่ระบุโดย srcPosition และอยู่ในตำแหน่งที่ระบุโดย dstPosition จำนวนองค์ประกอบที่จะคัดลอกจะถูกกำหนดตามความยาว โปรดทราบว่าการคัดลอกค่าจะเขียนทับค่าที่มีอยู่ในอาร์เรย์ปลายทาง หากต้องการผนวกค่าแทนการเขียนทับให้ใช้ concat ()  อาร์เรย์ทั้งหมดมีอาร์กิวเมนต์เพียงสองอาร์กิวเมนต์ arrayCopy (src, dst) คัดลอกอาร์เรย์ทั้งหมดไปยังอีกที่มีขนาดเท่ากัน เทียบเท่ากับ arrayCopy (src, 0, dst, 0, src.length)  การใช้ฟังก์ชันนี้มีประสิทธิภาพมากขึ้นในการคัดลอกข้อมูลอาร์เรย์มากกว่าการวนซ้ำผ่านลูป for () และการคัดลอกแต่ละองค์ประกอบทีละรายการ <arrayCopy>
+	concat() : เชื่อมต่ออาร์เรย์สองชุดเข้ากับ Array.concat () ไม่แก้ไขอาร์เรย์ของอินพุต <concat>
+	reverse() : เปลี่ยนลำดับของอาร์เรย์กลับไปที่ Array.reverse () <reverse>
+	shorten() : ลดอาร์เรย์โดยองค์ประกอบหนึ่งและส่งกลับค่าอาร์เรย์ที่สั้นลงไปยัง Array.pop () <shorten>
+	shuffle() : สุ่มลำดับขององค์ประกอบของอาร์เรย์ ใช้ ฟิลเตอร์ - เยสสับเปลี่ยนอัลกอริธึม <shuffle>
+	sort() : จัดเรียงอาร์เรย์ของตัวเลขจากที่เล็กที่สุดไปจนถึงใหญ่สุดหรือใส่อาร์เรย์ของคำตามลำดับตัวอักษร อาร์เรย์ต้นฉบับจะไม่ได้รับการแก้ไข อาร์เรย์ที่เรียงใหม่จะถูกส่งกลับ พารามิเตอร์นับระบุจำนวนองค์ประกอบที่จะเรียงลำดับ ตัวอย่างเช่นถ้ามี 12 องค์ประกอบในอาร์เรย์และมีการนับเป็น 5 จะมีการจัดเรียงเฉพาะ 5 องค์ประกอบแรกในอาร์เรย์ <sort>
+	splice() : แทรกค่าหรืออาร์เรย์ของค่าลงในอาร์เรย์ที่มีอยู่ พารามิเตอร์แรกกำหนดอาร์เรย์เริ่มต้นที่จะแก้ไขและพารามิเตอร์ที่สองกำหนดข้อมูลที่จะแทรก พารามิเตอร์ที่สามคือค่าดัชนีที่ระบุตำแหน่งอาร์เรย์ที่จะแทรกข้อมูล (จำหมายเลขดัชนีอาเรย์เริ่มต้นที่ศูนย์ดังนั้นอันดับแรกคือ 0 ตำแหน่งที่สองคือ 1 และอื่น ๆ ) <splice>
+	subset() : แยกอาร์เรย์ของอิลิเมนต์ออกจากอาร์เรย์ที่มีอยู่ พารามิเตอร์รายการกำหนดอาร์เรย์ที่จะคัดลอกองค์ประกอบและพารามิเตอร์เริ่มต้นและการนับระบุองค์ประกอบที่จะแยก ถ้าไม่มีการนับจำนวนองค์ประกอบจะถูกแยกออกจากจุดเริ่มต้นจนถึงจุดสิ้นสุดของอาร์เรย์ เมื่อระบุการเริ่มต้นโปรดจำไว้ว่าองค์ประกอบอาร์เรย์แรกคือ 0 ฟังก์ชันนี้จะไม่เปลี่ยนอาร์เรย์ของแหล่งข้อมูล <subset>
 
 conversion
 ^^^^^^^^^^
 
 .. toctree::
-	boolean() : Converts a number or string to its boolean representation. <boolean>
-	byte() : Converts a number, string or boolean to its byte representation. <byte>
-	char() : Converts a number or string to its corresponding single-character string representation. <char>
-	float() : Converts a string to its floating point representation. <float>
-	hex() : Converts a number to a string in its equivalent hexadecimal notation. <hex>
-	int() : Converts a boolean, string, or float to its integer representation. <int>
-	str() : Converts a boolean, string or number to its string representation. <str>
-	unchar() : Converts a single-character string to its corresponding integer representation. <unchar>
-	unhex() : Converts a string representation of a hexadecimal number to its equivalent integer value. <unhex>
+	boolean() : แปลงหมายเลขหรือสตริงเป็นแบบบูลแทน สำหรับตัวเลขค่าที่ไม่ใช่ศูนย์ (บวกหรือลบ) จะเป็นจริงในขณะที่ศูนย์ประเมินเป็นเท็จ สำหรับสตริงค่า &quot;true&quot; จะเป็น true ในขณะที่ค่าอื่น ๆ จะเป็น false เมื่ออาร์เรย์ของตัวเลขหรือค่าสตริงถูกส่งผ่านไปในอาร์เรย์ของ booleans ที่มีความยาวเท่ากันจะถูกส่งกลับ <boolean>
+	byte() : แปลงหมายเลขสตริงหรือ boolean เป็นตัวแทนไบต์ ไบต์สามารถมีได้เพียงจำนวนเต็มระหว่าง -128 ถึง 127 ดังนั้นเมื่อมีการแปลงค่าภายนอกช่วงนี้จะมีการรวมเอาไบต์ไว้ เมื่ออาร์เรย์ของค่าตัวเลขสตริงหรือแบบบูลถูกส่งผ่านไประบบจะส่งคืนอาร์เรย์ของไบต์ที่มีความยาวเท่ากัน <byte>
+	char() : แปลงหมายเลขหรือสตริงเป็นอักขระสตริงอักขระเดียวที่สอดคล้องกัน หากมีการระบุพารามิเตอร์สตริงจะมีการแยกวิเคราะห์เป็นจำนวนเต็มเป็นครั้งแรกและแปลเป็นสตริงอักขระเดียว เมื่ออาร์เรย์ของตัวเลขหรือค่าสตริงถูกส่งผ่านไประบบจะส่งคืนอาร์เรย์ของสตริงอักขระเดียวที่มีความยาวเท่ากัน <char>
+	float() : แปลงสายอักขระให้เป็นค่าแทน floating point เนื้อหาของสตริงต้องเหมือนกับตัวเลขหรือ NaN (ไม่ใช่ตัวเลข) จะถูกส่งกลับ ยกตัวอย่างเช่น float (&quot;1234.56&quot;) จะประเมินเป็น 1234.56 แต่ float (&quot;giraffe&quot;) จะกลับ NaN เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ของ floats ที่มีความยาวเท่ากันจะถูกส่งกลับ <float>
+	hex() : แปลงหมายเลขเป็นสตริงในสัญกรณ์เลขฐานสิบหกที่เท่ากัน ถ้าพารามิเตอร์ที่สองถูกส่งมาจะใช้เพื่อกำหนดจำนวนอักขระที่จะสร้างในสัญกรณ์เลขฐานสิบหก เมื่ออาร์เรย์ถูกส่งผ่านไปอาร์เรย์ของสตริงในสัญกรณ์เลขฐานสิบหกที่มีความยาวเท่ากันจะถูกส่งกลับ <hex>
+	int() : แปลงแบบบูลสตริงหรือลอยเป็นจำนวนเต็มแทน เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ int ที่มีความยาวเท่ากันจะถูกส่งกลับ <int>
+	str() : แปลงสตริงบูลีนสตริงหรือตัวเลขเป็นสตริงแทน เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ของสตริงที่มีความยาวเท่ากันจะถูกส่งกลับ <str>
+	unchar() : แปลงสตริงอักขระเดียวเป็นตัวแทนเลขจำนวนเต็มที่สอดคล้องกัน เมื่ออาร์เรย์ของค่าสตริงอักขระเดี่ยวถูกส่งผ่านไปแล้วอาร์เรย์ของจำนวนเต็มที่มีความยาวเท่ากันจะถูกส่งกลับ <unchar>
+	unhex() : แปลงสายอักขระแทนเลขฐานสิบหกเป็นค่าจำนวนเต็มเทียบเท่า เมื่ออาร์เรย์ของสตริงในสัญกรณ์เลขฐานสิบหกถูกส่งผ่านไปอาร์เรย์ของจำนวนเต็มที่มีความยาวเท่ากันจะถูกส่งกลับ <unhex>
 
 string_functions
 ^^^^^^^^^^^^^^^^
 
 .. toctree::
-	join() : Combines an array of Strings into one String, each separated by the character(s) used for the separator parameter. <join>
-	match() : This function is used to apply a regular expression to a piece of text, and return matching groups (elements found inside parentheses) as a String array. <match>
-	matchAll() : This function is used to apply a regular expression to a piece of text, and return a list of matching groups (elements found inside parentheses) as a two-dimensional String array. <matchAll>
-	nf() : Utility function for formatting numbers into strings. <nf>
-	nfc() : Utility function for formatting numbers into strings and placing appropriate commas to mark units of 1000. <nfc>
-	nfp() : Utility function for formatting numbers into strings. <nfp>
-	nfs() : Utility function for formatting numbers into strings. <nfs>
-	split() : The split() function maps to String.split(), it breaks a String into pieces using a character or string as the delimiter. <split>
-	splitTokens() : The splitTokens() function splits a String at one or many character delimiters or "tokens." The delim parameter specifies the character or characters to be used as a boundary. <splitTokens>
-	trim() : Removes whitespace characters from the beginning and end of a String. <trim>
+	join() : รวมอาร์เรย์ของสตริงเข้าไว้ในสตริงเดียวแต่ละคั่นด้วยตัวอักษรที่ใช้สำหรับพารามิเตอร์คั่น เมื่อต้องการรวมอาร์เรย์ของ ints หรือ floats จำเป็นต้องแปลงเป็นสตริงโดยใช้ nf () หรือ nfs () ก่อน <join>
+	match() : ฟังก์ชันนี้ใช้เพื่อใช้นิพจน์ทั่วไปกับข้อความและส่งคืนกลุ่มการจับคู่ (องค์ประกอบที่พบในวงเล็บ) เป็นอาร์เรย์สตริง ถ้าไม่มีการจับคู่ค่าที่เป็นค่า null จะถูกส่งกลับ หากไม่มีการระบุกลุ่มในนิพจน์ทั่วไป แต่ลำดับจะตรงกันอาร์เรย์ความยาว 1 (พร้อมข้อความที่ตรงกันเป็นองค์ประกอบแรกของอาร์เรย์) จะถูกส่งคืน  เมื่อต้องการใช้ฟังก์ชันก่อนอื่นให้ตรวจดูว่าผลลัพธ์เป็นโมฆะหรือไม่ ถ้าผลลัพธ์เป็นโมฆะลำดับจะไม่ตรงกันเลย ถ้าลำดับไม่ตรงกันอาร์เรย์จะถูกส่งกลับ  หากมีกลุ่ม (ระบุโดยวงเล็บ) ในนิพจน์ทั่วไปเนื้อหาของแต่ละรายการจะถูกส่งกลับในอาร์เรย์ Element [0] ของการจับคู่นิพจน์ทั่วไปจะส่งกลับสตริงที่ตรงกันทั้งหมดและกลุ่มการจับคู่เริ่มต้นที่องค์ประกอบ [1] (กลุ่มแรกคือ [1], สอง [2] และอื่น ๆ ) <match>
+	matchAll() : ฟังก์ชันนี้ใช้เพื่อใช้นิพจน์ทั่วไปกับข้อความและส่งกลับรายการกลุ่มการจับคู่ (องค์ประกอบที่พบในวงเล็บ) เป็นอาร์เรย์สตริงแบบสองมิติ ถ้าไม่มีการจับคู่ค่าที่เป็นค่า null จะถูกส่งกลับ หากไม่มีการระบุกลุ่มในนิพจน์ทั่วไป แต่ลำดับตรงกับอาร์เรย์สองมิติจะถูกส่งกลับ แต่มิติที่สองมีความยาวเพียงอย่างเดียว  เมื่อต้องการใช้ฟังก์ชันก่อนอื่นให้ตรวจดูว่าผลลัพธ์เป็นโมฆะหรือไม่ ถ้าผลลัพธ์เป็นโมฆะลำดับจะไม่ตรงกันเลย ถ้าลำดับไม่ตรงกันอาร์เรย์ 2D จะถูกส่งกลับ  หากมีกลุ่ม (ระบุโดยวงเล็บ) ในนิพจน์ทั่วไปเนื้อหาของแต่ละรายการจะถูกส่งกลับในอาร์เรย์ สมมติว่าลูปมีตัวแปรตัวนับ i องค์ประกอบ [i] [0] ของการจับคู่นิพจน์ทั่วไปจะส่งกลับสตริงที่ตรงกันทั้งหมดและกลุ่มการจับคู่เริ่มต้นที่องค์ประกอบ [i] [1] (กลุ่มแรกคือ [i] [1] , ที่สอง [i] [2] และอื่น ๆ ) <matchAll>
+	nf() : ฟังก์ชันยูทิลิตี้สำหรับการจัดรูปแบบตัวเลขเป็นสตริง มีสองเวอร์ชัน: หนึ่งสำหรับการฟอร์แมตลอยตัวและสำหรับการจัดรูปแบบ ints ค่าสำหรับตัวเลขซ้ายและขวาควรเป็นจำนวนเต็มบวก <nf>
+	nfc() : ฟังก์ชันยูทิลิตี้สำหรับการจัดรูปแบบตัวเลขลงในสตริงและวางเครื่องหมายจุลภาคที่เหมาะสมเพื่อทำเครื่องหมายหน่วยของ 1000 มีสองเวอร์ชัน: หนึ่งสำหรับการจัดรูปแบบ ints และอีกอันหนึ่งสำหรับจัดรูปแบบอาร์เรย์ของ ints ค่าสำหรับพารามิเตอร์ที่ถูกต้องควรเป็นจำนวนเต็มบวก <nfc>
+	nfp() : ฟังก์ชันยูทิลิตี้สำหรับการจัดรูปแบบตัวเลขเป็นสตริง คล้ายกับ nf () แต่ใส่เครื่องหมาย &quot;+&quot; หน้าตัวเลขบวกและ &quot;-&quot; ไว้ข้างหน้าตัวเลขลบ มีสองเวอร์ชัน: หนึ่งสำหรับการฟอร์แมตลอยตัวและสำหรับการจัดรูปแบบ ints ค่าสำหรับพารามิเตอร์ซ้ายและขวาควรเป็นจำนวนเต็มบวก <nfp>
+	nfs() : ฟังก์ชันยูทิลิตี้สำหรับการจัดรูปแบบตัวเลขเป็นสตริง คล้ายกับ nf () แต่ทำให้ &quot;&quot; (ช่องว่าง) อยู่ข้างหน้าตัวเลขบวกและ &quot;-&quot; อยู่ด้านหน้าของตัวเลขลบ มีสองเวอร์ชัน: หนึ่งสำหรับการฟอร์แมตลอยตัวและสำหรับการจัดรูปแบบ ints ค่าสำหรับตัวเลขซ้ายและขวาควรเป็นจำนวนเต็มบวก <nfs>
+	split() : ฟังก์ชัน split () จะจับคู่กับ String.split () ซึ่งจะแบ่ง String เป็นชิ้นโดยใช้อักขระหรือสตริงเป็นตัวคั่น พารามิเตอร์ delim ระบุอักขระหรืออักขระที่ทำเครื่องหมายขอบเขตระหว่างแต่ละชิ้น อาร์เรย์สตริง [] จะถูกส่งคืนที่ประกอบด้วยแต่ละส่วน ฟังก์ชัน splitTokens () ทำงานในรูปแบบคล้าย ๆ กันเว้นแต่จะแบ่งเป็นช่วงของอักขระแทนอักขระหรือลำดับที่ระบุ <split>
+	splitTokens() : ฟังก์ชัน splitTokens () แยกสตริงที่ตัวคั่นอักขระหนึ่งหรือหลายอักขระหรือ &quot;โทเค็น&quot; พารามิเตอร์ delim ระบุอักขระหรืออักขระที่จะใช้เป็นขอบเขต  หากไม่มีการระบุอักขระ delim จะใช้อักขระ whitespace ใด ๆ ในการแบ่ง อักขระเว้นวรรค ได้แก่ แท็บ (\ t), ฟีดบรรทัด (\ n) การส่งคืน (\ r) ฟีดฟอร์ม (\ f) และช่องว่าง <splitTokens>
+	trim() : ลบอักขระ whitespace จากจุดเริ่มต้นและจุดสิ้นสุดของ String นอกเหนือจากอักขระ Unicode มาตรฐานเช่นช่องว่างการส่งคืนข้อมูลและแท็บฟังก์ชันนี้จะลบอักขระ &quot;nbsp&quot; ของ Unicode <trim>
 
 time_date
 ^^^^^^^^^
 
 .. toctree::
-	day() : p5.js communicates with the clock on your computer. <day>
-	hour() : p5.js communicates with the clock on your computer. <hour>
-	millis() : Returns the number of milliseconds (thousandths of a second) since starting the program. <millis>
-	minute() : p5.js communicates with the clock on your computer. <minute>
-	month() : p5.js communicates with the clock on your computer. <month>
-	second() : p5.js communicates with the clock on your computer. <second>
-	year() : p5.js communicates with the clock on your computer. <year>
+	day() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชันวัน () จะส่งคืนวันที่ปัจจุบันเป็นค่าตั้งแต่ 1 ถึง 31 <day>
+	hour() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน hour () จะคืนค่าชั่วโมงปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 23 <hour>
+	millis() : ส่งกลับจำนวนมิลลิวินาที (พันหนึ่งวินาที) ตั้งแต่เริ่มต้นโปรแกรม ข้อมูลนี้มักใช้สำหรับเหตุการณ์การจับเวลาและลำดับภาพเคลื่อนไหว <millis>
+	minute() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน minute () จะคืนค่านาทีปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 59 <minute>
+	month() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชัน month () จะส่งคืนเดือนปัจจุบันเป็นค่าตั้งแต่ 1 ถึง 12 <month>
+	second() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชันที่สอง () จะคืนค่าวินาทีปัจจุบันเป็นค่าตั้งแต่ 0 ถึง 59 <second>
+	year() : p5.js สื่อสารกับนาฬิกาบนคอมพิวเตอร์ของคุณ ฟังก์ชันปี () จะส่งคืนปีปัจจุบันเป็นจำนวนเต็ม (2014, 2015, 2016 ฯลฯ ) <year>
 
 webgl
 -----
@@ -677,112 +677,112 @@ camera
 ^^^^^^
 
 .. toctree::
-	camera() : Sets camera position for a 3D sketch. <camera>
-	ortho() : Setup ortho camera <ortho>
-	perspective() : Sets perspective camera. <perspective>
+	camera() : ตั้งค่าตำแหน่งกล้องสำหรับภาพร่าง 3 มิติ ฟังก์ชันจะทำงานคล้ายคลึงกับ gluLookAt ยกเว้นว่าจะแทนที่เมทริกซ์แบบจำลองที่มีอยู่แทนการใช้การแปลงใด ๆ ที่คำนวณที่นี่ที่ด้านบนของมุมมองแบบจำลองที่มีอยู่ เมื่อเรียกว่าไม่มีอาร์กิวเมนต์ฟังก์ชั่นนี้จะกำหนดค่าเริ่มต้นของกล้องที่เทียบเท่ากับการเรียกกล้องถ่ายรูป (0, 0, (สูง / 2.0) / tan (PI * 30.0 / 180.0), 0, 0, 0, 0, 1, 0); <camera>
+	ortho() : ตั้งกล้อง ortho <ortho>
+	perspective() : ตั้งกล้องมุมมอง ค่าที่ตั้งไว้จะเท่ากับมุมมอง (PI / 3.0, width / height, cameraZ / 10.0, cameraZ * 10.0) โดยที่ cameraZ คือ ((สูง / 2.0) / tan (PI * 60.0 / 360.0)); <perspective>
 
 light
 ^^^^^
 
 .. toctree::
-	ambientLight() : Creates an ambient light with a color <ambientLight>
-	directionalLight() : Creates a directional light with a color and a direction <directionalLight>
-	pointLight() : Creates a point light with a color and a light position <pointLight>
+	ambientLight() : สร้างแสงโดยรอบพร้อมด้วยสี <ambientLight>
+	directionalLight() : สร้างแสงทิศทางที่มีสีและทิศทาง <directionalLight>
+	pointLight() : สร้างไฟจุดที่มีสีและตำแหน่งสว่าง <pointLight>
 
 loading
 ^^^^^^^
 
 .. toctree::
-	loadModel() : Load a 3d model from an OBJ file. <loadModel>
-	model() : Render a 3d model to the screen. <model>
-	parseObj() : Parse OBJ lines into model. <parseObj>
+	loadModel() : โหลดโมเดล 3 มิติจากไฟล์ OBJ  หนึ่งในข้อ จำกัด ของรูปแบบ OBJ คือไม่ได้มีความรู้สึกในตัวของเครื่องชั่ง ซึ่งหมายความว่าโมเดลที่ส่งออกจากโปรแกรมต่างๆอาจมีขนาดแตกต่างกันมาก หากโมเดลของคุณไม่แสดงให้ลองเรียก loadModel () โดยตั้งค่าพารามิเตอร์ normalalized เป็น true นี้จะปรับขนาดรูปแบบที่เหมาะสมกับ p5 นอกจากนี้คุณยังสามารถทำการเปลี่ยนแปลงเพิ่มเติมเกี่ยวกับขนาดที่ใหญ่ที่สุดของโมเดลด้วยฟังก์ชัน scale () ได้อีกด้วย <loadModel>
+	model() : ทำให้โมเดล 3 มิติไปที่หน้าจอ <model>
+	parseObj() : แยกสาย OBJ ออกเป็นแบบจำลอง สำหรับการอ้างอิงนี่คือรูปแบบง่ายๆของสี่เหลี่ยมจัตุรัสอาจมีลักษณะดังนี้: v -0.5 -0.5 0.5 v -0.5 -0.5 -0.5 v -0.5 0.5 -0.5 v-0.5 0.5 0.5 4 4 3 2 1 <parseObj>
 
 material
 ^^^^^^^^
 
 .. toctree::
-	ambientMaterial() : Ambient material for geometry with a given color. <ambientMaterial>
-	loadShader() : Loads a custom shader from the provided vertex and fragment shader paths. <loadShader>
-	normalMaterial() : Normal material for geometry. <normalMaterial>
-	shader() : The shader() function lets the user provide a custom shader to fill in shapes in WEBGL mode. <shader>
-	specularMaterial() : Specular material for geometry with a given color. <specularMaterial>
-	texture() : Texture for geometry. <texture>
+	ambientMaterial() : วัสดุล้อมรอบสำหรับเรขาคณิตด้วยสีที่กำหนด คุณสามารถดูวัสดุที่เป็นไปได้ทั้งหมดใน ตัวอย่าง นี้ <ambientMaterial>
+	loadShader() : โหลด shader แบบกำหนดเองจากจุดสุดยอดและเส้นทาง shader ส่วนหัว ไฟล์ shader ถูกโหลดแบบอะซิงโครนัสในพื้นหลังดังนั้นวิธีนี้ควรใช้ใน preload () ตอนนี้มีสามประเภทหลักของ shaders p5 จะจัดหาจุดสีปกติและสีที่เหมาะสมโดยอัตโนมัติหากพารามิเตอร์ที่กำหนดไว้ใน shader ตรงกับชื่อ <loadShader>
+	normalMaterial() : วัสดุปกติสำหรับเรขาคณิต คุณสามารถดูวัสดุที่เป็นไปได้ทั้งหมดใน ตัวอย่าง นี้ <normalMaterial>
+	shader() : ฟังก์ชัน shader () ช่วยให้ผู้ใช้มี shader ที่กำหนดเองเพื่อเติมรูปร่างในโหมด WEBGL ผู้ใช้สามารถสร้าง shaders ของตนเองโดยการโหลด vertex และ shaders ส่วนด้วย loadShader () <shader>
+	specularMaterial() : วัสดุพิเศษสำหรับเรขาคณิตด้วยสีที่กำหนด คุณสามารถดูวัสดุที่เป็นไปได้ทั้งหมดใน ตัวอย่าง นี้ <specularMaterial>
+	texture() : พื้นผิวสำหรับรูปทรงเรขาคณิต คุณสามารถดูเนื้อหาที่เป็นไปได้อื่น ๆ ใน ตัวอย่าง นี้ <texture>
 
 p5.Geometry
 ^^^^^^^^^^^
 
 .. toctree::
-	averageNormals() : Averages the vertex normals. <p5.Geometry/averageNormals>
-	averagePoleNormals() : Averages pole normals. <p5.Geometry/averagePoleNormals>
-	computeNormals() : computes smooth normals per vertex as an average of each face. <p5.Geometry/computeNormals>
-	normalize() : Modifies all vertices to be centered within the range -100 to 100. <p5.Geometry/normalize>
+	averageNormals() : ให้คะแนนเฉลี่ยสูงสุด ใช้ในพื้นผิวโค้ง <p5.Geometry/averageNormals>
+	averagePoleNormals() : ค่าเฉลี่ยของขั้วโลกธรรมดา ใช้ในรูปทรงกลม <p5.Geometry/averagePoleNormals>
+	computeNormals() : คำนวณค่าเฉลี่ยที่สม่ำเสมอของแต่ละใบหน้า <p5.Geometry/computeNormals>
+	normalize() : ปรับเปลี่ยนจุดยอดทั้งหมดที่อยู่กึ่งกลางระหว่างช่วง -100 ถึง 100 <p5.Geometry/normalize>
 
 p5.Matrix
 ^^^^^^^^^
 
 .. toctree::
-	copy() : return a copy of a matrix <p5.Matrix/copy>
-	determinant() : inspired by Toji's mat4 determinant <p5.Matrix/determinant>
-	exports : PRIVATE <p5.Matrix/exports>
-	get() : Gets a copy of the vector, returns a p5.Matrix object. <p5.Matrix/get>
-	identity() : return an identity matrix <p5.Matrix/identity>
-	inverseTranspose() : converts a 4x4 matrix to its 3x3 inverse tranform commonly used in MVMatrix to NMatrix conversions. <p5.Matrix/inverseTranspose>
-	invert() : invert  matrix according to a give matrix <p5.Matrix/invert>
-	invert3x3() : Inverts a 3x3 matrix <p5.Matrix/invert3x3>
-	mult() : multiply two mat4s <p5.Matrix/mult>
-	ortho() : sets the ortho matrix <p5.Matrix/ortho>
-	perspective() : sets the perspective matrix <p5.Matrix/perspective>
-	rotate() : rotate our Matrix around an axis by the given angle. <p5.Matrix/rotate>
-	scale() : scales a p5.Matrix by scalars or a vector <p5.Matrix/scale>
-	set() : Sets the x, y, and z component of the vector using two or three separate variables, the data from a p5.Matrix, or the values from a float array. <p5.Matrix/set>
+	copy() : ส่งสำเนาของเมทริกซ์ <p5.Matrix/copy>
+	determinant() : ได้รับแรงบันดาลใจจากปัจจัยกำหนด Mat4 ของ Toji <p5.Matrix/determinant>
+	exports : เอกชน <p5.Matrix/exports>
+	get() : รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Matrix <p5.Matrix/get>
+	identity() : คืนเมทริกซ์เอกลักษณ์ <p5.Matrix/identity>
+	inverseTranspose() : แปลงเมทริกซ์ 4x4 ไปเป็น transformform ผกผัน 3x3 ที่ใช้กันทั่วไปใน MVMatrix เพื่อแปลง NMatrix <p5.Matrix/inverseTranspose>
+	invert() : ผกผันเมทริกซ์ให้เมทริกซ์ <p5.Matrix/invert>
+	invert3x3() : ย้อนกลับเมทริกซ์ 3x3 <p5.Matrix/invert3x3>
+	mult() : คูณสอง mat4s <p5.Matrix/mult>
+	ortho() : กำหนดเมธอด ortho <p5.Matrix/ortho>
+	perspective() : กำหนดเมทริกซ์มุมมอง <p5.Matrix/perspective>
+	rotate() : หมุน Matrix ของเราไปรอบ ๆ แกนตามมุมที่ระบุ <p5.Matrix/rotate>
+	scale() : ตาชั่ง p5.Matrix โดย scalars หรือเวกเตอร์ <p5.Matrix/scale>
+	set() : ตั้งค่าคอมโพเนนต์ x, y และ z ของเวกเตอร์โดยใช้ตัวแปรแยกสองหรือสามตัวแปรข้อมูลจาก p5.Matrix หรือค่าจากอาร์เรย์ float <p5.Matrix/set>
 	translate() :  <p5.Matrix/translate>
-	transpose() : transpose according to a given matrix <p5.Matrix/transpose>
-	transpose3x3() : transposes a 3x3 p5.Matrix by a mat3 <p5.Matrix/transpose3x3>
+	transpose() : transpose ตามเมทริกซ์ที่ระบุ <p5.Matrix/transpose>
+	transpose3x3() : transposes 3x3 p5.Matrix โดย mat3 <p5.Matrix/transpose3x3>
 
 p5.RendererGL.Immediate
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
-	beginShape() : Begin shape drawing. <p5.RendererGL.Immediate/beginShape>
-	endShape() : End shape drawing and render vertices to screen. <p5.RendererGL.Immediate/endShape>
-	vertex() : adds a vertex to be drawn in a custom Shape. <p5.RendererGL.Immediate/vertex>
+	beginShape() : เริ่มวาดรูป นี่เป็นวิธีที่มีประโยชน์ในการสร้างรูปร่างที่กำหนดเองได้อย่างรวดเร็ว อย่างไรก็ตามในโหมด WEBGL ประสิทธิภาพการทำงานของแอพพลิเคชั่นอาจลดลงเนื่องจากมีสายมากเกินไปที่จะเริ่มต้น Shape () / endShape () เป็นทางเลือกที่มีประสิทธิภาพสูงโปรดใช้ primitive geometry primitives ของ p5.js <p5.RendererGL.Immediate/beginShape>
+	endShape() : วาดรูปร่างท้ายและแสดงจุดที่หน้าจอ <p5.RendererGL.Immediate/endShape>
+	vertex() : เพิ่มจุดยอดที่จะวาดในรูปร่างที่กำหนดเอง <p5.RendererGL.Immediate/vertex>
 
 p5.RendererGL
 ^^^^^^^^^^^^^
 
 .. toctree::
-	background() : [background description] <p5.RendererGL/background>
-	clear() : clears color and depth buffers with r,g,b,a <p5.RendererGL/clear>
-	fill() : Basic fill material for geometry with a given color <p5.RendererGL/fill>
-	get() : Returns an array of [R,G,B,A] values for any pixel or grabs a section of an image. <p5.RendererGL/get>
-	loadPixels() : Loads the pixels data for this canvas into the pixels[] attribute. <p5.RendererGL/loadPixels>
-	noFill() : Does not render fill material <p5.RendererGL/noFill>
-	noStroke() : Does not render stroke <p5.RendererGL/noStroke>
-	pop() : [pop description] <p5.RendererGL/pop>
-	push() : pushes a copy of the model view matrix onto the MV Matrix stack. <p5.RendererGL/push>
-	resize() : [resize description] <p5.RendererGL/resize>
-	scale() : Scales the Model View Matrix by a vector <p5.RendererGL/scale>
-	setAttributes() : Set attributes for the WebGL Drawing context. <p5.RendererGL/setAttributes>
-	stroke() : Basic stroke material for geometry with a given color <p5.RendererGL/stroke>
-	strokeWeight() : Change weight of stroke <p5.RendererGL/strokeWeight>
-	translate() : [translate description] <p5.RendererGL/translate>
-	uMVMatrix : model view, projection, & normal matrices <p5.RendererGL/uMVMatrix>
+	background() : [คำอธิบายพื้นหลัง] <p5.RendererGL/background>
+	clear() : ล้างบัฟเฟอร์สีและความลึกด้วย r, g, b, a <p5.RendererGL/clear>
+	fill() : เติมวัสดุพื้นฐานสำหรับเรขาคณิตด้วยสีที่กำหนด <p5.RendererGL/fill>
+	get() : ส่งค่าอาร์เรย์ของค่า [R, G, B, A] สำหรับพิกเซลใด ๆ หรือคว้าส่วนใดส่วนหนึ่งของรูปภาพ หากไม่มีพารามิเตอร์ระบุไว้รูปภาพทั้งหมดจะถูกส่งคืน ใช้พารามิเตอร์ x และ y เพื่อรับค่าหนึ่งพิกเซล รับส่วนของหน้าต่างการแสดงผลโดยการระบุพารามิเตอร์ w และ h เพิ่มเติม เมื่อได้รับรูปภาพพารามิเตอร์ x และ y กำหนดพิกัดสำหรับมุมซ้ายบนของภาพโดยไม่คำนึงถึง imageMode () ในปัจจุบัน  หากพิกเซลที่ขออยู่นอกกรอบภาพจะส่งกลับ [0,0,0,255]  การรับสีของพิกเซลเพียงจุดเดียวด้วย get (x, y) เป็นเรื่องง่าย แต่ไม่เร็วเท่าการคว้าข้อมูลโดยตรงจากพิกเซล [] คำสั่งที่เทียบเท่าเพื่อให้ได้ (x, y) ใช้พิกเซล [] ที่มีความหนาแน่นของพิกเซล d <p5.RendererGL/get>
+	loadPixels() : โหลดข้อมูลพิกเซลสำหรับผืนผ้าใบนี้เป็นพิกเซล [] โปรดทราบว่า updatePixels () และ set () ไม่ทำงาน การจัดการพิกเซลใด ๆ ต้องทำโดยตรงไปยังอาร์เรย์ของพิกเซล [] <p5.RendererGL/loadPixels>
+	noFill() : ไม่ทำให้การเติมวัสดุ <p5.RendererGL/noFill>
+	noStroke() : ไม่ทำให้จังหวะ <p5.RendererGL/noStroke>
+	pop() : [คำอธิบายป๊อป] <p5.RendererGL/pop>
+	push() : ผลักดันสำเนาเมทริกซ์มุมมองแบบลงบนสแต็ค MV Matrix <p5.RendererGL/push>
+	resize() : [ปรับขนาดคำอธิบาย] <p5.RendererGL/resize>
+	scale() : คำนวณเมทริกซ์มุมมองแบบโดยเวกเตอร์ <p5.RendererGL/scale>
+	setAttributes() : ตั้งค่าแอตทริบิวต์สำหรับบริบทการเขียนแบบ WebGL นี่เป็นวิธีการปรับวิธีที่ renderer ของ WebGL ทำงานเพื่อปรับแต่งการแสดงผลและประสิทธิภาพการทำงาน นี้ควรจะใส่ในการติดตั้ง () แอตทริบิวต์ที่มีอยู่ ได้แก่  alpha - ระบุว่าผ้าใบมีค่าดีฟอลต์บัฟเฟอร์ alpha เป็นจริงหรือไม่  depth - ระบุว่าบัฟเฟอร์การวาดภาพมี buffer อย่างน้อย 16 bits หรือไม่ - default คือ true  stencil - ระบุว่าบัฟเฟอร์รูปวาดมีบัฟเฟอร์ stencil อย่างน้อย 8 บิต  antialias - ระบุว่าจะใช้ค่าเริ่มต้น anti-aliasing หรือไม่เป็นเท็จ  premultipliedAlpha - ระบุว่า compositor หน้าจะถือว่าบัฟเฟอร์การวาดภาพมีสีที่มีค่าเริ่มต้นอัลฟ่าก่อนคูณเป็นเท็จ  preserveDrawingBuffer - ถ้า true บัฟเฟอร์จะไม่ถูกลบและจะเก็บค่าของพวกเขาไว้จนกว่าจะถูกล้างหรือเขียนทับโดยผู้เขียน (โปรดทราบว่า p5 ล้างโดยอัตโนมัติในวง draw) ค่าดีฟอลต์เป็น true  function setup() { createCanvas(150,150,WEBGL); } function draw() { background(255); push(); rotateZ(frameCount * 0.02); rotateX(frameCount * 0.02); rotateY(frameCount * 0.02); fill(0,0,0); box(50); pop(); }   ขณะนี้มีแอ็ตทริบิวต์ antialias ตั้งค่าเป็น true  function setup() { createCanvas(150,150,WEBGL); setAttributes(&#39;antialias&#39;, true); } function draw() { background(255); push(); rotateZ(frameCount * 0.02); rotateX(frameCount * 0.02); rotateY(frameCount * 0.02); fill(0,0,0); box(50); pop(); }  <p5.RendererGL/setAttributes>
+	stroke() : วัสดุจังหวะเบื้องต้นสำหรับเรขาคณิตด้วยสีที่กำหนด <p5.RendererGL/stroke>
+	strokeWeight() : เปลี่ยนน้ำหนักของโรคหลอดเลือดสมอง <p5.RendererGL/strokeWeight>
+	translate() : [แปลคำอธิบาย] <p5.RendererGL/translate>
+	uMVMatrix : มุมมองแบบ, การฉายและการฝึกอบรมปกติ <p5.RendererGL/uMVMatrix>
 
 p5.RendererGL.Retained
 ^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
 	createBuffers() : createBuffers description <p5.RendererGL.Retained/createBuffers>
-	drawBuffers() : Draws buffers given a geometry key ID <p5.RendererGL.Retained/drawBuffers>
+	drawBuffers() : วาดบัฟเฟอร์ที่ระบุรหัสคีย์รูปทรงเรขาคณิต <p5.RendererGL.Retained/drawBuffers>
 
 p5.Shader
 ^^^^^^^^^
 
 .. toctree::
-	bindShader() : initializes (if needed) and binds the shader program. <p5.Shader/bindShader>
+	bindShader() : เริ่มต้น (ถ้าจำเป็น) และผูกโปรแกรม shader <p5.Shader/bindShader>
 	enableAttrib() :  <p5.Shader/enableAttrib>
-	init() : Creates, compiles, and links the shader based on its sources for the vertex and fragment shaders (provided to the constructor). <p5.Shader/init>
-	setUniform() : Wrapper around gl.uniform functions. <p5.Shader/setUniform>
+	init() : สร้างคอมไพล์และเชื่อมโยง shader ตามแหล่งที่มาของส่วนยอดและ shader ของส่วนย่อย (ให้กับตัวสร้าง) แสดงคุณลักษณะและเครื่องแบบที่รู้จักจาก shader <p5.Shader/init>
+	setUniform() : ห่อหุ้มรอบฟังก์ชัน gl.uniform เนื่องจากเราจัดเก็บข้อมูลชุดข้อมูลไว้ใน shader เราสามารถใช้เพื่อตรวจสอบชนิดข้อมูลที่ให้มาและเรียกใช้ฟังก์ชันที่เหมาะสม <p5.Shader/setUniform>
 	unbindShader() :  <p5.Shader/unbindShader>
 	useProgram() :  <p5.Shader/useProgram>
 
@@ -790,20 +790,20 @@ p5.Texture
 ^^^^^^^^^^
 
 .. toctree::
-	bindTexture() : Binds the texture to the appropriate GL target. <p5.Texture/bindTexture>
-	init() : Initializes common texture parameters, creates a gl texture, tries to upload the texture for the first time if data is already available. <p5.Texture/init>
-	unbindTexture() : Unbinds the texture from the appropriate GL target. <p5.Texture/unbindTexture>
-	update() : Checks if the source data for this texture has changed (if it's easy to do so) and reuploads the texture if necessary. <p5.Texture/update>
+	bindTexture() : เชื่อมโยงพื้นผิวกับเป้าหมาย GL ที่เหมาะสม <p5.Texture/bindTexture>
+	init() : เริ่มต้นพารามิเตอร์พื้นผิวทั่วไปสร้างพื้นผิว gl พยายามอัปโหลดเนื้อสัมผัสเป็นครั้งแรกหากข้อมูลมีอยู่แล้ว <p5.Texture/init>
+	unbindTexture() : ยกเลิกการเชื่อมโยงเนื้องานจากเป้าหมาย GL ที่เหมาะสม <p5.Texture/unbindTexture>
+	update() : ตรวจสอบว่ามีการเปลี่ยนแปลงข้อมูลต้นฉบับสำหรับเนื้อที่นี้หรือไม่ (ถ้าทำได้ง่าย) และอัปโหลดพื้นผิวใหม่ถ้าจำเป็น ถ้าเป็นไปไม่ได้หรือมีราคาแพงในการคำนวณเพื่อพิจารณาว่าข้อมูลมีการเปลี่ยนแปลงหรือไม่ข้อมูลวิธีนี้เพียงแค่อัปโหลดพื้นผิวใหม่ <p5.Texture/update>
 
 primitives
 ^^^^^^^^^^
 
 .. toctree::
-	box() : Draw a box with given width, height and depth <box>
-	cone() : Draw a cone with given radius and height <cone>
-	cylinder() : Draw a cylinder with given radius and height <cylinder>
-	ellipsoid() : Draw an ellipsoid with given radius <ellipsoid>
-	plane() : Draw a plane with given a width and height <plane>
-	sphere() : Draw a sphere with given radius <sphere>
-	torus() : Draw a torus with given radius and tube radius <torus>
+	box() : วาดช่องที่มีความกว้างความสูงและความลึก <box>
+	cone() : วาดกรวยด้วยรัศมีและความสูงที่กำหนด <cone>
+	cylinder() : วาดกระบอกที่มีรัศมีและความสูง <cylinder>
+	ellipsoid() : วาดรูปทรงรีกับรัศมีที่กำหนด <ellipsoid>
+	plane() : วาดระนาบด้วยความกว้างและความสูง <plane>
+	sphere() : วาดทรงกลมที่มีรัศมีให้ <sphere>
+	torus() : วาดพรูด้วยรัศมีและรัศมีของรัศมี <torus>
 

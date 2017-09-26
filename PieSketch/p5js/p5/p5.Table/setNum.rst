@@ -5,22 +5,27 @@
 setNum()
 ========
 
-Stores a Float value in the Table's specified row and column.
-The row is specified by its ID, while the column may be specified
-by either its ID or title.
+เก็บค่า Float ไว้ในแถวและคอลัมน์ที่กำหนดไว้ของ Table แถวถูกระบุโดย ID ของมันในขณะที่คอลัมน์อาจถูกระบุโดย ID หรือชื่อของ
 
+.. Stores a Float value in the Table's specified row and column.
+.. The row is specified by its ID, while the column may be specified
+.. by either its ID or title.
 **รูปแบบการใช้งาน**
 
 setNum ( row, column, value )
 
 **พารามิเตอร์**
 
-- ``row``  Number: row ID
+- ``row``  Number: ID แถว
 
-- ``column``  String,Number: column ID (Number) or title (String)
+- ``column``  String,Number: คอลัมน์ ID (จำนวน) หรือชื่อ (สตริง)
 
-- ``value``  Number: value to assign
+- ``value``  Number: ค่าที่จะกำหนด
 
+.. ``row``  Number: row ID
+.. ``column``  String,Number: column ID (Number)
+                              or title (String)
+.. ``value``  Number: value to assign
 
 .. raw:: html
 
@@ -52,5 +57,4 @@ setNum ( row, column, value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

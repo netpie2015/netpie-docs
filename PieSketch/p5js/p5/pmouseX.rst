@@ -5,10 +5,11 @@
 pmouseX
 =========
 
-The system variable pmouseX always contains the horizontal position of
-the mouse or finger in the frame previous to the current frame, relative to
-(0, 0) of the canvas.
+ตัวแปรระบบ pmouseX ประกอบด้วยตำแหน่งในแนวนอนของเมาส์หรือนิ้วในเฟรมก่อนเฟรมปัจจุบันเทียบกับ (0, 0) ของผืนผ้าใบ
 
+.. The system variable pmouseX always contains the horizontal position of
+.. the mouse or finger in the frame previous to the current frame, relative to
+.. (0, 0) of the canvas.
 **รูปแบบการใช้งาน**
 
 pmouseX
@@ -33,5 +34,4 @@ pmouseX
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,21 +5,24 @@
 lightness()
 ===========
 
-Extracts the HSL lightness value from a color or pixel array.
+แยกค่าความสว่าง HSL จากอาร์เรย์สีหรือพิกเซล
 
+.. Extracts the HSL lightness value from a color or pixel array.
 **รูปแบบการใช้งาน**
 
 lightness ( color )
 
 **พารามิเตอร์**
 
-- ``color``  p5.Color,Array: p5.Color object or pixel array
+- ``color``  p5.Color,Array: p5.Color object หรือ pixel array
 
+.. ``color``  p5.Color,Array: p5.Color object or pixel array
 
 **ค่าที่ส่งออกมา**
 
-- Number: the lightness
+- Number: ความสว่าง
 
+.. Number: the lightness
 
 .. raw:: html
 
@@ -37,5 +40,4 @@ lightness ( color )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

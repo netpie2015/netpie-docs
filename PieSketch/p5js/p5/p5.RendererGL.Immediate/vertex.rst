@@ -5,20 +5,23 @@
 vertex()
 ========
 
-adds a vertex to be drawn in a custom Shape.
+เพิ่มจุดยอดที่จะวาดในรูปร่างที่กำหนดเอง
 
+.. adds a vertex to be drawn in a custom Shape.
 **รูปแบบการใช้งาน**
 
 vertex ( x, y, z )
 
 **พารามิเตอร์**
 
-- ``x``  Number: x-coordinate of vertex
+- ``x``  Number: พิกัด x ของยอด
 
-- ``y``  Number: y-coordinate of vertex
+- ``y``  Number: พิกัด y ของจุดสุดยอด
 
-- ``z``  Number: z-coordinate of vertex
+- ``z``  Number: พิกัด z ของจุดสุดยอด
 
+.. ``x``  Number: x-coordinate of vertex
+.. ``y``  Number: y-coordinate of vertex
+.. ``z``  Number: z-coordinate of vertex
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

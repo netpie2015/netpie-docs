@@ -5,16 +5,18 @@
 getURLPath()
 ============
 
-Gets the current URL path as an array.
+รับเส้นทาง URL ปัจจุบันเป็นอาร์เรย์
 
+.. Gets the current URL path as an array.
 **รูปแบบการใช้งาน**
 
 getURLPath ( )
 
 **ค่าที่ส่งออกมา**
 
-- Array.<String>: path components
+- Array.<String>: ส่วนประกอบเส้นทาง
 
+.. Array.<String>: path components
 
 .. raw:: html
 
@@ -30,5 +32,4 @@ getURLPath ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

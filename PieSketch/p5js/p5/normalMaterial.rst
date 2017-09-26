@@ -5,10 +5,11 @@
 normalMaterial()
 ================
 
-Normal material for geometry. You can view all
-possible materials in this
-example.
+วัสดุปกติสำหรับเรขาคณิต คุณสามารถดูวัสดุที่เป็นไปได้ทั้งหมดใน ตัวอย่าง นี้
 
+.. Normal material for geometry. You can view all
+.. possible materials in this
+.. example.
 **รูปแบบการใช้งาน**
 
 normalMaterial ( )
@@ -30,5 +31,4 @@ normalMaterial ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

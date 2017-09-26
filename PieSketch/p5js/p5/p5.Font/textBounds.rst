@@ -5,30 +5,37 @@
 textBounds()
 ============
 
-Returns a tight bounding box for the given text string using this
-font (currently only supports single lines)
+ส่งกลับกล่อง bounding แน่นสำหรับสตริงข้อความที่กำหนดโดยใช้แบบอักษรนี้ (ปัจจุบันรองรับเฉพาะบรรทัดเดียวเท่านั้น)
 
+.. Returns a tight bounding box for the given text string using this
+.. font (currently only supports single lines)
 **รูปแบบการใช้งาน**
 
 textBounds ( line, x, y, fontSize, options )
 
 **พารามิเตอร์**
 
-- ``line``  String: a line of text
+- ``line``  String: บรรทัดข้อความ
 
-- ``x``  Number: x-position
+- ``x``  Number: X-ตำแหน่ง
 
-- ``y``  Number: y-position
+- ``y``  Number: Y-ตำแหน่ง
 
-- ``fontSize``  Number: font size to use (optional)
+- ``fontSize``  Number: ขนาดตัวอักษรที่จะใช้ (ตัวเลือก)
 
-- ``options``  Object: opentype options (optional)
+- ``options``  Object: ตัวเลือก opiantpe (ตัวเลือก)
 
+.. ``line``  String: a line of text
+.. ``x``  Number: x-position
+.. ``y``  Number: y-position
+.. ``fontSize``  Number: font size to use (optional)
+.. ``options``  Object: opentype options (optional)
 
 **ค่าที่ส่งออกมา**
 
-- Object: a rectangle object with properties: x, y, w, h
+- Object: วัตถุรูปสี่เหลี่ยมผืนผ้าที่มีคุณสมบัติ: x, y, w, h
 
+.. Object: a rectangle object with properties: x, y, w, h
 
 .. raw:: html
 
@@ -57,5 +64,4 @@ textBounds ( line, x, y, fontSize, options )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

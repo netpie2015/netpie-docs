@@ -5,16 +5,17 @@
 rotateX()
 =========
 
-Rotates around X axis.
+หมุนรอบแกน X
 
+.. Rotates around X axis.
 **รูปแบบการใช้งาน**
 
 rotateX ( rad )
 
 **พารามิเตอร์**
 
-- ``rad``  Number: angles in radians
+- ``rad``  Number: มุมในเรเดียน
 
+.. ``rad``  Number: angles in radians
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

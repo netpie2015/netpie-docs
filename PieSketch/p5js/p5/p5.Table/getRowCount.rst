@@ -5,16 +5,17 @@
 getRowCount()
 =============
 
-Returns the total number of rows in a Table.
+แสดงจำนวนแถวทั้งหมดในตาราง
 
+.. Returns the total number of rows in a Table.
 **รูปแบบการใช้งาน**
 
 getRowCount ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: Number of rows in this table
+- Number: จำนวนแถวในตารางนี้
 
+.. Number: Number of rows in this table
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

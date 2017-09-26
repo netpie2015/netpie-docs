@@ -5,23 +5,31 @@
 updatePixels()
 ==============
 
-Updates the backing canvas for this image with the contents of
-the [pixels] array.
+อัปเดตผืนผ้าใบสำหรับภาพนี้กับเนื้อหาในอาร์เรย์ [pixels]
 
+.. Updates the backing canvas for this image with the contents of
+.. the [pixels] array.
 **รูปแบบการใช้งาน**
 
 updatePixels ( x, y, w, h )
 
 **พารามิเตอร์**
 
-- ``x``  Integer: x-offset of the target update area for the underlying canvas
+- ``x``  Integer: x-offset ของพื้นที่อัพเดตเป้าหมายสำหรับผืนผ้าใบพื้นฐาน
 
-- ``y``  Integer: y-offset of the target update area for the underlying canvas
+- ``y``  Integer: y-offset ของพื้นที่อัพเดตเป้าหมายสำหรับผืนผ้าใบพื้นฐาน
 
-- ``w``  Integer: height of the target update area for the underlying canvas
+- ``w``  Integer: ความสูงของพื้นที่อัพเดตเป้าหมายสำหรับผืนผ้าใบพื้นฐาน
 
-- ``h``  Integer: height of the target update area for the underlying canvas
+- ``h``  Integer: ความสูงของพื้นที่อัพเดตเป้าหมายสำหรับผืนผ้าใบพื้นฐาน
 
+.. ``x``  Integer: x-offset of the target update area for the
+                             underlying canvas
+.. ``y``  Integer: y-offset of the target update area for the
+                             underlying canvas
+.. ``w``  Integer: height of the target update area for the
+                             underlying canvas
+.. ``h``  Integer: height of the target update area for the
+                             underlying canvas
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

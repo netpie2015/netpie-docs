@@ -5,22 +5,31 @@
 cylinder()
 ==========
 
-Draw a cylinder with given radius and height
+วาดกระบอกที่มีรัศมีและความสูง
 
+.. Draw a cylinder with given radius and height
 **รูปแบบการใช้งาน**
 
 cylinder ( radius, height, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  Number: radius of the surface
+- ``radius``  Number: รัศมีของพื้นผิว
 
-- ``height``  Number: height of the cylinder
+- ``height``  Number: ความสูงของถัง
 
-- ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
+- ``detailX``  Number: ไม่จำเป็น: จำนวนกลุ่มส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 24
 
-- ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
+- ``detailY``  Number: ไม่จำเป็น: จำนวนเซ็กเมนต์ใน y-dimension ส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 16
 
+.. ``radius``  Number: radius of the surface
+.. ``height``  Number: height of the cylinder
+.. ``detailX``  Number: optional: number of segments,
+                            the more segments the smoother geometry
+                            default is 24
+.. ``detailY``  Number: optional: number of segments in y-dimension,
+                            the more segments the smoother geometry
+                            default is 16
 
 .. raw:: html
 
@@ -41,5 +50,4 @@ cylinder ( radius, height, [detailX], [detailY] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,17 +5,19 @@
 listAttributes()
 ================
 
-Gets all of the specified element's attributes, and returns them as an
-array of Strings.
+รับแอตทริบิวต์ขององค์ประกอบที่ระบุทั้งหมดและส่งค่าเป็นอาร์เรย์ของสตริง
 
+.. Gets all of the specified element's attributes, and returns them as an
+.. array of Strings.
 **รูปแบบการใช้งาน**
 
 listAttributes ( )
 
 **ค่าที่ส่งออกมา**
 
-- Array.<String>: an array of strings containing the names of attributes
+- Array.<String>: สตริงของสตริงที่มีชื่อของแอตทริบิวต์
 
+.. Array.<String>: an array of strings containing the names of attributes
 
 .. raw:: html
 
@@ -48,5 +50,4 @@ listAttributes ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

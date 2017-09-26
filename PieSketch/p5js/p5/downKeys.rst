@@ -5,8 +5,9 @@
 downKeys
 ==========
 
-Holds the key codes of currently pressed keys.
+ถือรหัสกุญแจของแป้นกดปัจจุบัน
 
+.. Holds the key codes of currently pressed keys.
 **รูปแบบการใช้งาน**
 
 downKeys
@@ -14,5 +15,4 @@ downKeys
 **พารามิเตอร์**
 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

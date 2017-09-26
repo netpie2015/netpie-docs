@@ -5,42 +5,52 @@
 curve()
 =======
 
-Draws a curved line on the screen between two points, given as the
-middle four parameters. The first two parameters are a control point, as
-if the curve came from this point even though it's not drawn. The last
-two parameters similarly describe the other control point. 
-Longer curves can be created by putting a series of curve() functions
-together or using curveVertex(). An additional function called
-curveTightness() provides control for the visual quality of the curve.
-The curve() function is an implementation of Catmull-Rom splines.
+วาดเส้นโค้งบนหน้าจอระหว่างสองจุดให้เป็นสี่พารามิเตอร์กลาง พารามิเตอร์สองตัวแรกเป็นจุดควบคุมราวกับว่าเส้นโค้งมาจากจุดนี้ถึงแม้ว่าจะไม่วาดก็ตาม พารามิเตอร์สองตัวสุดท้ายอธิบายจุดควบคุมอื่น ๆ ในทำนองเดียวกัน  เส้นโค้งที่ยาวขึ้นสามารถสร้างขึ้นได้โดยการใช้ชุดของฟังก์ชัน curve () ร่วมกันหรือใช้ curveVertex () ฟังก์ชันเพิ่มเติมที่เรียกว่า curveTightness () ให้การควบคุมคุณภาพภาพของเส้นโค้ง ฟังก์ชัน curve () คือการดำเนินการ Splines Catmull-Rom
 
+.. Draws a curved line on the screen between two points, given as the
+.. middle four parameters. The first two parameters are a control point, as
+.. if the curve came from this point even though it's not drawn. The last
+.. two parameters similarly describe the other control point. 
+.. Longer curves can be created by putting a series of curve() functions
+.. together or using curveVertex(). An additional function called
+.. curveTightness() provides control for the visual quality of the curve.
+.. The curve() function is an implementation of Catmull-Rom splines.
 **รูปแบบการใช้งาน**
 
 curve ( x1, y1, x2, y2, x3, y3, x4, y4 )
 
 **พารามิเตอร์**
 
-- ``x1``  Number: x-coordinate for the beginning control point
+- ``x1``  Number: พิกัด x สำหรับจุดควบคุมจุดเริ่มต้น
 
-- ``y1``  Number: y-coordinate for the beginning control point
+- ``y1``  Number: พิกัด y สำหรับจุดควบคุมจุดเริ่มต้น
 
-- ``x2``  Number: x-coordinate for the first point
+- ``x2``  Number: พิกัด x สำหรับจุดแรก
 
-- ``y2``  Number: y-coordinate for the first point
+- ``y2``  Number: พิกัด y สำหรับจุดแรก
 
-- ``x3``  Number: x-coordinate for the second point
+- ``x3``  Number: พิกัด x สำหรับจุดที่สอง
 
-- ``y3``  Number: y-coordinate for the second point
+- ``y3``  Number: y พิกัดสำหรับจุดที่สอง
 
-- ``x4``  Number: x-coordinate for the ending control point
+- ``x4``  Number: พิกัด x สำหรับจุดควบคุมจุดสิ้นสุด
 
-- ``y4``  Number: y-coordinate for the ending control point
+- ``y4``  Number: y- พิกัดสำหรับจุดสิ้นสุดการควบคุม
 
+.. ``x1``  Number: x-coordinate for the beginning control point
+.. ``y1``  Number: y-coordinate for the beginning control point
+.. ``x2``  Number: x-coordinate for the first point
+.. ``y2``  Number: y-coordinate for the first point
+.. ``x3``  Number: x-coordinate for the second point
+.. ``y3``  Number: y-coordinate for the second point
+.. ``x4``  Number: x-coordinate for the ending control point
+.. ``y4``  Number: y-coordinate for the ending control point
 
 **ค่าที่ส่งออกมา**
 
-- p5: the p5 object
+- p5: วัตถุ p5
 
+.. p5: the p5 object
 
 .. raw:: html
 
@@ -73,5 +83,4 @@ curve ( x1, y1, x2, y2, x3, y3, x4, y4 )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

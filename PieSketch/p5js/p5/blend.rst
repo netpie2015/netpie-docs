@@ -12,6 +12,12 @@ Available blend modes are: BLEND | DARKEST | LIGHTEST | DIFFERENCE |
 MULTIPLY| EXCLUSION | SCREEN | REPLACE | OVERLAY | HARD_LIGHT |
 SOFT_LIGHT | DODGE | BURN | ADD | NORMAL
 
+.. Copies a region of pixels from one image to another, using a specified
+.. blend mode to do the operation.
+.. 
+.. Available blend modes are: BLEND | DARKEST | LIGHTEST | DIFFERENCE |
+.. MULTIPLY| EXCLUSION | SCREEN | REPLACE | OVERLAY | HARD_LIGHT |
+.. SOFT_LIGHT | DODGE | BURN | ADD | NORMAL
 **รูปแบบการใช้งาน**
 
 blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
@@ -38,6 +44,16 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 - ``blendMode``  Integer: the blend mode
 
+.. ``srcImage``  p5.Image,undefined: source image
+.. ``sx``  Integer: X coordinate of the source's upper left corner
+.. ``sy``  Integer: Y coordinate of the source's upper left corner
+.. ``sw``  Integer: source image width
+.. ``sh``  Integer: source image height
+.. ``dx``  Integer: X coordinate of the destination's upper left corner
+.. ``dy``  Integer: Y coordinate of the destination's upper left corner
+.. ``dw``  Integer: destination image width
+.. ``dh``  Integer: destination image height
+.. ``blendMode``  Integer: the blend mode
 
 .. raw:: html
 
@@ -86,5 +102,4 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

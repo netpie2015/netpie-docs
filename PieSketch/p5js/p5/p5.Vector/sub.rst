@@ -5,23 +5,28 @@
 sub()
 =====
 
-Subtracts x, y, and z components from a vector, subtracts one vector from
-another, or subtracts two independent vectors. The version of the method
-that subtracts two vectors is a static method and returns a p5.Vector, the
-other acts directly on the vector. See the examples for more context.
+ลบเซต x, y และ z จากเวกเตอร์ลบเวกเตอร์หนึ่งจากอีกอันหนึ่งหรือลบสองเวกเตอร์อิสระ รุ่นของวิธีการที่ลบสองเวกเตอร์เป็นวิธีการแบบคงที่และส่งกลับค่า p5.Vector การกระทำอื่น ๆ โดยตรงบนเวกเตอร์ ดูตัวอย่างสำหรับบริบทเพิ่มเติม
 
+.. Subtracts x, y, and z components from a vector, subtracts one vector from
+.. another, or subtracts two independent vectors. The version of the method
+.. that subtracts two vectors is a static method and returns a p5.Vector, the
+.. other acts directly on the vector. See the examples for more context.
 **รูปแบบการใช้งาน**
 
 sub ( x, [y], [z] )
 
 **พารามิเตอร์**
 
-- ``x``  Number,p5.Vector,Array: the x component of the vector or a p5.Vector or an Array
+- ``x``  Number,p5.Vector,Array: คอมโพเนนต์ x ของเวกเตอร์หรือ p5.Vector หรือ Array
 
-- ``y``  Number: the y component of the vector
+- ``y``  Number: องค์ประกอบ y ของเวกเตอร์
 
-- ``z``  Number: the z component of the vector
+- ``z``  Number: องค์ประกอบ z ของเวกเตอร์
 
+.. ``x``  Number,p5.Vector,Array: the x component of the vector or a
+                                     p5.Vector or an Array
+.. ``y``  Number: the y component of the vector
+.. ``z``  Number: the z component of the vector
 
 .. raw:: html
 
@@ -47,5 +52,4 @@ sub ( x, [y], [z] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

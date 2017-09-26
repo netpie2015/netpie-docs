@@ -5,16 +5,18 @@
 model()
 =======
 
-Render a 3d model to the screen.
+ทำให้โมเดล 3 มิติไปที่หน้าจอ
 
+.. Render a 3d model to the screen.
 **รูปแบบการใช้งาน**
 
 model ( model )
 
 **พารามิเตอร์**
 
-- ``model``  p5.Geometry: Loaded 3d model to be rendered
+- ``model``  p5.Geometry: โหลดโมเดล 3 มิติที่จะแสดงผลแล้ว
 
+.. ``model``  p5.Geometry: Loaded 3d model to be rendered
 
 .. raw:: html
 
@@ -39,5 +41,4 @@ model ( model )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

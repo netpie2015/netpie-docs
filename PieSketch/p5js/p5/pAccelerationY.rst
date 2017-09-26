@@ -5,13 +5,13 @@
 pAccelerationY
 ================
 
-The system variable pAccelerationY always contains the acceleration of the
-device along the y axis in the frame previous to the current frame. Value
-is represented as meters per second squared.
+ตัวแปร pAccelerationY ของระบบประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน y ในเฟรมก่อนเฟรมปัจจุบัน ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง
 
+.. The system variable pAccelerationY always contains the acceleration of the
+.. device along the y axis in the frame previous to the current frame. Value
+.. is represented as meters per second squared.
 **รูปแบบการใช้งาน**
 
 pAccelerationY
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

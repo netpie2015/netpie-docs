@@ -5,8 +5,9 @@
 dilate()
 ========
 
-reduces the bright areas in an image
+ลดพื้นที่สว่างในภาพ
 
+.. reduces the bright areas in an image
 **รูปแบบการใช้งาน**
 
 dilate ( canvas )
@@ -15,6 +16,6 @@ dilate ( canvas )
 
 - ``canvas``  Canvas: 
 
+.. ``canvas``  Canvas: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

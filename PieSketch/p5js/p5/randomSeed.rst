@@ -5,19 +5,21 @@
 randomSeed()
 ============
 
-Sets the seed value for random().
-By default, random() produces different results each time the program
-is run. Set the seed parameter to a constant to return the same
-pseudo-random numbers each time the software is run.
+ตั้งค่าเมล็ดสำหรับ random () โดยค่าเริ่มต้น random () จะให้ผลลัพธ์ที่แตกต่างกันในแต่ละครั้งที่มีการเรียกใช้โปรแกรม ตั้งค่าพารามิเตอร์ seed เป็นค่าคงที่เพื่อให้ตัวเลข pseudo-random เดียวกันทุกครั้งที่มีการเรียกใช้ซอฟต์แวร์
 
+.. Sets the seed value for random().
+.. By default, random() produces different results each time the program
+.. is run. Set the seed parameter to a constant to return the same
+.. pseudo-random numbers each time the software is run.
 **รูปแบบการใช้งาน**
 
 randomSeed ( seed )
 
 **พารามิเตอร์**
 
-- ``seed``  Number: the seed value
+- ``seed``  Number: ค่าเมล็ด
 
+.. ``seed``  Number: the seed value
 
 .. raw:: html
 
@@ -33,5 +35,4 @@ randomSeed ( seed )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

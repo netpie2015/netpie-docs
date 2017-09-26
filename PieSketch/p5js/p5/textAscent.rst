@@ -5,10 +5,11 @@
 textAscent()
 ============
 
-Returns the ascent of the current font at its current size. The ascent
-represents the distance, in pixels, of the tallest character above
-the baseline.
+แสดงการขึ้นของแบบอักษรปัจจุบันที่มีขนาดปัจจุบัน การขึ้นจะแสดงระยะทางเป็นพิกเซลของอักขระที่สูงที่สุดเหนือเส้นฐาน
 
+.. Returns the ascent of the current font at its current size. The ascent
+.. represents the distance, in pixels, of the tallest character above
+.. the baseline.
 **รูปแบบการใช้งาน**
 
 textAscent ( )
@@ -17,6 +18,7 @@ textAscent ( )
 
 - Number: 
 
+.. Number: 
 
 .. raw:: html
 
@@ -38,5 +40,4 @@ textAscent ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

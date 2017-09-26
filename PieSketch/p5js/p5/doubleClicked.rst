@@ -5,14 +5,15 @@
 doubleClicked()
 ===============
 
-The doubleClicked() function is executed every time a event
-listener has detected a dblclick event which is a part of the
-DOM L3 specification. The doubleClicked event is fired when a
-pointing device button (usually a mouse's primary button)
-is clicked twice on a single element. For more info on the
-dblclick event refer to mozilla's documentation here:
-https://developer.mozilla.org/en-US/docs/Web/Events/dblclick
+ฟังก์ชัน doubleClicked () จะทำงานทุกครั้งที่ผู้ฟังเหตุการณ์ตรวจพบเหตุการณ์ dblclick ซึ่งเป็นส่วนหนึ่งของข้อกำหนดของ DOM L3 เหตุการณ์ doubleClicked จะเริ่มทำงานเมื่อปุ่มอุปกรณ์ชี้ตำแหน่ง (โดยปกติจะเป็นปุ่มหลักของเมาส์) จะถูกคลิกสองครั้งบนองค์ประกอบเดี่ยว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับเหตุการณ์ dblclick โปรดดูเอกสารของ mozilla ที่นี่: https://developer.mozilla.org/en-US/docs/Web/Events/dblclick
 
+.. The doubleClicked() function is executed every time a event
+.. listener has detected a dblclick event which is a part of the
+.. DOM L3 specification. The doubleClicked event is fired when a
+.. pointing device button (usually a mouse's primary button)
+.. is clicked twice on a single element. For more info on the
+.. dblclick event refer to mozilla's documentation here:
+.. https://developer.mozilla.org/en-US/docs/Web/Events/dblclick
 **รูปแบบการใช้งาน**
 
 doubleClicked ( )
@@ -54,5 +55,4 @@ doubleClicked ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

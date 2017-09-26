@@ -5,27 +5,32 @@
 findRow()
 =========
 
-Finds the first row in the Table that contains the value
- provided, and returns a reference to that row. Even if
- multiple rows are possible matches, only the first matching
- row is returned. The column to search may be specified by
- either its ID or title.
+ค้นหาแถวแรกในตารางที่มีค่าที่ให้ไว้และส่งกลับการอ้างอิงไปยังแถวนั้น แม้ว่าจะมีแถวหลายแถวที่เป็นไปได้การจับคู่จะมีการส่งคืนเฉพาะแถวที่ตรงกันเท่านั้น คอลัมน์เพื่อค้นหาอาจระบุโดย ID หรือชื่อ
 
+.. Finds the first row in the Table that contains the value
+..  provided, and returns a reference to that row. Even if
+..  multiple rows are possible matches, only the first matching
+..  row is returned. The column to search may be specified by
+..  either its ID or title.
 **รูปแบบการใช้งาน**
 
 findRow ( value, column )
 
 **พารามิเตอร์**
 
-- ``value``  String: The value to match
+- ``value``  String: ค่าที่จับคู่
 
-- ``column``  Number,String: ID number or title of the column to search
+- ``column``  Number,String: หมายเลขประจำตัวหรือชื่อของคอลัมน์ที่ต้องการค้นหา
 
+.. ``value``  String: The value to match
+.. ``column``  Number,String: ID number or title of the
+                                column to search
 
 **ค่าที่ส่งออกมา**
 
 - p5.TableRow: 
 
+.. p5.TableRow: 
 
 .. raw:: html
 
@@ -57,5 +62,4 @@ findRow ( value, column )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

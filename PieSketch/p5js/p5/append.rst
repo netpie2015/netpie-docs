@@ -5,19 +5,22 @@
 append()
 ========
 
-Adds a value to the end of an array. Extends the length of
-the array by one. Maps to Array.push().
+เพิ่มค่าลงในตอนท้ายของอาร์เรย์ ขยายความยาวของอาร์เรย์หนึ่ง ๆ แผนที่ไปยัง Array.push ()
 
+.. Adds a value to the end of an array. Extends the length of
+.. the array by one. Maps to Array.push().
 **รูปแบบการใช้งาน**
 
 append ( array, value )
 
 **พารามิเตอร์**
 
-- ``array``  Array: Array to append
+- ``array``  Array: อาร์เรย์ต่อท้าย
 
-- ``value``  any: to be added to the Array
+- ``value``  any: ที่จะเพิ่มลงในอาร์เรย์
 
+.. ``array``  Array: Array to append
+.. ``value``  any: to be added to the Array
 
 .. raw:: html
 
@@ -36,5 +39,4 @@ append ( array, value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

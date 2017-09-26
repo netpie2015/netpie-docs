@@ -5,20 +5,23 @@
 translate()
 ===========
 
-[translate description]
+[แปลคำอธิบาย]
 
+.. [translate description]
 **รูปแบบการใช้งาน**
 
 translate ( x, y, z )
 
 **พารามิเตอร์**
 
-- ``x``  Number: [description]
+- ``x``  Number: [รายละเอียด]
 
-- ``y``  Number: [description]
+- ``y``  Number: [รายละเอียด]
 
-- ``z``  Number: [description]
+- ``z``  Number: [รายละเอียด]
 
+.. ``x``  Number: [description]
+.. ``y``  Number: [description]
+.. ``z``  Number: [description]
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

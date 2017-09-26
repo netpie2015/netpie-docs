@@ -5,9 +5,10 @@
 winMouseX
 ===========
 
-The system variable winMouseX always contains the current horizontal
-position of the mouse, relative to (0, 0) of the window.
+ตัวแปรระบบ winMouseX ประกอบด้วยตำแหน่งในแนวนอนในปัจจุบันของเมาส์เทียบกับ (0, 0) ของหน้าต่าง
 
+.. The system variable winMouseX always contains the current horizontal
+.. position of the mouse, relative to (0, 0) of the window.
 **รูปแบบการใช้งาน**
 
 winMouseX
@@ -39,5 +40,4 @@ winMouseX
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

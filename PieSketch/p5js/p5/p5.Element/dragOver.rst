@@ -5,18 +5,21 @@
 dragOver()
 ==========
 
-The .dragOver() function is called once after every time a
-file is dragged over the element. This can be used to attach an
-element specific event listener.
+ฟังก์ชัน. dragOver () เรียกว่าครั้งหลังจากที่มีการลากไฟล์ไปยังองค์ประกอบทุกครั้ง สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .dragOver() function is called once after every time a
+.. file is dragged over the element. This can be used to attach an
+.. element specific event listener.
 **รูปแบบการใช้งาน**
 
 dragOver ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is dragged over the element.
+- ``fxn``  function: จะถูกเรียกใช้เมื่อลากเมาส์ไปเหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   dragged over the element.
 
 .. raw:: html
 
@@ -42,5 +45,4 @@ dragOver ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

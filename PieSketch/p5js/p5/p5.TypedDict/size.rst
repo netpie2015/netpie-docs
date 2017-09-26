@@ -5,16 +5,18 @@
 size()
 ======
 
-Returns the number of key-value pairs currently in Dictionary object
+แสดงจำนวนคู่คีย์ - ค่าที่อยู่ในออบเจ็กต์ Dictionary
 
+.. Returns the number of key-value pairs currently in Dictionary object
 **รูปแบบการใช้งาน**
 
 size ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: the number of key-value pairs in Dictionary object
+- Number: จำนวนคู่คีย์ - ค่าในออบเจ็กต์ Dictionary
 
+.. Number: the number of key-value pairs in Dictionary object
 
 .. raw:: html
 
@@ -32,5 +34,4 @@ size ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

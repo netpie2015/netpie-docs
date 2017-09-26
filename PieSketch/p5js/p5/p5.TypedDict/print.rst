@@ -5,11 +5,11 @@
 print()
 =======
 
-Logs the list of items currently in the Dictionary to the console
+บันทึกรายการของไอเทมที่อยู่ในพจนานุกรมไปยังคอนโซล
 
+.. Logs the list of items currently in the Dictionary to the console
 **รูปแบบการใช้งาน**
 
 print ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

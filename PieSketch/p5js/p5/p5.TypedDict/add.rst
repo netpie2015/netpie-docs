@@ -5,19 +5,22 @@
 add()
 =====
 
-Add to a value stored at a certain key
-The sum is stored in that location in the Dictionary.
+จำนวนที่เก็บอยู่ในตำแหน่งนั้นในพจนานุกรม
 
+.. Add to a value stored at a certain key
+.. The sum is stored in that location in the Dictionary.
 **รูปแบบการใช้งาน**
 
 add ( Key, Amount )
 
 **พารามิเตอร์**
 
-- ``Key``  Number: for value you wish to add to
+- ``Key``  Number: สำหรับค่าที่คุณต้องการเพิ่ม
 
-- ``Amount``  Number: to add to the value
+- ``Amount``  Number: เพื่อเพิ่มมูลค่า
 
+.. ``Key``  Number: for value you wish to add to
+.. ``Amount``  Number: to add to the value
 
 .. raw:: html
 
@@ -32,5 +35,4 @@ add ( Key, Amount )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

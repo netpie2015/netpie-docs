@@ -5,19 +5,22 @@
 setAttribute()
 ==============
 
-Sets the content of an element's attribute. The first parameter specifies
-the attribute name, while the second specifies the new content.
+ตั้งค่าแอตทริบิวต์ขององค์ประกอบ พารามิเตอร์แรกระบุชื่อแอตทริบิวต์ในขณะที่สองระบุเนื้อหาใหม่
 
+.. Sets the content of an element's attribute. The first parameter specifies
+.. the attribute name, while the second specifies the new content.
 **รูปแบบการใช้งาน**
 
 setAttribute ( name, value )
 
 **พารามิเตอร์**
 
-- ``name``  String: the full name of the attribute
+- ``name``  String: ชื่อเต็มของแอตทริบิวต์
 
-- ``value``  Number: the value of the attribute
+- ``value``  Number: ค่าของแอตทริบิวต์
 
+.. ``name``  String: the full name of the attribute
+.. ``value``  Number: the value of the attribute
 
 .. raw:: html
 
@@ -53,5 +56,4 @@ setAttribute ( name, value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

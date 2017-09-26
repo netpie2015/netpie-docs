@@ -5,11 +5,12 @@
 mouseButton
 =============
 
-Processing automatically tracks if the mouse button is pressed and which
-button is pressed. The value of the system variable mouseButton is either
-LEFT, RIGHT, or CENTER depending on which button was pressed last.
-Warning: different browsers may track mouseButton differently.
+การประมวลผลจะติดตามโดยอัตโนมัติหากกดปุ่มเมาส์และกดปุ่มใด ค่าของ mouseButton ตัวแปรระบบคือ LEFT, RIGHT หรือ CENTER ขึ้นอยู่กับปุ่มใดที่กดปุ่มสุดท้าย คำเตือน: เบราว์เซอร์อื่นอาจติดตาม mouseButton แตกต่างกัน
 
+.. Processing automatically tracks if the mouse button is pressed and which
+.. button is pressed. The value of the system variable mouseButton is either
+.. LEFT, RIGHT, or CENTER depending on which button was pressed last.
+.. Warning: different browsers may track mouseButton differently.
 **รูปแบบการใช้งาน**
 
 mouseButton
@@ -37,5 +38,4 @@ mouseButton
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

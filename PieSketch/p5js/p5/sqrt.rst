@@ -5,24 +5,27 @@
 sqrt()
 ======
 
-Calculates the square root of a number. The square root of a number is
-always positive, even though there may be a valid negative root. The
-square root s of number a is such that s*s = a. It is the opposite of
-squaring. Maps to Math.sqrt().
+คำนวณรากที่สองของจำนวน รากที่สองของจำนวนเป็นบวกแม้ว่าจะมีรากลบที่ถูกต้องก็ตาม รากที่สองของจำนวน a เป็นเช่น s * s = a มันเป็นสิ่งที่ตรงกันข้ามกับการเหลา Maps to Math.sqrt ()
 
+.. Calculates the square root of a number. The square root of a number is
+.. always positive, even though there may be a valid negative root. The
+.. square root s of number a is such that s*s = a. It is the opposite of
+.. squaring. Maps to Math.sqrt().
 **รูปแบบการใช้งาน**
 
 sqrt ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: non-negative number to square root
+- ``n``  Number: จำนวนที่ไม่ใช่เชิงลบต่อรากที่สอง
 
+.. ``n``  Number: non-negative number to square root
 
 **ค่าที่ส่งออกมา**
 
-- Number: square root of number
+- Number: รากที่สองของจำนวน
 
+.. Number: square root of number
 
 .. raw:: html
 
@@ -59,5 +62,4 @@ sqrt ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

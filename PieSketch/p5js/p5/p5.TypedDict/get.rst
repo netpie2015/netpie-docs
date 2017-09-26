@@ -5,21 +5,24 @@
 get()
 =====
 
-Returns value stored at supplied key.
+ส่งคืนค่าที่จัดเก็บไว้ในคีย์ที่ให้มา
 
+.. Returns value stored at supplied key.
 **รูปแบบการใช้งาน**
 
 get ( key )
 
 **พารามิเตอร์**
 
-- ``key``  Number,String: that you want to access
+- ``key``  Number,String: ที่คุณต้องการเข้าถึง
 
+.. ``key``  Number,String: that you want to access
 
 **ค่าที่ส่งออกมา**
 
-- Number,String: the value stored at that key
+- Number,String: ค่าที่เก็บไว้ที่คีย์นั้น
 
+.. Number,String: the value stored at that key
 
 .. raw:: html
 
@@ -36,5 +39,4 @@ get ( key )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

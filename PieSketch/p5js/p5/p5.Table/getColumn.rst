@@ -5,22 +5,25 @@
 getColumn()
 ===========
 
-Retrieves all values in the specified column, and returns them
- as an array. The column may be specified by either its ID or title.
+ดึงค่าทั้งหมดในคอลัมน์ที่ระบุและส่งกลับค่าเป็นอาร์เรย์ คอลัมน์อาจถูกระบุโดย ID หรือชื่อ
 
+.. Retrieves all values in the specified column, and returns them
+..  as an array. The column may be specified by either its ID or title.
 **รูปแบบการใช้งาน**
 
 getColumn ( column )
 
 **พารามิเตอร์**
 
-- ``column``  String,Number: String or Number of the column to return
+- ``column``  String,Number: สตริงหรือจำนวนของคอลัมน์ที่จะส่งคืน
 
+.. ``column``  String,Number: String or Number of the column to return
 
 **ค่าที่ส่งออกมา**
 
-- Array: Array of column values
+- Array: อาร์เรย์ของค่าคอลัมน์
 
+.. Array: Array of column values
 
 .. raw:: html
 
@@ -51,5 +54,4 @@ getColumn ( column )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

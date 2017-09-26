@@ -7,6 +7,7 @@ angleMode()
 
 Sets the current mode of p5 to given mode. Default mode is RADIANS.
 
+.. Sets the current mode of p5 to given mode. Default mode is RADIANS.
 **รูปแบบการใช้งาน**
 
 angleMode ( mode )
@@ -15,6 +16,7 @@ angleMode ( mode )
 
 - ``mode``  Constant: either RADIANS or DEGREES
 
+.. ``mode``  Constant: either RADIANS or DEGREES
 
 .. raw:: html
 
@@ -37,5 +39,4 @@ angleMode ( mode )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

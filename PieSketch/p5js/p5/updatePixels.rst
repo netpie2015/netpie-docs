@@ -12,6 +12,12 @@ necessary to apply changes. updatePixels() should be called anytime the
 pixels array is manipulated or set() is called, and only changes made with
 set() or direct changes to pixels[] will occur.
 
+.. Updates the display window with the data in the pixels[] array.
+.. Use in conjunction with loadPixels(). If you're only reading pixels from
+.. the array, there's no need to call updatePixels() — updating is only
+.. necessary to apply changes. updatePixels() should be called anytime the
+.. pixels array is manipulated or set() is called, and only changes made with
+.. set() or direct changes to pixels[] will occur.
 **รูปแบบการใช้งาน**
 
 updatePixels ( [x], [y], [w], [h] )
@@ -26,6 +32,12 @@ updatePixels ( [x], [y], [w], [h] )
 
 - ``h``  Number: height of region to update
 
+.. ``x``  Number: x-coordinate of the upper-left corner of region
+                        to update
+.. ``y``  Number: y-coordinate of the upper-left corner of region
+                        to update
+.. ``w``  Number: width of region to update
+.. ``h``  Number: height of region to update
 
 .. raw:: html
 
@@ -50,5 +62,4 @@ updatePixels ( [x], [y], [w], [h] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

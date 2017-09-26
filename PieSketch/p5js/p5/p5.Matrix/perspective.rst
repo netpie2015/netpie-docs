@@ -5,22 +5,26 @@
 perspective()
 =============
 
-sets the perspective matrix
+กำหนดเมทริกซ์มุมมอง
 
+.. sets the perspective matrix
 **รูปแบบการใช้งาน**
 
 perspective ( fovy, aspect, near, far )
 
 **พารามิเตอร์**
 
-- ``fovy``  Number: [description]
+- ``fovy``  Number: [รายละเอียด]
 
-- ``aspect``  Number: [description]
+- ``aspect``  Number: [รายละเอียด]
 
-- ``near``  Number: near clipping plane
+- ``near``  Number: ใกล้ระนาบตัด
 
-- ``far``  Number: far clipping plane
+- ``far``  Number: เครื่องบินตัดยาว
 
+.. ``fovy``  Number: [description]
+.. ``aspect``  Number: [description]
+.. ``near``  Number: near clipping plane
+.. ``far``  Number: far clipping plane
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

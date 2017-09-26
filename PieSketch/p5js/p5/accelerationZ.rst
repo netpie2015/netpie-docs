@@ -5,12 +5,12 @@
 accelerationZ
 ===============
 
-The system variable accelerationZ always contains the acceleration of the
-device along the z axis. Value is represented as meters per second squared.
+การเร่งด้วยความเร่งของระบบมักประกอบด้วยการเร่งความเร็วของอุปกรณ์ตามแนวแกน z ค่าจะแสดงเป็นเมตรต่อวินาทียกกำลังสอง
 
+.. The system variable accelerationZ always contains the acceleration of the
+.. device along the z axis. Value is represented as meters per second squared.
 **รูปแบบการใช้งาน**
 
 accelerationZ
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

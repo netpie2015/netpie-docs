@@ -5,35 +5,54 @@
 blend()
 =======
 
-Copies a region of pixels from one image to another, using a specified
-blend mode to do the operation.
+คัดลอกพื้นที่พิกเซลจากภาพหนึ่งไปยังอีกภาพหนึ่งโดยใช้โหมดผสมผสานที่ระบุเพื่อดำเนินการ
 
+.. Copies a region of pixels from one image to another, using a specified
+.. blend mode to do the operation.
 **รูปแบบการใช้งาน**
 
 blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 **พารามิเตอร์**
 
-- ``srcImage``  p5.Image,undefined: source image
+- ``srcImage``  p5.Image,undefined: ภาพต้นฉบับ
 
-- ``sx``  Integer: X coordinate of the source's upper left corner
+- ``sx``  Integer: พิกัด X ของมุมซายบนของแหลง
 
-- ``sy``  Integer: Y coordinate of the source's upper left corner
+- ``sy``  Integer: พิกัด Y ของมุมซายบนของแหลง
 
-- ``sw``  Integer: source image width
+- ``sw``  Integer: ความกว้างของภาพต้นฉบับ
 
-- ``sh``  Integer: source image height
+- ``sh``  Integer: ความสูงของภาพต้นฉบับ
 
-- ``dx``  Integer: X coordinate of the destination's upper left corner
+- ``dx``  Integer: พิกัด X ของมุมบนซ้ายของปลายทาง
 
-- ``dy``  Integer: Y coordinate of the destination's upper left corner
+- ``dy``  Integer: พิกัด Y ของมุมบนซ้ายของปลายทาง
 
-- ``dw``  Integer: destination image width
+- ``dw``  Integer: ความกว้างของภาพปลายทาง
 
-- ``dh``  Integer: destination image height
+- ``dh``  Integer: ความสูงของภาพปลายทาง
 
-- ``blendMode``  Integer: the blend mode Available blend modes are: normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
+- ``blendMode``  Integer: โหมดผสมผสานมีให้เลือกดังนี้: ปกติ | คูณ หน้าจอ การวางซ้อน | มืด เบาลง สีหลบ | การเผาไหม้ด้วยสี | ยาก - เบา แสงอ่อน | ความแตกต่าง การยกเว้น | สี | ความอิ่มตัว สี ความสว่าง http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
 
+.. ``srcImage``  p5.Image,undefined: source image
+.. ``sx``  Integer: X coordinate of the source's upper left corner
+.. ``sy``  Integer: Y coordinate of the source's upper left corner
+.. ``sw``  Integer: source image width
+.. ``sh``  Integer: source image height
+.. ``dx``  Integer: X coordinate of the destination's upper left corner
+.. ``dy``  Integer: Y coordinate of the destination's upper left corner
+.. ``dw``  Integer: destination image width
+.. ``dh``  Integer: destination image height
+.. ``blendMode``  Integer: the blend mode
+
+Available blend modes are: normal | multiply | screen | overlay |
+           darken | lighten | color-dodge | color-burn | hard-light |
+           soft-light | difference | exclusion | hue | saturation |
+           color | luminosity
+
+
+http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
 
 .. raw:: html
 
@@ -82,5 +101,4 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

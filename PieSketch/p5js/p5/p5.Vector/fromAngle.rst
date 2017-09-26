@@ -5,21 +5,24 @@
 fromAngle()
 ===========
 
-Make a new 2D unit vector from an angle
+สร้างเวกเตอร์แบบ 2D ใหม่จากมุมหนึ่ง
 
+.. Make a new 2D unit vector from an angle
 **รูปแบบการใช้งาน**
 
 fromAngle ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  Number: the desired angle
+- ``angle``  Number: มุมที่ต้องการ
 
+.. ``angle``  Number: the desired angle
 
 **ค่าที่ส่งออกมา**
 
-- p5.Vector: the new p5.Vector object
+- p5.Vector: วัตถุ p5.Vector ใหม่
 
+.. p5.Vector: the new p5.Vector object
 
 .. raw:: html
 
@@ -60,5 +63,4 @@ fromAngle ( angle )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

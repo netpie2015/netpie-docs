@@ -5,27 +5,32 @@
 ellipse()
 =========
 
-Draws an ellipse (oval) to the screen. An ellipse with equal width and
-height is a circle. By default, the first two parameters set the location,
-and the third and fourth parameters set the shape's width and height. If
-no height is specified, the value of width is used for both the width and
-height. If a negative height or width is specified, the absolute value is taken.
-The origin may be changed with the ellipseMode() function.
+วาดวงรี (รูปวงรี) ไปที่หน้าจอ วงรีที่มีความกว้างและความสูงเท่ากันคือวงกลม พารามิเตอร์สองตัวแรกกำหนดตำแหน่งและพารามิเตอร์ที่สามและสี่กำหนดความกว้างและความสูงของรูปร่าง หากไม่มีการระบุความสูงค่าความกว้างจะใช้ทั้งความกว้างและความสูง ถ้ามีการระบุความสูงหรือความกว้างเชิงลบจะใช้ค่าสัมบูรณ์ ต้นกำเนิดอาจเปลี่ยนแปลงได้โดยใช้ฟังก์ชัน ellipseMode ()
 
+.. Draws an ellipse (oval) to the screen. An ellipse with equal width and
+.. height is a circle. By default, the first two parameters set the location,
+.. and the third and fourth parameters set the shape's width and height. If
+.. no height is specified, the value of width is used for both the width and
+.. height. If a negative height or width is specified, the absolute value is taken.
+.. The origin may be changed with the ellipseMode() function.
 **รูปแบบการใช้งาน**
 
 ellipse ( x, y, w, [h] )
 
 **พารามิเตอร์**
 
-- ``x``  Number: x-coordinate of the ellipse.
+- ``x``  Number: พิกัด x ของวงรี
 
-- ``y``  Number: y-coordinate of the ellipse.
+- ``y``  Number: พิกัด y ของวงรี
 
-- ``w``  Number: width of the ellipse.
+- ``w``  Number: ความกว้างของวงรี
 
-- ``h``  Number: height of the ellipse.
+- ``h``  Number: ความสูงของวงรี
 
+.. ``x``  Number: x-coordinate of the ellipse.
+.. ``y``  Number: y-coordinate of the ellipse.
+.. ``w``  Number: width of the ellipse.
+.. ``h``  Number: height of the ellipse.
 
 .. raw:: html
 
@@ -36,5 +41,4 @@ ellipse ( x, y, w, [h] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

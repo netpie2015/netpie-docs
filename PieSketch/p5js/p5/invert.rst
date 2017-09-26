@@ -5,8 +5,9 @@
 invert()
 ========
 
-Sets each pixel to its inverse value. No parameter is used.
+ตั้งค่าแต่ละพิกเซลเป็นค่าผกผัน ไม่มีพารามิเตอร์ที่ใช้
 
+.. Sets each pixel to its inverse value. No parameter is used.
 **รูปแบบการใช้งาน**
 
 invert ( canvas )
@@ -15,6 +16,6 @@ invert ( canvas )
 
 - ``canvas``  Canvas: 
 
+.. ``canvas``  Canvas: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

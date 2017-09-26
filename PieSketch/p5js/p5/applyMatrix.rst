@@ -5,35 +5,42 @@
 applyMatrix()
 =============
 
-Multiplies the current matrix by the one specified through the parameters.
-This is a powerful operation that can perform the equivalent of translate,
-scale, shear and rotate all at once. You can learn more about transformation
-matrices on 
-Wikipedia.
-The naming of the arguments here follows the naming of the 
-WHATWG specification and corresponds to a
-transformation matrix of the
-form:
-> 
+คูณเมทริกซ์ปัจจุบันตามค่าที่กำหนดโดยพารามิเตอร์ นี่คือการดำเนินงานที่มีประสิทธิภาพซึ่งสามารถทำงานได้เทียบเท่ากับการแปล, การวัด, การเฉือนและการหมุนทั้งหมดในครั้งเดียว คุณสามารถเรียนรู้เพิ่มเติมเกี่ยวกับเมทริกซ์การเปลี่ยนแปลงใน วิกิพีเดีย การตั้งชื่อของอาร์กิวเมนต์ที่นี่มีดังต่อไปนี้การตั้งชื่อ ข้อกำหนด WHATWG และสอดคล้องกับเมทริกซ์การเปลี่ยนแปลงของแบบฟอร์ม:&gt; 
 
+.. Multiplies the current matrix by the one specified through the parameters.
+.. This is a powerful operation that can perform the equivalent of translate,
+.. scale, shear and rotate all at once. You can learn more about transformation
+.. matrices on 
+.. Wikipedia.
+.. The naming of the arguments here follows the naming of the 
+.. WHATWG specification and corresponds to a
+.. transformation matrix of the
+.. form:
+.. > 
 **รูปแบบการใช้งาน**
 
 applyMatrix ( a, b, c, d, e, f )
 
 **พารามิเตอร์**
 
-- ``a``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``a``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
-- ``b``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``b``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
-- ``c``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``c``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
-- ``d``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``d``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
-- ``e``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``e``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
-- ``f``  Number: numbers which define the 2x3 matrix to be multiplied
+- ``f``  Number: ตัวเลขที่กำหนดเมทริกซ์ 2x3 จะคูณ
 
+.. ``a``  Number: numbers which define the 2x3 matrix to be multiplied
+.. ``b``  Number: numbers which define the 2x3 matrix to be multiplied
+.. ``c``  Number: numbers which define the 2x3 matrix to be multiplied
+.. ``d``  Number: numbers which define the 2x3 matrix to be multiplied
+.. ``e``  Number: numbers which define the 2x3 matrix to be multiplied
+.. ``f``  Number: numbers which define the 2x3 matrix to be multiplied
 
 .. raw:: html
 
@@ -117,5 +124,4 @@ applyMatrix ( a, b, c, d, e, f )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

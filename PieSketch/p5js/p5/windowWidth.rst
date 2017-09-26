@@ -5,9 +5,10 @@
 windowWidth
 =============
 
-System variable that stores the width of the inner window, it maps to
-window.innerWidth.
+ตัวแปรระบบที่เก็บความกว้างของหน้าต่างด้านในจะแม็พกับ window.innerWidth
 
+.. System variable that stores the width of the inner window, it maps to
+.. window.innerWidth.
 **รูปแบบการใช้งาน**
 
 windowWidth
@@ -21,5 +22,4 @@ windowWidth
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,23 +5,26 @@
 log()
 =====
 
-Calculates the natural logarithm (the base-e logarithm) of a number. This
-function expects the n parameter to be a value greater than 0.0. Maps to
-Math.log().
+คำนวณลอการิทึมธรรมชาติ (ฐาน -e ลอการิทึม) ของจำนวน ฟังก์ชันนี้คาดว่าพารามิเตอร์ n จะมีค่ามากกว่า 0.0 แผนที่ไปที่ Math.log ()
 
+.. Calculates the natural logarithm (the base-e logarithm) of a number. This
+.. function expects the n parameter to be a value greater than 0.0. Maps to
+.. Math.log().
 **รูปแบบการใช้งาน**
 
 log ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number greater than 0
+- ``n``  Number: จำนวนมากกว่า 0
 
+.. ``n``  Number: number greater than 0
 
 **ค่าที่ส่งออกมา**
 
-- Number: natural logarithm of n
+- Number: ลอการิทึมธรรมชาติของ n
 
+.. Number: natural logarithm of n
 
 .. raw:: html
 
@@ -67,5 +70,4 @@ log ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

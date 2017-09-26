@@ -5,21 +5,24 @@
 point()
 =======
 
-Draws a point, a coordinate in space at the dimension of one pixel.
-The first parameter is the horizontal value for the point, the second
-value is the vertical value for the point. The color of the point is
-determined by the current stroke.
+วาดจุดพิกัดในพื้นที่ที่ขนาดหนึ่งพิกเซล พารามิเตอร์แรกคือค่าแนวนอนสำหรับจุดค่าที่สองคือค่าแนวตั้งสำหรับจุด สีของจุดจะถูกกำหนดโดยจังหวะปัจจุบัน
 
+.. Draws a point, a coordinate in space at the dimension of one pixel.
+.. The first parameter is the horizontal value for the point, the second
+.. value is the vertical value for the point. The color of the point is
+.. determined by the current stroke.
 **รูปแบบการใช้งาน**
 
 point ( x, y )
 
 **พารามิเตอร์**
 
-- ``x``  Number: the x-coordinate
+- ``x``  Number: พิกัด x
 
-- ``y``  Number: the y-coordinate
+- ``y``  Number: พิกัด y
 
+.. ``x``  Number: the x-coordinate
+.. ``y``  Number: the y-coordinate
 
 .. raw:: html
 
@@ -33,5 +36,4 @@ point ( x, y )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

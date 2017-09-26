@@ -5,8 +5,9 @@
 resetMatrix()
 =============
 
-Replaces the current matrix with the identity matrix.
+แทนที่เมทริกซ์ปัจจุบันด้วยเมตริกซ์ข้อมูลประจำตัว
 
+.. Replaces the current matrix with the identity matrix.
 **รูปแบบการใช้งาน**
 
 resetMatrix ( )
@@ -25,5 +26,4 @@ resetMatrix ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

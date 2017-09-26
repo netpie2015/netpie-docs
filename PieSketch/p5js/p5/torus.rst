@@ -5,22 +5,31 @@
 torus()
 =======
 
-Draw a torus with given radius and tube radius
+วาดพรูด้วยรัศมีและรัศมีของรัศมี
 
+.. Draw a torus with given radius and tube radius
 **รูปแบบการใช้งาน**
 
 torus ( radius, tubeRadius, [detailX], [detailY] )
 
 **พารามิเตอร์**
 
-- ``radius``  Number: radius of the whole ring
+- ``radius``  Number: รัศมีของทั้งวง
 
-- ``tubeRadius``  Number: radius of the tube
+- ``tubeRadius``  Number: รัศมีของหลอด
 
-- ``detailX``  Number: optional: number of segments in x-dimension, the more segments the smoother geometry default is 24
+- ``detailX``  Number: ไม่จำเป็น: จำนวนเซ็กเมนต์ในมิติ x ส่วนที่มากขึ้นเรขาคณิตที่ราบรื่นมากขึ้นคือ 24
 
-- ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
+- ``detailY``  Number: ไม่จำเป็น: จำนวนเซ็กเมนต์ใน y-dimension ส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 16
 
+.. ``radius``  Number: radius of the whole ring
+.. ``tubeRadius``  Number: radius of the tube
+.. ``detailX``  Number: optional: number of segments in x-dimension,
+                               the more segments the smoother geometry
+                               default is 24
+.. ``detailY``  Number: optional: number of segments in y-dimension,
+                               the more segments the smoother geometry
+                               default is 16
 
 .. raw:: html
 
@@ -41,5 +50,4 @@ torus ( radius, tubeRadius, [detailX], [detailY] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

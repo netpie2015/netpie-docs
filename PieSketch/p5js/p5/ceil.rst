@@ -5,23 +5,26 @@
 ceil()
 ======
 
-Calculates the closest int value that is greater than or equal to the
-value of the parameter. Maps to Math.ceil(). For example, ceil(9.03)
-returns the value 10.
+คำนวณค่า int ที่ใกล้เคียงซึ่งมากกว่าหรือเท่ากับค่าของพารามิเตอร์ Maps ไปยัง Math.ceil () ตัวอย่างเช่น ceil (9.03) ส่งกลับค่า 10
 
+.. Calculates the closest int value that is greater than or equal to the
+.. value of the parameter. Maps to Math.ceil(). For example, ceil(9.03)
+.. returns the value 10.
 **รูปแบบการใช้งาน**
 
 ceil ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: number to round up
+- ``n``  Number: จำนวนรอบ
 
+.. ``n``  Number: number to round up
 
 **ค่าที่ส่งออกมา**
 
-- Number: rounded up number
+- Number: ปัดเศษขึ้นจำนวน
 
+.. Number: rounded up number
 
 .. raw:: html
 
@@ -53,5 +56,4 @@ ceil ( n )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

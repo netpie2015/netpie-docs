@@ -5,20 +5,23 @@
 saveStrings()
 =============
 
-Writes an array of Strings to a text file, one line per String.
- The file saving process and location of the saved file will
- vary between web browsers.
+เขียนอาร์เรย์ของสตริงในไฟล์ข้อความหนึ่งบรรทัดต่อสตริง กระบวนการบันทึกไฟล์และตำแหน่งของไฟล์ที่บันทึกไว้จะแตกต่างกันไปในแต่ละเว็บเบราเซอร์
 
+.. Writes an array of Strings to a text file, one line per String.
+..  The file saving process and location of the saved file will
+..  vary between web browsers.
 **รูปแบบการใช้งาน**
 
 saveStrings ( list, filename )
 
 **พารามิเตอร์**
 
-- ``list``  Array: string array to be written
+- ``list``  Array: อาร์เรย์สตริงที่จะเขียน
 
-- ``filename``  String: filename for output
+- ``filename``  String: ชื่อไฟล์สำหรับเอาต์พุต
 
+.. ``list``  Array: string array to be written
+.. ``filename``  String: filename for output
 
 .. raw:: html
 
@@ -43,5 +46,4 @@ saveStrings ( list, filename )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,21 +5,24 @@
 angleBetween()
 ==============
 
-Calculates and returns the angle (in radians) between two vectors.
+คำนวณและส่งกลับค่ามุม (เป็นเรเดียน) ระหว่างสองพาหะ
 
+.. Calculates and returns the angle (in radians) between two vectors.
 **รูปแบบการใช้งาน**
 
 angleBetween ( the )
 
 **พารามิเตอร์**
 
-- ``the``  p5.Vector: x, y, and z components of a p5.Vector
+- ``the``  p5.Vector: x, y, และ z ส่วนประกอบของ p5.Vector
 
+.. ``the``  p5.Vector: x, y, and z components of a p5.Vector
 
 **ค่าที่ส่งออกมา**
 
-- Number: the angle between (in radians)
+- Number: มุมระหว่าง (เป็นเรเดียน)
 
+.. Number: the angle between (in radians)
 
 .. raw:: html
 
@@ -34,5 +37,4 @@ angleBetween ( the )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

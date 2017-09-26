@@ -5,11 +5,11 @@
 clear()
 =======
 
-Empties Dictionary of all key-value pairs
+Empties Dictionary ของคู่คีย์ - ค่าทั้งหมด
 
+.. Empties Dictionary of all key-value pairs
 **รูปแบบการใช้งาน**
 
 clear ( )
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

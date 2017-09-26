@@ -5,8 +5,9 @@
 getArray()
 ==========
 
-Retrieves all table data and returns it as a multidimensional array.
+เรียกข้อมูลตารางทั้งหมดและส่งกลับค่าเป็นอาร์เรย์แบบหลายมิติ
 
+.. Retrieves all table data and returns it as a multidimensional array.
 **รูปแบบการใช้งาน**
 
 getArray ( )
@@ -15,6 +16,6 @@ getArray ( )
 
 - Array: 
 
+.. Array: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

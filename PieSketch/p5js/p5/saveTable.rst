@@ -5,24 +5,28 @@
 saveTable()
 ===========
 
-Writes the contents of a Table object to a file. Defaults to a
- text file with comma-separated-values ('csv') but can also
- use tab separation ('tsv'), or generate an HTML table ('html').
- The file saving process and location of the saved file will
- vary between web browsers.
+เขียนเนื้อหาของวัตถุ Table ไปยังแฟ้ม ค่าเริ่มต้นเป็นไฟล์ข้อความที่มีคั่นด้วยเครื่องหมายจุลภาค (&#39;csv&#39;) แต่ยังสามารถใช้การแยกแท็บ (&#39;tsv&#39;) หรือสร้างตาราง HTML (&#39;html&#39;) กระบวนการบันทึกไฟล์และตำแหน่งของไฟล์ที่บันทึกไว้จะแตกต่างกันไปในแต่ละเว็บเบราเซอร์
 
+.. Writes the contents of a Table object to a file. Defaults to a
+..  text file with comma-separated-values ('csv') but can also
+..  use tab separation ('tsv'), or generate an HTML table ('html').
+..  The file saving process and location of the saved file will
+..  vary between web browsers.
 **รูปแบบการใช้งาน**
 
 saveTable ( Table, filename, [options] )
 
 **พารามิเตอร์**
 
-- ``Table``  p5.Table: the Table object to save to a file
+- ``Table``  p5.Table: วัตถุ Table เพื่อบันทึกลงในไฟล์
 
-- ``filename``  String: the filename to which the Table should be saved
+- ``filename``  String: ชื่อไฟล์ที่ควรบันทึกตาราง
 
-- ``options``  String: can be one of "tsv", "csv", or "html"
+- ``options``  String: สามารถเป็นหนึ่งใน &quot;tsv&quot;, &quot;csv&quot; หรือ &quot;html&quot;
 
+.. ``Table``  p5.Table: the Table object to save to a file
+.. ``filename``  String: the filename to which the Table should be saved
+.. ``options``  String: can be one of "tsv", "csv", or "html"
 
 .. raw:: html
 
@@ -54,5 +58,4 @@ saveTable ( Table, filename, [options] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

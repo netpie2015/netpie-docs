@@ -5,18 +5,21 @@
 mouseClicked()
 ==============
 
-The .mouseClicked() function is called once after a mouse button is
-pressed and released over the element. This can be used to
-attach element specific event listeners.
+ฟังก์ชัน mousesClicked () เรียกว่าครั้งหลังจากที่กดปุ่มเมาส์และปล่อยผ่านองค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .mouseClicked() function is called once after a mouse button is
+.. pressed and released over the element. This can be used to
+.. attach element specific event listeners.
 **รูปแบบการใช้งาน**
 
 mouseClicked ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when mouse is clicked over the element.
+- ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อมีการคลิกเมาส์เหนือองค์ประกอบ
 
+.. ``fxn``  function: function to be fired when mouse is
+                   clicked over the element.
 
 .. raw:: html
 
@@ -54,5 +57,4 @@ mouseClicked ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

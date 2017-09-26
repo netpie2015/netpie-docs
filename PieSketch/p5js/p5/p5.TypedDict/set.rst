@@ -5,9 +5,10 @@
 set()
 =====
 
-Changes the value of key if in it already exists in
-in the Dictionary otherwise makes a new key-value pair
+เปลี่ยนค่าของคีย์หากอยู่ในนั้นมีอยู่แล้วในในพจนานุกรมทำให้คู่คีย์ - ค่าใหม่
 
+.. Changes the value of key if in it already exists in
+.. in the Dictionary otherwise makes a new key-value pair
 **รูปแบบการใช้งาน**
 
 set ( key, value )
@@ -18,6 +19,8 @@ set ( key, value )
 
 - ``value``  Number,String: 
 
+.. ``key``  Number,String: 
+.. ``value``  Number,String: 
 
 .. raw:: html
 
@@ -35,5 +38,4 @@ set ( key, value )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

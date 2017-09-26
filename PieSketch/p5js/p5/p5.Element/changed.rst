@@ -5,18 +5,21 @@
 changed()
 =========
 
-The .changed() function is called when the value of an
-element is changed.
-This can be used to attach an element specific event listener.
+ฟังก์ชัน .changed () จะถูกเรียกเมื่อเปลี่ยนค่าขององค์ประกอบ สามารถใช้เพื่อแนบผู้ฟังเหตุการณ์เฉพาะบางส่วน
 
+.. The .changed() function is called when the value of an
+.. element is changed.
+.. This can be used to attach an element specific event listener.
 **รูปแบบการใช้งาน**
 
 changed ( fxn )
 
 **พารามิเตอร์**
 
-- ``fxn``  function: function to be fired when the value of an element changes.
+- ``fxn``  function: จะถูกเรียกใช้เมื่อค่าขององค์ประกอบเปลี่ยนแปลง
 
+.. ``fxn``  function: function to be fired when the value of an
+element changes.
 
 .. raw:: html
 
@@ -67,5 +70,4 @@ changed ( fxn )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,11 +5,12 @@
 TAU
 =====
 
-TAU is an alias for TWO_PI, a mathematical constant with the
-value 6.28318530717958647693. It is twice the ratio of the
-circumference of a circle to its diameter. It is useful in
-combination with the trigonometric functions sin() and cos().
+TAU เป็นนามแฝงสำหรับ TWO_PI ซึ่งเป็นค่าคงที่ทางคณิตศาสตร์ที่มีค่า 6.28318530717958647693 มันเป็นสองเท่าของขนาดเส้นรอบวงของวงกลม มันมีประโยชน์ในการทำงานร่วมกับตรีโกณมิติ sin () และ cos ()
 
+.. TAU is an alias for TWO_PI, a mathematical constant with the
+.. value 6.28318530717958647693. It is twice the ratio of the
+.. circumference of a circle to its diameter. It is useful in
+.. combination with the trigonometric functions sin() and cos().
 **รูปแบบการใช้งาน**
 
 TAU
@@ -23,5 +24,4 @@ TAU
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
