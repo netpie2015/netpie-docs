@@ -8,6 +8,7 @@ copy()
 รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Vector
 
 .. Gets a copy of the vector, returns a p5.Vector object.
+
 **รูปแบบการใช้งาน**
 
 copy ( )

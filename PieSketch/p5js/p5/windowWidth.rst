@@ -9,6 +9,7 @@ windowWidth
 
 .. System variable that stores the width of the inner window, it maps to
 .. window.innerWidth.
+
 **รูปแบบการใช้งาน**
 
 windowWidth

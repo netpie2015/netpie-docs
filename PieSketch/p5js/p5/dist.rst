@@ -8,6 +8,7 @@ dist()
 คำนวณระยะทางระหว่างจุดสองจุด
 
 .. Calculates the distance between two points.
+
 **รูปแบบการใช้งาน**
 
 dist ( x1, y1, x2, y2 )

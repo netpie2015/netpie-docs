@@ -8,6 +8,7 @@ drawBuffers()
 วาดบัฟเฟอร์ที่ระบุรหัสคีย์รูปทรงเรขาคณิต
 
 .. Draws buffers given a geometry key ID
+
 **รูปแบบการใช้งาน**
 
 drawBuffers ( gId )

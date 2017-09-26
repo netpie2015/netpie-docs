@@ -17,6 +17,7 @@ random()
 .. that array.
 .. If two arguments are given, returns a random number from the
 .. first argument up to (but not including) the second argument.
+
 **รูปแบบการใช้งาน**
 
 random ( [min], [max] )

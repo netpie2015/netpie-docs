@@ -9,6 +9,7 @@ clearRows()
 
 .. Removes all rows from a Table. While all rows are removed,
 ..  columns and column titles are maintained.
+
 **รูปแบบการใช้งาน**
 
 clearRows ( )

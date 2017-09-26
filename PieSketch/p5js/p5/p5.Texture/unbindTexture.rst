@@ -8,6 +8,7 @@ unbindTexture()
 ยกเลิกการเชื่อมโยงเนื้องานจากเป้าหมาย GL ที่เหมาะสม
 
 .. Unbinds the texture from the appropriate GL target.
+
 **รูปแบบการใช้งาน**
 
 unbindTexture ( )

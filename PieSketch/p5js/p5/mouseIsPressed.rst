@@ -9,6 +9,7 @@ mouseIsPressed
 
 .. The boolean system variable mouseIsPressed is true if the mouse is pressed
 .. and false if not.
+
 **รูปแบบการใช้งาน**
 
 mouseIsPressed

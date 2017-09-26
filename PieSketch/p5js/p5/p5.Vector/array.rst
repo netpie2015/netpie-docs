@@ -11,6 +11,7 @@ array()
 .. for temporary use. If used in any other fashion, the contents should be
 .. copied by using the p5.Vector.copy() method to copy into your own
 .. array.
+
 **รูปแบบการใช้งาน**
 
 array ( )

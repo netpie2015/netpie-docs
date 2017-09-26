@@ -12,6 +12,7 @@ loadJSON()
 .. line in your sketch is executed. JSONP is supported via a polyfill and you
 .. can pass in as the second argument an object with definitions of the json
 .. callback following the syntax specified here.
+
 **รูปแบบการใช้งาน**
 
 loadJSON ( path, [jsonpOptions], [datatype], [callback], [errorCallback] )
@@ -31,12 +32,8 @@ loadJSON ( path, [jsonpOptions], [datatype], [callback], [errorCallback] )
 .. ``path``  String: name of the file or url to load
 .. ``jsonpOptions``  Object: options object for jsonp related settings
 .. ``datatype``  String: "json" or "jsonp"
-.. ``callback``  function: function to be executed after
-                                   loadJSON() completes, data is passed
-                                   in as first argument
-.. ``errorCallback``  function: function to be executed if
-                                   there is an error, response is passed
-                                   in as first argument
+.. ``callback``  function: function to be executed after loadJSON() completes, data is passed in as first argument
+.. ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
 
 **ค่าที่ส่งออกมา**
 

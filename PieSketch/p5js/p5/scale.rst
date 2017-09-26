@@ -22,6 +22,7 @@ scale()
 .. 
 .. Using this function with the z parameter is only available in WEBGL mode.
 .. This function can be further controlled with push() and pop().
+
 **รูปแบบการใช้งาน**
 
 scale ( s, [y], [z] )
@@ -34,9 +35,7 @@ scale ( s, [y], [z] )
 
 - ``z``  Number: เปอร์เซ็นต์เพื่อปรับขนาดวัตถุในแกน z (webgl เท่านั้น)
 
-.. ``s``  Number,p5.Vector,Array: percent to scale the object, or percentage to
-                     scale the object in the x-axis if multiple arguments
-                     are given
+.. ``s``  Number,p5.Vector,Array: percent to scale the object, or percentage to scale the object in the x-axis if multiple arguments are given
 .. ``y``  Number: percent to scale the object in the y-axis
 .. ``z``  Number: percent to scale the object in the z-axis (webgl only)
 

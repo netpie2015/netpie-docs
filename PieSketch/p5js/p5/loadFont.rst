@@ -17,6 +17,7 @@ loadFont()
 .. that links in your sketch. Loading an from a URL or other
 .. remote location may be blocked due to your browser's built-in
 .. security.
+
 **รูปแบบการใช้งาน**
 
 loadFont ( path, [callback] )
@@ -28,9 +29,7 @@ loadFont ( path, [callback] )
 - ``callback``  function: ฟังก์ชันที่จะดำเนินการหลังจาก loadFont () เสร็จสิ้น
 
 .. ``path``  String: name of the file or url to load
-.. ``callback``  function: function to be executed after
-                                   loadFont()
-                                   completes
+.. ``callback``  function: function to be executed after loadFont() completes
 
 **ค่าที่ส่งออกมา**
 

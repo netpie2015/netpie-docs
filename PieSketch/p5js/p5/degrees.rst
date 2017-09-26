@@ -5,28 +5,26 @@
 degrees()
 =========
 
-Converts a radian measurement to its corresponding value in degrees.
-Radians and degrees are two ways of measuring the same thing. There are
-360 degrees in a circle and 2*PI radians in a circle. For example,
-90° = PI/2 = 1.5707964.
+แปลงการวัดเรเดียนเป็นค่าที่สัมพันธ์กันเป็นองศา เรเดียนและองศาเป็นสองวิธีในการวัดสิ่งเดียวกัน มีวงกลม 360 องศาและ 2 * PI เรเดียนในแวดวง ตัวอย่างเช่น 90 ° = PI / 2 = 1.5707964
 
 .. Converts a radian measurement to its corresponding value in degrees.
 .. Radians and degrees are two ways of measuring the same thing. There are
 .. 360 degrees in a circle and 2*PI radians in a circle. For example,
 .. 90° = PI/2 = 1.5707964.
+
 **รูปแบบการใช้งาน**
 
 degrees ( radians )
 
 **พารามิเตอร์**
 
-- ``radians``  Number: the radians value to convert to degrees
+- ``radians``  Number: ค่าเรเดียนจะเปลี่ยนเป็นองศา
 
 .. ``radians``  Number: the radians value to convert to degrees
 
 **ค่าที่ส่งออกมา**
 
-- Number: the converted angle
+- Number: มุมที่แปลง
 
 .. Number: the converted angle
 

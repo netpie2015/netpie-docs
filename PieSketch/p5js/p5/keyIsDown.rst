@@ -13,6 +13,7 @@ keyIsDown()
 .. sprite diagonally. You can put in any number representing the keyCode of
 .. the key, or use any of the variable keyCode names listed
 .. here.
+
 **รูปแบบการใช้งาน**
 
 keyIsDown ( code )

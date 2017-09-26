@@ -13,6 +13,7 @@ loadShader()
 .. For now, there are three main types of shaders. p5 will automatically
 .. supply appropriate vertices, normals, colors, and lighting attributes
 .. if the parameters defined in the shader match the names.
+
 **รูปแบบการใช้งาน**
 
 loadShader ( [vertFilename], [fragFilename] )
@@ -23,10 +24,8 @@ loadShader ( [vertFilename], [fragFilename] )
 
 - ``fragFilename``  String: เส้นทางไปยังแฟ้มที่มีรหัสแหล่งที่มา shader ส่วน
 
-.. ``vertFilename``  String: path to file containing vertex shader
-source code
-.. ``fragFilename``  String: path to file containing fragment shader
-source code
+.. ``vertFilename``  String: path to file containing vertex shader source code
+.. ``fragFilename``  String: path to file containing fragment shader source code
 
 **ค่าที่ส่งออกมา**
 

@@ -9,6 +9,7 @@ clear()
 
 .. clears color and depth buffers
 .. with r,g,b,a
+
 **รูปแบบการใช้งาน**
 
 clear ( r, g, b, a )

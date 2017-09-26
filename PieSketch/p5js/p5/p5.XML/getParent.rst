@@ -9,6 +9,7 @@ getParent()
 
 .. Gets a copy of the element's parent. Returns the parent as another
 .. p5.XML object.
+
 **รูปแบบการใช้งาน**
 
 getParent ( )

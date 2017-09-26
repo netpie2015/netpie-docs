@@ -24,6 +24,7 @@ beginShape()
 .. Transformations such as translate(), rotate(), and scale() do not work
 .. within beginShape(). It is also not possible to use other shapes, such as
 .. ellipse() or rect() within beginShape().
+
 **รูปแบบการใช้งาน**
 
 beginShape ( [kind] )
@@ -32,8 +33,7 @@ beginShape ( [kind] )
 
 - ``kind``  Constant: ทั้ง POINTS, LINES, TRIANGLES, TRIANGLE_FAN TRIANGLE_STRIP, QUADS หรือ QUAD_STRIP
 
-.. ``kind``  Constant: either POINTS, LINES, TRIANGLES, TRIANGLE_FAN
-                               TRIANGLE_STRIP, QUADS, or QUAD_STRIP
+.. ``kind``  Constant: either POINTS, LINES, TRIANGLES, TRIANGLE_FAN TRIANGLE_STRIP, QUADS, or QUAD_STRIP
 
 .. raw:: html
 

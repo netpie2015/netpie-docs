@@ -10,6 +10,7 @@ p5.js วนลูปผ่าน draw () อย่างต่อเนื่�
 .. By default, p5.js loops through draw() continuously, executing the code
 .. within it. However, the draw() loop may be stopped by calling noLoop().
 .. In that case, the draw() loop can be resumed with loop().
+
 **รูปแบบการใช้งาน**
 
 loop ( )

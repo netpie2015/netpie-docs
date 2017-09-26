@@ -11,6 +11,7 @@ point()
 .. The first parameter is the horizontal value for the point, the second
 .. value is the vertical value for the point. The color of the point is
 .. determined by the current stroke.
+
 **รูปแบบการใช้งาน**
 
 point ( x, y )

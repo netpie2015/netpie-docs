@@ -13,6 +13,7 @@ addRow()
 ..  and then set individual values using set().
 ..  If a p5.TableRow object is included as a parameter, then that row is
 ..  duplicated and added to the table.
+
 **รูปแบบการใช้งาน**
 
 addRow ( [row] )

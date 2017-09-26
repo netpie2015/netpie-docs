@@ -8,6 +8,7 @@ ellipsoid()
 วาดรูปทรงรีกับรัศมีที่กำหนด
 
 .. Draw an ellipsoid with given radius
+
 **รูปแบบการใช้งาน**
 
 ellipsoid ( radiusx, radiusy, radiusz, [detailX], [detailY] )
@@ -27,14 +28,8 @@ ellipsoid ( radiusx, radiusy, radiusz, [detailX], [detailY] )
 .. ``radiusx``  Number: xradius of circle
 .. ``radiusy``  Number: yradius of circle
 .. ``radiusz``  Number: zradius of circle
-.. ``detailX``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 24. Avoid detail number above
-                                   150, it may crash the browser.
-.. ``detailY``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 16. Avoid detail number above
-                                   150, it may crash the browser.
+.. ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24. Avoid detail number above 150, it may crash the browser.
+.. ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16. Avoid detail number above 150, it may crash the browser.
 
 .. raw:: html
 

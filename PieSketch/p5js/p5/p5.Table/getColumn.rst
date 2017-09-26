@@ -9,6 +9,7 @@ getColumn()
 
 .. Retrieves all values in the specified column, and returns them
 ..  as an array. The column may be specified by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 getColumn ( column )

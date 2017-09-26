@@ -12,6 +12,7 @@ set()
 .. Note that for a large number of pixels this will
 .. be slower than directly manipulating the pixels array
 .. and then calling updatePixels().
+
 **รูปแบบการใช้งาน**
 
 set ( x, y, a )
@@ -26,8 +27,7 @@ set ( x, y, a )
 
 .. ``x``  Number: x-coordinate of the pixel
 .. ``y``  Number: y-coordinate of the pixel
-.. ``a``  Number,Array,Object: grayscale value | pixel array |
-                               a p5.Color | image to copy
+.. ``a``  Number,Array,Object: grayscale value | pixel array | a p5.Color | image to copy
 
 .. raw:: html
 

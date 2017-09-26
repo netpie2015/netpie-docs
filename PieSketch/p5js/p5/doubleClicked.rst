@@ -14,6 +14,7 @@ doubleClicked()
 .. is clicked twice on a single element. For more info on the
 .. dblclick event refer to mozilla's documentation here:
 .. https://developer.mozilla.org/en-US/docs/Web/Events/dblclick
+
 **รูปแบบการใช้งาน**
 
 doubleClicked ( )

@@ -8,6 +8,7 @@ pointLight()
 สร้างไฟจุดที่มีสีและตำแหน่งสว่าง
 
 .. Creates a point light with a color and a light position
+
 **รูปแบบการใช้งาน**
 
 pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
@@ -28,9 +29,7 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 - ``z``  Number: ตำแหน่งแกน z
 
-.. ``v1``  Number,Array,String,p5.Color: gray value,
-red or hue value (depending on the current color mode),
-or color Array, or CSS color string
+.. ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
 .. ``v2``  Number: optional: green or saturation value
 .. ``v3``  Number: optional: blue or brightness value
 .. ``a``  Number: optional: opacity

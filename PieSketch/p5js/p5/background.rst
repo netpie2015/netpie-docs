@@ -28,6 +28,7 @@ p5.Image ยังสามารถให้การตั้งค่าพ�
 .. A p5.Color object can also be provided to set the background color.
 .. 
 .. A p5.Image can also be provided to set the background iamge.
+
 **รูปแบบการใช้งาน**
 
 background ( color, [a] )
@@ -39,8 +40,7 @@ background ( color, [a] )
 - ``a``  Number: ความทึบของพื้นหลังเทียบกับช่วงสีปัจจุบัน (ค่าเริ่มต้นคือ 0-100)
 
 .. ``color``  p5.Color: any value created by the color() function
-.. ``a``  Number: opacity of the background relative to current
-                            color range (default is 0-100)
+.. ``a``  Number: opacity of the background relative to current color range (default is 0-100)
 
 .. raw:: html
 

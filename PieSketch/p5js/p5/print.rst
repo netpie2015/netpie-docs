@@ -18,6 +18,7 @@ print()
 .. it in order to simulate easier to understand behavior than
 .. console.log(). Due to this, it is slower. For fastest results, use
 .. console.log().
+
 **รูปแบบการใช้งาน**
 
 print ( contents )
@@ -26,8 +27,7 @@ print ( contents )
 
 - ``contents``  Any: การรวมกันของ Number, String, Object, Boolean, Array เพื่อพิมพ์
 
-.. ``contents``  Any: any combination of Number, String, Object, Boolean,
-                      Array to print
+.. ``contents``  Any: any combination of Number, String, Object, Boolean, Array to print
 
 .. raw:: html
 

@@ -8,6 +8,7 @@ clear()
 Empties Dictionary ของคู่คีย์ - ค่าทั้งหมด
 
 .. Empties Dictionary of all key-value pairs
+
 **รูปแบบการใช้งาน**
 
 clear ( )

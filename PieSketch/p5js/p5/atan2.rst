@@ -5,14 +5,8 @@
 atan2()
 =======
 
-Calculates the angle (in radians) from a specified point to the coordinate
-origin as measured from the positive x-axis. Values are returned as a
-float in the range from PI to -PI. The atan2() function is most often used
-for orienting geometry to the position of the cursor.
-
-Note: The y-coordinate of the point is the first parameter, and the
-x-coordinate is the second parameter, due the the structure of calculating
-the tangent.
+คำนวณมุม (เป็นเรเดียน) จากจุดที่ระบุไปยังจุดกำเนิดพิกัดที่วัดจากแกน x บวก ค่าจะถูกส่งคืนเป็นแบบลอยตัวในช่วงตั้งแต่ PI ถึง -PI ฟังก์ชั่น atan2 () มักใช้สำหรับปรับตำแหน่งเรขาคณิตให้อยู่ในตำแหน่งเคอร์เซอร์ 
+หมายเหตุ: พิกัด y ของจุดคือพารามิเตอร์ตัวแรกและพิกัด x เป็นพารามิเตอร์ที่สองเนื่องจากโครงสร้างของการคำนวณสัมผัสกัน
 
 .. Calculates the angle (in radians) from a specified point to the coordinate
 .. origin as measured from the positive x-axis. Values are returned as a
@@ -22,22 +16,23 @@ the tangent.
 .. Note: The y-coordinate of the point is the first parameter, and the
 .. x-coordinate is the second parameter, due the the structure of calculating
 .. the tangent.
+
 **รูปแบบการใช้งาน**
 
 atan2 ( y, x )
 
 **พารามิเตอร์**
 
-- ``y``  Number: y-coordinate of the point
+- ``y``  Number: y พิกัดของจุด
 
-- ``x``  Number: x-coordinate of the point
+- ``x``  Number: พิกัด x ของจุด
 
 .. ``y``  Number: y-coordinate of the point
 .. ``x``  Number: x-coordinate of the point
 
 **ค่าที่ส่งออกมา**
 
-- Number: the arc tangent of the given point
+- Number: สัมผัสอาร์คของจุดที่กำหนด
 
 .. Number: the arc tangent of the given point
 

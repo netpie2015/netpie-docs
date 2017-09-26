@@ -12,6 +12,7 @@ width
 .. For example, the function call createCanvas(320, 240) sets the width
 .. variable to the value 320. The value of width defaults to 100 if
 .. createCanvas() is not used in a program.
+
 **รูปแบบการใช้งาน**
 
 width

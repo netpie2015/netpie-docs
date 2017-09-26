@@ -10,6 +10,7 @@ mult()
 .. Multiply the vector by a scalar. The static version of this method
 .. creates a new p5.Vector while the non static version acts on the vector
 .. directly. See the examples for more context.
+
 **รูปแบบการใช้งาน**
 
 mult ( n )

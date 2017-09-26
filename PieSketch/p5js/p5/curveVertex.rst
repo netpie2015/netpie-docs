@@ -19,6 +19,7 @@ curveVertex()
 .. the curve between the second, third, and fourth points. The
 .. curveVertex() function is an implementation of Catmull-Rom
 .. splines.
+
 **รูปแบบการใช้งาน**
 
 curveVertex ( x, y )

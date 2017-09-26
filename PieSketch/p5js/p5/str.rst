@@ -10,6 +10,7 @@ str()
 .. Converts a boolean, string or number to its string representation.
 .. When an array of values is passed in, then an array of strings of the same
 .. length is returned.
+
 **รูปแบบการใช้งาน**
 
 str ( n )

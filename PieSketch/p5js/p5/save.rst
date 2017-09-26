@@ -40,6 +40,7 @@ save()
 ..  save(arrayOfStrings, 'my.txt'); // Saves strings to a text file with line
 ..                                  // breaks after each item in the array
 ..  
+
 **รูปแบบการใช้งาน**
 
 save ( [objectOrFilename], [filename], [options] )
@@ -52,23 +53,8 @@ save ( [objectOrFilename], [filename], [options] )
 
 - ``options``  Boolean,String: ตัวเลือกเพิ่มเติมขึ้นอยู่กับชนิดของไฟล์ ตัวอย่างเช่นเมื่อบันทึก JSON <code>true</code> แสดงว่าเอาต์พุตจะได้รับการปรับให้เหมาะกับขนาดไฟล์แทนที่จะอ่านได้
 
-.. ``objectOrFilename``  Object,String: If filename is provided, will
-                                            save canvas as an image with
-                                            either png or jpg extension
-                                            depending on the filename.
-                                            If object is provided, will
-                                            save depending on the object
-                                            and filename (see examples
-                                            above).
-.. ``filename``  String: If an object is provided as the first
-                              parameter, then the second parameter
-                              indicates the filename,
-                              and should include an appropriate
-                              file extension (see examples above).
-.. ``options``  Boolean,String: Additional options depend on
-                           filetype. For example, when saving JSON,
-                           <code>true</code> indicates that the
-                           output will be optimized for filesize,
-                           rather than readability.
+.. ``objectOrFilename``  Object,String: If filename is provided, will save canvas as an image with either png or jpg extension depending on the filename. If object is provided, will save depending on the object and filename (see examples above).
+.. ``filename``  String: If an object is provided as the first parameter, then the second parameter indicates the filename, and should include an appropriate file extension (see examples above).
+.. ``options``  Boolean,String: Additional options depend on filetype. For example, when saving JSON, <code>true</code> indicates that the output will be optimized for filesize, rather than readability.
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

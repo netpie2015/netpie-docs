@@ -8,6 +8,7 @@ fill()
 เติมวัสดุพื้นฐานสำหรับเรขาคณิตด้วยสีที่กำหนด
 
 .. Basic fill material for geometry with a given color
+
 **รูปแบบการใช้งาน**
 
 fill ( v1, [v2], [v3], [a] )
@@ -22,9 +23,7 @@ fill ( v1, [v2], [v3], [a] )
 
 - ``a``  Number: ตัวเลือก: ความทึบ
 
-.. ``v1``  Number,Array,String,p5.Color: gray value,
-red or hue value (depending on the current color mode),
-or color Array, or CSS color string
+.. ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
 .. ``v2``  Number: optional: green or saturation value
 .. ``v3``  Number: optional: blue or brightness value
 .. ``a``  Number: optional: opacity

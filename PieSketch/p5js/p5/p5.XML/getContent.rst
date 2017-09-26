@@ -9,6 +9,7 @@ getContent()
 
 .. Returns the content of an element. If there is no such content,
 .. defaultValue is returned if specified, otherwise null is returned.
+
 **รูปแบบการใช้งาน**
 
 getContent ( [defaultValue] )

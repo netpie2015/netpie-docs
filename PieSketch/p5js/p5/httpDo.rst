@@ -14,6 +14,7 @@ httpDo()
 .. For more advanced use, you may also pass in the path as the first argument
 .. and a object as the second argument, the signature follows the one specified
 .. in the Fetch API specification.
+
 **รูปแบบการใช้งาน**
 
 httpDo ( path, [method], [datatype], [data], [callback], [errorCallback] )
@@ -33,16 +34,11 @@ httpDo ( path, [method], [datatype], [data], [callback], [errorCallback] )
 - ``errorCallback``  function: ฟังก์ชันที่จะดำเนินการถ้ามีข้อผิดพลาดการตอบสนองจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
 .. ``path``  String: name of the file or url to load
-.. ``method``  String: either "GET", "POST", or "PUT",
-                                   defaults to "GET"
+.. ``method``  String: either "GET", "POST", or "PUT", defaults to "GET"
 .. ``datatype``  String: "json", "jsonp", "xml", or "text"
 .. ``data``  Object: param data passed sent with request
-.. ``callback``  function: function to be executed after
-                                   httpGet() completes, data is passed in
-                                   as first argument
-.. ``errorCallback``  function: function to be executed if
-                                   there is an error, response is passed
-                                   in as first argument
+.. ``callback``  function: function to be executed after httpGet() completes, data is passed in as first argument
+.. ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
 
 .. raw:: html
 

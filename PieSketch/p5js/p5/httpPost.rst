@@ -10,6 +10,7 @@ httpPost()
 .. Method for executing an HTTP POST request. If data type is not specified,
 .. p5 will try to guess based on the URL, defaulting to text. This is equivalent to
 .. calling httpDo(path, 'POST').
+
 **รูปแบบการใช้งาน**
 
 httpPost ( path, [datatype], [data], [callback], [errorCallback] )
@@ -27,15 +28,10 @@ httpPost ( path, [datatype], [data], [callback], [errorCallback] )
 - ``errorCallback``  function: ฟังก์ชันที่จะดำเนินการถ้ามีข้อผิดพลาดการตอบสนองจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
 .. ``path``  String: name of the file or url to load
-.. ``datatype``  String: "json", "jsonp", "xml", or "text".
-                                   If omitted, httpPost() will guess.
+.. ``datatype``  String: "json", "jsonp", "xml", or "text". If omitted, httpPost() will guess.
 .. ``data``  Object: param data passed sent with request
-.. ``callback``  function: function to be executed after
-                                   httpPost() completes, data is passed in
-                                   as first argument
-.. ``errorCallback``  function: function to be executed if
-                                   there is an error, response is passed
-                                   in as first argument
+.. ``callback``  function: function to be executed after httpPost() completes, data is passed in as first argument
+.. ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
 
 .. raw:: html
 

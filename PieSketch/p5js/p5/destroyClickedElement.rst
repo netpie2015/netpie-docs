@@ -10,6 +10,7 @@ Helper ซึ่งเป็น callback สำหรับการดาวน
 .. Helper function, a callback for download that deletes
 ..  an invisible anchor element from the DOM once the file
 ..  has been automatically downloaded.
+
 **รูปแบบการใช้งาน**
 
 destroyClickedElement ( )

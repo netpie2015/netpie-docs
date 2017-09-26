@@ -10,6 +10,7 @@ dot()
 .. Calculates the dot product of two vectors. The version of the method
 .. that computes the dot product of two independent vectors is a static
 .. method. See the examples for more context.
+
 **รูปแบบการใช้งาน**
 
 dot ( x, [y], [z] )

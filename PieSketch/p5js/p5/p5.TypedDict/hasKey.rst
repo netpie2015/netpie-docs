@@ -9,6 +9,7 @@ hasKey()
 
 .. Returns true if key exists in Dictionary
 .. otherwise returns false
+
 **รูปแบบการใช้งาน**
 
 hasKey ( key )

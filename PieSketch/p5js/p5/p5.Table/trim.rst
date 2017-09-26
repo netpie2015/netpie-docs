@@ -11,6 +11,7 @@ trim()
 ..  from String table values. If no column is specified, then the
 ..  values in all columns and rows are trimmed. A specific column
 ..  may be referenced by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 trim ( column )
@@ -19,7 +20,6 @@ trim ( column )
 
 - ``column``  String,Number: หมายเลขคอลัมน์ (หมายเลข) หรือชื่อ (สตริง)
 
-.. ``column``  String,Number: Column ID (number)
-                                  or name (string)
+.. ``column``  String,Number: Column ID (number) or name (string)
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

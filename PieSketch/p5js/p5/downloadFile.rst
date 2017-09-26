@@ -11,6 +11,7 @@ downloadFile()
 ..  and an extension (optional).
 ..  This is a private function because it does not do any formatting,
 ..  but it is used by saveStrings, saveJSON, saveTable etc.
+
 **รูปแบบการใช้งาน**
 
 downloadFile ( href, fName, extension )

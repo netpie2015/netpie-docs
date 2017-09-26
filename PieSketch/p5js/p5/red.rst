@@ -8,6 +8,7 @@ red()
 แยกค่าสีแดงจากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the red value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 red ( color )

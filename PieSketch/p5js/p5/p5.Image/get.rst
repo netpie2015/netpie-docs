@@ -13,6 +13,7 @@ get()
 .. if all params are passed a rectangle region is extracted and a p5.Image
 .. is returned.
 .. Returns undefined if the region is outside the bounds of the image
+
 **รูปแบบการใช้งาน**
 
 get ( [x], [y], [w], [h] )

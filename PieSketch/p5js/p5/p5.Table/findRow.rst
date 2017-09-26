@@ -12,6 +12,7 @@ findRow()
 ..  multiple rows are possible matches, only the first matching
 ..  row is returned. The column to search may be specified by
 ..  either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 findRow ( value, column )
@@ -23,8 +24,7 @@ findRow ( value, column )
 - ``column``  Number,String: หมายเลขประจำตัวหรือชื่อของคอลัมน์ที่ต้องการค้นหา
 
 .. ``value``  String: The value to match
-.. ``column``  Number,String: ID number or title of the
-                                column to search
+.. ``column``  Number,String: ID number or title of the column to search
 
 **ค่าที่ส่งออกมา**
 

@@ -11,6 +11,7 @@ threshold()
 .. below the threshold defined by the level parameter. The parameter must be
 .. between 0.0 (black) and 1.0 (white). If no level is specified, 0.5 is used.
 .. Borrowed from http://www.html5rocks.com/en/tutorials/canvas/imagefilters/
+
 **รูปแบบการใช้งาน**
 
 threshold ( canvas, level )

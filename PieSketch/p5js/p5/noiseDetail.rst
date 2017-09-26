@@ -25,6 +25,7 @@ noiseDetail()
 .. 
 .. By changing these parameters, the signal created by the noise()
 .. function can be adapted to fit very specific needs and characteristics.
+
 **รูปแบบการใช้งาน**
 
 noiseDetail ( lod, falloff )

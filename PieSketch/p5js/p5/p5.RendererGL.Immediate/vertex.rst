@@ -8,6 +8,7 @@ vertex()
 เพิ่มจุดยอดที่จะวาดในรูปร่างที่กำหนดเอง
 
 .. adds a vertex to be drawn in a custom Shape.
+
 **รูปแบบการใช้งาน**
 
 vertex ( x, y, z )

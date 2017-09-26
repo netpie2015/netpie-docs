@@ -10,6 +10,7 @@ setModified()
 .. helper method for web GL mode to indicate that an image has been
 .. changed or unchanged since last upload. gl texture upload will
 .. set this value to false after uploading the texture.
+
 **รูปแบบการใช้งาน**
 
 setModified ( val )
@@ -18,7 +19,6 @@ setModified ( val )
 
 - ``val``  boolean: กำหนดว่ารูปภาพจะถูกแก้ไขหรือไม่
 
-.. ``val``  boolean: sets whether or not the image has been
-modified.
+.. ``val``  boolean: sets whether or not the image has been modified.
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

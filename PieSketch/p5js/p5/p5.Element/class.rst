@@ -9,6 +9,7 @@ class()
 
 .. Adds given class to the element. If no class argument is passed in, it
 .. instead returns a string containing the current class(es) of the element.
+
 **รูปแบบการใช้งาน**
 
 class ( class )

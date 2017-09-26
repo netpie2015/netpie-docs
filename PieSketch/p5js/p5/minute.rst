@@ -9,6 +9,7 @@ p5.js สื่อสารกับนาฬิกาบนคอมพิว�
 
 .. p5.js communicates with the clock on your computer. The minute() function
 .. returns the current minute as a value from 0 - 59.
+
 **รูปแบบการใช้งาน**
 
 minute ( )

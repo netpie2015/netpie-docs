@@ -8,6 +8,7 @@ setName()
 ตั้งค่าชื่อขององค์ประกอบซึ่งระบุเป็นสตริง
 
 .. Sets the element's name, which is specified as a String.
+
 **รูปแบบการใช้งาน**
 
 setName ( the )

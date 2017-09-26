@@ -8,6 +8,7 @@ ortho()
 กำหนดเมธอด ortho
 
 .. sets the ortho matrix
+
 **รูปแบบการใช้งาน**
 
 ortho ( left, right, bottom, top, near, far )

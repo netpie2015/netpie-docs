@@ -9,6 +9,7 @@ rotate()
 
 .. Rotate the vector by an angle (only 2D vectors), magnitude remains the
 .. same
+
 **รูปแบบการใช้งาน**
 
 rotate ( angle )

@@ -8,6 +8,7 @@ bindShader()
 เริ่มต้น (ถ้าจำเป็น) และผูกโปรแกรม shader
 
 .. initializes (if needed) and binds the shader program.
+
 **รูปแบบการใช้งาน**
 
 bindShader ( )

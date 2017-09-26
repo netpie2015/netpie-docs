@@ -8,6 +8,7 @@ y
 องค์ประกอบ y ของเวกเตอร์
 
 .. The y component of the vector
+
 **รูปแบบการใช้งาน**
 
 y

@@ -13,6 +13,7 @@ bezierPoint()
 .. The final parameter t varies between 0 and 1.
 .. This can be done once with the x coordinates and a second time
 .. with the y coordinates to get the location of a bezier curve at t.
+
 **รูปแบบการใช้งาน**
 
 bezierPoint ( a, b, c, d, t )

@@ -24,6 +24,7 @@ redraw()
 .. 
 .. In addition you can set the number of redraws per method call. Just
 .. add an integer as single parameter for the number of redraws.
+
 **รูปแบบการใช้งาน**
 
 redraw ( [n] )

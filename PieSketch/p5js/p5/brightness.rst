@@ -8,6 +8,7 @@ brightness()
 แยกค่าความสว่าง HSB จากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the HSB brightness value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 brightness ( color )

@@ -9,6 +9,7 @@ textBounds()
 
 .. Returns a tight bounding box for the given text string using this
 .. font (currently only supports single lines)
+
 **รูปแบบการใช้งาน**
 
 textBounds ( line, x, y, fontSize, options )

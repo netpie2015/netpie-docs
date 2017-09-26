@@ -8,6 +8,7 @@ minValue()
 ส่งคืนค่าต่ำสุด
 
 .. Return the lowest value.
+
 **รูปแบบการใช้งาน**
 
 minValue ( )

@@ -8,6 +8,7 @@ plane()
 วาดระนาบด้วยความกว้างและความสูง
 
 .. Draw a plane with given a width and height
+
 **รูปแบบการใช้งาน**
 
 plane ( width, height, [detailX], [detailY] )
@@ -24,10 +25,8 @@ plane ( width, height, [detailX], [detailY] )
 
 .. ``width``  Number: width of the plane
 .. ``height``  Number: height of the plane
-.. ``detailX``  Number: Optional number of triangle
-                            subdivisions in x-dimension
-.. ``detailY``  Number: Optional number of triangle
-                            subdivisions in y-dimension
+.. ``detailX``  Number: Optional number of triangle subdivisions in x-dimension
+.. ``detailY``  Number: Optional number of triangle subdivisions in y-dimension
 
 **ค่าที่ส่งออกมา**
 

@@ -22,6 +22,7 @@ get()
 .. Getting the color of a single pixel with get(x, y) is easy, but not as fast
 .. as grabbing the data directly from pixels[]. The equivalent statement to
 .. get(x, y) is using pixels[] with pixel density d
+
 **รูปแบบการใช้งาน**
 
 get ( [x], [y], [w], [h] )

@@ -11,6 +11,7 @@ TAU เป็นนามแฝงสำหรับ TWO_PI ซึ่งเป�
 .. value 6.28318530717958647693. It is twice the ratio of the
 .. circumference of a circle to its diameter. It is useful in
 .. combination with the trigonometric functions sin() and cos().
+
 **รูปแบบการใช้งาน**
 
 TAU

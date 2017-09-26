@@ -13,6 +13,7 @@ ellipse()
 .. no height is specified, the value of width is used for both the width and
 .. height. If a negative height or width is specified, the absolute value is taken.
 .. The origin may be changed with the ellipseMode() function.
+
 **รูปแบบการใช้งาน**
 
 ellipse ( x, y, w, [h] )

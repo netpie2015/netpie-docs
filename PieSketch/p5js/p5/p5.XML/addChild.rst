@@ -11,6 +11,7 @@ addChild()
 .. either a String, which will be used as the new tag's name, or as a
 .. reference to an existing p5.XML object.
 .. A reference to the newly created child is returned as an p5.XML object.
+
 **รูปแบบการใช้งาน**
 
 addChild ( a )

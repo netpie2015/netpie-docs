@@ -10,6 +10,7 @@ save()
 .. Saves the image to a file and force the browser to download it.
 .. Accepts two strings for filename and file extension
 .. Supports png (default) and jpg.
+
 **รูปแบบการใช้งาน**
 
 save ( filename, extension )

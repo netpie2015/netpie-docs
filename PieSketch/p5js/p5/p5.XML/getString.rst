@@ -11,6 +11,7 @@ getString()
 .. parameter is specified and the attribute doesn't exist, then defaultValue
 .. is returned. If no defaultValue is specified and the attribute doesn't
 .. exist, null is returned.
+
 **รูปแบบการใช้งาน**
 
 getString ( name, [defaultValue] )

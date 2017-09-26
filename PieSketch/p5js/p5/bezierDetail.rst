@@ -9,6 +9,7 @@ bezierDetail()
 
 .. Sets the resolution at which Beziers display.
 .. The default value is 20.
+
 **รูปแบบการใช้งาน**
 
 bezierDetail ( detail )

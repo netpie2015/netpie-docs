@@ -8,6 +8,7 @@ directionalLight()
 สร้างแสงทิศทางที่มีสีและทิศทาง
 
 .. Creates a directional light with a color and a direction
+
 **รูปแบบการใช้งาน**
 
 directionalLight ( v1, [v2], [v3], [a], x, [y], [z] )
@@ -28,9 +29,7 @@ directionalLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 - ``z``  Number: ตัวเลือก: ทิศทางแกน Z
 
-.. ``v1``  Number,Array,String,p5.Color: gray value,
-red or hue value (depending on the current color mode),
-or color Array, or CSS color string
+.. ``v1``  Number,Array,String,p5.Color: gray value, red or hue value (depending on the current color mode), or color Array, or CSS color string
 .. ``v2``  Number: optional: green or saturation value
 .. ``v3``  Number: optional: blue or brightness value
 .. ``a``  Number: optional: opacity

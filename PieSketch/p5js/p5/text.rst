@@ -25,6 +25,7 @@ text()
 .. they are interpreted based on the current rectMode() setting. Text that
 .. does not fit completely within the rectangle specified will not be drawn
 .. to the screen.
+
 **รูปแบบการใช้งาน**
 
 text ( str, x, y, [x2], [y2] )
@@ -44,10 +45,8 @@ text ( str, x, y, [x2], [y2] )
 .. ``str``  String: the alphanumeric symbols to be displayed
 .. ``x``  Number: x-coordinate of text
 .. ``y``  Number: y-coordinate of text
-.. ``x2``  Number: by default, the width of the text box,
-                    see rectMode() for more info
-.. ``y2``  Number: by default, the height of the text box,
-                    see rectMode() for more info
+.. ``x2``  Number: by default, the width of the text box, see rectMode() for more info
+.. ``y2``  Number: by default, the height of the text box, see rectMode() for more info
 
 **ค่าที่ส่งออกมา**
 

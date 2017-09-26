@@ -8,6 +8,7 @@ get()
 รับสำเนาของเวกเตอร์ส่งกลับอ็อบเจ็กต์ p5.Matrix
 
 .. Gets a copy of the vector, returns a p5.Matrix object.
+
 **รูปแบบการใช้งาน**
 
 get ( )

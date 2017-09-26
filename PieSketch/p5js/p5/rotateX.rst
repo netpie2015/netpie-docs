@@ -8,6 +8,7 @@ rotateX()
 หมุนรอบแกน X
 
 .. Rotates around X axis.
+
 **รูปแบบการใช้งาน**
 
 rotateX ( rad )

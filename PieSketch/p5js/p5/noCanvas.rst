@@ -9,6 +9,7 @@ noCanvas()
 
 .. Removes the default canvas for a p5 sketch that doesn't
 .. require a canvas
+
 **รูปแบบการใช้งาน**
 
 noCanvas ( )

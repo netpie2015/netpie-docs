@@ -13,6 +13,7 @@ parent()
 .. For more ways to position the canvas, see the
 .. 
 .. positioning the canvas wiki page.
+
 **รูปแบบการใช้งาน**
 
 parent ( parent )
@@ -21,7 +22,6 @@ parent ( parent )
 
 - ``parent``  String,p5.Element,Object: ID, โหนด DOM หรือ p5. องค์ประกอบองค์ประกอบหลักที่ต้องการ
 
-.. ``parent``  String,p5.Element,Object: the ID, DOM node, or p5.Element
-                        of desired parent element
+.. ``parent``  String,p5.Element,Object: the ID, DOM node, or p5.Element of desired parent element
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

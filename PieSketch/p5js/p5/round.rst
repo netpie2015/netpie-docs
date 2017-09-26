@@ -9,6 +9,7 @@ round()
 
 .. Calculates the integer closest to the n parameter. For example,
 .. round(133.8) returns the value 134. Maps to Math.round().
+
 **รูปแบบการใช้งาน**
 
 round ( n )

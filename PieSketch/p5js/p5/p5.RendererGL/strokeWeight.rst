@@ -8,6 +8,7 @@ strokeWeight()
 เปลี่ยนน้ำหนักของโรคหลอดเลือดสมอง
 
 .. Change weight of stroke
+
 **รูปแบบการใช้งาน**
 
 strokeWeight ( stroke )

@@ -8,6 +8,7 @@ rotate()
 หมุน Matrix ของเราไปรอบ ๆ แกนตามมุมที่ระบุ
 
 .. rotate our Matrix around an axis by the given angle.
+
 **รูปแบบการใช้งาน**
 
 rotate ( a, axis )

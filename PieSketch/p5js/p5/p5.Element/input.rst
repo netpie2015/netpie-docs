@@ -12,6 +12,7 @@ input()
 .. to detect keystrokes in a input element, or changes on a
 .. slider element. This can be used to attach an element specific
 .. event listener.
+
 **รูปแบบการใช้งาน**
 
 input ( fxn )

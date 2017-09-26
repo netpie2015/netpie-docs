@@ -13,6 +13,7 @@ hue()
 .. with a pixel array while the color mode is HSB), but will default to the
 .. HSL-normalized hue otherwise. (The values will only be different if the
 .. maximum hue setting for each system is different.)
+
 **รูปแบบการใช้งาน**
 
 hue ( color )

@@ -10,6 +10,7 @@ mousePressed()
 .. The .mousePressed() function is called once after every time a
 .. mouse button is pressed over the element. This can be used to
 .. attach element specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 mousePressed ( fxn )
@@ -18,8 +19,7 @@ mousePressed ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกกดเหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   pressed over the element.
+.. ``fxn``  function: function to be fired when mouse is pressed over the element.
 
 .. raw:: html
 

@@ -39,6 +39,7 @@ blendMode()
 .. BURN - darker areas are applied, increasing contrast,
 .. ignores lights.
 .. 
+
 **รูปแบบการใช้งาน**
 
 blendMode ( mode )
@@ -47,10 +48,7 @@ blendMode ( mode )
 
 - ``mode``  Constant: ผสมผสานการตั้งค่าสำหรับผ้าใบ ทั้ง BLEND, DARKEST, LIGHTEST, DIFFERENCE, MULTIPLY, EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN, ADD หรือ NORMAL
 
-.. ``mode``  Constant: blend mode to set for canvas.
-               either BLEND, DARKEST, LIGHTEST, DIFFERENCE, MULTIPLY,
-               EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT,
-               SOFT_LIGHT, DODGE, BURN, ADD or NORMAL
+.. ``mode``  Constant: blend mode to set for canvas. either BLEND, DARKEST, LIGHTEST, DIFFERENCE, MULTIPLY, EXCLUSION, SCREEN, REPLACE, OVERLAY, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN, ADD or NORMAL
 
 .. raw:: html
 

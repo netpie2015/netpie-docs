@@ -10,6 +10,7 @@ max()
 .. Determines the largest value in a sequence of numbers, and then returns
 .. that value. max() accepts any number of Number parameters, or an Array
 .. of any length.
+
 **รูปแบบการใช้งาน**
 
 max ( n0 )

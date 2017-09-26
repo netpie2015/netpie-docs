@@ -10,6 +10,7 @@ triangle()
 .. A triangle is a plane created by connecting three points. The first two
 .. arguments specify the first point, the middle two arguments specify the
 .. second point, and the last two arguments specify the third point.
+
 **รูปแบบการใช้งาน**
 
 triangle ( x1, y1, x2, y2, x3, y3 )

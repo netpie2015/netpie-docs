@@ -8,6 +8,7 @@ getRows()
 เรียกแถวทั้งหมดจากตาราง ส่งกลับอาร์เรย์ของ p5.TableRows
 
 .. Gets all rows from the table. Returns an array of p5.TableRows.
+
 **รูปแบบการใช้งาน**
 
 getRows ( )

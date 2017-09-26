@@ -9,6 +9,7 @@ setMag()
 
 .. Set the magnitude of this vector to the value used for the len
 .. parameter.
+
 **รูปแบบการใช้งาน**
 
 setMag ( len )

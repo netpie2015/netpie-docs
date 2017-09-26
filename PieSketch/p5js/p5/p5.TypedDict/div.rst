@@ -9,6 +9,7 @@ div()
 
 .. Divide a value stored at a certain key
 .. The quotient is stored in that location in the Dictionary.
+
 **รูปแบบการใช้งาน**
 
 div ( Key, Amount )

@@ -10,6 +10,7 @@ mouseReleased()
 .. The .mouseReleased() function is called once after every time a
 .. mouse button is released over the element. This can be used to
 .. attach element specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 mouseReleased ( fxn )
@@ -18,8 +19,7 @@ mouseReleased ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเม้าส์ถูกปล่อยออกมาเหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   released over the element.
+.. ``fxn``  function: function to be fired when mouse is released over the element.
 
 .. raw:: html
 

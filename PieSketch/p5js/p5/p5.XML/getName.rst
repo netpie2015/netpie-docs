@@ -8,6 +8,7 @@ getName()
 เรียกชื่อเต็มขององค์ประกอบซึ่งจะส่งกลับเป็นสตริง
 
 .. Gets the element's full name, which is returned as a String.
+
 **รูปแบบการใช้งาน**
 
 getName ( )

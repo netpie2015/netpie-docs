@@ -11,6 +11,7 @@ bezierTangent()
 .. The parameters a and d are the first and last points
 .. on the curve, and b and c are the control points.
 .. The final parameter t varies between 0 and 1.
+
 **รูปแบบการใช้งาน**
 
 bezierTangent ( a, b, c, d, t )

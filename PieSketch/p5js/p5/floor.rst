@@ -9,6 +9,7 @@ floor()
 
 .. Calculates the closest int value that is less than or equal to the
 .. value of the parameter. Maps to Math.floor().
+
 **รูปแบบการใช้งาน**
 
 floor ( n )

@@ -9,6 +9,7 @@ mult()
 
 .. Multiply a value stored at a certain key
 .. The product is stored in that location in the Dictionary.
+
 **รูปแบบการใช้งาน**
 
 mult ( Key, Amount )

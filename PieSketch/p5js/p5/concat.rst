@@ -9,6 +9,7 @@ concat()
 
 .. Concatenates two arrays, maps to Array.concat(). Does not modify the
 .. input arrays.
+
 **รูปแบบการใช้งาน**
 
 concat ( a, b )

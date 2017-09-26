@@ -11,6 +11,7 @@ sqrt()
 .. always positive, even though there may be a valid negative root. The
 .. square root s of number a is such that s*s = a. It is the opposite of
 .. squaring. Maps to Math.sqrt().
+
 **รูปแบบการใช้งาน**
 
 sqrt ( n )

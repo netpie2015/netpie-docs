@@ -10,6 +10,7 @@ shuffle()
 .. Randomizes the order of the elements of an array. Implements
 .. 
 .. Fisher-Yates Shuffle Algorithm.
+
 **รูปแบบการใช้งาน**
 
 shuffle ( array, [bool] )

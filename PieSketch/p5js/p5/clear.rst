@@ -13,6 +13,7 @@ clear()
 .. additional graphics areas created with createGraphics() can be entirely
 .. or partially transparent. This function clears everything to make all of
 .. the pixels 100% transparent.
+
 **รูปแบบการใช้งาน**
 
 clear ( )

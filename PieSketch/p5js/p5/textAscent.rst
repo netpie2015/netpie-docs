@@ -10,6 +10,7 @@ textAscent()
 .. Returns the ascent of the current font at its current size. The ascent
 .. represents the distance, in pixels, of the tallest character above
 .. the baseline.
+
 **รูปแบบการใช้งาน**
 
 textAscent ( )

@@ -9,6 +9,7 @@ limit()
 
 .. Limit the magnitude of this vector to the value used for the max
 .. parameter.
+
 **รูปแบบการใช้งาน**
 
 limit ( max )

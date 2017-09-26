@@ -8,6 +8,7 @@ x
 องค์ประกอบ x ของเวกเตอร์
 
 .. The x component of the vector
+
 **รูปแบบการใช้งาน**
 
 x

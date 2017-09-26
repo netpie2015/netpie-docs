@@ -8,6 +8,7 @@ angleBetween()
 คำนวณและส่งกลับค่ามุม (เป็นเรเดียน) ระหว่างสองพาหะ
 
 .. Calculates and returns the angle (in radians) between two vectors.
+
 **รูปแบบการใช้งาน**
 
 angleBetween ( the )

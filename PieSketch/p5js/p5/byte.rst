@@ -12,6 +12,7 @@ byte()
 .. outside of this range is converted, it wraps around to the corresponding
 .. byte representation. When an array of number, string or boolean values is
 .. passed in, then an array of bytes the same length is returned.
+
 **รูปแบบการใช้งาน**
 
 byte ( n )

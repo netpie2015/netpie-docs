@@ -10,6 +10,7 @@ mouseOut()
 .. The .mouseOut() function is called once after every time a
 .. mouse moves off the element. This can be used to attach an
 .. element specific event listener.
+
 **รูปแบบการใช้งาน**
 
 mouseOut ( fxn )
@@ -18,8 +19,7 @@ mouseOut ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกย้ายออกจากองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   moved off the element.
+.. ``fxn``  function: function to be fired when mouse is moved off the element.
 
 .. raw:: html
 

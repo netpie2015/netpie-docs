@@ -17,6 +17,7 @@ apply()
 .. use. It has been separated from the actual filters to support an advanced
 .. use case of creating a filter chain that executes without actually updating
 .. the canvas in between everystep.
+
 **รูปแบบการใช้งาน**
 
 apply ( canvas, func, filterParam )

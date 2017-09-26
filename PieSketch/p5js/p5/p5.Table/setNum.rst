@@ -10,6 +10,7 @@ setNum()
 .. Stores a Float value in the Table's specified row and column.
 .. The row is specified by its ID, while the column may be specified
 .. by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 setNum ( row, column, value )
@@ -23,8 +24,7 @@ setNum ( row, column, value )
 - ``value``  Number: ค่าที่จะกำหนด
 
 .. ``row``  Number: row ID
-.. ``column``  String,Number: column ID (Number)
-                              or title (String)
+.. ``column``  String,Number: column ID (Number) or title (String)
 .. ``value``  Number: value to assign
 
 .. raw:: html

@@ -8,6 +8,7 @@ sphere()
 วาดทรงกลมที่มีรัศมีให้
 
 .. Draw a sphere with given radius
+
 **รูปแบบการใช้งาน**
 
 sphere ( radius, [detailX], [detailY] )
@@ -21,12 +22,8 @@ sphere ( radius, [detailX], [detailY] )
 - ``detailY``  Number: ไม่จำเป็น: จำนวนกลุ่มส่วนที่มากขึ้นค่าเริ่มต้นของเรขาคณิตที่ราบรื่นคือ 16
 
 .. ``radius``  Number: radius of circle
-.. ``detailX``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 24
-.. ``detailY``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 16
+.. ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
+.. ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16
 
 .. raw:: html
 

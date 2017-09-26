@@ -10,6 +10,7 @@ mask()
 .. Masks part of an image from displaying by loading another
 .. image and using it's alpha channel as an alpha channel for
 .. this image.
+
 **รูปแบบการใช้งาน**
 
 mask ( srcImage )

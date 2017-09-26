@@ -11,6 +11,7 @@ getNum()
 .. parameter is specified and the attribute doesn't exist, then defaultValue
 .. is returned. If no defaultValue is specified and the attribute doesn't
 .. exist, the value 0 is returned.
+
 **รูปแบบการใช้งาน**
 
 getNum ( name, [defaultValue] )

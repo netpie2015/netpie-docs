@@ -9,6 +9,7 @@ createNumberDict()
 
 .. Creates a new instance of p5.NumberDict using the key, value pair
 .. or object you provide.
+
 **รูปแบบการใช้งาน**
 
 createNumberDict ( key, value )

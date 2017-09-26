@@ -8,6 +8,7 @@ minKey()
 ส่งคืนคีย์ที่ต่ำที่สุด
 
 .. Return the lowest key.
+
 **รูปแบบการใช้งาน**
 
 minKey ( )

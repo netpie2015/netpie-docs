@@ -8,6 +8,7 @@ textWidth()
 คำนวณและส่งกลับค่าความกว้างของอักขระหรือสตริงข้อความ
 
 .. Calculates and returns the width of any character or text string.
+
 **รูปแบบการใช้งาน**
 
 textWidth ( theText )

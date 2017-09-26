@@ -13,6 +13,7 @@ line()
 .. function will not affect the color of a line. 2D lines are drawn with a
 .. width of one pixel by default, but this can be changed with the
 .. strokeWeight() function.
+
 **รูปแบบการใช้งาน**
 
 line ( x1, y1, x2, y2 )

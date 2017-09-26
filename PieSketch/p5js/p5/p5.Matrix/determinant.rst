@@ -8,6 +8,7 @@ determinant()
 ได้รับแรงบันดาลใจจากปัจจัยกำหนด Mat4 ของ Toji
 
 .. inspired by Toji's mat4 determinant
+
 **รูปแบบการใช้งาน**
 
 determinant ( )

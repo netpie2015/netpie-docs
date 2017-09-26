@@ -22,6 +22,7 @@ createCanvas()
 .. For more ways to position the canvas, see the
 .. 
 .. positioning the canvas wiki page.
+
 **รูปแบบการใช้งาน**
 
 createCanvas ( w, h, [renderer] )

@@ -10,6 +10,7 @@ pwinMouseX
 .. The system variable pwinMouseX always contains the horizontal position
 .. of the mouse in the frame previous to the current frame, relative to
 .. (0, 0) of the window.
+
 **รูปแบบการใช้งาน**
 
 pwinMouseX

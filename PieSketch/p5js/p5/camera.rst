@@ -14,6 +14,7 @@ camera()
 .. When called with no arguments, this function
 .. sets a default camera equivalent to calling
 .. camera(0, 0, (height/2.0) / tan(PI*30.0 / 180.0), 0, 0, 0, 0, 1, 0);
+
 **รูปแบบการใช้งาน**
 
 camera ( [x], [y], [z], [centerX], [centerY], [centerZ], [upX], [upY], [upZ] )

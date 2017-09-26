@@ -18,6 +18,7 @@ textAlign()
 .. write textAlign(RIGHT, TOP), you are aligning the right edge
 .. of your text to the x value and the top of edge of the text
 .. to the y value.
+
 **รูปแบบการใช้งาน**
 
 textAlign ( horizAlign, [vertAlign] )
@@ -28,10 +29,8 @@ textAlign ( horizAlign, [vertAlign] )
 
 - ``vertAlign``  Constant: การจัดแนวแนวตั้งทั้ง TOP, BOTTOM, CENTER หรือ BASELINE
 
-.. ``horizAlign``  Constant: horizontal alignment, either LEFT,
-                           CENTER, or RIGHT
-.. ``vertAlign``  Constant: vertical alignment, either TOP,
-                           BOTTOM, CENTER, or BASELINE
+.. ``horizAlign``  Constant: horizontal alignment, either LEFT, CENTER, or RIGHT
+.. ``vertAlign``  Constant: vertical alignment, either TOP, BOTTOM, CENTER, or BASELINE
 
 **ค่าที่ส่งออกมา**
 

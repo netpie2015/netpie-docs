@@ -8,6 +8,7 @@ erode()
 เพิ่มพื้นที่สว่างในภาพ
 
 .. increases the bright areas in an image
+
 **รูปแบบการใช้งาน**
 
 erode ( canvas )

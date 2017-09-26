@@ -20,6 +20,7 @@ loadStrings()
 .. 
 .. This method is asynchronous, meaning it may not finish before the next
 .. line in your sketch is executed.
+
 **รูปแบบการใช้งาน**
 
 loadStrings ( filename, [callback], [errorCallback] )
@@ -33,12 +34,8 @@ loadStrings ( filename, [callback], [errorCallback] )
 - ``errorCallback``  function: ฟังก์ชันที่จะดำเนินการถ้ามีข้อผิดพลาดการตอบสนองจะถูกส่งผ่านเป็นอาร์กิวเมนต์แรก
 
 .. ``filename``  String: name of the file or url to load
-.. ``callback``  function: function to be executed after loadStrings()
-                              completes, Array is passed in as first
-                              argument
-.. ``errorCallback``  function: function to be executed if
-                              there is an error, response is passed
-                              in as first argument
+.. ``callback``  function: function to be executed after loadStrings() completes, Array is passed in as first argument
+.. ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
 
 **ค่าที่ส่งออกมา**
 

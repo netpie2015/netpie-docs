@@ -9,6 +9,7 @@ add()
 
 .. Add to a value stored at a certain key
 .. The sum is stored in that location in the Dictionary.
+
 **รูปแบบการใช้งาน**
 
 add ( Key, Amount )

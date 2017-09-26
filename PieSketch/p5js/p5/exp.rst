@@ -9,6 +9,7 @@ exp()
 
 .. Returns Euler's number e (2.71828...) raised to the power of the n
 .. parameter. Maps to Math.exp().
+
 **รูปแบบการใช้งาน**
 
 exp ( n )

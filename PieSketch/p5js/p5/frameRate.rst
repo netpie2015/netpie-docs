@@ -22,6 +22,7 @@ frameRate()
 .. 
 .. Calling frameRate() with arguments that are not of the type numbers
 .. or are non positive also returns current framerate.
+
 **รูปแบบการใช้งาน**
 
 frameRate ( fps )

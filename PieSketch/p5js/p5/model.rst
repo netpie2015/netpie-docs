@@ -8,6 +8,7 @@ model()
 ทำให้โมเดล 3 มิติไปที่หน้าจอ
 
 .. Render a 3d model to the screen.
+
 **รูปแบบการใช้งาน**
 
 model ( model )

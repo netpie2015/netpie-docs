@@ -11,6 +11,7 @@ key
 .. key on the keyboard that was typed. To get the proper capitalization, it
 .. is best to use it within keyTyped(). For non-ASCII keys, use the keyCode
 .. variable.
+
 **รูปแบบการใช้งาน**
 
 key

@@ -9,6 +9,7 @@ winMouseX
 
 .. The system variable winMouseX always contains the current horizontal
 .. position of the mouse, relative to (0, 0) of the window.
+
 **รูปแบบการใช้งาน**
 
 winMouseX

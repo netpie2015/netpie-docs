@@ -18,6 +18,7 @@ translate()
 .. translate(70, 0). If translate() is called within draw(), the
 .. transformation is reset when the loop begins again. This function can be
 .. further controlled by using push() and pop().
+
 **รูปแบบการใช้งาน**
 
 translate ( x, y, [z] )

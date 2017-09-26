@@ -9,6 +9,7 @@ noStroke()
 
 .. Disables drawing the stroke (outline). If both noStroke() and noFill()
 .. are called, nothing will be drawn to the screen.
+
 **รูปแบบการใช้งาน**
 
 noStroke ( )

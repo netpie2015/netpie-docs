@@ -9,6 +9,7 @@ hasChildren()
 
 .. Checks whether or not the element has any children, and returns the result
 .. as a boolean.
+
 **รูปแบบการใช้งาน**
 
 hasChildren ( )

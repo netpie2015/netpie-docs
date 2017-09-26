@@ -8,6 +8,7 @@ dilate()
 ลดพื้นที่สว่างในภาพ
 
 .. reduces the bright areas in an image
+
 **รูปแบบการใช้งาน**
 
 dilate ( canvas )

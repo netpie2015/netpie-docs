@@ -10,6 +10,7 @@ getChild()
 .. Returns the first of the element's children that matches the name parameter
 .. or the child of the given index.It returns undefined if no matching
 .. child is found.
+
 **รูปแบบการใช้งาน**
 
 getChild ( name )

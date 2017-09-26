@@ -18,6 +18,7 @@ rect()
 .. determine corner radius for the top-right, top-left, lower-right and
 .. lower-left corners, respectively. An omitted corner radius parameter is set
 .. to the value of the previously specified radius value in the parameter list.
+
 **รูปแบบการใช้งาน**
 
 rect ( x, y, w, h, [tl], [tr], [br], [bl] )

@@ -14,6 +14,7 @@ pRotationX สามารถใช้กับ rotationX เพื่อกำ�
 .. 
 .. pRotationX can also be used with rotationX to determine the rotate
 .. direction of the device along the X-axis.
+
 **รูปแบบการใช้งาน**
 
 pRotationX

@@ -8,6 +8,7 @@ rotateY()
 หมุนรอบแกน Y
 
 .. Rotates around Y axis.
+
 **รูปแบบการใช้งาน**
 
 rotateY ( rad )

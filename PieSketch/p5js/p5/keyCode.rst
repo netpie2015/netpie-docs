@@ -12,6 +12,7 @@ keyCode
 .. DOWN_ARROW, LEFT_ARROW, RIGHT_ARROW.
 .. You can also check for custom keys by looking up the keyCode of any key
 .. on a site like this: keycode.info.
+
 **รูปแบบการใช้งาน**
 
 keyCode

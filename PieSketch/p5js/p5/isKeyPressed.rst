@@ -9,6 +9,7 @@ isKeyPressed
 
 .. The boolean system variable keyIsPressed is true if any key is pressed
 .. and false if no keys are pressed.
+
 **รูปแบบการใช้งาน**
 
 isKeyPressed

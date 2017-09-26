@@ -8,6 +8,7 @@ lerp()
 เชิงเส้น interpolate เวกเตอร์ไปยังเวกเตอร์อื่น
 
 .. Linear interpolate the vector to another vector
+
 **รูปแบบการใช้งาน**
 
 lerp ( x, y, z, amt )
@@ -25,8 +26,6 @@ lerp ( x, y, z, amt )
 .. ``x``  p5.Vector: the x component
 .. ``y``  p5.Vector: the y component
 .. ``z``  p5.Vector: the z component
-.. ``amt``  Number: the amount of interpolation; some value between 0.0
-                        (old vector) and 1.0 (new vector). 0.1 is very near
-                        the new vector. 0.5 is halfway in between.
+.. ``amt``  Number: the amount of interpolation; some value between 0.0 (old vector) and 1.0 (new vector). 0.1 is very near the new vector. 0.5 is halfway in between.
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

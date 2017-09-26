@@ -13,6 +13,7 @@ touches
 .. and id properties.
 .. The touches[] array is not supported on Safari and IE on touch-based
 .. desktops (laptops).
+
 **รูปแบบการใช้งาน**
 
 touches

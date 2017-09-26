@@ -35,6 +35,7 @@ loadTable(&quot;my_csv_file.csv&quot;, &quot;csv&quot;, &quot;header&quot;)   �
 .. Outside of preload(), you may supply a callback function to handle the
 .. object:
 .. 
+
 **รูปแบบการใช้งาน**
 
 loadTable ( filename, [options], [callback], [errorCallback] )
@@ -51,13 +52,8 @@ loadTable ( filename, [options], [callback], [errorCallback] )
 
 .. ``filename``  String: name of the file or URL to load
 .. ``options``  String: "header" "csv" "tsv"
-.. ``callback``  function: function to be executed after
-                                    loadTable() completes. On success, the
-                                    Table object is passed in as the
-                                    first argument.
-.. ``errorCallback``  function: function to be executed if
-                                    there is an error, response is passed
-                                    in as first argument
+.. ``callback``  function: function to be executed after loadTable() completes. On success, the Table object is passed in as the first argument.
+.. ``errorCallback``  function: function to be executed if there is an error, response is passed in as first argument
 
 **ค่าที่ส่งออกมา**
 

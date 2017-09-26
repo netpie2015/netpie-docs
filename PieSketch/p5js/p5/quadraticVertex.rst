@@ -14,6 +14,7 @@ quadraticVertex()
 .. must be prefaced with a call to vertex() to set the first anchor point.
 .. This function must be used between beginShape() and endShape() and only
 .. when there is no MODE parameter specified to beginShape().
+
 **รูปแบบการใช้งาน**
 
 quadraticVertex ( cx, cy, x3, y3 )

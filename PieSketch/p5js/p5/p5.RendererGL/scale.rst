@@ -8,6 +8,7 @@ scale()
 คำนวณเมทริกซ์มุมมองแบบโดยเวกเตอร์
 
 .. Scales the Model View Matrix by a vector
+
 **รูปแบบการใช้งาน**
 
 scale ( x, [y], [z] )

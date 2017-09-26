@@ -9,6 +9,7 @@ blend()
 
 .. Copies a region of pixels from one image to another, using a specified
 .. blend mode to do the operation.
+
 **รูปแบบการใช้งาน**
 
 blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
@@ -44,15 +45,7 @@ blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 .. ``dy``  Integer: Y coordinate of the destination's upper left corner
 .. ``dw``  Integer: destination image width
 .. ``dh``  Integer: destination image height
-.. ``blendMode``  Integer: the blend mode
-
-Available blend modes are: normal | multiply | screen | overlay |
-           darken | lighten | color-dodge | color-burn | hard-light |
-           soft-light | difference | exclusion | hue | saturation |
-           color | luminosity
-
-
-http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
+.. ``blendMode``  Integer: the blend mode Available blend modes are: normal | multiply | screen | overlay | darken | lighten | color-dodge | color-burn | hard-light | soft-light | difference | exclusion | hue | saturation | color | luminosity http://blogs.adobe.com/webplatform/2013/01/28/blending-features-in-canvas/
 
 .. raw:: html
 

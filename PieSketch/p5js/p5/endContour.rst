@@ -20,6 +20,7 @@ endContour()
 .. transformations such as translate(), rotate(), and scale() do not work
 .. within a beginContour()/endContour() pair. It is also not possible to use
 .. other shapes, such as ellipse() or rect() within.
+
 **รูปแบบการใช้งาน**
 
 endContour ( )

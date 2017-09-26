@@ -8,6 +8,7 @@ getURLParams()
 รับ params URL ปัจจุบันเป็น Object
 
 .. Gets the current URL params as an Object.
+
 **รูปแบบการใช้งาน**
 
 getURLParams ( )

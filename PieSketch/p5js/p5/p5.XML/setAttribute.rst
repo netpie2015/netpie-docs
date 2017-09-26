@@ -9,6 +9,7 @@ setAttribute()
 
 .. Sets the content of an element's attribute. The first parameter specifies
 .. the attribute name, while the second specifies the new content.
+
 **รูปแบบการใช้งาน**
 
 setAttribute ( name, value )

@@ -14,6 +14,7 @@ pRotationY สามารถใช้กับ rotationY เพื่อกำ�
 .. 
 .. pRotationY can also be used with rotationY to determine the rotate
 .. direction of the device along the Y-axis.
+
 **รูปแบบการใช้งาน**
 
 pRotationY

@@ -10,6 +10,7 @@ saveStrings()
 .. Writes an array of Strings to a text file, one line per String.
 ..  The file saving process and location of the saved file will
 ..  vary between web browsers.
+
 **รูปแบบการใช้งาน**
 
 saveStrings ( list, filename )

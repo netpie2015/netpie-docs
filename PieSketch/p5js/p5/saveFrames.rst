@@ -15,6 +15,7 @@ saveFrames()
 ..  callback provided the image data isn't saved by default but instead passed
 ..  as an argument to the callback function as an array of objects, with the
 ..  size of array equal to the total number of frames.
+
 **รูปแบบการใช้งาน**
 
 saveFrames ( filename, extension, duration, framerate, [callback] )
@@ -35,13 +36,7 @@ saveFrames ( filename, extension, duration, framerate, [callback] )
 .. ``extension``  String: 'jpg' or 'png'
 .. ``duration``  Number: Duration in seconds to save the frames for.
 .. ``framerate``  Number: Framerate to save the frames in.
-.. ``callback``  function: A callback function that will be executed
-                                  to handle the image data. This function
-                                  should accept an array as argument. The
-                                  array will contain the specified number of
-                                  frames of objects. Each object has three
-                                  properties: imageData - an
-                                  image/octet-stream, filename and extension.
+.. ``callback``  function: A callback function that will be executed to handle the image data. This function should accept an array as argument. The array will contain the specified number of frames of objects. Each object has three properties: imageData - an image/octet-stream, filename and extension.
 
 .. raw:: html
 

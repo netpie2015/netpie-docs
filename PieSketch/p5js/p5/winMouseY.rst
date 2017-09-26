@@ -9,6 +9,7 @@ winMouseY
 
 .. The system variable winMouseY always contains the current vertical
 .. position of the mouse, relative to (0, 0) of the window.
+
 **รูปแบบการใช้งาน**
 
 winMouseY

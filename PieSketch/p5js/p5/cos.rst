@@ -5,24 +5,24 @@
 cos()
 =====
 
-Calculates the cosine of an angle. This function takes into account the
-current angleMode. Values are returned in the range -1 to 1.
+คำนวณโคไซน์ของมุม ฟังก์ชันนี้คำนึงถึงมุมมองปัจจุบัน ค่าจะถูกส่งกลับในช่วง -1 ถึง 1
 
 .. Calculates the cosine of an angle. This function takes into account the
 .. current angleMode. Values are returned in the range -1 to 1.
+
 **รูปแบบการใช้งาน**
 
 cos ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  Number: the angle
+- ``angle``  Number: มุม
 
 .. ``angle``  Number: the angle
 
 **ค่าที่ส่งออกมา**
 
-- Number: the cosine of the angle
+- Number: โคไซน์ของมุม
 
 .. Number: the cosine of the angle
 

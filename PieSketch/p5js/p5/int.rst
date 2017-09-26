@@ -10,6 +10,7 @@ int()
 .. Converts a boolean, string, or float to its integer representation.
 .. When an array of values is passed in, then an int array of the same length
 .. is returned.
+
 **รูปแบบการใช้งาน**
 
 int ( n )

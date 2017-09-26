@@ -13,6 +13,7 @@ subset()
 .. given, elements will be extracted from the start to the end of the array.
 .. When specifying the start, remember that the first array element is 0.
 .. This function does not change the source array.
+
 **รูปแบบการใช้งาน**
 
 subset ( list, start, [count] )

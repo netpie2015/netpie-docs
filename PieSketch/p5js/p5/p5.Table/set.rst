@@ -10,6 +10,7 @@ set()
 .. Stores a value in the Table's specified row and column.
 .. The row is specified by its ID, while the column may be specified
 .. by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 set ( column, value )
@@ -20,8 +21,7 @@ set ( column, value )
 
 - ``value``  String,Number: ค่าที่จะกำหนด
 
-.. ``column``  String,Number: column ID (Number)
-                              or title (String)
+.. ``column``  String,Number: column ID (Number) or title (String)
 .. ``value``  String,Number: value to assign
 
 .. raw:: html

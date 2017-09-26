@@ -8,6 +8,7 @@ height
 ความสูงของภาพ
 
 .. Image height.
+
 **รูปแบบการใช้งาน**
 
 height

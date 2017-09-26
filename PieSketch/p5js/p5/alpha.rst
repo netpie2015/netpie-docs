@@ -8,6 +8,7 @@ alpha()
 แยกค่า alpha ออกจากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the alpha value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 alpha ( color )

@@ -9,6 +9,7 @@ mag()
 
 .. Calculates the magnitude (length) of the vector and returns the result as
 .. a float (this is simply the equation sqrt(x*x + y*y + z*z).)
+
 **รูปแบบการใช้งาน**
 
 mag ( )

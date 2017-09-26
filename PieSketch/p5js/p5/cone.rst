@@ -8,6 +8,7 @@ cone()
 วาดกรวยด้วยรัศมีและความสูงที่กำหนด
 
 .. Draw a cone with given radius and height
+
 **รูปแบบการใช้งาน**
 
 cone ( radius, height, [detailX], [detailY] )
@@ -24,12 +25,8 @@ cone ( radius, height, [detailX], [detailY] )
 
 .. ``radius``  Number: radius of the bottom surface
 .. ``height``  Number: height of the cone
-.. ``detailX``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 24
-.. ``detailY``  Number: optional: number of segments,
-                                   the more segments the smoother geometry
-                                   default is 16
+.. ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
+.. ``detailY``  Number: optional: number of segments, the more segments the smoother geometry default is 16
 
 .. raw:: html
 

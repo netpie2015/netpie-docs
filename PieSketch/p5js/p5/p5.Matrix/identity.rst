@@ -8,6 +8,7 @@ identity()
 คืนเมทริกซ์เอกลักษณ์
 
 .. return an identity matrix
+
 **รูปแบบการใช้งาน**
 
 identity ( )

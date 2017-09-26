@@ -5,16 +5,17 @@
 angleMode()
 ===========
 
-Sets the current mode of p5 to given mode. Default mode is RADIANS.
+ตั้งค่าโหมดปัจจุบันของ p5 ไปยังโหมดที่กำหนด โหมดค่าเริ่มต้นคือ RADIANS
 
 .. Sets the current mode of p5 to given mode. Default mode is RADIANS.
+
 **รูปแบบการใช้งาน**
 
 angleMode ( mode )
 
 **พารามิเตอร์**
 
-- ``mode``  Constant: either RADIANS or DEGREES
+- ``mode``  Constant: ทั้ง RADIANS หรือ DEGREES
 
 .. ``mode``  Constant: either RADIANS or DEGREES
 

@@ -14,6 +14,7 @@ deviceTurned()
 .. The axis that triggers the deviceTurned() method is stored in the turnAxis
 .. variable. The deviceTurned() method can be locked to trigger on any axis:
 .. X, Y or Z by comparing the turnAxis variable to 'X', 'Y' or 'Z'.
+
 **รูปแบบการใช้งาน**
 
 deviceTurned ( )

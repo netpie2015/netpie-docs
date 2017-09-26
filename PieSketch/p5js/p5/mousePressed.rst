@@ -17,6 +17,7 @@ mousePressed()
 .. Browsers may have different default
 .. behaviors attached to various mouse events. To prevent any default
 .. behavior for this event, add "return false" to the end of the method.
+
 **รูปแบบการใช้งาน**
 
 mousePressed ( )

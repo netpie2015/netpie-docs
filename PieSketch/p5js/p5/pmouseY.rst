@@ -10,6 +10,7 @@ pmouseY
 .. The system variable pmouseY always contains the vertical position of the
 .. mouse or finger in the frame previous to the current frame, relative to
 .. (0, 0) of the canvas.
+
 **รูปแบบการใช้งาน**
 
 pmouseY

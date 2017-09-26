@@ -9,6 +9,7 @@ abs()
 
 .. Calculates the absolute value (magnitude) of a number. Maps to Math.abs().
 .. The absolute value of a number is always positive.
+
 **รูปแบบการใช้งาน**
 
 abs ( n )

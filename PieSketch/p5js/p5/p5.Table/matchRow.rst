@@ -12,6 +12,7 @@ matchRow()
 ..  Even if multiple rows are possible matches, only the first
 ..  matching row is returned. The column to search may be
 ..  specified by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 matchRow ( regexp, column )
@@ -23,8 +24,7 @@ matchRow ( regexp, column )
 - ``column``  String,Number: หมายเลขคอลัมน์ (หมายเลข) หรือชื่อ (สตริง)
 
 .. ``regexp``  String: The regular expression to match
-.. ``column``  String,Number: The column ID (number) or
-                                  title (string)
+.. ``column``  String,Number: The column ID (number) or title (string)
 
 **ค่าที่ส่งออกมา**
 

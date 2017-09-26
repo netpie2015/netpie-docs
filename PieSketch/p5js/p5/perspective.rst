@@ -11,6 +11,7 @@ perspective()
 .. provided are equivalent to
 .. perspective(PI/3.0, width/height, cameraZ/10.0, cameraZ*10.0)
 .. where cameraZ is ((height/2.0) / tan(PI*60.0/360.0));
+
 **รูปแบบการใช้งาน**
 
 perspective ( [fovy], [aspect], [near], [far] )
@@ -25,8 +26,7 @@ perspective ( [fovy], [aspect], [near], [far] )
 
 - ``far``  Number: frustum ยาวระนาบ
 
-.. ``fovy``  Number: camera frustum vertical field of view,
-                          from bottom to top of view, in degrees
+.. ``fovy``  Number: camera frustum vertical field of view, from bottom to top of view, in degrees
 .. ``aspect``  Number: camera frustum aspect ratio
 .. ``near``  Number: frustum near plane length
 .. ``far``  Number: frustum far plane length

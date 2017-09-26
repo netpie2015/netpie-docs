@@ -5,12 +5,8 @@
 blend()
 =======
 
-Copies a region of pixels from one image to another, using a specified
-blend mode to do the operation.
-
-Available blend modes are: BLEND | DARKEST | LIGHTEST | DIFFERENCE |
-MULTIPLY| EXCLUSION | SCREEN | REPLACE | OVERLAY | HARD_LIGHT |
-SOFT_LIGHT | DODGE | BURN | ADD | NORMAL
+คัดลอกพื้นที่พิกเซลจากภาพหนึ่งไปยังอีกภาพหนึ่งโดยใช้โหมดผสมผสานที่ระบุเพื่อดำเนินการ 
+โหมดการผสมผสานที่ใช้ได้คือ: BLEND | DARKEST | LIGHTEST | ความแตกต่าง | ทวีคูณ | การยกเว้น | หน้าจอ | แทนที่ | OVERLAY | HARD_LIGHT | SOFT_LIGHT | DODGE | เบิร์น | เพิ่ม | ปกติ
 
 .. Copies a region of pixels from one image to another, using a specified
 .. blend mode to do the operation.
@@ -18,31 +14,32 @@ SOFT_LIGHT | DODGE | BURN | ADD | NORMAL
 .. Available blend modes are: BLEND | DARKEST | LIGHTEST | DIFFERENCE |
 .. MULTIPLY| EXCLUSION | SCREEN | REPLACE | OVERLAY | HARD_LIGHT |
 .. SOFT_LIGHT | DODGE | BURN | ADD | NORMAL
+
 **รูปแบบการใช้งาน**
 
 blend ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh, blendMode )
 
 **พารามิเตอร์**
 
-- ``srcImage``  p5.Image,undefined: source image
+- ``srcImage``  p5.Image,undefined: ภาพต้นฉบับ
 
-- ``sx``  Integer: X coordinate of the source's upper left corner
+- ``sx``  Integer: พิกัด X ของมุมซายบนของแหลง
 
-- ``sy``  Integer: Y coordinate of the source's upper left corner
+- ``sy``  Integer: พิกัด Y ของมุมซายบนของแหลง
 
-- ``sw``  Integer: source image width
+- ``sw``  Integer: ความกว้างของภาพต้นฉบับ
 
-- ``sh``  Integer: source image height
+- ``sh``  Integer: ความสูงของภาพต้นฉบับ
 
-- ``dx``  Integer: X coordinate of the destination's upper left corner
+- ``dx``  Integer: พิกัด X ของมุมบนซ้ายของปลายทาง
 
-- ``dy``  Integer: Y coordinate of the destination's upper left corner
+- ``dy``  Integer: พิกัด Y ของมุมบนซ้ายของปลายทาง
 
-- ``dw``  Integer: destination image width
+- ``dw``  Integer: ความกว้างของภาพปลายทาง
 
-- ``dh``  Integer: destination image height
+- ``dh``  Integer: ความสูงของภาพปลายทาง
 
-- ``blendMode``  Integer: the blend mode
+- ``blendMode``  Integer: โหมดผสมผสาน
 
 .. ``srcImage``  p5.Image,undefined: source image
 .. ``sx``  Integer: X coordinate of the source's upper left corner

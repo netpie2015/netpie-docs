@@ -9,6 +9,7 @@ touchMoved()
 
 .. The .touchMoved() function is called once after every time a touch move is
 .. registered. This can be used to attach element specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 touchMoved ( fxn )
@@ -17,8 +18,7 @@ touchMoved ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อสัมผัสถูกย้ายไปที่องค์ประกอบ
 
-.. ``fxn``  function: function to be fired when touch is moved
-                   over the element.
+.. ``fxn``  function: function to be fired when touch is moved over the element.
 
 .. raw:: html
 

@@ -13,6 +13,7 @@ setFrameRate()
 .. frame rate will not be achieved. Setting the frame rate within setup() is
 .. recommended. The default rate is 60 frames per second.
 .. Calling frameRate() with no arguments returns the current framerate.
+
 **รูปแบบการใช้งาน**
 
 setFrameRate ( [fps] )

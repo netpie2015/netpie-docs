@@ -8,6 +8,7 @@ green()
 แยกค่าสีเขียวจากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the green value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 green ( color )

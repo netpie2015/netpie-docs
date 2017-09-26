@@ -8,6 +8,7 @@ getURL()
 ได้รับ URL ปัจจุบัน
 
 .. Gets the current URL.
+
 **รูปแบบการใช้งาน**
 
 getURL ( )

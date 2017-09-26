@@ -10,6 +10,7 @@ cross()
 .. Calculates and returns a vector composed of the cross product between
 .. two vectors. Both the static and non static methods return a new p5.Vector.
 .. See the examples for more context.
+
 **รูปแบบการใช้งาน**
 
 cross ( v )

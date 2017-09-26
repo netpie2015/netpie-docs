@@ -11,6 +11,7 @@ matchRows()
 ..  and returns references to those rows. Returns an array, so for must be
 ..  used to iterate through all the rows, as shown in the example. The
 ..  column to search may be specified by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 matchRows ( regexp, [column] )
@@ -22,8 +23,7 @@ matchRows ( regexp, [column] )
 - ``column``  String,Number: หมายเลขคอลัมน์ (หมายเลข) หรือชื่อ (สตริง)
 
 .. ``regexp``  String: The regular expression to match
-.. ``column``  String,Number: The column ID (number) or
-                                  title (string)
+.. ``column``  String,Number: The column ID (number) or title (string)
 
 **ค่าที่ส่งออกมา**
 

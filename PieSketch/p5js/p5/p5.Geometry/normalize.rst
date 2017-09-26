@@ -8,6 +8,7 @@ normalize()
 ปรับเปลี่ยนจุดยอดทั้งหมดที่อยู่กึ่งกลางระหว่างช่วง -100 ถึง 100
 
 .. Modifies all vertices to be centered within the range -100 to 100.
+
 **รูปแบบการใช้งาน**
 
 normalize ( )

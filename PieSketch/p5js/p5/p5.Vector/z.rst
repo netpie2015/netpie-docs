@@ -8,6 +8,7 @@ z
 องค์ประกอบ z ของเวกเตอร์
 
 .. The z component of the vector
+
 **รูปแบบการใช้งาน**
 
 z

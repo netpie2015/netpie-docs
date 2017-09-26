@@ -8,6 +8,7 @@ noStroke()
 ไม่ทำให้จังหวะ
 
 .. Does not render stroke
+
 **รูปแบบการใช้งาน**
 
 noStroke ( )

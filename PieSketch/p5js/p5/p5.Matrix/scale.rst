@@ -8,6 +8,7 @@ scale()
 ตาชั่ง p5.Matrix โดย scalars หรือเวกเตอร์
 
 .. scales a p5.Matrix by scalars or a vector
+
 **รูปแบบการใช้งาน**
 
 scale ( s )

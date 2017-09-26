@@ -11,6 +11,7 @@ mouseX
 .. position of the mouse, relative to (0, 0) of the canvas. If touch is
 .. used instead of mouse input, mouseX will hold the x value of the most
 .. recent touch point.
+
 **รูปแบบการใช้งาน**
 
 mouseX

@@ -9,6 +9,7 @@ set()
 
 .. Sets the x, y, and z component of the vector using two or three separate
 .. variables, the data from a p5.Vector, or the values from a float array.
+
 **รูปแบบการใช้งาน**
 
 set ( [x], [y], [z] )
@@ -21,8 +22,7 @@ set ( [x], [y], [z] )
 
 - ``z``  Number: องค์ประกอบ z ของเวกเตอร์
 
-.. ``x``  Number,p5.Vector,Array: the x component of the vector or a
-                                    p5.Vector or an Array
+.. ``x``  Number,p5.Vector,Array: the x component of the vector or a p5.Vector or an Array
 .. ``y``  Number: the y component of the vector
 .. ``z``  Number: the z component of the vector
 

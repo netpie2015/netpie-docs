@@ -8,6 +8,7 @@ lightness()
 แยกค่าความสว่าง HSL จากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the HSL lightness value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 lightness ( color )

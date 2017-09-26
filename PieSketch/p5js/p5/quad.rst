@@ -12,6 +12,7 @@ quad()
 .. constrained to ninety degrees. The first pair of parameters (x1,y1)
 .. sets the first vertex and the subsequent pairs should proceed
 .. clockwise or counter-clockwise around the defined shape.
+
 **รูปแบบการใช้งาน**
 
 quad ( x1, y1, x2, y2, x3, y3, x4, y4 )

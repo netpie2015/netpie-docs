@@ -8,6 +8,7 @@ equals()
 การตรวจสอบความเสมอภาคกับ p5.Vector
 
 .. Equality check against a p5.Vector
+
 **รูปแบบการใช้งาน**
 
 equals ( [x], [y], [z] )
@@ -20,8 +21,7 @@ equals ( [x], [y], [z] )
 
 - ``z``  Number: องค์ประกอบ z ของเวกเตอร์
 
-.. ``x``  Number,p5.Vector,Array: the x component of the vector or a
-                                    p5.Vector or an Array
+.. ``x``  Number,p5.Vector,Array: the x component of the vector or a p5.Vector or an Array
 .. ``y``  Number: the y component of the vector
 .. ``z``  Number: the z component of the vector
 

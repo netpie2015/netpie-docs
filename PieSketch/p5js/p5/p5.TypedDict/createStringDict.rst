@@ -9,6 +9,7 @@ createStringDict()
 
 .. Creates a new instance of p5.StringDict using the key, value pair
 .. or object you provide.
+
 **รูปแบบการใช้งาน**
 
 createStringDict ( key, value )

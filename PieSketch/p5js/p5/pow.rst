@@ -12,6 +12,7 @@ pow()
 .. quantities. For example, pow(3, 5) is equivalent to the expression
 .. 3*3*3*3*3 and pow(3, -5) is equivalent to 1 / 3*3*3*3*3. Maps to
 .. Math.pow().
+
 **รูปแบบการใช้งาน**
 
 pow ( n, e )

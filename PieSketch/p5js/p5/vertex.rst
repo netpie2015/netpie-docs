@@ -11,6 +11,7 @@ vertex()
 .. is used to specify the vertex coordinates for points, lines, triangles,
 .. quads, and polygons. It is used exclusively within the beginShape() and
 .. endShape() functions.
+
 **รูปแบบการใช้งาน**
 
 vertex ( x, y, [z] )

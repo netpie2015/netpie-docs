@@ -8,6 +8,7 @@ getAttributeCount()
 นับจำนวนแอตทริบิวต์ขององค์ประกอบที่ระบุซึ่งส่งกลับเป็นตัวเลข
 
 .. Counts the specified element's number of attributes, returned as an Number.
+
 **รูปแบบการใช้งาน**
 
 getAttributeCount ( )

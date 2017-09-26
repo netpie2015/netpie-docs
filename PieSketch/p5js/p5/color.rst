@@ -25,6 +25,7 @@ color()
 .. strings and all named color strings are supported. In this case, an alpha
 .. number value as a second argument is not supported, the RGBA form should be
 .. used.
+
 **รูปแบบการใช้งาน**
 
 color ( gray, [alpha] )
@@ -35,10 +36,8 @@ color ( gray, [alpha] )
 
 - ``alpha``  Number: ค่า alpha เทียบกับช่วงสีปัจจุบัน (ค่าเริ่มต้นคือ 0-255)
 
-.. ``gray``  Number: number specifying value between white
-                                and black.
-.. ``alpha``  Number: alpha value relative to current color range
-                                (default is 0-255)
+.. ``gray``  Number: number specifying value between white and black.
+.. ``alpha``  Number: alpha value relative to current color range (default is 0-255)
 
 **ค่าที่ส่งออกมา**
 

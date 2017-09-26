@@ -22,6 +22,7 @@ arrayCopy()
 .. 
 .. Using this function is far more efficient for copying array data than
 .. iterating through a for() loop and copying each element individually.
+
 **รูปแบบการใช้งาน**
 
 arrayCopy ( src, srcPosition, dst, dstPosition, length )

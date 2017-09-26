@@ -9,6 +9,7 @@ p5.js สื่อสารกับนาฬิกาบนคอมพิว�
 
 .. p5.js communicates with the clock on your computer. The second() function
 .. returns the current second as a value from 0 - 59.
+
 **รูปแบบการใช้งาน**
 
 second ( )

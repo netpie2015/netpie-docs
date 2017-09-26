@@ -11,6 +11,7 @@ addColumn()
 ..  Typically, you will want to specify a title, so the column
 ..  may be easily referenced later by name. (If no title is
 ..  specified, the new column's title will be null.)
+
 **รูปแบบการใช้งาน**
 
 addColumn ( [title] )

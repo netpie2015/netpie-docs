@@ -11,6 +11,7 @@ add()
 .. adds two independent vectors together. The version of the method that adds
 .. two vectors together is a static method and returns a p5.Vector, the others
 .. acts directly on the vector. See the examples for more context.
+
 **รูปแบบการใช้งาน**
 
 add ( x, [y], [z] )
@@ -23,12 +24,9 @@ add ( x, [y], [z] )
 
 - ``z``  Number: องค์ประกอบ z ของเวกเตอร์ที่จะเพิ่ม
 
-.. ``x``  Number,p5.Vector,Array: the x component of the vector to be
-                                     added or a p5.Vector or an Array
-.. ``y``  Number: the y component of the vector to be
-                                     added
-.. ``z``  Number: the z component of the vector to be
-                                     added
+.. ``x``  Number,p5.Vector,Array: the x component of the vector to be added or a p5.Vector or an Array
+.. ``y``  Number: the y component of the vector to be added
+.. ``z``  Number: the z component of the vector to be added
 
 .. raw:: html
 

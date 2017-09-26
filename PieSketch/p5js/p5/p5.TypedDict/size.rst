@@ -8,6 +8,7 @@ size()
 แสดงจำนวนคู่คีย์ - ค่าที่อยู่ในออบเจ็กต์ Dictionary
 
 .. Returns the number of key-value pairs currently in Dictionary object
+
 **รูปแบบการใช้งาน**
 
 size ( )

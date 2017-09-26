@@ -9,6 +9,7 @@ shorten()
 
 .. Decreases an array by one element and returns the shortened array,
 .. maps to Array.pop().
+
 **รูปแบบการใช้งาน**
 
 shorten ( list )

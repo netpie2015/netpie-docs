@@ -8,6 +8,7 @@ remove()
 ลบคู่คีย์ - ค่าในพจนานุกรม
 
 .. Removes a key-value pair in the Dictionary
+
 **รูปแบบการใช้งาน**
 
 remove ( key )

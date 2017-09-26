@@ -8,6 +8,7 @@ print()
 บันทึกรายการของไอเทมที่อยู่ในพจนานุกรมไปยังคอนโซล
 
 .. Logs the list of items currently in the Dictionary to the console
+
 **รูปแบบการใช้งาน**
 
 print ( )

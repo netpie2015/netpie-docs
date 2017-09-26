@@ -17,6 +17,7 @@ lerpColor()
 .. strange and unexpected colors.
 .. 
 .. The way that colours are interpolated depends on the current color mode.
+
 **รูปแบบการใช้งาน**
 
 lerpColor ( c1, c2, amt )

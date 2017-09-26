@@ -12,6 +12,7 @@ removeColumn()
 ..  its title (a String) or its index value (an int).
 ..  removeColumn(0) would remove the first column, removeColumn(1)
 ..  would remove the second column, and so on.
+
 **รูปแบบการใช้งาน**
 
 removeColumn ( column )

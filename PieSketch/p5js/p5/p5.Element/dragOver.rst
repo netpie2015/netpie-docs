@@ -10,6 +10,7 @@ dragOver()
 .. The .dragOver() function is called once after every time a
 .. file is dragged over the element. This can be used to attach an
 .. element specific event listener.
+
 **รูปแบบการใช้งาน**
 
 dragOver ( fxn )
@@ -18,8 +19,7 @@ dragOver ( fxn )
 
 - ``fxn``  function: จะถูกเรียกใช้เมื่อลากเมาส์ไปเหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   dragged over the element.
+.. ``fxn``  function: function to be fired when mouse is dragged over the element.
 
 .. raw:: html
 

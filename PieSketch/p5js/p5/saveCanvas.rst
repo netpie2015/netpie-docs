@@ -11,6 +11,7 @@ saveCanvas()
 ..  image in the window and the user must provide their own
 ..  filename on save-as. Other browsers will either save the
 ..  file immediately, or prompt the user with a dialogue window.
+
 **รูปแบบการใช้งาน**
 
 saveCanvas ( selectedCanvas, [filename], [extension] )
@@ -23,8 +24,7 @@ saveCanvas ( selectedCanvas, [filename], [extension] )
 
 - ``extension``  String: &#39;jpg&#39; หรือ &#39;png&#39;
 
-.. ``selectedCanvas``  p5.Element,HTMLCanvasElement: a variable
-                                 representing a specific html5 canvas (optional)
+.. ``selectedCanvas``  p5.Element,HTMLCanvasElement: a variable representing a specific html5 canvas (optional)
 .. ``filename``  String: 
 .. ``extension``  String: 'jpg' or 'png'
 

@@ -9,6 +9,7 @@ displayWidth
 
 .. System variable that stores the width of the entire screen display. This
 .. is used to run a full-screen program on any display size.
+
 **รูปแบบการใช้งาน**
 
 displayWidth

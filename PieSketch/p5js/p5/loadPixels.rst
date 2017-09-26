@@ -5,15 +5,13 @@
 loadPixels()
 ============
 
-Loads the pixel data for the display window into the pixels[] array. This
-function must always be called before reading from or writing to pixels[].
-Note that only changes made with set() or direct manipulation of pixels[]
-will occur.
+โหลดข้อมูลพิกเซลสำหรับหน้าต่างแสดงผลลงในอาร์เรย์พิกเซล [] ฟังก์ชั่นนี้ต้องเรียกก่อนหรืออ่านจากพิกเซล [] โปรดทราบว่าเฉพาะการเปลี่ยนแปลงที่เกิดขึ้นกับชุด () หรือการจัดการกับพิกเซลโดยตรงเท่านั้น [] จะเกิดขึ้น
 
 .. Loads the pixel data for the display window into the pixels[] array. This
 .. function must always be called before reading from or writing to pixels[].
 .. Note that only changes made with set() or direct manipulation of pixels[]
 .. will occur.
+
 **รูปแบบการใช้งาน**
 
 loadPixels ( )

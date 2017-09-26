@@ -8,6 +8,7 @@ normalize()
 Normalize เวกเตอร์ให้มีความยาว 1 (ทำให้เป็นเวกเตอร์หน่วย)
 
 .. Normalize the vector to length 1 (make it a unit vector).
+
 **รูปแบบการใช้งาน**
 
 normalize ( )

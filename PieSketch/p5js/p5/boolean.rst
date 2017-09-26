@@ -13,6 +13,7 @@ boolean()
 .. true, while any other value evaluates to false. When an array of number or
 .. string values is passed in, then a array of booleans of the same length is
 .. returned.
+
 **รูปแบบการใช้งาน**
 
 boolean ( n )

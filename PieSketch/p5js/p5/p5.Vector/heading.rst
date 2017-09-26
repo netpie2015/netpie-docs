@@ -8,6 +8,7 @@ heading()
 คำนวณมุมของการหมุนสำหรับเวกเตอร์นี้ (เฉพาะเวกเตอร์ 2D)
 
 .. Calculate the angle of rotation for this vector (only 2D vectors)
+
 **รูปแบบการใช้งาน**
 
 heading ( )

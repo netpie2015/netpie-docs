@@ -8,6 +8,7 @@ cylinder()
 วาดกระบอกที่มีรัศมีและความสูง
 
 .. Draw a cylinder with given radius and height
+
 **รูปแบบการใช้งาน**
 
 cylinder ( radius, height, [detailX], [detailY] )
@@ -24,12 +25,8 @@ cylinder ( radius, height, [detailX], [detailY] )
 
 .. ``radius``  Number: radius of the surface
 .. ``height``  Number: height of the cylinder
-.. ``detailX``  Number: optional: number of segments,
-                            the more segments the smoother geometry
-                            default is 24
-.. ``detailY``  Number: optional: number of segments in y-dimension,
-                            the more segments the smoother geometry
-                            default is 16
+.. ``detailX``  Number: optional: number of segments, the more segments the smoother geometry default is 24
+.. ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
 
 .. raw:: html
 

@@ -82,6 +82,7 @@ function setup() { createCanvas(150,150,WEBGL); setAttributes(&#39;antialias&#39
 ..  }
 .. 
 .. 
+
 **รูปแบบการใช้งาน**
 
 setAttributes ( String, New )

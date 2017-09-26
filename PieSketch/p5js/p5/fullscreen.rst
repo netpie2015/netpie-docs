@@ -12,6 +12,7 @@ fullscreen()
 .. fullscreen state. Note that due to browser restrictions this can only
 .. be called on user input, for example, on mouse press like the example
 .. below.
+
 **รูปแบบการใช้งาน**
 
 fullscreen ( [val] )
@@ -20,8 +21,7 @@ fullscreen ( [val] )
 
 - ``val``  Boolean: ภาพร่างควรอยู่ในโหมดเต็มหน้าจอหรือไม่
 
-.. ``val``  Boolean: whether the sketch should be in fullscreen mode
-or not
+.. ``val``  Boolean: whether the sketch should be in fullscreen mode or not
 
 **ค่าที่ส่งออกมา**
 

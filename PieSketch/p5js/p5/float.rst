@@ -13,6 +13,7 @@ float()
 .. will return NaN.
 .. When an array of values is passed in, then an array of floats of the same
 .. length is returned.
+
 **รูปแบบการใช้งาน**
 
 float ( str )

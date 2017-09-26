@@ -8,6 +8,7 @@ getArray()
 เรียกข้อมูลตารางทั้งหมดและส่งกลับค่าเป็นอาร์เรย์แบบหลายมิติ
 
 .. Retrieves all table data and returns it as a multidimensional array.
+
 **รูปแบบการใช้งาน**
 
 getArray ( )

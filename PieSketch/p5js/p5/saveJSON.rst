@@ -10,6 +10,7 @@ saveJSON()
 .. Writes the contents of an Array or a JSON object to a .json file.
 ..  The file saving process and location of the saved file will
 ..  vary between web browsers.
+
 **รูปแบบการใช้งาน**
 
 saveJSON ( json, filename, [optimize] )
@@ -24,10 +25,7 @@ saveJSON ( json, filename, [optimize] )
 
 .. ``json``  Array,Object: 
 .. ``filename``  String: 
-.. ``optimize``  Boolean: If true, removes line breaks
-                                and spaces from the output
-                                file to optimize filesize
-                                (but not readability).
+.. ``optimize``  Boolean: If true, removes line breaks and spaces from the output file to optimize filesize (but not readability).
 
 .. raw:: html
 

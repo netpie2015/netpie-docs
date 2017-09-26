@@ -8,6 +8,7 @@ rotateZ()
 หมุนรอบแกน Z โหมด Webgl เท่านั้น
 
 .. Rotates around Z axis. Webgl mode only.
+
 **รูปแบบการใช้งาน**
 
 rotateZ ( rad )

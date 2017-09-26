@@ -8,6 +8,7 @@ get()
 ส่งคืนค่าที่จัดเก็บไว้ในคีย์ที่ให้มา
 
 .. Returns value stored at supplied key.
+
 **รูปแบบการใช้งาน**
 
 get ( key )

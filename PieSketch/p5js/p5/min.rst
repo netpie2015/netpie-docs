@@ -10,6 +10,7 @@ min()
 .. Determines the smallest value in a sequence of numbers, and then returns
 .. that value. min() accepts any number of Number parameters, or an Array
 .. of any length.
+
 **รูปแบบการใช้งาน**
 
 min ( n0 )

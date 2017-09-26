@@ -11,6 +11,7 @@ QUARTER_PI เป็นค่าคงที่ทางคณิตศาสต
 .. It is one quarter the ratio of the circumference of a circle to
 .. its diameter. It is useful in combination with the trigonometric
 .. functions sin() and cos().
+
 **รูปแบบการใช้งาน**
 
 QUARTER_PI

@@ -9,6 +9,7 @@ texture()
 
 .. Texture for geometry.  You can view other possible materials in this
 .. example.
+
 **รูปแบบการใช้งาน**
 
 texture ( tex )
@@ -17,8 +18,7 @@ texture ( tex )
 
 - ``tex``  p5.Image,p5.MediaElement,p5.Graphics: กราฟิก 2 มิติเพื่อแสดงเป็นพื้นผิว
 
-.. ``tex``  p5.Image,p5.MediaElement,p5.Graphics: 2-dimensional graphics
-                   to render as texture
+.. ``tex``  p5.Image,p5.MediaElement,p5.Graphics: 2-dimensional graphics to render as texture
 
 .. raw:: html
 

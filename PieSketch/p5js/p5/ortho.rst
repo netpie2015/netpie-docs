@@ -8,6 +8,7 @@ ortho()
 ตั้งกล้อง ortho
 
 .. Setup ortho camera
+
 **รูปแบบการใช้งาน**
 
 ortho ( left, right, bottom, top, near, far )

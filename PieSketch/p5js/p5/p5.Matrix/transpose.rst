@@ -8,6 +8,7 @@ transpose()
 transpose ตามเมทริกซ์ที่ระบุ
 
 .. transpose according to a given matrix
+
 **รูปแบบการใช้งาน**
 
 transpose ( a )

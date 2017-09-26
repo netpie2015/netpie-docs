@@ -11,6 +11,7 @@ PI เป็นค่าคงที่ทางคณิตศาสตร์�
 .. 3.14159265358979323846. It is the ratio of the circumference
 .. of a circle to its diameter. It is useful in combination with
 .. the trigonometric functions sin() and cos().
+
 **รูปแบบการใช้งาน**
 
 PI

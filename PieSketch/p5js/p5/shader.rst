@@ -11,6 +11,7 @@ shader()
 .. to fill in shapes in WEBGL mode. Users can create their
 .. own shaders by loading vertex and fragment shaders with
 .. loadShader().
+
 **รูปแบบการใช้งาน**
 
 shader ( [s] )
@@ -19,7 +20,6 @@ shader ( [s] )
 
 - ``s``  p5.Shader: p5.Shader ที่ต้องการเพื่อใช้สำหรับการแสดงผลรูปร่าง
 
-.. ``s``  p5.Shader: the desired p5.Shader to use for rendering
-shapes.
+.. ``s``  p5.Shader: the desired p5.Shader to use for rendering shapes.
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

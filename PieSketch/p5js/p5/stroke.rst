@@ -20,6 +20,7 @@ stroke()
 .. used.
 .. 
 .. A p5 Color object can also be provided to set the stroke color.
+
 **รูปแบบการใช้งาน**
 
 stroke ( v1, v2, v3, [alpha] )
@@ -34,12 +35,9 @@ stroke ( v1, v2, v3, [alpha] )
 
 - ``alpha``  Number: 
 
-.. ``v1``  Number: red or hue value relative to
-                                the current color range
-.. ``v2``  Number: green or saturation value
-                                relative to the current color range
-.. ``v3``  Number: blue or brightness value
-                                relative to the current color range
+.. ``v1``  Number: red or hue value relative to the current color range
+.. ``v2``  Number: green or saturation value relative to the current color range
+.. ``v3``  Number: blue or brightness value relative to the current color range
 .. ``alpha``  Number: 
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -8,6 +8,7 @@ transpose3x3()
 transposes 3x3 p5.Matrix โดย mat3
 
 .. transposes a 3x3 p5.Matrix by a mat3
+
 **รูปแบบการใช้งาน**
 
 transpose3x3 ( mat3 )

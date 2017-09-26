@@ -11,6 +11,7 @@ pixelDensity()
 .. pixel density is set to match display density, call pixelDensity(1)
 .. to turn this off. Calling pixelDensity() with no arguments returns
 .. the current pixel density of the sketch.
+
 **รูปแบบการใช้งาน**
 
 pixelDensity ( [val] )

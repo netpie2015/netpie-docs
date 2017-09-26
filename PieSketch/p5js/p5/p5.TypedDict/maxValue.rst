@@ -8,6 +8,7 @@ maxValue()
 ส่งคืนค่าสูงสุด
 
 .. Return the highest value.
+
 **รูปแบบการใช้งาน**
 
 maxValue ( )

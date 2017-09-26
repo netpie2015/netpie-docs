@@ -23,6 +23,7 @@ noLoop()
 .. Note that if the sketch is resized, redraw() will be called to update
 .. the sketch, even after noLoop() has been specified. Otherwise, the sketch
 .. would enter an odd state until loop() was called.
+
 **รูปแบบการใช้งาน**
 
 noLoop ( )

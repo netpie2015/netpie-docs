@@ -8,6 +8,7 @@ random2D()
 สร้างเวกเตอร์แบบ 2D ใหม่จากมุมสุ่ม
 
 .. Make a new 2D unit vector from a random angle
+
 **รูปแบบการใช้งาน**
 
 random2D ( )

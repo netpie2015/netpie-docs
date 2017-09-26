@@ -8,6 +8,7 @@ translate()
 [แปลคำอธิบาย]
 
 .. [translate description]
+
 **รูปแบบการใช้งาน**
 
 translate ( x, y, z )

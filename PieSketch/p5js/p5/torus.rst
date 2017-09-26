@@ -8,6 +8,7 @@ torus()
 วาดพรูด้วยรัศมีและรัศมีของรัศมี
 
 .. Draw a torus with given radius and tube radius
+
 **รูปแบบการใช้งาน**
 
 torus ( radius, tubeRadius, [detailX], [detailY] )
@@ -24,12 +25,8 @@ torus ( radius, tubeRadius, [detailX], [detailY] )
 
 .. ``radius``  Number: radius of the whole ring
 .. ``tubeRadius``  Number: radius of the tube
-.. ``detailX``  Number: optional: number of segments in x-dimension,
-                               the more segments the smoother geometry
-                               default is 24
-.. ``detailY``  Number: optional: number of segments in y-dimension,
-                               the more segments the smoother geometry
-                               default is 16
+.. ``detailX``  Number: optional: number of segments in x-dimension, the more segments the smoother geometry default is 24
+.. ``detailY``  Number: optional: number of segments in y-dimension, the more segments the smoother geometry default is 16
 
 .. raw:: html
 

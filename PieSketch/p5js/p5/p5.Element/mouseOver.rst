@@ -10,6 +10,7 @@ mouseOver()
 .. The .mouseOver() function is called once after every time a
 .. mouse moves onto the element. This can be used to attach an
 .. element specific event listener.
+
 **รูปแบบการใช้งาน**
 
 mouseOver ( fxn )
@@ -18,8 +19,7 @@ mouseOver ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกย้ายไปยังองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   moved over the element.
+.. ``fxn``  function: function to be fired when mouse is moved over the element.
 
 .. raw:: html
 

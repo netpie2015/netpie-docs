@@ -14,6 +14,7 @@ curveTightness()
 .. all the points with straight lines. Values within the range -5.0 and 5.0
 .. will deform the curves but will leave them recognizable and as values
 .. increase in magnitude, they will continue to deform.
+
 **รูปแบบการใช้งาน**
 
 curveTightness ( amount )

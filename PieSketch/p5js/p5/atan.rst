@@ -5,26 +5,25 @@
 atan()
 ======
 
-The inverse of tan(), returns the arc tangent of a value. This function
-expects the values in the range of -Infinity to Infinity (exclusive) and
-values are returned in the range -PI/2 to PI/2.
+ผกผันของ tan () ส่งกลับค่าอาร์กสัมผัสของค่า ฟังก์ชันนี้คาดว่าค่าในช่วงของ - อินฟินิตี้ (เอกสิทธิ์) และค่าจะถูกส่งกลับในช่วง -PI / 2 ถึง PI / 2
 
 .. The inverse of tan(), returns the arc tangent of a value. This function
 .. expects the values in the range of -Infinity to Infinity (exclusive) and
 .. values are returned in the range -PI/2 to PI/2.
+
 **รูปแบบการใช้งาน**
 
 atan ( value )
 
 **พารามิเตอร์**
 
-- ``value``  Number: the value whose arc tangent is to be returned
+- ``value``  Number: ค่าที่มีส่วนติดต่ออาร์คจะถูกส่งกลับ
 
 .. ``value``  Number: the value whose arc tangent is to be returned
 
 **ค่าที่ส่งออกมา**
 
-- Number: the arc tangent of the given value
+- Number: สัมผัสอาร์คของค่าที่กำหนด
 
 .. Number: the arc tangent of the given value
 

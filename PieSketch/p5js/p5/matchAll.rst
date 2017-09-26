@@ -26,6 +26,7 @@ matchAll()
 .. expression match returns the entire matching string, and the match groups
 .. start at element [i][1] (the first group is [i][1], the second [i][2],
 .. and so on).
+
 **รูปแบบการใช้งาน**
 
 matchAll ( str, regexp )

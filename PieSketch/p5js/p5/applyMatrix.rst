@@ -17,6 +17,7 @@ applyMatrix()
 .. transformation matrix of the
 .. form:
 .. > 
+
 **รูปแบบการใช้งาน**
 
 applyMatrix ( a, b, c, d, e, f )

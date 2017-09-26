@@ -8,6 +8,7 @@ filter()
 ใช้ตัวกรองภาพกับ p5.Image
 
 .. Applies an image filter to a p5.Image
+
 **รูปแบบการใช้งาน**
 
 filter ( operation, value )
@@ -18,9 +19,7 @@ filter ( operation, value )
 
 - ``value``  Number,undefined: 
 
-.. ``operation``  String: one of threshold, gray, invert, posterize, opaque
-                          erode, dilate and blur. See Filters.js for docs on
-                          each available filter
+.. ``operation``  String: one of threshold, gray, invert, posterize, opaque erode, dilate and blur. See Filters.js for docs on each available filter
 .. ``value``  Number,undefined: 
 
 .. raw:: html

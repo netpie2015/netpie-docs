@@ -9,6 +9,7 @@ setMoveThreshold()
 
 .. The setMoveThreshold() function is used to set the movement threshold for
 .. the deviceMoved() function. The default threshold is set to 0.5.
+
 **รูปแบบการใช้งาน**
 
 setMoveThreshold ( value )

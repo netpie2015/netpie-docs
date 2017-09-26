@@ -11,6 +11,7 @@ update()
 .. easy to do so) and reuploads the texture if necessary. If it's not
 .. possible or to expensive to do a calculation to determine wheter or
 .. not the data has occurred, this method simply re-uploads the texture.
+
 **รูปแบบการใช้งาน**
 
 update ( )

@@ -8,6 +8,7 @@ invert()
 ผกผันเมทริกซ์ให้เมทริกซ์
 
 .. invert  matrix according to a give matrix
+
 **รูปแบบการใช้งาน**
 
 invert ( a )

@@ -8,6 +8,7 @@ opaque()
 ตั้งค่าช่องอัลฟ่าให้เป็นสีทึบ ไม่มีพารามิเตอร์ที่ใช้
 
 .. Sets the alpha channel to entirely opaque. No parameter is used.
+
 **รูปแบบการใช้งาน**
 
 opaque ( canvas )

@@ -25,6 +25,7 @@ mouseWheel()
 .. 
 .. Due to the current support of the "wheel" event on Safari, the function
 .. may only work as expected if "return false" is included while using Safari.
+
 **รูปแบบการใช้งาน**
 
 mouseWheel ( )

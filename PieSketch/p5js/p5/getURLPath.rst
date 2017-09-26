@@ -8,6 +8,7 @@ getURLPath()
 รับเส้นทาง URL ปัจจุบันเป็นอาร์เรย์
 
 .. Gets the current URL path as an array.
+
 **รูปแบบการใช้งาน**
 
 getURLPath ( )

@@ -12,6 +12,7 @@ Normalizes จำนวนจากช่วงอื่นเป็นค่า
 .. Numbers outside of the range are not clamped to 0 and 1, because
 .. out-of-range values are often intentional and useful. (See the second
 .. example above.)
+
 **รูปแบบการใช้งาน**
 
 norm ( value, start, stop )

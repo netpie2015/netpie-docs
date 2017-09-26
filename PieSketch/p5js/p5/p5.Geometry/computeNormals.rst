@@ -9,6 +9,7 @@ computeNormals()
 
 .. computes smooth normals per vertex as an average of each
 .. face.
+
 **รูปแบบการใช้งาน**
 
 computeNormals ( )

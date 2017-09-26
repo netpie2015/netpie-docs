@@ -13,6 +13,7 @@ map()
 .. In the first example above, the number 25 is converted from a value in the
 .. range of 0 to 100 into a value that ranges from the left edge of the
 .. window (0) to the right edge (width).
+
 **รูปแบบการใช้งาน**
 
 map ( value, start1, stop1, start2, stop2 )

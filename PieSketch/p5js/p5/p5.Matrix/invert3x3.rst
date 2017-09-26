@@ -8,6 +8,7 @@ invert3x3()
 ย้อนกลับเมทริกซ์ 3x3
 
 .. Inverts a 3x3 matrix
+
 **รูปแบบการใช้งาน**
 
 invert3x3 ( )

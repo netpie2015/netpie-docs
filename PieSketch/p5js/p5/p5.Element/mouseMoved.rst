@@ -10,6 +10,7 @@ mouseMoved()
 .. The .mouseMoved() function is called once every time a
 .. mouse moves over the element. This can be used to attach an
 .. element specific event listener.
+
 **รูปแบบการใช้งาน**
 
 mouseMoved ( fxn )
@@ -18,8 +19,7 @@ mouseMoved ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกย้ายไปยังองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   moved over the element.
+.. ``fxn``  function: function to be fired when mouse is moved over the element.
 
 .. raw:: html
 

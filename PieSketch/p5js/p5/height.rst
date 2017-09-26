@@ -12,6 +12,7 @@ height
 .. example, the function call createCanvas(320, 240) sets the height
 .. variable to the value 240. The value of height defaults to 100 if
 .. createCanvas() is not used in a program.
+
 **รูปแบบการใช้งาน**
 
 height

@@ -15,6 +15,7 @@ curve()
 .. together or using curveVertex(). An additional function called
 .. curveTightness() provides control for the visual quality of the curve.
 .. The curve() function is an implementation of Catmull-Rom splines.
+
 **รูปแบบการใช้งาน**
 
 curve ( x1, y1, x2, y2, x3, y3, x4, y4 )

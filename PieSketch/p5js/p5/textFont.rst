@@ -8,6 +8,7 @@ textFont()
 ตั้งค่าแบบอักษรปัจจุบันที่จะวาดด้วยฟังก์ชัน text ()
 
 .. Sets the current font that will be drawn with the text() function.
+
 **รูปแบบการใช้งาน**
 
 textFont ( )

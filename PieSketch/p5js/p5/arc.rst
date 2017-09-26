@@ -18,6 +18,7 @@ arc()
 .. best way to handle this is by using the ellipse() function instead
 .. to create a closed ellipse, and to use the arc() function
 .. only to draw parts of an ellipse.
+
 **รูปแบบการใช้งาน**
 
 arc ( a, b, c, d, start, stop, [mode] )
@@ -44,8 +45,7 @@ arc ( a, b, c, d, start, stop, [mode] )
 .. ``d``  Number: height of the arc's ellipse by default
 .. ``start``  Number: angle to start the arc, specified in radians
 .. ``stop``  Number: angle to stop the arc, specified in radians
-.. ``mode``  Constant: optional parameter to determine the way of drawing
-                        the arc. either CHORD or PIE
+.. ``mode``  Constant: optional parameter to determine the way of drawing the arc. either CHORD or PIE
 
 .. raw:: html
 

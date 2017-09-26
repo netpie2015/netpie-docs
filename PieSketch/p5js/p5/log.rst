@@ -10,6 +10,7 @@ log()
 .. Calculates the natural logarithm (the base-e logarithm) of a number. This
 .. function expects the n parameter to be a value greater than 0.0. Maps to
 .. Math.log().
+
 **รูปแบบการใช้งาน**
 
 log ( n )

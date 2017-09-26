@@ -8,6 +8,7 @@ displayDensity()
 แสดงความหนาแน่นของพิกเซลของการแสดงผลปัจจุบันที่ร่างกำลังทำงานอยู่
 
 .. Returns the pixel density of the current display the sketch is running on.
+
 **รูปแบบการใช้งาน**
 
 displayDensity ( )

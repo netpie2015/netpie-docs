@@ -10,6 +10,7 @@ frameCount
 .. The system variable frameCount contains the number of frames that have
 .. been displayed since the program started. Inside setup() the value is 0,
 .. after the first iteration of draw it is 1, etc.
+
 **รูปแบบการใช้งาน**
 
 frameCount

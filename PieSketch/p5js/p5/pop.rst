@@ -21,6 +21,7 @@ push () เก็บข้อมูลที่เกี่ยวข้องก
 .. stroke(), tint(), strokeWeight(), strokeCap(), strokeJoin(),
 .. imageMode(), rectMode(), ellipseMode(), colorMode(), textAlign(),
 .. textFont(), textMode(), textSize(), textLeading().
+
 **รูปแบบการใช้งาน**
 
 pop ( )

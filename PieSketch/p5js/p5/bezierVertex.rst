@@ -18,6 +18,7 @@ bezierVertex()
 .. to set the first anchor point. This function must be used between
 .. beginShape() and endShape() and only when there is no MODE
 .. parameter specified to beginShape().
+
 **รูปแบบการใช้งาน**
 
 bezierVertex ( x2, y2, x3, y3, x4, y4 )

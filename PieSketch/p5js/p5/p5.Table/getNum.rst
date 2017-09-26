@@ -10,6 +10,7 @@ getNum()
 .. Retrieves a Float value from the Table's specified row and column.
 .. The row is specified by its ID, while the column may be specified by
 .. either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 getNum ( row, column )
@@ -21,8 +22,7 @@ getNum ( row, column )
 - ``column``  String,Number: columnName (string) หรือ ID (number)
 
 .. ``row``  Number: row ID
-.. ``column``  String,Number: columnName (string) or
-                                  ID (number)
+.. ``column``  String,Number: columnName (string) or ID (number)
 
 **ค่าที่ส่งออกมา**
 

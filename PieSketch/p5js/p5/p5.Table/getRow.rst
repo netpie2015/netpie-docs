@@ -9,6 +9,7 @@ getRow()
 
 .. Returns a reference to the specified p5.TableRow. The reference
 .. can then be used to get and set values of the selected row.
+
 **รูปแบบการใช้งาน**
 
 getRow ( rowID )

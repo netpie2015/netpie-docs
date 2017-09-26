@@ -8,6 +8,7 @@ loadPixels()
 โหลดข้อมูลพิกเซลสำหรับภาพนี้ลงในแอตทริบิวต์ [pixels]
 
 .. Loads the pixels data for this image into the [pixels] attribute.
+
 **รูปแบบการใช้งาน**
 
 loadPixels ( )

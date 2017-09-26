@@ -12,6 +12,7 @@ sort()
 .. re-ordered array is returned. The count parameter states the number of
 .. elements to sort. For example, if there are 12 elements in an array and
 .. count is set to 5, only the first 5 elements in the array will be sorted.
+
 **รูปแบบการใช้งาน**
 
 sort ( list, [count] )

@@ -14,6 +14,7 @@ split()
 .. The splitTokens() function works in a similar fashion, except that it
 .. splits using a range of characters instead of a specific character or
 .. sequence.
+
 **รูปแบบการใช้งาน**
 
 split ( value, delim )

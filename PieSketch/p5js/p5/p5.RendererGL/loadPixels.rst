@@ -10,6 +10,7 @@ loadPixels()
 .. Loads the pixels data for this canvas into the pixels[] attribute.
 .. Note that updatePixels() and set() do not work.
 .. Any pixel manipulation must be done directly to the pixels[] array.
+
 **รูปแบบการใช้งาน**
 
 loadPixels ( starting, starting, width, height )

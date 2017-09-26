@@ -10,6 +10,7 @@ windowResized()
 .. The windowResized() function is called once every time the browser window
 .. is resized. This is a good place to resize the canvas or do any other
 .. adjustments to accommodate the new window size.
+
 **รูปแบบการใช้งาน**
 
 windowResized ( )

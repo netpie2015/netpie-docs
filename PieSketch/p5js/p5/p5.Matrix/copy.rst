@@ -8,6 +8,7 @@ copy()
 ส่งสำเนาของเมทริกซ์
 
 .. return a copy of a matrix
+
 **รูปแบบการใช้งาน**
 
 copy ( )

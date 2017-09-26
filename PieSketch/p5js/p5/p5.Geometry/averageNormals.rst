@@ -9,6 +9,7 @@ averageNormals()
 
 .. Averages the vertex normals. Used in curved
 .. surfaces
+
 **รูปแบบการใช้งาน**
 
 averageNormals ( )

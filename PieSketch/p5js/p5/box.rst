@@ -8,6 +8,7 @@ box()
 วาดช่องที่มีความกว้างความสูงและความลึก
 
 .. Draw a box with given width, height and depth
+
 **รูปแบบการใช้งาน**
 
 box ( width, [Height], [depth], [detailX], [detailY] )
@@ -27,10 +28,8 @@ box ( width, [Height], [depth], [detailX], [detailY] )
 .. ``width``  Number: width of the box
 .. ``Height``  Number: height of the box
 .. ``depth``  Number: depth of the box
-.. ``detailX``  Number: Optional number of triangle
-                           subdivisions in x-dimension
-.. ``detailY``  Number: Optional number of triangle
-                           subdivisions in y-dimension
+.. ``detailX``  Number: Optional number of triangle subdivisions in x-dimension
+.. ``detailY``  Number: Optional number of triangle subdivisions in y-dimension
 
 .. raw:: html
 

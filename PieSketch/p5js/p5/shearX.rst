@@ -23,6 +23,7 @@ shearX()
 .. Technically, shearX() multiplies the current transformation matrix by a
 .. rotation matrix. This function can be further controlled by the
 .. push() and pop() functions.
+
 **รูปแบบการใช้งาน**
 
 shearX ( angle )
@@ -31,8 +32,7 @@ shearX ( angle )
 
 - ``angle``  Number: มุมของแรงเฉือนที่ระบุไว้ในเรเดียนหรือองศาขึ้นอยู่กับมุมปัจจุบัน
 
-.. ``angle``  Number: angle of shear specified in radians or degrees,
-                       depending on current angleMode
+.. ``angle``  Number: angle of shear specified in radians or degrees, depending on current angleMode
 
 .. raw:: html
 

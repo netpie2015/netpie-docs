@@ -8,6 +8,7 @@ constrain()
 จำกัด ค่าระหว่างค่าต่ำสุดและสูงสุด
 
 .. Constrains a value between a minimum and maximum value.
+
 **รูปแบบการใช้งาน**
 
 constrain ( n, low, high )

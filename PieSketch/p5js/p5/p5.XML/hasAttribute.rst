@@ -8,6 +8,7 @@ hasAttribute()
 ตรวจสอบว่าองค์ประกอบมีแอตทริบิวต์ที่ระบุหรือไม่
 
 .. Checks whether or not an element has the specified attribute.
+
 **รูปแบบการใช้งาน**
 
 hasAttribute ( the )

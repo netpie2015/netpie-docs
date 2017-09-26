@@ -8,6 +8,7 @@ getRowCount()
 แสดงจำนวนแถวทั้งหมดในตาราง
 
 .. Returns the total number of rows in a Table.
+
 **รูปแบบการใช้งาน**
 
 getRowCount ( )

@@ -8,6 +8,7 @@ reverse()
 เปลี่ยนลำดับของอาร์เรย์กลับไปที่ Array.reverse ()
 
 .. Reverses the order of an array, maps to Array.reverse()
+
 **รูปแบบการใช้งาน**
 
 reverse ( list )

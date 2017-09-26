@@ -11,6 +11,7 @@ magSq()
 .. as a float (this is simply the equation (x*x + y*y + z*z).)
 .. Faster if the real length is not required in the
 .. case of comparing vectors, etc.
+
 **รูปแบบการใช้งาน**
 
 magSq ( )

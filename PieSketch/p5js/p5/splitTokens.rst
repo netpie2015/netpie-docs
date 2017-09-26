@@ -15,6 +15,7 @@ splitTokens()
 .. If no delim characters are specified, any whitespace character is used to
 .. split. Whitespace characters include tab (\t), line feed (\n), carriage
 .. return (\r), form feed (\f), and space.
+
 **รูปแบบการใช้งาน**
 
 splitTokens ( value, [delim] )
@@ -26,8 +27,7 @@ splitTokens ( value, [delim] )
 - ``delim``  String: รายการสตริงแต่ละตัวที่จะใช้เป็นตัวคั่น
 
 .. ``value``  String: the String to be split
-.. ``delim``  String: list of individual Strings that will be used as
-                         separators
+.. ``delim``  String: list of individual Strings that will be used as separators
 
 **ค่าที่ส่งออกมา**
 

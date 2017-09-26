@@ -12,6 +12,7 @@ nfp()
 .. numbers. There are two versions: one for formatting floats, and one for
 .. formatting ints. The values for left, and right parameters
 .. should always be positive integers.
+
 **รูปแบบการใช้งาน**
 
 nfp ( num, [left], [right] )
@@ -25,10 +26,8 @@ nfp ( num, [left], [right] )
 - ``right``  Number: จำนวนหลักที่อยู่ทางขวาของจุดทศนิยม
 
 .. ``num``  Number: the Number to format
-.. ``left``  Number: number of digits to the left of the decimal
-                               point
-.. ``right``  Number: number of digits to the right of the
-                               decimal point
+.. ``left``  Number: number of digits to the left of the decimal point
+.. ``right``  Number: number of digits to the right of the decimal point
 
 **ค่าที่ส่งออกมา**
 

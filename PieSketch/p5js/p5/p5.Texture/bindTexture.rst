@@ -8,6 +8,7 @@ bindTexture()
 เชื่อมโยงพื้นผิวกับเป้าหมาย GL ที่เหมาะสม
 
 .. Binds the texture to the appropriate GL target.
+
 **รูปแบบการใช้งาน**
 
 bindTexture ( )

@@ -8,6 +8,7 @@ removeRow()
 ลบแถวออกจากวัตถุตาราง
 
 .. Removes a row from the table object.
+
 **รูปแบบการใช้งาน**
 
 removeRow ( id )

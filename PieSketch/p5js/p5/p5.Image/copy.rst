@@ -12,6 +12,7 @@ copy()
 .. and destination regions aren't the same size, it will
 .. automatically resize source pixels to fit the specified
 .. target region.
+
 **รูปแบบการใช้งาน**
 
 copy ( srcImage, sx, sy, sw, sh, dx, dy, dw, dh )

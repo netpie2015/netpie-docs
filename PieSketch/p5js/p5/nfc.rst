@@ -11,6 +11,7 @@ nfc()
 .. appropriate commas to mark units of 1000. There are two versions: one
 .. for formatting ints, and one for formatting an array of ints. The value
 .. for the right parameter should always be a positive integer.
+
 **รูปแบบการใช้งาน**
 
 nfc ( num, [right] )
@@ -22,8 +23,7 @@ nfc ( num, [right] )
 - ``right``  Number,String: จำนวนหลักที่อยู่ทางขวาของจุดทศนิยม
 
 .. ``num``  Number,String: the Number to format
-.. ``right``  Number,String: number of digits to the right of the
-                                 decimal point
+.. ``right``  Number,String: number of digits to the right of the decimal point
 
 **ค่าที่ส่งออกมา**
 

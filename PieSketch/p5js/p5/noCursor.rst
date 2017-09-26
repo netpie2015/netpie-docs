@@ -8,6 +8,7 @@ noCursor()
 ซ่อนเคอร์เซอร์จากมุมมอง
 
 .. Hides the cursor from view.
+
 **รูปแบบการใช้งาน**
 
 noCursor ( )

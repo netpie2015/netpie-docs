@@ -12,6 +12,7 @@ char()
 .. parsed as an integer and then translated into a single-character string.
 .. When an array of number or string values is passed in, then an array of
 .. single-character strings of the same length is returned.
+
 **รูปแบบการใช้งาน**
 
 char ( n )

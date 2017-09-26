@@ -32,6 +32,7 @@ noise()
 .. loop). As a general rule the smaller the difference between coordinates,
 .. the smoother the resulting noise sequence will be. Steps of 0.005-0.03
 .. work best for most applications, but this will differ depending on use.
+
 **รูปแบบการใช้งาน**
 
 noise ( x, [y], [z] )

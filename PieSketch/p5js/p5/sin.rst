@@ -5,24 +5,24 @@
 sin()
 =====
 
-Calculates the sine of an angle. This function takes into account the
-current angleMode. Values are returned in the range -1 to 1.
+คำนวณไซน์ของมุม ฟังก์ชันนี้คำนึงถึงมุมมองปัจจุบัน ค่าจะถูกส่งกลับในช่วง -1 ถึง 1
 
 .. Calculates the sine of an angle. This function takes into account the
 .. current angleMode. Values are returned in the range -1 to 1.
+
 **รูปแบบการใช้งาน**
 
 sin ( angle )
 
 **พารามิเตอร์**
 
-- ``angle``  Number: the angle
+- ``angle``  Number: มุม
 
 .. ``angle``  Number: the angle
 
 **ค่าที่ส่งออกมา**
 
-- Number: the sine of the angle
+- Number: ไซน์ของมุม
 
 .. Number: the sine of the angle
 

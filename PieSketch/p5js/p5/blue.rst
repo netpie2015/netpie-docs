@@ -8,6 +8,7 @@ blue()
 แยกค่าสีน้ำเงินจากอาร์เรย์สีหรือพิกเซล
 
 .. Extracts the blue value from a color or pixel array.
+
 **รูปแบบการใช้งาน**
 
 blue ( color )

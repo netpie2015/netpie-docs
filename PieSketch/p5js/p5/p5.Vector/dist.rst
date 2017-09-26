@@ -9,6 +9,7 @@ dist()
 
 .. Calculates the Euclidean distance between two points (considering a
 .. point as a vector object).
+
 **รูปแบบการใช้งาน**
 
 dist ( v )

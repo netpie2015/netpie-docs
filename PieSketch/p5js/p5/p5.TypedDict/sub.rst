@@ -9,6 +9,7 @@ sub()
 
 .. Subtract from a value stored at a certain key
 .. The difference is stored in that location in the Dictionary.
+
 **รูปแบบการใช้งาน**
 
 sub ( Key, Amount )

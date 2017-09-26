@@ -12,6 +12,7 @@ areDownKeys()
 .. Helps avoid instances where a multiple keys are pressed simultaneously and
 .. releasing a single key will then switch the
 .. keyIsPressed property to true.
+
 **รูปแบบการใช้งาน**
 
 areDownKeys ( )

@@ -25,6 +25,7 @@ match()
 .. Element [0] of a regular expression match returns the entire matching
 .. string, and the match groups start at element [1] (the first group is [1],
 .. the second [2], and so on).
+
 **รูปแบบการใช้งาน**
 
 match ( str, regexp )

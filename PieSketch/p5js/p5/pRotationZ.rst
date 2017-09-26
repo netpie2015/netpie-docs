@@ -14,6 +14,7 @@ pRotationZ สามารถใช้กับ rotationZ เพื่อกำ�
 .. 
 .. pRotationZ can also be used with rotationZ to determine the rotate
 .. direction of the device along the Z-axis.
+
 **รูปแบบการใช้งาน**
 
 pRotationZ

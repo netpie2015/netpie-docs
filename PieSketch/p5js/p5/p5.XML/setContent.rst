@@ -8,6 +8,7 @@ setContent()
 ตั้งค่าเนื้อหาขององค์ประกอบ
 
 .. Sets the element's content.
+
 **รูปแบบการใช้งาน**
 
 setContent ( text )

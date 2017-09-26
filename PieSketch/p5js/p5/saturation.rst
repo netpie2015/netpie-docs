@@ -12,6 +12,7 @@ saturation()
 .. the HSB saturation when supplied with an HSB color object (or when supplied
 .. with a pixel array while the color mode is HSB), but will default to the
 .. HSL saturation otherwise.
+
 **รูปแบบการใช้งาน**
 
 saturation ( color )

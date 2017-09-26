@@ -16,6 +16,7 @@ bezier()
 .. towards them.Bezier curves were developed by French
 .. automotive engineer Pierre Bezier, and are commonly used in computer
 .. graphics to define gently sloping curves. See also curve().
+
 **รูปแบบการใช้งาน**
 
 bezier ( x1, y1, x2, y2, x3, y3, x4, y4 )

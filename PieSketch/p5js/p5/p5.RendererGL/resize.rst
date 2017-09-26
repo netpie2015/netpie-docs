@@ -8,6 +8,7 @@ resize()
 [ปรับขนาดคำอธิบาย]
 
 .. [resize description]
+
 **รูปแบบการใช้งาน**
 
 resize ( w, h )

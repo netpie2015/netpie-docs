@@ -9,6 +9,7 @@ textLeading()
 
 .. Sets/gets the spacing, in pixels, between lines of text. This
 .. setting will be used in all subsequent calls to the text() function.
+
 **รูปแบบการใช้งาน**
 
 textLeading ( leading )

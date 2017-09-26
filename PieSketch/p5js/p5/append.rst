@@ -9,6 +9,7 @@ append()
 
 .. Adds a value to the end of an array. Extends the length of
 .. the array by one. Maps to Array.push().
+
 **รูปแบบการใช้งาน**
 
 append ( array, value )

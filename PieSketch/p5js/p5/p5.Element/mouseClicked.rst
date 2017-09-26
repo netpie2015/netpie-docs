@@ -10,6 +10,7 @@ mouseClicked()
 .. The .mouseClicked() function is called once after a mouse button is
 .. pressed and released over the element. This can be used to
 .. attach element specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 mouseClicked ( fxn )
@@ -18,8 +19,7 @@ mouseClicked ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อมีการคลิกเมาส์เหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   clicked over the element.
+.. ``fxn``  function: function to be fired when mouse is clicked over the element.
 
 .. raw:: html
 

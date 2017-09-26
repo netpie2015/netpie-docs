@@ -23,6 +23,7 @@ rotate()
 .. Technically, rotate() multiplies the current transformation matrix
 .. by a rotation matrix. This function can be further controlled by
 .. the push() and pop().
+
 **รูปแบบการใช้งาน**
 
 rotate ( angle, [axis] )
@@ -33,8 +34,7 @@ rotate ( angle, [axis] )
 
 - ``axis``  p5.Vector,Array: (ใน 3d) แกนเพื่อหมุนรอบ
 
-.. ``angle``  Number: the angle of rotation, specified in radians
-                       or degrees, depending on current angleMode
+.. ``angle``  Number: the angle of rotation, specified in radians or degrees, depending on current angleMode
 .. ``axis``  p5.Vector,Array: (in 3d) the axis to rotate around
 
 .. raw:: html

@@ -8,6 +8,7 @@ getFrameRate()
 ส่งคืนกรอบภาพปัจจุบัน
 
 .. Returns the current framerate.
+
 **รูปแบบการใช้งาน**
 
 getFrameRate ( )

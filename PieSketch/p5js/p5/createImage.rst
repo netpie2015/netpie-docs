@@ -24,6 +24,7 @@ createImage()
 .. Before accessing the pixels of an image, the data must loaded with the
 .. loadPixels() function. After the array data has been modified, the
 .. updatePixels() function must be run to update the changes.
+
 **รูปแบบการใช้งาน**
 
 createImage ( width, height )

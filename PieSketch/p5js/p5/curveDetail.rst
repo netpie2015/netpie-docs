@@ -9,6 +9,7 @@ curveDetail()
 
 .. Sets the resolution at which curves display.
 .. The default value is 20.
+
 **รูปแบบการใช้งาน**
 
 curveDetail ( resolution )

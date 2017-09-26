@@ -13,6 +13,7 @@ cursor()
 .. image as the cursor if you are exporting your program for the Web, and not
 .. all MODES work with all browsers. The values for parameters x and y must
 .. be less than the dimensions of the image.
+
 **รูปแบบการใช้งาน**
 
 cursor ( type, [x], [y] )
@@ -25,8 +26,7 @@ cursor ( type, [x], [y] )
 
 - ``y``  Number: จุดที่ใช้งานอยู่ในแนวตั้งของเคอร์เซอร์
 
-.. ``type``  String,Constant: either ARROW, CROSS, HAND, MOVE, TEXT, or
-                              WAIT, or path for image
+.. ``type``  String,Constant: either ARROW, CROSS, HAND, MOVE, TEXT, or WAIT, or path for image
 .. ``x``  Number: the horizontal active spot of the cursor
 .. ``y``  Number: the vertical active spot of the cursor
 

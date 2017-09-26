@@ -9,6 +9,7 @@ touchEnded()
 
 .. The .touchEnded() function is called once after every time a touch is
 .. registered. This can be used to attach element specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 touchEnded ( fxn )
@@ -17,8 +18,7 @@ touchEnded ( fxn )
 
 - ``fxn``  function: ฟังก์ชันที่จะถูกยิงเมื่อสัมผัสถูกสิ้นสุดลงเหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when touch is
-                   ended over the element.
+.. ``fxn``  function: function to be fired when touch is ended over the element.
 
 .. raw:: html
 

@@ -12,6 +12,7 @@ drop()
 .. optionally pass two callbacks, the first one (required) is triggered
 .. for each file dropped when the file is loaded.  The second (optional)
 .. is triggered just once when a file (or files) are dropped.
+
 **รูปแบบการใช้งาน**
 
 drop ( callback, fxn )

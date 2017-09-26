@@ -10,6 +10,7 @@ createGraphics()
 .. Creates and returns a new p5.Renderer object. Use this class if you need
 .. to draw into an off-screen graphics buffer. The two parameters define the
 .. width and height in pixels.
+
 **รูปแบบการใช้งาน**
 
 createGraphics ( w, h, [renderer] )
@@ -24,8 +25,7 @@ createGraphics ( w, h, [renderer] )
 
 .. ``w``  Number: width of the offscreen graphics buffer
 .. ``h``  Number: height of the offscreen graphics buffer
-.. ``renderer``  Constant: either P2D or WEBGL
-undefined defaults to p2d
+.. ``renderer``  Constant: either P2D or WEBGL undefined defaults to p2d
 
 **ค่าที่ส่งออกมา**
 

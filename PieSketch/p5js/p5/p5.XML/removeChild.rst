@@ -8,6 +8,7 @@ removeChild()
 ลบองค์ประกอบที่ระบุโดยชื่อหรือดัชนี
 
 .. Removes the element specified by name or index.
+
 **รูปแบบการใช้งาน**
 
 removeChild ( name )

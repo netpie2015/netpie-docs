@@ -12,6 +12,7 @@ curvePoint()
 .. on the curve, and b and c are the control points.
 .. This can be done once with the x coordinates and a second time
 .. with the y coordinates to get the location of a curve at t.
+
 **รูปแบบการใช้งาน**
 
 curvePoint ( a, b, c, d, t )

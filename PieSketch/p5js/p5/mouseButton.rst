@@ -11,6 +11,7 @@ mouseButton
 .. button is pressed. The value of the system variable mouseButton is either
 .. LEFT, RIGHT, or CENTER depending on which button was pressed last.
 .. Warning: different browsers may track mouseButton differently.
+
 **รูปแบบการใช้งาน**
 
 mouseButton

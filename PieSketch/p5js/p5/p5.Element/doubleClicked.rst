@@ -10,6 +10,7 @@ doubleClicked()
 .. The .doubleClicked() function is called once after every time a
 .. mouse button is pressed twice over the element. This can be used to
 .. attach element and action specific event listeners.
+
 **รูปแบบการใช้งาน**
 
 doubleClicked ( fxn )
@@ -18,8 +19,7 @@ doubleClicked ( fxn )
 
 - ``fxn``  function: ฟังก์ชั่นที่จะยิงเมื่อเมาส์ถูกกดเหนือองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse is
-                   pressed over the element.
+.. ``fxn``  function: function to be fired when mouse is pressed over the element.
 
 **ค่าที่ส่งออกมา**
 

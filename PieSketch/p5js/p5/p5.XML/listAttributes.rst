@@ -9,6 +9,7 @@ listAttributes()
 
 .. Gets all of the specified element's attributes, and returns them as an
 .. array of Strings.
+
 **รูปแบบการใช้งาน**
 
 listAttributes ( )

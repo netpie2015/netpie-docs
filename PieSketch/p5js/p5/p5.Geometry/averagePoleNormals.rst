@@ -8,6 +8,7 @@ averagePoleNormals()
 ค่าเฉลี่ยของขั้วโลกธรรมดา ใช้ในรูปทรงกลม
 
 .. Averages pole normals.  Used in spherical primitives
+
 **รูปแบบการใช้งาน**
 
 averagePoleNormals ( )

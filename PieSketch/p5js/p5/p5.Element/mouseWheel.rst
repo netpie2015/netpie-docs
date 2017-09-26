@@ -22,6 +22,7 @@ mouseWheel()
 .. 
 .. On OS X with "natural" scrolling enabled, the `event.deltaY` values are
 .. reversed.
+
 **รูปแบบการใช้งาน**
 
 mouseWheel ( fxn )
@@ -30,8 +31,7 @@ mouseWheel ( fxn )
 
 - ``fxn``  function: จะถูกเรียกใช้เมื่อเลื่อนเมาส์ไปบนองค์ประกอบ
 
-.. ``fxn``  function: function to be fired when mouse wheel is
-                   scrolled over the element.
+.. ``fxn``  function: function to be fired when mouse wheel is scrolled over the element.
 
 .. raw:: html
 

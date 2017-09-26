@@ -17,6 +17,7 @@ colorMode () เปลี่ยนวิธี p5.js ตีความข้อ
 .. 
 .. Note: existing color objects remember the mode that they were created in,
 .. so you can change modes as you like without affecting their appearance.
+
 **รูปแบบการใช้งาน**
 
 colorMode ( mode, [max] )
@@ -27,9 +28,7 @@ colorMode ( mode, [max] )
 
 - ``max``  Number: ช่วงสำหรับค่าทั้งหมด
 
-.. ``mode``  Constant: either RGB, HSB or HSL, corresponding to
-                         Red/Green/Blue and Hue/Saturation/Brightness
-                         (or Lightness)
+.. ``mode``  Constant: either RGB, HSB or HSL, corresponding to Red/Green/Blue and Hue/Saturation/Brightness (or Lightness)
 .. ``max``  Number: range for all values
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

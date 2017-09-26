@@ -8,6 +8,7 @@ fromAngle()
 สร้างเวกเตอร์แบบ 2D ใหม่จากมุมหนึ่ง
 
 .. Make a new 2D unit vector from an angle
+
 **รูปแบบการใช้งาน**
 
 fromAngle ( angle )

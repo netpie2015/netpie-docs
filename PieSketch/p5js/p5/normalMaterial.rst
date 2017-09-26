@@ -10,6 +10,7 @@ normalMaterial()
 .. Normal material for geometry. You can view all
 .. possible materials in this
 .. example.
+
 **รูปแบบการใช้งาน**
 
 normalMaterial ( )

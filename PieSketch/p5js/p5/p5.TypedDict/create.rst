@@ -8,6 +8,7 @@ create()
 ลบคู่คีย์ - ค่าในพจนานุกรม
 
 .. Removes a key-value pair in the Dictionary
+
 **รูปแบบการใช้งาน**
 
 create ( key, value )

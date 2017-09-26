@@ -12,6 +12,7 @@ beginShape()
 .. performance will likely drop as a result of too many calls to
 .. beginShape() / endShape().  As a high performance alternative,
 .. please use p5.js geometry primitives.
+
 **รูปแบบการใช้งาน**
 
 beginShape ( mode )
@@ -20,9 +21,6 @@ beginShape ( mode )
 
 - ``mode``  Number: โหมด primitives ของ webgl beginShape สนับสนุนโหมดต่อไปนี้: POINTS, LINES, LINE_STRIP, LINE_LOOP, TRIANGLES, TRIANGLE_STRIP และ TRIANGLE_FAN
 
-.. ``mode``  Number: webgl primitives mode.  beginShape supports the
-                      following modes:
-                      POINTS,LINES,LINE_STRIP,LINE_LOOP,TRIANGLES,
-                      TRIANGLE_STRIP,and TRIANGLE_FAN.
+.. ``mode``  Number: webgl primitives mode. beginShape supports the following modes: POINTS,LINES,LINE_STRIP,LINE_LOOP,TRIANGLES, TRIANGLE_STRIP,and TRIANGLE_FAN.
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

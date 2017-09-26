@@ -11,6 +11,7 @@ HALF_PI เป็นค่าคงที่ทางคณิตศาสตร
 .. 1.57079632679489661923. It is half the ratio of the
 .. circumference of a circle to its diameter. It is useful in
 .. combination with the trigonometric functions sin() and cos().
+
 **รูปแบบการใช้งาน**
 
 HALF_PI

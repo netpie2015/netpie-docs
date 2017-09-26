@@ -10,6 +10,7 @@ deviceMoved()
 .. The deviceMoved() function is called when the device is moved by more than
 .. the threshold value along X, Y or Z axis. The default threshold is set to
 .. 0.5.
+
 **รูปแบบการใช้งาน**
 
 deviceMoved ( )

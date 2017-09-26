@@ -11,6 +11,7 @@ randomSeed()
 .. By default, random() produces different results each time the program
 .. is run. Set the seed parameter to a constant to return the same
 .. pseudo-random numbers each time the software is run.
+
 **รูปแบบการใช้งาน**
 
 randomSeed ( seed )

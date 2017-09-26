@@ -13,6 +13,7 @@ splice()
 .. value which specifies the array position from which to insert data.
 .. (Remember that array index numbering starts at zero, so the first position
 .. is 0, the second position is 1, and so on.)
+
 **รูปแบบการใช้งาน**
 
 splice ( list, value, position )

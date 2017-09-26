@@ -12,6 +12,7 @@ endShape()
 .. defined since the previous call to beginShape() is written into the image
 .. buffer. The constant CLOSE as the value for the MODE parameter to close
 .. the shape (to connect the beginning and the end).
+
 **รูปแบบการใช้งาน**
 
 endShape ( [mode] )

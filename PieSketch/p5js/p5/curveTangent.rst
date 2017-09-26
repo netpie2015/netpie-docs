@@ -10,6 +10,7 @@ curveTangent()
 .. Evaluates the tangent to the curve at position t for points a, b, c, d.
 .. The parameter t varies between 0 and 1, a and d are points on the curve,
 .. and b and c are the control points.
+
 **รูปแบบการใช้งาน**
 
 curveTangent ( a, b, c, d, t )

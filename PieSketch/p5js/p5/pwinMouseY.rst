@@ -10,6 +10,7 @@ pwinMouseY
 .. The system variable pwinMouseY always contains the vertical position of
 .. the mouse in the frame previous to the current frame, relative to (0, 0)
 .. of the window.
+
 **รูปแบบการใช้งาน**
 
 pwinMouseY

@@ -11,6 +11,7 @@ posterize()
 .. the parameter. The parameter can be set to values between 2 and 255, but
 .. results are most noticeable in the lower ranges.
 .. Adapted from java based processing implementation
+
 **รูปแบบการใช้งาน**
 
 posterize ( canvas, level )

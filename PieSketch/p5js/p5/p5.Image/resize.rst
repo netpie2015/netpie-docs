@@ -11,6 +11,7 @@ resize()
 .. proportionally, use 0 as the value for the wide or high parameter.
 .. For instance, to make the width of an image 150 pixels, and change
 .. the height using the same proportion, use resize(150, 0).
+
 **รูปแบบการใช้งาน**
 
 resize ( width, height )

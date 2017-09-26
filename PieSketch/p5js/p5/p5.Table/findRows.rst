@@ -12,6 +12,7 @@ findRows()
 ..  Array, so for must be used to iterate through all the rows,
 ..  as shown in the example above. The column to search may be
 ..  specified by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 findRows ( value, column )
@@ -23,8 +24,7 @@ findRows ( value, column )
 - ``column``  Number,String: หมายเลขประจำตัวหรือชื่อของคอลัมน์ที่ต้องการค้นหา
 
 .. ``value``  String: The value to match
-.. ``column``  Number,String: ID number or title of the
-                                column to search
+.. ``column``  Number,String: ID number or title of the column to search
 
 **ค่าที่ส่งออกมา**
 

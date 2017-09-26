@@ -9,6 +9,7 @@ setString()
 
 .. Stores a String value in the TableRow's specified column.
 ..  The column may be specified by either its ID or title.
+
 **รูปแบบการใช้งาน**
 
 setString ( column, value )
@@ -19,9 +20,7 @@ setString ( column, value )
 
 - ``value``  String: ค่าที่จะเก็บไว้เป็น String
 
-.. ``column``  String,Number: Column ID (Number)
-                               or Title (String)
-.. ``value``  String: The value to be stored
-                               as a String
+.. ``column``  String,Number: Column ID (Number) or Title (String)
+.. ``value``  String: The value to be stored as a String
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

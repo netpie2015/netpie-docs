@@ -8,6 +8,7 @@ perspective()
 กำหนดเมทริกซ์มุมมอง
 
 .. sets the perspective matrix
+
 **รูปแบบการใช้งาน**
 
 perspective ( fovy, aspect, near, far )
