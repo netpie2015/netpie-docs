@@ -5,11 +5,12 @@
 file
 ======
 
-Underlying File object. All normal File methods can be called on this.
+วัตถุไฟล์ที่อ้างอิง สามารถเรียกใช้วิธีการ File ปกติได้ทั้งหมด
+
+.. Underlying File object. All normal File methods can be called on this.
 
 **รูปแบบการใช้งาน**
 
 file
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

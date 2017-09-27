@@ -5,11 +5,12 @@
 subtype
 =========
 
-File subtype (usually the file extension jpg, png, xml, etc.)
+ประเภทย่อยของไฟล์ (โดยปกติจะเป็นไฟล์นามสกุล jpg, png, xml ฯลฯ )
+
+.. File subtype (usually the file extension jpg, png, xml, etc.)
 
 **รูปแบบการใช้งาน**
 
 subtype
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,7 +5,9 @@
 removeAttribute()
 =================
 
-Removes an attribute on the specified element.
+ลบแอตทริบิวต์ในองค์ประกอบที่ระบุ
+
+.. Removes an attribute on the specified element.
 
 **รูปแบบการใช้งาน**
 
@@ -13,13 +15,15 @@ removeAttribute ( attr )
 
 **พารามิเตอร์**
 
-- ``attr``  String: attribute to remove
+- ``attr``  String: แอตทริบิวต์ที่จะลบ
 
+.. ``attr``  String: attribute to remove
 
 **ค่าที่ส่งออกมา**
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
 .. raw:: html
 
@@ -48,5 +52,4 @@ removeAttribute ( attr )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

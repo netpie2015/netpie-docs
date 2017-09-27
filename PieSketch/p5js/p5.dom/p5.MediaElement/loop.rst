@@ -5,7 +5,9 @@
 loop()
 ======
 
-Set 'loop' to true for an HTML5 media element, and starts playing.
+ตั้ง 'ลูป' เป็น true สำหรับองค์ประกอบสื่อ HTML5 และเริ่มเล่น
+
+.. Set 'loop' to true for an HTML5 media element, and starts playing.
 
 **รูปแบบการใช้งาน**
 
@@ -15,6 +17,6 @@ loop ( )
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

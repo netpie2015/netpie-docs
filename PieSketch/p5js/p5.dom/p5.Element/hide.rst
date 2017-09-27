@@ -5,7 +5,9 @@
 hide()
 ======
 
-Hides the current element. Essentially, setting display:none for the style.
+ซ่อนองค์ประกอบปัจจุบัน การตั้งค่าการแสดงผล: ไม่มีสำหรับสไตล์
+
+.. Hides the current element. Essentially, setting display:none for the style.
 
 **รูปแบบการใช้งาน**
 
@@ -15,6 +17,7 @@ hide ( )
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
 .. raw:: html
 
@@ -26,5 +29,4 @@ hide ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -5,7 +5,9 @@
 duration()
 ==========
 
-Returns the duration of the HTML5 media element.
+ส่งกลับระยะเวลาขององค์ประกอบสื่อ HTML5
+
+.. Returns the duration of the HTML5 media element.
 
 **รูปแบบการใช้งาน**
 
@@ -13,8 +15,8 @@ duration ( )
 
 **ค่าที่ส่งออกมา**
 
-- Number: duration
+- Number: ระยะเวลา
 
+.. Number: duration
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

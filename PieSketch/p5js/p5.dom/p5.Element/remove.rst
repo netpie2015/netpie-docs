@@ -5,7 +5,9 @@
 remove()
 ========
 
-Removes the element and deregisters all listeners.
+นำองค์ประกอบออกและรีจีสเตอร์ผู้ฟังทั้งหมด
+
+.. Removes the element and deregisters all listeners.
 
 **รูปแบบการใช้งาน**
 
@@ -21,5 +23,4 @@ remove ( )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

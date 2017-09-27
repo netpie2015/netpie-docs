@@ -5,11 +5,12 @@
 data
 ======
 
-URL string containing image data.
+สตริง URL ที่มีข้อมูลรูปภาพ
+
+.. URL string containing image data.
 
 **รูปแบบการใช้งาน**
 
 data
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

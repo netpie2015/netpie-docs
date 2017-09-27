@@ -5,11 +5,12 @@
 type
 ======
 
-File type (image, text, etc.)
+ประเภทไฟล์ (ภาพข้อความ ฯลฯ )
+
+.. File type (image, text, etc.)
 
 **รูปแบบการใช้งาน**
 
 type
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

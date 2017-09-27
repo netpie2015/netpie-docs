@@ -2,15 +2,18 @@
 
 	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
 
-hideControls()
+getContainer()
 ==============
 
-ซ่อนการควบคุม mediaElement ดีฟอลต์
+ฟังก์ชันตัวช่วยสำหรับการเลือกและเลือกทั้งหมด
 
-.. Hide the default mediaElement controls.
+.. Helper function for select and selectAll
 
 **รูปแบบการใช้งาน**
 
-hideControls ( )
+getContainer ( )
+
+**พารามิเตอร์**
+
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

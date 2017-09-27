@@ -5,9 +5,11 @@
 child()
 =======
 
-Attaches the element  as a child to the parent specified.
-Accepts either a string ID, DOM node, or p5.Element.
-If no argument is specified, an array of children DOM nodes is returned.
+แนบองค์ประกอบดังกล่าวกับเด็กไว้กับผู้ปกครองที่ระบุ ยอมรับ ID สตริงโหนด DOM หรือ p5.Element หากไม่มีการระบุอาร์เรย์จะมีการส่งคืนอาร์เรย์ของโหนด DOM ของเด็ก
+
+.. Attaches the element  as a child to the parent specified.
+.. Accepts either a string ID, DOM node, or p5.Element.
+.. If no argument is specified, an array of children DOM nodes is returned.
 
 **รูปแบบการใช้งาน**
 
@@ -15,13 +17,15 @@ child ( [child] )
 
 **พารามิเตอร์**
 
-- ``child``  String,Object,p5.Element: the ID, DOM node, or p5.Element to add to the current element
+- ``child``  String,Object,p5.Element: ID, โหนด DOM หรือ p5.Element เพื่อเพิ่มองค์ประกอบปัจจุบัน
 
+.. ``child``  String,Object,p5.Element: the ID, DOM node, or p5.Element to add to the current element
 
 **ค่าที่ส่งออกมา**
 
 - p5.Element: 
 
+.. p5.Element: 
 
 .. raw:: html
 
@@ -41,5 +45,4 @@ child ( [child] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -1,34 +1,34 @@
-p5.dom
-------
+
+
 
 p5
 ^^
 
 .. toctree::
-	VIDEO <p5/VIDEO>
-	addElement() <p5/addElement>
-	createA() <p5/createA>
-	createAudio() <p5/createAudio>
-	createButton() <p5/createButton>
-	createCapture() <p5/createCapture>
-	createCheckbox() <p5/createCheckbox>
-	createDiv() <p5/createDiv>
-	createElement() <p5/createElement>
-	createFileInput() <p5/createFileInput>
-	createImg() <p5/createImg>
-	createInput() <p5/createInput>
-	createMedia() <p5/createMedia>
-	createP() <p5/createP>
-	createRadio() <p5/createRadio>
-	createSelect() <p5/createSelect>
-	createSlider() <p5/createSlider>
-	createSpan() <p5/createSpan>
-	createVideo() <p5/createVideo>
-	getContainer() <p5/getContainer>
-	removeElements() <p5/removeElements>
-	select() <p5/select>
-	selectAll() <p5/selectAll>
-	wrapElement() <p5/wrapElement>
+	VIDEO <VIDEO>
+	addElement() <addElement>
+	createA() <createA>
+	createAudio() <createAudio>
+	createButton() <createButton>
+	createCapture() <createCapture>
+	createCheckbox() <createCheckbox>
+	createDiv() <createDiv>
+	createElement() <createElement>
+	createFileInput() <createFileInput>
+	createImg() <createImg>
+	createInput() <createInput>
+	createMedia() <createMedia>
+	createP() <createP>
+	createRadio() <createRadio>
+	createSelect() <createSelect>
+	createSlider() <createSlider>
+	createSpan() <createSpan>
+	createVideo() <createVideo>
+	getContainer() <getContainer>
+	removeElements() <removeElements>
+	select() <select>
+	selectAll() <selectAll>
+	wrapElement() <wrapElement>
 
 p5.Element
 ^^^^^^^^^^
@@ -48,6 +48,17 @@ p5.Element
 	size() <p5.Element/size>
 	style() <p5.Element/style>
 	value() <p5.Element/value>
+
+p5.File
+^^^^^^^
+
+.. toctree::
+	data <p5.File/data>
+	file <p5.File/file>
+	name <p5.File/name>
+	size <p5.File/size>
+	subtype <p5.File/subtype>
+	type <p5.File/type>
 
 p5.MediaElement
 ^^^^^^^^^^^^^^^
@@ -73,15 +84,4 @@ p5.MediaElement
 	stop() <p5.MediaElement/stop>
 	time() <p5.MediaElement/time>
 	volume() <p5.MediaElement/volume>
-
-p5.File
-^^^^^^^
-
-.. toctree::
-	data <p5.File/data>
-	file <p5.File/file>
-	name <p5.File/name>
-	size <p5.File/size>
-	subtype <p5.File/subtype>
-	type <p5.File/type>
 

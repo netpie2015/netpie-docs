@@ -5,11 +5,12 @@
 name
 ======
 
-File name
+ชื่อไฟล์
+
+.. File name
 
 **รูปแบบการใช้งาน**
 
 name
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

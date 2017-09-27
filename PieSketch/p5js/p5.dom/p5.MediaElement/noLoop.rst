@@ -5,8 +5,10 @@
 noLoop()
 ========
 
-Set 'loop' to false for an HTML5 media element. Element will stop
-when it reaches the end.
+ตั้ง 'ลูป' เป็นเท็จสำหรับองค์ประกอบสื่อ HTML5 Element จะหยุดเมื่อถึงจุดสิ้นสุด
+
+.. Set 'loop' to false for an HTML5 media element. Element will stop
+.. when it reaches the end.
 
 **รูปแบบการใช้งาน**
 
@@ -16,6 +18,6 @@ noLoop ( )
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

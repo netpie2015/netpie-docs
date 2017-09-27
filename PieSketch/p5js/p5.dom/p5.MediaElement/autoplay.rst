@@ -5,7 +5,9 @@
 autoplay()
 ==========
 
-Set HTML5 media element to autoplay or not.
+ตั้งค่าองค์ประกอบสื่อ HTML5 เพื่อเล่นอัตโนมัติหรือไม่
+
+.. Set HTML5 media element to autoplay or not.
 
 **รูปแบบการใช้งาน**
 
@@ -13,13 +15,14 @@ autoplay ( autoplay )
 
 **พารามิเตอร์**
 
-- ``autoplay``  Boolean: whether the element should autoplay
+- ``autoplay``  Boolean: องค์ประกอบควรเล่นอัตโนมัติหรือไม่
 
+.. ``autoplay``  Boolean: whether the element should autoplay
 
 **ค่าที่ส่งออกมา**
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

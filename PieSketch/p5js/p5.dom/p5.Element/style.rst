@@ -5,13 +5,15 @@
 style()
 =======
 
-Sets the given style (css) property (1st arg) of the element with the
-given value (2nd arg). If a single argument is given, .style()
-returns the value of the given property; however, if the single argument
-is given in css syntax ('text-align:center'), .style() sets the css
-appropriatly. .style() also handles 2d and 3d css transforms. If
-the 1st arg is 'rotate', 'translate', or 'position', the following arguments
-accept Numbers as values. ('translate', 10, 100, 50);
+ตั้งค่าคุณสมบัติสไตล์ (css) ที่ระบุ (อาร์กิวเมนต์ที่ 1) ขององค์ประกอบด้วยค่าที่กำหนด (อาร์เรย์ที่ 2) ถ้าอาร์กิวเมนต์เดียวถูกกำหนดให้. style () ส่งกลับค่าของคุณสมบัติที่ระบุ แต่ถ้าอาร์กิวเมนต์เดียวถูกกำหนดในรูปแบบ CSS ('text-align: center'), .style () จะตั้งค่า CSS ให้เหมาะสม รูปแบบ. () ยังจัดการ 2D และ 3D css transforms ถ้า arg ที่ 1 คือ 'หมุน', 'แปล' หรือ 'ตำแหน่ง' อาร์กิวเมนต์ต่อไปนี้จะยอมรับตัวเลขเป็นค่า ('แปล', 10, 100, 50);
+
+.. Sets the given style (css) property (1st arg) of the element with the
+.. given value (2nd arg). If a single argument is given, .style()
+.. returns the value of the given property; however, if the single argument
+.. is given in css syntax ('text-align:center'), .style() sets the css
+.. appropriatly. .style() also handles 2d and 3d css transforms. If
+.. the 1st arg is 'rotate', 'translate', or 'position', the following arguments
+.. accept Numbers as values. ('translate', 10, 100, 50);
 
 **รูปแบบการใช้งาน**
 
@@ -19,15 +21,18 @@ style ( property, [value] )
 
 **พารามิเตอร์**
 
-- ``property``  String: property to be set
+- ``property``  String: คุณสมบัติที่จะตั้งค่า
 
-- ``value``  String,Number,p5.Color: value to assign to property (only String|Number for rotate/translate)
+- ``value``  String,Number,p5.Color: ค่าที่จะกำหนดให้กับคุณสมบัติ (เฉพาะสตริง | จำนวนสำหรับหมุน / แปล)
 
+.. ``property``  String: property to be set
+.. ``value``  String,Number,p5.Color: value to assign to property (only String|Number for rotate/translate)
 
 **ค่าที่ส่งออกมา**
 
-- String,Object,p5.Element: value of property, if no value is specified or p5.Element
+- String,Object,p5.Element: ค่าของคุณสมบัติถ้าไม่มีค่าระบุหรือ p5.Element
 
+.. String,Object,p5.Element: value of property, if no value is specified or p5.Element
 
 .. raw:: html
 
@@ -61,5 +66,4 @@ style ( property, [value] )
 
 	<br><br>
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

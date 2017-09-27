@@ -2,15 +2,18 @@
 
 	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
 
-hideControls()
-==============
+wrapElement()
+=============
 
-ซ่อนการควบคุม mediaElement ดีฟอลต์
+ฟังก์ชันช่วยเหลือสำหรับ getElement และ getElements
 
-.. Hide the default mediaElement controls.
+.. Helper function for getElement and getElements.
 
 **รูปแบบการใช้งาน**
 
-hideControls ( )
+wrapElement ( )
+
+**พารามิเตอร์**
+
 
 .. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

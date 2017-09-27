@@ -5,7 +5,9 @@
 stop()
 ======
 
-Stops an HTML5 media element (sets current time to zero).
+หยุดองค์ประกอบสื่อ HTML5 (ตั้งเวลาปัจจุบันเป็นศูนย์)
+
+.. Stops an HTML5 media element (sets current time to zero).
 
 **รูปแบบการใช้งาน**
 
@@ -15,6 +17,6 @@ stop ( )
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.

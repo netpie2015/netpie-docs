@@ -5,7 +5,9 @@
 play()
 ======
 
-Play an HTML5 media element.
+เล่นองค์ประกอบสื่อ HTML5
+
+.. Play an HTML5 media element.
 
 **รูปแบบการใช้งาน**
 
@@ -15,6 +17,6 @@ play ( )
 
 - Object,p5.Element: 
 
+.. Object,p5.Element: 
 
-.. toctree::
-
+.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
