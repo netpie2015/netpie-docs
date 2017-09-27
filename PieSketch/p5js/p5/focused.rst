@@ -5,7 +5,7 @@
 focused
 =========
 
-ยืนยันว่าหน้าต่างที่โปรแกรม p5.js มีอยู่หรือไม่ &quot;เน้น&quot; ซึ่งหมายความว่าร่างจะยอมรับการป้อนข้อมูลจากเมาส์หรือแป้นพิมพ์ ตัวแปรนี้คือ &quot;true&quot; ถ้าหน้าต่างถูกโฟกัสและ &quot;false&quot; ถ้าไม่
+ยืนยันว่าหน้าต่างที่โปรแกรม p5.js มีอยู่หรือไม่ "เน้น" ซึ่งหมายความว่าร่างจะยอมรับการป้อนข้อมูลจากเมาส์หรือแป้นพิมพ์ ตัวแปรนี้คือ "true" ถ้าหน้าต่างถูกโฟกัสและ "false" ถ้าไม่
 
 .. Confirms if the window a p5.js program is in is "focused," meaning that
 .. the sketch will accept mouse or keyboard input. This variable is

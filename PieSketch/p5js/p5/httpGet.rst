@@ -5,7 +5,7 @@
 httpGet()
 =========
 
-วิธีการดำเนินการคำขอ HTTP GET หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ นี่เทียบเท่ากับการเรียก httpDo(path, &#39;GET&#39;)
+วิธีการดำเนินการคำขอ HTTP GET หากไม่มีการระบุชนิดข้อมูล p5 จะพยายามคาดเดาตาม URL ซึ่งเป็นค่าเริ่มต้นเป็นข้อความ นี่เทียบเท่ากับการเรียก httpDo(path, 'GET')
 
 .. Method for executing an HTTP GET request. If data type is not specified,
 .. p5 will try to guess based on the URL, defaulting to text. This is equivalent to

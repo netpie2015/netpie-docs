@@ -5,7 +5,7 @@
 float()
 =======
 
-แปลงสายอักขระให้เป็นค่าแทน floating point เนื้อหาของสตริงต้องเหมือนกับตัวเลขหรือ NaN (ไม่ใช่ตัวเลข) จะถูกส่งกลับ ยกตัวอย่างเช่น float (&quot;1234.56&quot;) จะประเมินเป็น 1234.56 แต่ float (&quot;giraffe&quot;) จะกลับ NaN เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ของ floats ที่มีความยาวเท่ากันจะถูกส่งกลับ
+แปลงสายอักขระให้เป็นค่าแทน floating point เนื้อหาของสตริงต้องเหมือนกับตัวเลขหรือ NaN (ไม่ใช่ตัวเลข) จะถูกส่งกลับ ยกตัวอย่างเช่น float ("1234.56") จะประเมินเป็น 1234.56 แต่ float ("giraffe") จะกลับ NaN เมื่ออาร์เรย์ของค่าถูกส่งผ่านไปแล้วอาร์เรย์ของ floats ที่มีความยาวเท่ากันจะถูกส่งกลับ
 
 .. Converts a string to its floating point representation. The contents of a
 .. string must resemble a number, or NaN (not a number) will be returned.

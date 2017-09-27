@@ -5,7 +5,7 @@
 trim()
 ======
 
-ลบอักขระ whitespace จากจุดเริ่มต้นและจุดสิ้นสุดของ String นอกเหนือจากอักขระ Unicode มาตรฐานเช่นช่องว่างการส่งคืนข้อมูลและแท็บฟังก์ชันนี้จะลบอักขระ &quot;nbsp&quot; ของ Unicode
+ลบอักขระ whitespace จากจุดเริ่มต้นและจุดสิ้นสุดของ String นอกเหนือจากอักขระ Unicode มาตรฐานเช่นช่องว่างการส่งคืนข้อมูลและแท็บฟังก์ชันนี้จะลบอักขระ "nbsp" ของ Unicode
 
 .. Removes whitespace characters from the beginning and end of a String. In
 .. addition to standard whitespace characters such as space, carriage return,

@@ -14,7 +14,7 @@ premultipliedAlpha - ระบุว่า compositor หน้าจะถื�
 preserveDrawingBuffer - ถ้า true บัฟเฟอร์จะไม่ถูกลบและจะเก็บค่าของพวกเขาไว้จนกว่าจะถูกล้างหรือเขียนทับโดยผู้เขียน (โปรดทราบว่า p5 ล้างโดยอัตโนมัติในวง draw) ค่าดีฟอลต์เป็น true 
 function setup() { createCanvas(150,150,WEBGL); } function draw() { background(255); push(); rotateZ(frameCount * 0.02); rotateX(frameCount * 0.02); rotateY(frameCount * 0.02); fill(0,0,0); box(50); pop(); }  
 ขณะนี้มีแอ็ตทริบิวต์ antialias ตั้งค่าเป็น true 
-function setup() { createCanvas(150,150,WEBGL); setAttributes(&#39;antialias&#39;, true); } function draw() { background(255); push(); rotateZ(frameCount * 0.02); rotateX(frameCount * 0.02); rotateY(frameCount * 0.02); fill(0,0,0); box(50); pop(); } 
+function setup() { createCanvas(150,150,WEBGL); setAttributes('antialias', true); } function draw() { background(255); push(); rotateZ(frameCount * 0.02); rotateX(frameCount * 0.02); rotateY(frameCount * 0.02); fill(0,0,0); box(50); pop(); } 
 
 .. Set attributes for the WebGL Drawing context.
 .. This is a way of adjusting ways that the WebGL

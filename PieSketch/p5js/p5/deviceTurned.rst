@@ -6,7 +6,7 @@ deviceTurned()
 ==============
 
 ฟังก์ชั่น deviceTurned () เรียกว่าเมื่ออุปกรณ์หมุนได้มากกว่า 90 องศาอย่างต่อเนื่อง 
-แกนที่เรียกใช้เมธอด turned () ถูกเก็บไว้ในตัวแปร turnAxis คุณสามารถล็อกออปเจ็กต์ deviceTurned () เพื่อเรียกใช้แกนใดก็ได้: X, Y หรือ Z โดยการเปรียบเทียบตัวแปร turnAxis กับ &#39;X&#39;, &#39;Y&#39; หรือ &#39;Z&#39;
+แกนที่เรียกใช้เมธอด turned () ถูกเก็บไว้ในตัวแปร turnAxis คุณสามารถล็อกออปเจ็กต์ deviceTurned () เพื่อเรียกใช้แกนใดก็ได้: X, Y หรือ Z โดยการเปรียบเทียบตัวแปร turnAxis กับ 'X', 'Y' หรือ 'Z'
 
 .. The deviceTurned() function is called when the device rotates by
 .. more than 90 degrees continuously.
