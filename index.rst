@@ -7,8 +7,8 @@
 ========================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 6
+   :caption: Content:
 
    PieSketch <PieSketch/index>
 

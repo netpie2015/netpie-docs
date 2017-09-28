@@ -14,10 +14,9 @@ NETPIE
 .. toctree::
 	:hidden:
 
+	Message <message>
 	Microgear <microgear>
 	Event <event>
-	Topic <topic>
-
 
 
 
