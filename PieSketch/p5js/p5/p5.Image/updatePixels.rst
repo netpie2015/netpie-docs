@@ -29,4 +29,4 @@ updatePixels ( x, y, w, h )
 .. ``w``  Integer: height of the target update area for the underlying canvas
 .. ``h``  Integer: height of the target update area for the underlying canvas
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

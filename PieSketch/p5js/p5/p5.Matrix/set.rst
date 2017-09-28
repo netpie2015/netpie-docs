@@ -23,4 +23,4 @@ set ( [inMatrix], [n00..n33] )
 .. ``inMatrix``  p5.Matrix,Float32Array,Array: the input p5.Matrix or an Array of length 16
 .. ``n00..n33``  Number: 16 numbers passed by value to avoid array copying.
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

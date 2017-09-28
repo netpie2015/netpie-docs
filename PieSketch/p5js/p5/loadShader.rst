@@ -33,4 +33,4 @@ loadShader ( [vertFilename], [fragFilename] )
 
 .. p5.Shader: a shader object created from the provided vertex and fragment shader files.
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -22,4 +22,4 @@ addChild ( a )
 
 .. ``a``  p5.XML: p5.XML Object which will be the child to be added
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

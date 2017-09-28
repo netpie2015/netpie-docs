@@ -22,4 +22,4 @@ createBuffers ( gId, obj )
 .. ``gId``  String: key of the geometry object
 .. ``obj``  p5.Geometry: contains geometry data
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

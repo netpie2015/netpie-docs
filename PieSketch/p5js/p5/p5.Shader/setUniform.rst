@@ -25,4 +25,4 @@ setUniform ( [String], ] )
 .. ``String``  uniformName: the name of the uniform in the shader program
 .. ``]``  data: the data to be associated with that uniform; type varies (could be a single numerical value, array, matrix, or texture / sampler reference)
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

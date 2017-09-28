@@ -25,4 +25,4 @@ vertex ( x, y, z )
 .. ``y``  Number: y-coordinate of vertex
 .. ``z``  Number: z-coordinate of vertex
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

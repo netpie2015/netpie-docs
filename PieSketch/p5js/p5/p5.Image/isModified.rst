@@ -21,4 +21,4 @@ isModified ( )
 
 .. boolean: a boolean indicating whether or not the image has been updated or modified since last texture upload.
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

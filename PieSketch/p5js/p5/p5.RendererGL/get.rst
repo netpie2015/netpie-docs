@@ -48,4 +48,4 @@ get ( [x], [y], [w], [h] )
 
 .. Array,Color,p5.Image: color of pixel at x,y in array format [R, G, B, A] or p5.Image
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

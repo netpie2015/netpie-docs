@@ -57,4 +57,4 @@ save ( [objectOrFilename], [filename], [options] )
 .. ``filename``  String: If an object is provided as the first parameter, then the second parameter indicates the filename, and should include an appropriate file extension (see examples above).
 .. ``options``  Boolean,String: Additional options depend on filetype. For example, when saving JSON, <code>true</code> indicates that the output will be optimized for filesize, rather than readability.
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

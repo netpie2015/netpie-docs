@@ -25,4 +25,4 @@ removeTokens ( chars, [column] )
 .. ``chars``  String: String listing characters to be removed
 .. ``column``  String,Number: Column ID (number) or name (string)
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

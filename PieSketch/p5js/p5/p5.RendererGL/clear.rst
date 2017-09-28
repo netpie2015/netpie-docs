@@ -29,4 +29,4 @@ clear ( r, g, b, a )
 .. ``b``  Number: normalized blue val.
 .. ``a``  Number: normalized alpha val.
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

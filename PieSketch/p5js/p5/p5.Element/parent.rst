@@ -24,4 +24,4 @@ parent ( parent )
 
 .. ``parent``  String,p5.Element,Object: the ID, DOM node, or p5.Element of desired parent element
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

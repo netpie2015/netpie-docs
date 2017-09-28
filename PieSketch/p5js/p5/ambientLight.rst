@@ -28,4 +28,4 @@ ambientLight ( v1, v2, v3, [alpha] )
 .. ``v3``  Number: blue or brightness value relative to the current color range
 .. ``alpha``  Number: 
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

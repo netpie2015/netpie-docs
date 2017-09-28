@@ -64,4 +64,4 @@ pointLight ( v1, [v2], [v3], [a], x, [y], [z] )
 
 	<br><br>
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -96,4 +96,4 @@ setAttributes ( String, New )
 .. ``String``  String,Object: name of attribute or object with key-value pairs
 .. ``New``  Boolean: value of named attribute
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -30,4 +30,4 @@ loadPixels ( starting, starting, width, height )
 .. ``width``  Number: of pixels to load, defaults to sketch width
 .. ``height``  Number: of pixels to load, defaults to sketch height
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

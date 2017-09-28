@@ -45,4 +45,4 @@ triangle ( x1, y1, x2, y2, x3, y3 )
 
 	<br><br>
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

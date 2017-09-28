@@ -45,4 +45,4 @@ arrayCopy ( src, srcPosition, dst, dstPosition, length )
 .. ``dstPosition``  Number: starting position in the destination Array
 .. ``length``  Number: number of Array elements to be copied
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

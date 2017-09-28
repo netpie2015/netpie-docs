@@ -20,4 +20,4 @@ textLeading ( leading )
 
 .. ``leading``  Number: the size in pixels for spacing between lines
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

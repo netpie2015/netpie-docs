@@ -23,4 +23,4 @@ connect ( audioNode )
 
 .. ``audioNode``  AudioNode,Object: AudioNode from the Web Audio API, or an object from the p5.sound library
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

@@ -20,4 +20,4 @@ id ( id )
 
 .. ``id``  String: ID of the element
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.

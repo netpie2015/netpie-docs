@@ -19,4 +19,4 @@ determinant ( )
 
 .. Number: Determinant of our 4x4 matrix
 
-.. note:: This document was generated from p5js files whose source code is available on `github <https://github.com/processing/p5.js>`_.
+..  [#f1] This document was generated from p5.js whose source code is available on `github <https://github.com/processing/p5.js>`_.
