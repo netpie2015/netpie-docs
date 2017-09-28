@@ -41,6 +41,6 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 	:hidden:
 
 	p5js <p5js/index>
-	NETPIE Microgear <microgear/index>
+	NETPIE <netpie/index>
 
 
