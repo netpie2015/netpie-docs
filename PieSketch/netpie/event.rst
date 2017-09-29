@@ -18,9 +18,9 @@ application ที่รันบน microgear จะมีการทำงา
 event ที่เกิดจาก microgear มีดังนี้
 
 - :ref:`connected <connected>`
-- :ref:`closed <closed>`
-- :ref:`error <error>`
+- :ref:`disconnected <closed>`
 - :ref:`info <info>`
+- :ref:`error <error>`
 - :ref:`message <message>`
 - :ref:`present <present>`
 
@@ -44,9 +44,9 @@ Event: 'connected'
 
 ----
 
-.. _connected:
+.. _disconnected:
 
-Event: 'connected'
+Event: 'conndisconnectedected'
 ^^^^^^^^^^^^^^^^^^
 
 เกืดขึ้นเมื่อ microgear library ตัดการเชื่อมต่อกับ platform
