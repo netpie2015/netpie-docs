@@ -5,17 +5,7 @@
 Microgear
 =========
 
-การเชื่อมต่อกับ NETPIE จะทำผ่านฟังก์ชั่นของ Microgear library หรือพูดอีกนัยหนึ่งก็คือ การใช้งาน NETPIE ก็คือการออกแบบสร้าง microgear ขึ้นมาทำงานร่วมกันนั่นเอง สำหรับ PieSketch ก็มีตัวแปรชนิด Microgear ให้เรียกใช้ ซึ่งจะมาพร้อมคำสั่งดังนี้
-
-- :ref:`create() <create>`
-- :ref:`connect() <connect>`
-- :ref:`setAlias() <setAlias>`
-- :ref:`chat() <chat>`
-- :ref:`publish() <publish>`
-- :ref:`subscribe() <subscribe>`
-- :ref:`unsubscribe() <unsubscribe>`
-
-----
+การเชื่อมต่อกับ NETPIE จะทำผ่านฟังก์ชั่นของ Microgear library หรือพูดอีกนัยหนึ่งก็คือ การใช้งาน NETPIE ก็คือการออกแบบสร้าง microgear ขึ้นมาทำงานร่วมกันนั่นเอง สำหรับ PieSketch ก็มีตัวแปรชนิด Microgear ให้เรียกใช้ ซึ่งจะมาพร้อมคำสั่ง creat() ดังนี้
 
 .. _create:
 
@@ -47,6 +37,16 @@ create()
 		alias:'p5js'
 	});
 
+Microgear จะส่งตัวแปร microgear ออกมา ซึ่งจะเป็น object ที่เราจะทำงานด้วย ซึ่งจะมาพร้อมฟังก์ชั่นหลักๆต่อไปนี้
+
+- :ref:`connect() <connect>`
+- :ref:`setAlias() <setAlias>`
+- :ref:`chat() <chat>`
+- :ref:`publish() <publish>`
+- :ref:`subscribe() <subscribe>`
+- :ref:`unsubscribe() <unsubscribe>`
+- :ref:`writeFeed() <writeFeed>`
+
 ----
 
 .. _connect:
@@ -67,7 +67,7 @@ connect()
 
 	microgear.connect("happyfarm");
 
-.. warning::
+.. attention::
 	การเชื่อมต่อ จะใช้ port  8081 และ 8084 กรุณาตรวจสอบว่าเครือข่ายของท่านอนุญาตให้ใช้งานได้
 
 ----
@@ -188,7 +188,7 @@ unsubscribe()
 
 ----
 
-.. _unsubscribe:
+.. _writeFeed:
 
 writeFeed()
 ^^^^^^^^^^^
