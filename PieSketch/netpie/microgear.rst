@@ -5,14 +5,14 @@
 Microgear
 =========
 
-การเชื่อมต่อกับ NETPIE จะทำผ่านฟังก์ชั่นของ Microgear library หรือพูดอีกนัยหนึ่งก็คือ การใช้งาน NETPIE ก็คือการออกแบบสร้าง microgear ขึ้นมาทำงานร่วมกันนั่นเอง สำหรับ PieSketch ก็มีตัวแปรชนิด Microgear ให้เรียกใช้ ซึ่งจะมาพร้อมคำสั่ง creat() ดังนี้
+การเชื่อมต่อกับ NETPIE จะทำผ่านฟังก์ชั่นของ Microgear library หรือพูดอีกนัยหนึ่งก็คือ การใช้งาน NETPIE ก็คือการออกแบบสร้าง microgear ขึ้นมาทำงานร่วมกันนั่นเอง NETPIE มี microgear library หลายชนิด บนหลากหลาย hardware และหลายภาษา สำหรับ PieSketch ก็ถือเป็นอีกหนึ่ง platform ที่ NETPIE รองรับ โดย PieSketch จะมีตัวแปรชนิด Microgear ให้เรียกใช้ ซึ่งจะมาพร้อมคำสั่ง create() ดังนี้
 
 .. _create:
 
 create()
 ^^^^^^^^
 
-เป็นการสร้างตัวแปร microgear โดยใช้คำสั่ง creat ดังนี้
+เป็นการสร้างตัวแปร microgear โดยใช้คำสั่ง create ดังนี้
 
 .. code-block:: javascript
 
