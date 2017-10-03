@@ -42,5 +42,5 @@
 	การควบคุมเปลี่ยนแปลงสี <examples/control_rgb>
 	ภาพเคลี่อนไหว 2D <examples/2d>
 	ภาพเคลี่อนไหว 3D <examples/3d>
-	การสื่อสารระหว่าง Alice กับ Bob ผ่าน NETPIE <examples/microgear>
+	การสื่อสารระหว่าง p5.js ผ่าน NETPIE <examples/microgear>
 

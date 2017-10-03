@@ -43,4 +43,15 @@ PieSketch เป็นเครื่องมือช่วยพัฒนา 
 	p5js <p5js/index>
 	NETPIE <netpie/index>
 
+ตัวอย่างโค้ด PieSketch
+--------------------
+
+
+- `p5js และ NETPIE <examples/index.html>`_
+
+.. toctree::
+	:hidden:
+
+	p5js และ NETPIE <examples/index>
+
 
