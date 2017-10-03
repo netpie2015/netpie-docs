@@ -1,0 +1,46 @@
+.. raw:: html
+
+	<script src="https://sketch.netpie.io/widget/p5-widget.js"></script>
+
+ภาพเคลี่อนไหว 3D
+===============
+
+การสร้างภาพเคลื่อนไหว 3D ด้วย p5.js
+
+อ้างอิง: https://p5js.org/examples/3d-sine-cosine-in-3d.html
+
+.. raw:: html
+
+	<script type="text/p5" data-height="400" data-preview-width="400">
+	function setup(){
+		createCanvas(400, 320, WEBGL);
+	}
+
+	function draw(){
+		background(250);
+		rotateY(frameCount * 0.01);
+
+		for(var j = 0; j < 5; j++){
+			push();
+			for(var i = 0; i < 80; i++){
+				translate(sin(frameCount * 0.001 + j) * 100, sin(frameCount * 0.001 + j) * 100, i * 0.1);
+				rotateZ(frameCount * 0.002);
+				push();
+				sphere(8, 6, 4); 
+				pop();
+			}
+			pop();
+		}
+	}
+	</script>
+	<p></p>
+
+.. toctree::
+	:hidden:
+
+	การวาดภาพกราฟฟิก <examples/graphic>
+	การควบคุมเปลี่ยนแปลงสี <examples/control_rgb>
+	ภาพเคลี่อนไหว 2D <examples/2d>
+	ภาพเคลี่อนไหว 3D <examples/3d>
+	การสื่อสารระหว่าง Alice กับ Bob ผ่าน NETPIE <examples/microgear>
+
