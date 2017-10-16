@@ -80,6 +80,10 @@ p5js
 			<h3>14. Math</h3>
 			<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Basic_shapes.svg/250px-Basic_shapes.svg.png" alt="Shape" style="max-width:100%;" />
 		</a>
+		<a class="img-style" href="#group-lightcam">
+			<h3>15. Light & Camera/h3>
+			<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Basic_shapes.svg/250px-Basic_shapes.svg.png" alt="Shape" style="max-width:100%;" />
+		</a>
 
 		<br><br>
 
@@ -130,7 +134,7 @@ p5js
 				</td>
 			</tr>
 		</table>
-		<h2 id="group-group-text">ตัวอักษร</h2>
+		<h2 id="group-text">ตัวอักษร</h2>
 		<table>
 			<tr>
 				<td class="table-left">
@@ -486,7 +490,7 @@ p5js
 				</td>
 			</tr>
 		</table>
-		<h2 id="group-import">แสง และ กล้อง</h2>
+		<h2 id="group-lightcam">แสง และ กล้อง</h2>
 		<table>
 			<tr>
 				<td class="table-left">
