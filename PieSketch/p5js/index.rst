@@ -81,7 +81,7 @@ p5js
 			<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Basic_shapes.svg/250px-Basic_shapes.svg.png" alt="Shape" style="max-width:100%;" />
 		</a>
 		<a class="img-style" href="#group-lightcam">
-			<h3>15. Light & Camera/h3>
+			<h3>15. Light & Camera</h3>
 			<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Basic_shapes.svg/250px-Basic_shapes.svg.png" alt="Shape" style="max-width:100%;" />
 		</a>
 
