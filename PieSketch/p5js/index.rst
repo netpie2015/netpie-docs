@@ -119,17 +119,13 @@ p5js
 			<tr>
 				<td class="table-left">
 					<ul>
-						<li><a href="preload.html">preload()</a></li>
-						<li><a href="setup.html">setup()</a></li>
-						<li><a href="draw.html">draw()</a></li>
-						<li><a href="remove.html">remove()</a></li>
 						<li><a href="noLoop.html">noLoop()</a></li>
+						<li><a href="loop.html">loop()</a></li>
+						<li><a href="push.html">push()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="loop.html">loop()</a></li>
-						<li><a href="push.html">push()</a></li>
 						<li><a href="pop.html">pop()</a></li>
 						<li><a href="redraw.html">redraw()</a></li>
 					</ul>
@@ -164,7 +160,7 @@ p5js
 						<li><a href="getURL.html">getURL()</a></li>
 						<li><a href="getURLPath.html">getURLPath()</a></li>
 						<li><a href="getURLParams.html">getURLParams()</a></li>
-					</ul>test
+					</ul>
 				</td>
 			</tr>
 		</table>
@@ -250,7 +246,7 @@ p5js
 				</td>
 			</tr>
 		</table>
-		<h2 id="group-event">การกระทำเมื่อเกิดบางอย่างขึ้น</h2>
+		<h2 id="group-event">เหตุการณ์</h2>
 		<table>
 			<tr>
 				<td class="table-left">
@@ -266,23 +262,22 @@ p5js
 						<li><a href="rotationY.html">rotationY</a></li>
 						<li><a href="rotationZ.html">rotationZ</a></li>
 						<li><a href="pRotationX.html">pRotationX</a></li>
-						<li><a href="arcpRotationY.html">pRotationY</a></li>
+						<li><a href="pRotationY.html">pRotationY</a></li>
 						<li><a href="pRotationZ.html">pRotationZ</a></li>
 						<li><a href="setMoveThreshold.html">setMoveThreshold()</a></li>
 						<li><a href="setShakeThreshold.html">setShakeThreshold()</a></li>
 						<li><a href="deviceMoved.html">deviceMoved()</a></li>
 						<li><a href="deviceTurned.html">deviceTurned()</a></li>
 						<li><a href="deviceShaken.html">deviceShaken()</a></li>
-						<li><a href="keyIsPressed.html">keyIsPressed</a></li>
 						<li><a href="key.html">key</a></li>
 						<li><a href="keyCode.html">keyCode</a></li>
 						<li><a href="keyPressed.html">keyPressed()</a></li>
 						<li><a href="keyReleased.html">keyReleased()</a></li>
+						<li><a href="keyTyped.html">keyTyped()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="keyTyped.html">keyTyped()</a></li>
 						<li><a href="keyIsDown.html">keyIsDown()</a></li>
 						<li><a href="mouseX.html">mouseX</a></li>
 						<li><a href="mouseY.html">mouseY</a></li>
@@ -317,18 +312,13 @@ p5js
 						<li><a href="createImage.html">createImage()</a></li>
 						<li><a href="saveCanvas.html">saveCanvas()</a></li>
 						<li><a href="saveFrames.html">saveFrames()</a></li>
-						<li><a href="loadImage.html">loadImage()</a></li>
-						<li><a href="image.html">image()</a></li>
-						<li><a href="tint.html">tint()</a></li>
-						<li><a href="noTint.html">noTint()</a></li>
-						<li><a href="imageMode.html">imageMode()</a></li>
+						<li><a href="pixels.html">pixels</a></li>
+						<li><a href="blend.html">blend()</a></li>
+						<li><a href="copy.html">copy()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="pixels.html">pixels</a></li>
-						<li><a href="blend.html">blend()</a></li>
-						<li><a href="copy.html">copy()</a></li>
 						<li><a href="filter.html">filter()</a></li>
 						<li><a href="get.html">get()</a></li>
 						<li><a href="loadPixels.html">loadPixels()</a></li>
@@ -387,7 +377,6 @@ p5js
 			<tr>
 				<td class="table-left">
 					<ul>
-						<li><a href="createVector.html">createVector()</a></li>
 						<li><a href="abs.html">abs()</a></li>
 						<li><a href="ceil.html">ceil()</a></li>
 						<li><a href="constrain.html">constrain()</a></li>
@@ -404,11 +393,11 @@ p5js
 						<li><a href="pow.html">pow()</a></li>
 						<li><a href="round.html">round()</a></li>
 						<li><a href="sq.html">sq()</a></li>
+						<li><a href="sqrt.html">sqrt()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="sqrt.html">sqrt()</a></li>
 						<li><a href="noise.html">noise()</a></li>
 						<li><a href="noiseDetail.html">noiseDetail()</a></li>
 						<li><a href="noiseSeed.html">noiseSeed()</a></li>
