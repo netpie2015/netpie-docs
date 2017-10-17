@@ -59,11 +59,11 @@ p5js
 						<li><a href="lerpColor.html">lerpColor()</a></li>
 						<li><a href="lightness.html">lightness()</a></li>
 						<li><a href="red.html">red()</a></li>
+						<li><a href="background.html">background()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="background.html">background()</a></li>
 						<li><a href="colorMode.html">colorMode()</a></li>
 						<li><a href="fill.html">fill()</a></li>
 						<li><a href="noFill.html">noFill()</a></li>
