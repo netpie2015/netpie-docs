@@ -35,13 +35,30 @@ p5js
 						<li><a href="ellipse.html">ellipse()</a></li>
 						<li><a href="line.html">line()</a></li>
 						<li><a href="point.html">point()</a></li>
+						<li><a href="quad.html">quad()</a></li>
+						<li><a href="rect.html">rect()</a></li>
+						<li><a href="triangle.html">triangle()</a></li>
+						<li><a href="beginContour.html">beginContour()</a></li>
+						<li><a href="beginShape.html">beginShape()</a></li>
+						<li><a href="bezierVertex.html">bezierVertex()</a></li>
+						<li><a href="curveVertex.html">curveVertex()</a></li>
+						<li><a href="endContour.html">endContour()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="quad.html">quad()</a></li>
-						<li><a href="rect.html">rect()</a></li>
-						<li><a href="triangle.html">triangle()</a></li>
+						<li><a href="quadraticVertex.html">quadraticVertex()</a></li>
+						<li><a href="vertex.html">vertex()</a></li>
+						<li><a href="loadModel.html">loadModel()</a></li>
+						<li><a href="model.html">model()</a></li>
+						<li><a href="plane.html">plane()</a></li>
+						<li><a href="box.html">box()</a></li>
+						<li><a href="sphere.html">sphere()</a></li>
+						<li><a href="cylinder.html">cylinder()</a></li>
+						<li><a href="cone.html">cone()</a></li>
+						<li><a href="ellipsoid.html">ellipsoid()</a></li>
+						<li><a href="torus.html">torus()</a></li>
+						<li><a href="endShape.html">endShape()</a></li>
 					</ul>
 				</td>
 			</tr>
