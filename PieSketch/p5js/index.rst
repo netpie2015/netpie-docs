@@ -55,20 +55,23 @@ p5js
 						<li><a href="blue.html">blue()</a></li>
 						<li><a href="brightness.html">brightness()</a></li>
 						<li><a href="color.html">color()</a></li>
+						<li><a href="green.html">green()</a></li>
 						<li><a href="hue.html">hue()</a></li>
 						<li><a href="lerpColor.html">lerpColor()</a></li>
 						<li><a href="lightness.html">lightness()</a></li>
+						<li><a href="red.html">red()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
-						<li><a href="red.html">red()</a></li>
+						<li><a href="saturation.html">saturation()</a></li>
 						<li><a href="background.html">background()</a></li>
+						<li><a href="clear.html">clear()</a></li>
 						<li><a href="colorMode.html">colorMode()</a></li>
 						<li><a href="fill.html">fill()</a></li>
 						<li><a href="noFill.html">noFill()</a></li>
 						<li><a href="noStroke.html">noStroke()</a></li>
-						<li><a href="clear.html">clear()</a></li>
+						<li><a href="stroke.html">stroke()</a></li>
 					</ul>
 				</td>
 			</tr>
