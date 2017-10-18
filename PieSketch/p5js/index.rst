@@ -39,14 +39,24 @@ p5js
 						<li><a href="rect.html">rect()</a></li>
 						<li><a href="triangle.html">triangle()</a></li>
 						<li><a href="beginContour.html">beginContour()</a></li>
+						<li><a href="p5.RendererGL/strokeWeight.html">strokeWeight()</a></li>
 						<li><a href="beginShape.html">beginShape()</a></li>
+						<li><a href="bezier.html">bezier()</a></li>
+						<li><a href="bezierDetail.html">bezierDetail()</a></li>
+						<li><a href="bezierPoint.html">bezierPoint()</a></li>
 						<li><a href="bezierVertex.html">bezierVertex()</a></li>
-						<li><a href="curveVertex.html">curveVertex()</a></li>
-						<li><a href="endContour.html">endContour()</a></li>
+						<li><a href="bezierTangent.html">bezierTangent()</a></li>
+						<li><a href="curve.html">curve()</a></li>
+						<li><a href="curveDetail.html">curveDetail()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="curvePoint.html">curvePoint()</a></li>
+						<li><a href="curveTangent.html">curveTangent()</a></li>
+						<li><a href="curveTightness.html">curveTightness()</a></li>
+						<li><a href="curveVertex.html">curveVertex()</a></li>
+						<li><a href="endContour.html">endContour()</a></li>
 						<li><a href="quadraticVertex.html">quadraticVertex()</a></li>
 						<li><a href="vertex.html">vertex()</a></li>
 						<li><a href="loadModel.html">loadModel()</a></li>
