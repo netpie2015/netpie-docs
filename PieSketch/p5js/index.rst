@@ -155,13 +155,17 @@ p5js
 			<tr>
 				<td class="table-left">
 					<ul>
+						<li><a href="preload.html">preload()</a></li>
+						<li><a href="setup.html">setup()</a></li>
+						<li><a href="draw.html">draw()</a></li>
+						<li><a href="remove.html">remove()</a></li>
 						<li><a href="noLoop.html">noLoop()</a></li>
-						<li><a href="loop.html">loop()</a></li>
-						<li><a href="push.html">push()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="loop.html">loop()</a></li>
+						<li><a href="push.html">push()</a></li>
 						<li><a href="pop.html">pop()</a></li>
 						<li><a href="redraw.html">redraw()</a></li>
 					</ul>

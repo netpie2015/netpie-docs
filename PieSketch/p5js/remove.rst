@@ -17,11 +17,11 @@ remove()
 
 	<script type="text/p5" data-autoplay data-hide-sourcecode>
 	function draw() {
-    ellipse(50, 50, 10, 10);
+        ellipse(50, 50, 10, 10);
     }
 
     function mousePressed() {
-    remove(); // remove whole sketch on mouse press
+        remove(); // remove whole sketch on mouse press
     }
 	</script>
 

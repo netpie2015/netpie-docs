@@ -22,13 +22,13 @@ setup()
 	var a = 0;
 
     function setup() {
-    background(0);
-    noStroke();
-    fill(102);
+        background(0);
+        noStroke();
+        fill(102);
     }
 
     function draw() {
-    rect(a++%width, 10, 2, 80);
+        rect(a++%width, 10, 2, 80);
     }
 	</script>
 
