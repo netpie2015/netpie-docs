@@ -39,19 +39,25 @@ p5js
 						<li><a href="rect.html">rect()</a></li>
 						<li><a href="triangle.html">triangle()</a></li>
 						<li><a href="beginContour.html">beginContour()</a></li>
+						<li><a href="ellipseMode.html">ellipseMode()</a></li>
+						<li><a href="noSmooth.html">noSmooth()</a></li>
+						<li><a href="rectMode.html">rectMode()</a></li>
+						<li><a href="smooth.html">smooth()</a></li>
+						<li><a href="strokeCap.html">strokeCap()</a></li>
+						<li><a href="strokeJoin.html">strokeJoin()</a></li>
 						<li><a href="p5.RendererGL/strokeWeight.html">strokeWeight()</a></li>
 						<li><a href="beginShape.html">beginShape()</a></li>
 						<li><a href="bezier.html">bezier()</a></li>
 						<li><a href="bezierDetail.html">bezierDetail()</a></li>
 						<li><a href="bezierPoint.html">bezierPoint()</a></li>
 						<li><a href="bezierVertex.html">bezierVertex()</a></li>
-						<li><a href="bezierTangent.html">bezierTangent()</a></li>
-						<li><a href="curve.html">curve()</a></li>
-						<li><a href="curveDetail.html">curveDetail()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="bezierTangent.html">bezierTangent()</a></li>
+						<li><a href="curve.html">curve()</a></li>
+						<li><a href="curveDetail.html">curveDetail()</a></li>
 						<li><a href="curvePoint.html">curvePoint()</a></li>
 						<li><a href="curveTangent.html">curveTangent()</a></li>
 						<li><a href="curveTightness.html">curveTightness()</a></li>
