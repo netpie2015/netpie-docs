@@ -5,7 +5,7 @@
 round()
 =======
 
-คำนวณจำนวนเต็มใกล้เคียงกับพารามิเตอร์ n มากที่สุด ตัวอย่างเช่นรอบ (133.8) ส่งกลับค่า 134 แผนที่ไป Math.round ()
+คำนวณค่าจำนวนเต็มที่ใกล้เคียงกับพารามิเตอร์ n มากที่สุด ตัวอย่างเช่น round(133.8) จะให้ค่า 134 ฟังก์ชั่นนี้คือฟังก์ชั่นเดียวกับ Math.round ()
 
 .. Calculates the integer closest to the n parameter. For example,
 .. round(133.8) returns the value 134. Maps to Math.round().
@@ -16,13 +16,13 @@ round ( n )
 
 **พารามิเตอร์**
 
-- ``n``  Number: จำนวนรอบ
+- ``n``  Number: ตัวเลข
 
 .. ``n``  Number: number to round
 
 **ค่าที่ส่งออกมา**
 
-- Number: เลขกลม
+- Number: เลขที่ถูกทำให้เป็นจำนวนเต็ม
 
 .. Number: rounded number
 
