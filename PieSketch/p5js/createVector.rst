@@ -27,8 +27,6 @@ createVector([x],[y],[z])
 
 p5.Vector
 
-.. Number: absolute value of given number
-
 .. raw:: html
 
 	<br><br>

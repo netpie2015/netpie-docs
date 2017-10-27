@@ -309,15 +309,16 @@ p5js
 						<li><a href="deviceMoved.html">deviceMoved()</a></li>
 						<li><a href="deviceTurned.html">deviceTurned()</a></li>
 						<li><a href="deviceShaken.html">deviceShaken()</a></li>
+						<li><a href="keyIsPressed.html">keyIsPressed</a></li>
 						<li><a href="key.html">key</a></li>
 						<li><a href="keyCode.html">keyCode</a></li>
 						<li><a href="keyPressed.html">keyPressed()</a></li>
 						<li><a href="keyReleased.html">keyReleased()</a></li>
-						<li><a href="keyTyped.html">keyTyped()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="keyTyped.html">keyTyped()</a></li>
 						<li><a href="keyIsDown.html">keyIsDown()</a></li>
 						<li><a href="mouseX.html">mouseX</a></li>
 						<li><a href="mouseY.html">mouseY</a></li>
@@ -417,6 +418,7 @@ p5js
 			<tr>
 				<td class="table-left">
 					<ul>
+						<li><a href="createVector.html">createVector()</a></li>
 						<li><a href="abs.html">abs()</a></li>
 						<li><a href="ceil.html">ceil()</a></li>
 						<li><a href="constrain.html">constrain()</a></li>
@@ -433,11 +435,11 @@ p5js
 						<li><a href="pow.html">pow()</a></li>
 						<li><a href="round.html">round()</a></li>
 						<li><a href="sq.html">sq()</a></li>
-						<li><a href="sqrt.html">sqrt()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="sqrt.html">sqrt()</a></li>
 						<li><a href="noise.html">noise()</a></li>
 						<li><a href="noiseDetail.html">noiseDetail()</a></li>
 						<li><a href="noiseSeed.html">noiseSeed()</a></li>
