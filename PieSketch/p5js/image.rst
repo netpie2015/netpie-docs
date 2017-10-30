@@ -5,15 +5,19 @@
 image()
 =======
 
-โหลดรูปภาพจากเส้นทางและสร้าง p5.Image จากไฟล์
+วาดภาพลงในผืนผ้าใบ p5.js
 
-ภาพอาจไม่สามารถใช้งานได้ทันทีสำหรับการแสดงผลหากคุณต้องการให้แน่ใจว่ารูปภาพพร้อมใช้งานแล้วก่อนที่จะทำอะไรให้ทำโหลด loadImage () ใน preload () นอกจากนี้คุณยังสามารถจัดหาฟังก์ชันการโทรกลับเพื่อจัดการกับภาพเมื่อพร้อม
+ฟังก์ชั่นนี้สามารถใช้ได้กับพารามิเตอร์ต่างกัน การใช้งานที่ง่ายที่สุดต้องใช้พารามิเตอร์เพียงสามอย่าง ได้แก่ img, x และ y-where (x, y) คือตำแหน่งของภาพ คุณสามารถเพิ่มพารามิเตอร์สองตัวเพื่อระบุความกว้างและความสูงของภาพได้
 
-เส้นทางไปยังรูปภาพต้องสัมพันธ์กับไฟล์ HTML ที่ลิงก์ในร่างของคุณ การโหลดรูปภาพจาก URL หรือสถานที่ห่างไกลอื่น ๆ อาจถูกบล็อกเนื่องจากความปลอดภัยภายในของเบราเซอร์ของคุณ
+ฟังก์ชั่นนี้สามารถใช้ได้กับพารามิเตอร์จำนวนแปดตัว เพื่อแยกความแตกต่างระหว่างพารามิเตอร์เหล่านี้ p5.js ใช้ภาษาของ "สี่เหลี่ยมผืนผ้าปลายทาง" (ซึ่งตรงกับ "dx", "dy" ฯลฯ ) และ "ภาพต้นฉบับ" (ซึ่งตรงกับ "sx", "sy" ฯลฯ ) ด้านล่าง การระบุมิติข้อมูล "ภาพต้นฉบับ" จะเป็นประโยชน์เมื่อคุณต้องการแสดงส่วนย่อยของภาพต้นฉบับแทนสิ่งที่ทั้งตัว นี่เป็นแผนภาพที่จะอธิบายเพิ่มเติม:
 
-.. Loads an image from a path and creates a p5.Image from it.
-.. The image may not be immediately available for rendering If you want to ensure that the image is ready before doing anything with it, place the loadImage() call in preload(). You may also supply a callback function to handle the image when it's ready.
-.. The path to the image should be relative to the HTML file that links in your sketch. Loading an image from a URL or other remote location may be blocked due to your browser's built-in security.
+.. raw:: html
+
+    <center><image src="https://p5js.org/reference/assets/drawImage.png"></center>
+
+.. Draw an image to the p5.js canvas.
+.. This function can be used with different numbers of parameters. The simplest use requires only three parameters: img, x, and y—where (x, y) is the position of the image. Two more parameters can optionally be added to specify the width and height of the image.
+.. This function can also be used with all eight Number parameters. To differentiate between all these parameters, p5.js uses the language of "destination rectangle" (which corresponds to "dx", "dy", etc.) and "source image" (which corresponds to "sx", "sy", etc.) below. Specifying the "source image" dimensions can be useful when you want to display a subsection of the source image instead of the whole thing. Here's a diagram to explain further: 
 
 **รูปแบบการใช้งาน**
 
