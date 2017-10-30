@@ -11,31 +11,19 @@ imageMode()
 
 เส้นทางไปยังรูปภาพต้องสัมพันธ์กับไฟล์ HTML ที่ลิงก์ในร่างของคุณ การโหลดรูปภาพจาก URL หรือสถานที่ห่างไกลอื่น ๆ อาจถูกบล็อกเนื่องจากความปลอดภัยภายในของเบราเซอร์ของคุณ
 
-.. Loads an image from a path and creates a p5.Image from it.
-.. The image may not be immediately available for rendering If you want to ensure that the image is ready before doing anything with it, place the loadImage() call in preload(). You may also supply a callback function to handle the image when it's ready.
-.. The path to the image should be relative to the HTML file that links in your sketch. Loading an image from a URL or other remote location may be blocked due to your browser's built-in security.
+.. Set image mode. Modifies the location from which images are drawn by changing the way in which parameters given to image() are interpreted. The default mode is imageMode(CORNER), which interprets the second and third parameters of image() as the upper-left corner of the image. If two additional parameters are specified, they are used to set the image's width and height.
+.. imageMode(CORNERS) interprets the second and third parameters of image() as the location of one corner, and the fourth and fifth parameters as the opposite corner.
+.. imageMode(CENTER) interprets the second and third parameters of image() as the image's center point. If two additional parameters are specified, they are used to set the image's width and height.
 
 **รูปแบบการใช้งาน**
 
-loadImage(path,[successCallback],[failureCallback])
+imageMode(mode)
 
 **พารามิเตอร์**
 
-- ``path``  สตริง: เส้นทางของรูปภาพที่จะโหลด
+- ``mode``  ค่าคงที่: ทั้ง CORNER, CORNERS หรือ CENTER
 
-- ``successCallback``  ฟังก์ชั่น (p5.Image): ฟังก์ชั่นที่จะเรียกเมื่อภาพถูกโหลด จะถูกส่งผ่าน p5.Image
-
-- ``failureCallback``  ฟังก์ชัน (เหตุการณ์): เรียกว่ามีข้อผิดพลาดของเหตุการณ์ถ้าไม่สามารถโหลดภาพ
-
-.. ``path``  String: Path of the image to be loaded
-.. ``successCallback``  function(p5.Image): Function to be called once the image is loaded. Will be passed the p5.Image.
-.. ``failureCallback``  Function(Event): called with event error if the image fails to load.
-
-**ค่าที่ส่งออกมา**
-
-- p5.Image: วัตถุ p5.Image
-
-.. p5.Image: the p5.Image object
+.. ``mode``  Constant: either CORNER, CORNERS, or CENTER
 
 .. raw:: html
 
