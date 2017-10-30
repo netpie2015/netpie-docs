@@ -353,13 +353,18 @@ p5js
 						<li><a href="createImage.html">createImage()</a></li>
 						<li><a href="saveCanvas.html">saveCanvas()</a></li>
 						<li><a href="saveFrames.html">saveFrames()</a></li>
-						<li><a href="pixels.html">pixels</a></li>
-						<li><a href="blend.html">blend()</a></li>
-						<li><a href="copy.html">copy()</a></li>
+						<li><a href="loadImage.html">loadImage()</a></li>
+						<li><a href="image.html">image()</a></li>
+						<li><a href="tint.html">tint()</a></li>
+						<li><a href="noTint.html">noTint()</a></li>
+						<li><a href="imageMode.html">imageMode()</a></li>
 					</ul>
 				</td>
 				<td class="tabel-right">
 					<ul>
+						<li><a href="pixels.html">pixels</a></li>
+						<li><a href="blend.html">blend()</a></li>
+						<li><a href="copy.html">copy()</a></li>
 						<li><a href="filter.html">filter()</a></li>
 						<li><a href="get.html">get()</a></li>
 						<li><a href="loadPixels.html">loadPixels()</a></li>
